@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="material_store_card_layout_margin">0dp</dimen>
+    <dimen name="material_store_card_radius">5dp</dimen>
+
+    <dimen name="material_home_card_layout_margin">0dp</dimen>
+    <dimen name="material_home_card_radius">5dp</dimen>
+
+    <dimen name="home_card_layout_margin">0dp</dimen>
+    <dimen name="home_card_radius">5dp</dimen>
+    <dimen name="home_bottom_card_layout_margin">2dp</dimen>
+    <dimen name="home_bottom_card_radius">5dp</dimen>
+</resources>

@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+
+    <string name="app_name">VideoShow</string>
+    <string name="setting">การตั้งค่า</string>
+    <string name="effectnone">ไม่</string>
+    <string name="rename">ตั้งชื่อใหม่</string>
+    <string name="delete">ลบ</string>
+    <string name="ok">ตกลง</string>
+    <string name="unvailable_video">วิถีวิดีโอที่เป็นโมฆะ!</string>
+    <string name="cpunotcompatible">ขออภัย โครงสร้างของซีพียูที่ไม่สามารถทำงานร่วมกับแอพพลิเคชั่น เราจะแก้ไขปัญหานี้ให้เร็วที่สุดเท่าที่เป็นไปได้</string>
+
+    <string-array name="video_dialog_message">
+        <item>ดูก่อน, แสดงตัวอย่าง</item>
+        <item>แก้ไขวิดีโอ</item>
+        <item>แชร์, แบ่งปัน</item>
+        <item>ตัดออก, ลบออก,ลบทิ้ง</item>
+        <item>ตั้งชื่อใหม่</item>
+        <item>รายละเอียด</item>
+    </string-array>
+    <string-array name="audio_dialog_message">
+        <item>ดูก่อน, แสดงตัวอย่าง</item>
+        <item>แชร์, แบ่งปัน</item>
+        <item>ตัดออก, ลบออก, ลบทิ้ง</item>
+        <item>ตั้งชื่อใหม่</item>
+        <item>รายละเอียด</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>แสดง</item>
+        <item>แชร์, แบ่งปัน</item>
+        <item>ตัดออก, ลบออก, ลบทิ้ง</item>
+        <item>ตั้งชื่อใหม่</item>
+        <item>รายละเอียด</item>
+    </string-array>
+
+    <string name="no_write">ได้รับอนุญาตให้เขียนไฟล์นี้</string>
+    <string name="input_cannot_empty">ข้อมูลไม่สามารถเว้นว่าง</string>
+    <string name="rename_success">การตั้งชื่อสำเร็จ!</string>
+    <string name="rename_fail">การตั้งชื่อล้มเหลว!</string>
+    <string name="sure_delete">ลบ</string>
+    <string name="sure_delete_file">คุณแน่ใจว่าต้องการลบหรือไม่</string>
+    <string name="detail">ข้อมูลสื่อ</string>
+    <string name="file_name">ชื่อ :</string>
+    <string name="file_path">วิถีทาง :</string>
+    <string name="sure">ตกลง</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="sure_update">รุ่นใหม่ที่สามารถใช้งานได้ ปรับปรุงเดี๋ยวนี้หรือไม่</string>
+    <string name="sure_update_info1">รุ่นใหม่ :</string>
+
+    <!-- Home directory -->
+    <string name="about">เกี่ยวกับ</string>
+    <string name="set_l_info3">เกี่ยวกับ</string>
+
+    <!-- Recommended application -->
+    <!-- Output directory -->
+
+    <string name="dialog_yes">ใช่</string>
+    <string name="dialog_no">ไม่</string>
+    <string name="buy_pro_tip_content_new">1. ไม่มีโฆษณา\n2. รองรับการส่งออกวิดีโอ 1080p\n3. วัตถุดิบสุดพิเศษ\n4. รองรับการนำเข้าวิดีโอ 4K\n5. ไม่มีลายน้ำ VideoShow\n6. ใส่ได้มากถึง 20 เอฟเฟกต์\n7. ไม่จำกัดระยะเวลาย้อนกลับ</string>
+    <string name="vip_buy_add_up_to_effects">ใส่ได้มากถึง 20 เอฟเฟกต์</string>
+    <string name="vip_buy_no_reverse_duration_limit">ไม่จำกัดระยะเวลาย้อนกลับ</string>
+    <string name="vip_buy_iwatermark">ลบลายน้ำ VideoShow</string>
+    <string name="please_add_gif_by_gif">กรุณาเพิ่ม gif โดยใช้ฟังก์ชั่น Gif ใต้แท็บแก้ไข</string>
+    <string name="opacity">ความทึบ</string>
+    <string name="use_auto_fx_values">สุ่มใช้ฟิลเตอร์กับคลิปทั้งหมด</string>
+    <string name="use_auto_tr_values">สุ่มใช้ทรานซิชั่นกับคลิปทั้งหมด</string>
+
+    <!-- Select video -->
+    <string name="Browser">เรียกดูไฟล์</string>
+    <!-- Video editor -->
+    <string name="editor">ผู้ตัดต่อ</string>
+    <string name="editor_trim">ตัดแต่ง</string>
+    <string name="editor_fx">เอฟเฟค</string>
+    <string name="editor_text_info2">กรุณาใส่คำบรรยาย</string>
+    <string name="editor_text_dialog_title">จุดปลายสุด</string>
+    <string name="nomusic_info">ไม่มีการค้นหาเพลง</string>
+    <string name="too_big_video">ความละเอียดของวิดีโอมีขนาดใหญ่เกินไป สำหรับการแก้ไขวิดีโอ</string>
+    <string name="unvailable_sd">การ์ด Sd ไม่พร้อมใช้งานในขณะนี้!</string>
+    <string name="error_sd">การ์ด Sd ไม่สามารถเข้าถึง!</string>
+    <string name="openvideo_error">ล้มเหลวในการเปิดวิดีโอ</string>
+
+    <string name="switch2background">สวิชต์ไปที่งานพื้นหลัง กรุณาอย่างใช้หน่วยความจำบางโปรแกรม (เว็บเบราเซอร์เครื่องเล่นวิดีโอ) เพื่อหลีกเลี่ยงขั้นตอนการแปลงที่อาจถูกทำลาย</string>
+    <string name="editor_fx_info">ตังค่าตัวกรองสำเร็จ</string>
+    <string name="invalid_param">พารามิเตอร์ที่ไม่ถูกต้องในการแก้ไข!</string>
+    <string name="merge_toomany">ผสานวิดีโอสูงสุด 5 วิดีโอ</string>
+
+    <!-- Split -->
+    <!-- Merge -->
+    <string name="merge_info">พารามิเตอร์วิดีโอไม่สอดคล้อง ไม่สามารถผสานได้</string>
+    <!-- Grab -->
+    <!-- Export dialog -->
+    <string name="export_info">ไม่มีการเปลี่ยนแปลง</string>
+    <string name="export_output_set">ส่งออกการตั้งค่าที่บันทึกวิดีโอ</string>
+    <string name="export_output_title">การส่งออก...</string>
+    <string name="export_output_stop">หยุดการส่งออก</string>
+    <string name="export_output_bg">ประวัติความเป็นมาของการทำงาน</string>
+    <string name="export_output_init">การตั้งค่าตั้งต้น...</string>
+    <string name="export_output_success">ส่งออกสำเร็จ</string>
+    <string name="export_output_faild">การส่งออกล้มเหลว</string>
+    <string name="export_outofmemory">หน่วยความจำไม่เพียงพอ \nกรุณาทำความสะอาดหน่วยความจำและพยายามอีกครั้ง</string>
+
+    <!-- About -->
+    <string name="about_info1">VideoShow</string>
+    <string name="about_info3">VideoShow ให้ผู้ใช้ได้รับประสบการณ์ที่ดีในการตัดต่อวิดีโอ ด้วยการสั่งการเพียงน้อย คุณสามารถเพิ่มเอฟเฟ็กต์ที่โดดเด่นที่สุดไปยังวิดีโอของคุณ\n\nหากคุณมีคำถามหรือข้อเสนอแนะใด ๆ โปรดติดต่อเราได้ที่ support\@enjoy-global.com</string>
+
+    <!-- 指南 -->
+    <string name="guide">โหมดคู่มือ</string>
+
+    <!-- 设置 -->
+    <string name="set_quality_info1">การตั้งค่าคุณภาพของวิดีโอ</string>
+
+    <string-array name="set_path_list">
+        <item>บันทึกลงในหน่วยความจำของโทรศัพท์</item>
+        <item>บันทึกลงในหน่วยความจำภายนอก</item>
+    </string-array>
+
+    <string name="wipe_off_watermark">ลบลายน้ำ</string>
+    <string name="set_l_info2">อัพเดต</string>
+    <!-- 分享 -->
+
+    <string name="share_info3">ยูทูป</string>
+    <string name="share_info5">เพิ่มเติม</string>
+    <string name="share_info6">โทรศัพท์ของคุณไม่ได้ติดตั้งโปรแกรม ไม่ว่าอย่างไรจะดาวน์โหลดหรือไม่</string>
+
+    <string-array name="trim_option_dialog_message">
+        <item>ตัดแต่ง</item>
+        <item>ลบส่วนที่เลือก</item>
+    </string-array>
+
+    <string name="main_mp3">จากวิดีโอกลายเป็น MP3</string>
+    <string name="feedback">การตอบกลับ</string>
+
+    <!-- 2.0 add image -->
+    <string name="addimg_delete_info">เลือกอย่างน้อย 1 คลิป</string>
+    <string name="addimg_ok_info">เลือกอย่างน้อย 1 คลิป</string>
+    <string name="exceed_cliplimit">ไม่สามารถเพิ่มคลิปให้มากขึ้น</string>
+    <string name="chooseclip">เลือกคลิป</string>
+    <string name="choose_a_clip">เลือกคลิป</string>
+    <string name="pressagain_stopexport">กดอีกครั้งเพื่อออกจากการส่งออก การแก้ไขโครงการจะไม่ถูกบันทึก</string>
+    <string name="unregnizeformat">ชนิดของไฟล์ที่ไม่รู้จัก</string>
+    <string name="loading">กำลังโหลด...</string>
+
+    <!-- 2.1 -->
+    <string name="custom_dialog_info1">สร้างสไลด์โชว์</string>
+    <string name="custom_dialog_info2">สร้างวิดีโอ</string>
+    <string name="share_info_error">วิดีโอไม่สามารถใช้ความสำเร็จร่วมกันบนอุปกรณ์ของคุณ เราจะแก้ไขได้โดยเร็วที่สุด</string>
+    <string name="share_info_Instagram">อินสตาร์แกรม</string>
+    <string name="setting_pay">ซื้อรุ่นโปร</string>
+    <string name="cpunotcompatible2">ขออภัย ไม่พบรันไทม์ไลบรารี อาจเป็นเพราะสถาปัตยกรรมของระบบเข้ากันไม่ได้ หรือขนาดรอมไม่เพียงพอ ให้ถอนการติดตั้งแอปบางส่วนแล้วลองติดตั้ง VideoShow อีกครั้ง</string>
+    <string name="settingg_share_friend">บอกเพื่อน</string>
+    <string name="settingg_share_friend_title">VideoShow - โปรแกรมตัดต่อวิดีโอ</string>
+    <string name="settingg_share_friend_text">ลองใช้โปรแกรมตัดต่อวิดีโอ VideoShow มันเยี่ยมมาก! https://play.google.com/store/apps/details?id=com.xvideostudio.videoeditor</string>
+    <string name="pro_bt_info1">เตือนฉันในภายหลัง</string>
+    <string name="pro_bt_info2">ไม่ ขอบคุณ</string>
+
+    <!-- Record -->
+    <string name="voice_info1">โปรดหยุดการเล่น</string>
+
+    <string name="input_invalid">อินพุตไม่ถูกต้อง</string>
+    <string name="editor_trim_duration">ระยะเวลา</string>
+    <string name="invalid_volume_setting1">คุณไม่สามารถตั้งโหมดดนตรี!</string>
+    <string name="unsupport_audio_format">รูปแบบเสียงที่ไม่สนับสนุน!</string>
+    <string name="share_info_weibo">Weibo</string>
+    <string name="noenough_space_ex">การ์ดหน่วยความจำภายนอกมีพื้นที่เพียงพอ โปรดลบไฟล์ที่ไม่ได้ใช้บางส่วน</string>
+    <string name="changelog_title">บันทึกการเปลี่ยนแปลง VideoShow</string>
+    <string name="mp4_noaudio_notsupport">ขออภัยวิดีโอโดยไม่มีการติดตามเสียง ซึ่งไม่ได้รับการสนับสนุนในปัจจุบัน</string>
+    <string name="editor_text_dialog_options">ตัวเลือก</string>
+    <string name="quick_export_sigle_video">เริ่มต้นด้วยโหมดการส่งออกอย่างรวดเร็ว ... จำเป็นต้องมีเงื่อนไขต่อไปนี้ \n1. เพิ่มเพลงไปยังวิดีโอ\n2. บันทึกเสียงด้วยวิดีโอ</string>
+    <string name="add_share_tag_tip">แท็กวิดีโอ  # การแสดงวิดีโอแอพพริเคชันของคุณคุณจะได้รับการสังเกตเห็นโดยผู้คนมากขึ้น</string>
+    <string name="share_clipboard_copy_tip">คัดลอกไปที่คลิปบอร์ด</string>
+    <string name="draftbox_is_null">ร่างที่ว่างเปล่า</string>
+    <string name="confirm_exit_editor">คุณแน่ใจที่จะออกจากการตัดต่อหรือไม่</string>
+    <string name="stop_exporting_video_tip">กดอีกครั้งเพื่อออกจากการส่งออก คุณยังสามารถดำเนินการต่อในการแก้ไขในร่าง</string>
+    <string name="editor_fx_type_none">ไม่</string>
+    <string name="editor_fx_type_sketch">การร่าง</string>
+    <string name="editor_fx_type_georgia">จอร์เจีย</string>
+    <string name="editor_fx_type_polaroid">กล้องถ่ายรูปยี่ห้อโพลารอยด์</string>
+    <string name="editor_fx_type_sahara">ซาฮาร่า</string>
+    <string name="editor_fx_type_sepia">สีซีเปีย</string>
+    <string name="editor_fx_type_recho">ย้อนยุค</string>
+    <string name="debug_mode_tip">นี้เป็นแอปรุ่นดีบัก ที่สามารถช่วยให้เราแก้ปัญหาแอปล้มเหลวบางกรณี เมื่อคุณส่งออกวิดีโอ\nมีข้อมูลบางอย่างที่คุณควรทราบดังต่อไปนี้:\n1. แก้ไขและการส่งออกวิดีโอตามปกติ\n2. เมื่อแอปล้มเหลว ให้คุณเปิดแอปนี้อีกครั้ง ซึ่งจะเป็นการคัดลอกไฟล์ที่เกี่ยวข้องทั้งหมดไปยังไดเรกทอรี (root/VideoShowLogPack)\n3. กรุณารวมไดเรกทอรีนี้ในคอมพิวเตอร์ และส่งมาให้เราทางอีเมล: support\@enjoy-global.com\nขอขอบพระคุณเป็นอย่างสูง</string>
+
+    <string-array name="draftbox_dialog_message">
+        <item>แก้ไข</item>
+        <item>ตัดออก ลบออก ลบทิ้ง</item>
+    </string-array>
+
+    <string name="recomment_video_play_error">การเล่นผิดพลาด</string>
+    <string name="recomment_video_instagram_authentication_successful">การตรวจสอบสำเร็จ</string>
+    <string name="pull_to_refresh_pull_label">ดึงลงเพื่อโหลดมากขึ้น</string>
+    <string name="pull_to_refresh_release_label">คลายความสามารถในการฟื้นฟูมากขึ้น</string>
+    <string name="pull_to_refresh_refreshing_label">ความสดใหม่...</string>
+    <string name="network_connect_error">เครือข่ายเชื่อมต่อผิดพลาด โปรดตรวจสอบ</string>
+    <string name="ad_mode_tip">Videoshow สามารถใช้ได้ฟรีแทบทั้งหมด ดังนั้นเราจึงจำเป็นต้องมีโฆษณาเพื่อให้สามารถทำงานต่อไปได้ ขอขอบคุณที่คุณเข้าใจ ด้วยการสนับสนุนของคุณจะทำให้แอปของเราสมบูรณ์ยิ่งขึ้น</string>
+    <string name="tx_next">ถัดไป</string>
+
+    <string-array name="studio_tab_title">
+        <item>แผนการของฉัน</item>
+        <item>ผลงานของฉัน</item>
+    </string-array>
+
+    <string name="home_adv_edit">แก้ไขวิดีโอ</string>
+    <string name="home_my_studio">สตูดิโอของฉัน</string>
+    <string name="setting_language">การตั้งค่าภาษา</string>
+    <string name="setting_language_auto">อัตโนมัติ</string>
+    <string name="setting_language_english">ภาษาอังกฤษ</string>
+    <string name="facebook_copyright_tip">เฟสบุคมีการคุ้มครองลิขสิทธิ์ที่เข้มงวดมาก การเพิ่มเพลงโดยละเมิดลิขสิทธิ์อาจทำให้วิดีโอของคุณจะถูกลบ โปรดทราบ</string>
+    <string name="editor_rotate">หมุน</string>
+
+    <!-- Above is translated by Trusted Translation, please do not modify -->
+
+    <string name="editor_trans_type_none">ไม่</string>
+    <string name="export_output_muxer_tip">กำลังเรนเดอร์...</string>
+    <string name="share_more_dialog_title">แบ่งปันวิดีโอ</string>
+    <string name="download_so_ok">ดาวน์โหลด</string>
+    <string name="download_so_titile">กำลังดาวน์โหลด</string>
+    <string name="download_so_success">การดาวน์โหลดประสบความสำเร็จ</string>
+    <string name="export_not_enough_space_change_config_tip_sd_udisk">พื้นที่ว่างของหน่วยความจำของโทรศัพท์ไม่เพียงพอ เปลี่ยนไปใช้การ์ดหน่วยความจำภายนอกและดำเนินการส่งออกต่อไป</string>
+    <string name="export_not_enough_space_change_config_tip_udisk_sd">พื้นที่ว่างของการ์ดหน่วยความจำภายนอกไม่เพียงพอ เปลี่ยนไปใช้หน่วยความจำของโทรศัพท์และดำเนินการส่งออกต่อไป</string>
+    <string name="sd_permission_invalid"> ขออภัย VideoShow ไม่ได้รับอนุญาตให้บันทึกวิดีโอไปยังการ์ดหน่วยความจำ กรุณาตรวจสอบให้แน่ใจว่าการ์ดหน่วยความจำของคุณสามารถเขียนได้</string>
+    <string name="no_artist">ไม่ทราบ</string>
+    <string name="editor_exit_title">การยืนยัน</string>
+    <string name="app_exit_toast_tips">กดอีกครั้งเพื่อออก</string>
+    <string name="setting_help_info">คำถามที่พบบ่อย</string>
+    <string name="paintpad_no_operation">คุณไม่ได้วาดสิ่งใด</string>
+    <string name="paintdraft_saving">กำลังบันทึกภาพ ...</string>
+    <string name="editor_select_clips">แกลเลอรี</string>
+    <string name="emoji_no_recent">คุณยังไม่ได้ใช้สติกเกอร์ใด </string>
+    <string name="editor_fx_type_monochrome">ขาวดำ</string>
+    <string name="editor_fx_type_lookup">Amatorka</string>
+    <string name="editor_fx_type_vignette">ขอบมืด</string>
+    <string name="editor_fx_type_tonecurve">บิวตี้</string>
+    <string name="tv_no_video_selectvideo_text">ไม่มีไฟล์</string>
+    <string name="tv_My_video_selectvideo_text">งานของฉัน</string>
+    <string name="changelog_setting">การเปลี่ยนแปลง</string>
+    <string name="editor_save_export">บันทึก</string>
+    <string name="export_output_showtips">(โปรดทำงานในเบื้องหน้าต่อไป การทำงานเป็นเบื้องหลังจะได้รับการสนับสนุนเร็ว ๆ นี้)</string>
+    <string name="export_mode_manual">โหมดกำหนดเอง</string>
+    <string name="export_mode_fast">โหมดรวดเร็ว</string>
+    <string name="export_mode_hd">โหมดความละเอียดสูง</string>
+    <string name="use_current_values">ใช้ฟิลเตอร์นี้กับคลิปทั้งหมด</string>
+    <string name="clear_all_values">ลบฟิลเตอร์ออกจากคลิปทั้งหมด</string>
+    <string name="editor_title_trans">การเปลี่ยนภาพ</string>
+    <string name="editor_sticker">สติกเกอร์</string>
+    <string name="music_preload">พรีโหลด</string>
+    <string name="music_my_local">เพลงของฉัน</string>
+
+    <string name="guide_start">เริ่มต้น</string>
+    <string name="use_localapp_select_musicfile">ใช้แอปอื่นเลือกเพลง</string>
+    <string name="voice_info10">วิดีโอ</string>
+    <string name="voice_info11">เพลง</string>
+    <string name="volume_setting">การตั้งค่าเพลง</string>
+    <string name="open_loop">เล่นวนลูป</string>
+    <string name="setting_attention_us">ติดตามเรา</string>
+    <string name="material_free_price">ฟรี</string>
+    <string name="network_bad">ตรวจสอบการเชื่อมต่อของคุณและลองอีกครั้ง</string>
+    <string name="download_sd_full_fail">การ์ดหน่วยความจำเต็มแล้ว กรุณาลบไฟล์บางส่วน</string>
+    <string name="material_downlaod_state">ดาวน์โหลด</string>
+    <string name="material_updtae_state">อัพเดต</string>
+    <string name="material_downlaoding_state">กำลังดาวน์โหลด</string>
+    <string name="material_pause_state">หยุดพัก</string>
+    <string name="download_fail_try_again">ดาวน์โหลดล้มเหลว กรุณาลองอีกครั้ง</string>
+    <string name="setting_push_message">การแจ้งเตือน</string>
+    <string name="download_so_tips">คุณต้องดาวน์โหลดไลบรารี่ก่อนทำการรันแอ๊ปนี้ เริ่มดาวน์โหลดหรือไม่</string>
+    <string name="firstclip_noSupport">ไม่สามารถตั้งค่าการเปลี่ยนภาพกับคลิปแรกได้</string>
+    <string name="editor_theme_type_fade">เลือนออก</string>
+    <string name="setting_edit_mode">เลือกโหมดการแก้ไข</string>
+    <string name="setting_edit_mode_manually">ตั้งค่าด้วยตนเอง</string>
+    <string name="setting_edit_mode_crop">ตัดเพื่อเติมให้เต็ม</string>
+    <string name="setting_edit_mode_fit">ปรับให้พอดีกับกรอบ</string>
+    <string name="timeline_not_space">คุณต้องใช้พื้นที่ว่าง 0.5s เพื่อเพิ่มรายการใหม่</string>
+    <string name="record_completed">บันทึกได้</string>
+    <string name="record_too_short">คุณไม่สามารถบันทึกน้อยกว่า 1 วินาทีได้</string>
+    <string name="video_mute_tip">มีการปิดเสียงวิดีโอ</string>
+    <string name="music_time_short">เวลาการเล่นเพลงต้องมากกว่า 1 วิ</string>
+    <string name="create_video_file_failed">คำสั่ง แอปล้มเหลว โปรดตรวจสอบ SD การ์ดว่าได้โหลดหรือไม่!</string>
+    <string name="clips_all">ทั้งหมด</string>
+    <string name="clips_video">วิดีโอ</string>
+    <string name="clips_photo">ภาพถ่าย</string>
+    <string name="toast_voice_non_drag_tips">ไม่สามารถเปลี่ยนระยะเวลาของเสียงได้</string>
+    <string name="editor_fx_type_japanstyle">อบอุ่น </string>
+    <string name="editor_fx_type_oldphoto">หน้าแก่ </string>
+    <string name="editor_fx_type_standardemboss">ผิวนูน</string>
+    <string name="editor_fx_type_pink">ชมพู</string>
+    <string name="editor_fx_type_hdr">ความละเอียดสูง</string>
+    <string name="set_video_background">สีพื้นหลังของวิดีโอ</string>
+    <string name="setting_video_background_gause">เบลอ</string>
+    <string name="setting_video_background_white">ขาว</string>
+    <string name="setting_video_background_black">ดำ</string>
+    <string name="setting_app">การตั้งค่าแอปพลิเคชัน </string>
+    <string name="editor_clip_zoom">ซูม</string>
+    <string name="editor_clip_copy">คัดลอก</string>
+    <string name="music_history">ประวัติ</string>
+    <string name="no_music_history">ยังไม่มีเพลง</string>
+    <string name="toolbox_theme">ธีม</string>
+    <string name="toolbox_fx">ฟิลเตอร์</string>
+    <string name="toolbox_music">เพลง </string>
+    <string name="toolbox_text">หัวข้อย่อย</string>
+    <string name="toolbox_clip_edit">การแก้ไขคลิป</string>
+    <string name="setting_all_clip_duration">ระยะเวลาของภาพทั้งหมด</string>
+    <string name="setting_one_clip_duration">ระยะเวลาของภาพ ๆ หนึ่ง</string>
+    <string name="editor_addclip">เพิ่มคลิป</string>
+    <string name="sort_method">วิธีการเรียง</string>
+
+    <!-- 视频设置页面 -->
+    <string name="video_setting">การตั้งค่า</string>
+
+    <!-- 2015-03-25新内置音乐 -->
+    <string name="inside_music_copyright_info2">ซื้อเพลงถูกลิขสิทธิ์มาแล้ว แต่จะสามารถใช้งานได้เฉพาะส่วนตัวเท่านั้น ห้ามใช้เพื่อจุดประสงค์ทางการค้า</string>
+    <string name="double_finger_to_zoom">ปัดหน้าจอโดยใช้สองนิ้วเพื่อทำการซูม</string>
+    <string name="clip_null_tips">โปรดเพิ่มคลิป</string>
+    <string name="disallow_record_tips">โปรดไปยัง “การตั้งค่าการอนุญาต” และอนุญาตให้วิดีโอโชว์(Videoshow) ทำการบันทึกเสียง</string>
+    <string name="audio_exception">อุปกรณ์เสียงผิดปกติ</string>
+    <string name="app_pro_version">VideoShow Pro</string>
+    <string name="clip_duration">ความยาวของรูป: </string>
+
+    <!-- 视频设置页面调整字符串 -->
+    <string name="setting_purchase">ซื้อ</string>
+    <string name="add_video_format">ไม่ใช่ประเภทสื่อที่รองรับ</string>
+
+    <string-array name="home_tab_title_new">
+        <item>หน้าแรก</item>
+        <item>แรงบันดาลใจ</item>
+        <item>ข้อเสนอแนะ</item>
+        <!-- <item>เมื่อเร็ว ๆ นี้</item> -->
+    </string-array>
+
+    <string name="should_retain_one_clip">กรุณาเก็บคลิปไว้มากกว่าหนึ่งอัน!</string>
+    <string name="music_preload_loacal">เพลงของฉัน</string>
+    <string name="dialog_duration_more_setting_tip">ระยะเวลาไม่ควรเกิน 3600s หรือน้อยกว่า 0.2s !</string>
+    <string name="material_new_shop_title">ศูนย์วัตถุดิบ</string>
+    <string name="material_new_sticker_down">สติกเกอร์</string>
+    <string name="setting_updateto_normal_version">อัปเกรดไปเป็น VideoShow เวอร์ชันทางการ</string>
+    <string name="setting_updateto_normal_version_title">VideoShow เวอร์ชันทางการ</string>
+    <string name="setting_updateto_normal_version_content">นี่เป็น Videoshow เวอร์ชันทดลอง คุณสามารถสัมผัสประสบการณ์ของฟีเจอร์ใหม่ล่าสุดได้เร็วขึ้นมาก หากคุณต้องการรับเวอร์ชันที่มีเสถียรภาพมากกว่านี้ Videoshow MR(เวอร์ชันปล่อยเพื่อซ่อมบำรุง) อาจเป็นตัวเลือกที่ดีกว่า</string>
+    <string name="setting_updateto_normal_version_ok">อัปเกรด</string>
+    <string name="import_gif_width_limit">Gifที่คุณนำเข้านั้นใหญ่เกินไป หรืออยู่ในรูปแบบที่ไม่มีการรองรับ</string>
+    <string name="start_make_video_editorchoose">เริ่ม</string>
+    <string name="pro_function_dialog_content">ตอนนี้ VideoShow ของคุณเป็นเวอร์ชันฟรี และเราได้เปิดตัว Pro VideoShow แล้ว หากคุณชอบแอปของเรา คุณสามารถซื้อเวอร์ชัน Pro ได้เพื่อสนับสนุนทีมงานของเรา นอกจากนี้ เวอร์ชัน Pro ยังมีฟีเจอร์ที่แตกต่างออกไปอีกด้วย:\n\n1. ไม่มีโฆษณา\n2.คุณสามารถดาวน์โหลดเนื้อหาพิเศษสำหรับผู้ใช้ Pro \n3. สนับสนุนวิดีโอ 4K</string>
+    <string name="add_font_tip_title">วิธีการเพิ่มฟอนต์ให้มากขึ้น</string>
+    <string name="add_font_tip_content">คัดลอกไฟล์ฟอนต์ (ในรูปแบบ .ttfหรือ .otf) แล้ววางมันในโฟลเดอร์ \n\n sdcard/1videoshow/fonts/</string>
+    <string name="choose_4k_buypro_title">วิดีโอนี้ใหญ่เกินไป</string>
+    <string name="loading_shuffle_ad_toast">กำลังโหลด กรุณาอดใจรอ!</string>
+    <string name="editor_compress_mode">เลือกโหมดการบีบอัด</string>
+    <string name="editor_triming">กำลังตัด...</string>
+    <string name="video_size_too_small">ขนาดวิดีโอของคุณเล็กมาก ไม่มีความจำเป็นต้องบีบอัด!</string>
+    <string name="choose_other_sticker_localapp">เลือกสติกเกอร์ของคุณเองหรือ Gif</string>
+    <string name="add">เพิ่ม</string>
+    <string name="choose_other_font_localapp">เลือกโฟลเดอร์เพื่อเพิ่มรูปแบบตัวอักษร</string>
+    <string name="editor_clip_ff">ความเร็ว</string>
+    <string name="editor_clip_ff_title_tip">โปรดเลือกความเร็วของคลิป</string>
+    <string name="editor_clip_ff_video_too_long_tip">คลิปนี้ยาวเกินไป โปรดปรับแต่งก่อนเร่งความเร็วขึ้นหรือลง!</string>
+    <string name="editor_clip_ff_cannot_support_picture_tip">ไม่สามารถเร่งความเร็วขึ้นหรือลงสำหรับรูปได้!</string>
+    <string name="editor_clip_ff_less_1second_tip">คลิปที่ส่งออกไม่ควรน้อยกว่า %s วินาที!</string>
+    <string name="editor_clip_ff_encoding_tip">กำลังแปลงรหัส...</string>
+    <string name="editor_clip_ff_stop_encode_tip">หยุดการแปลงรหัส</string>
+    <string name="duration_batch_video_char">ระยะเวลา</string>
+    <string name="duration_batch_clip_char">ภาพแต่ละภาพ</string>
+    <string name="duration_batch_custom">กำหนดโดยผู้ใช้</string>
+    <string name="add_clip_memory_warn_tip">คุณเลือกภาพถ่ายจำนวนมากหน่วยความจำจะหมดแล้ว</string>
+    <string name="duration_input_begin_char">เวลาเริ่ม</string>
+    <string name="duration_input_end_char">เวลาสิ้นสุด</string>
+    <string name="duration_input_starttimeout_errinfo">เวลาเริ่มต้นไม่ควรมากกว่าเวลาที่สามารถแก้ไขได้!</string>
+    <string name="duration_input_endtimeout_errinfo">เวลาสิ้นสุดไม่ควรมากกว่าเวลาที่สามารถแก้ไขได้!</string>
+    <string name="duration_input_startgtend_errinfo">เวลาสิ้นสุดต้องมากกว่าเวลาเริ่มต้น!</string>
+    <string name="editor_paint_new_clip">เพิ่มคลิปเปล่า</string>
+    <string name="app_info_view_compress">บีบอัดวิดีโอนี้</string>
+    <string name="setting_edit_skill">เคล็ดลับการตัดต่อ</string>
+    <string name="save_draftbox_fail_tip">บันทึกไปยังร่างล้มเหลวไม่มีพื้นที่มากพอ!</string>
+    <string name="editor_fx_type_nashville">ความหวัง</string>
+    <string name="editor_fx_type_lordkevin">พระอาทิตย์ตก</string>
+    <string name="editor_fx_type_1977">ฤดูใบไม้ผลิ</string>
+    <string name="editor_fx_type_xproii">สงบ</string>
+    <string name="editor_fx_type_walden">ความฝัน</string>
+    <string name="editor_fx_type_lomo">Lomo</string>
+    <string name="editor_fx_type_valencia">สง่างาม</string>
+    <string name="editor_fx_type_amaro">คนรุ่นใหม่ไฟแรง</string>
+    <string name="editor_fx_type_hudson">ฤดูหนาว</string>
+    <string name="editor_fx_type_rise">ธรรมชาติ</string>
+    <string name="editor_fx_type_sierra">ครีม</string>
+    <string name="editor_fx_type_brannan">ความทรงจำ</string>
+    <string name="editor_fx_type_earlybird">ครั้งหนึ่ง</string>
+    <string name="editor_fx_type_sutro">ค่ำคืน</string>
+    <string name="editor_fx_type_toaster">ส่องแสง</string>
+    <string name="editor_fx_type_hefe">รุ่งอรุณ</string>
+    <string name="config_text_toolbox_setting">การตั้งค่าแบบอักษร</string>
+    <string name="share_save_to_my_studio">บันทึกลงแกลลอรี</string>
+    <string name="buy_pro_tip_content_new_2">\n4.สนับสนุนการส่งออกวิดีโอ 1080P (บางอุปกรณ์)</string>
+    <string name="editor_add_clip_select">เลือกคลิป</string>
+    <string name="clip_cannot_switch">โปรดยืนยันหรือยกเลิกการตัดแต่งของคลิปในปัจจุบัน!</string>
+    <string name="camera_util_no_camera_tip">ไม่รองรับการถ่ายวิดีโอ</string>
+    <string name="camera_util_only_one_camera_tip">มีเพียงกล้องเดียว คุณไม่สามารถสลับได้</string>
+    <string name="camera_resolution">ความละเอียด</string>
+    <string name="camera_recording_failed">การอัดวิดีโอล้มเหลว</string>
+    <string name="camera_switch_waitting">รอสักครู่เพื่อทำการสลับกล้อง</string>
+    <string name="camera_no_camera_permission_tip">กรุณาเข้าไปยังการตั้งค่าระบบเพื่อเปิดการเข้าถึงกล้อง</string>
+    <string name="camera_take_picture_waitting_tip">กำลังอัดอยู่ในตอนนี้ กรุณารอ</string>
+    <string name="camera_no_take_pictrue_tip">คุณยังไม่ได้อัดคลิปใด ๆ</string>
+    <string name="download_more_audio">ดาวน์โหลดเสียงเพิ่ม</string>
+    <string name="downloaded">ดาวน์โหลดแล้ว</string>
+    <string name="material_category_sticker">สติกเกอร์</string>
+    <string name="material_category_theme">ธีม</string>
+    <string name="material_category_font">แบบอักษร</string>
+    <string name="setting_evaluate">ให้คะแนนเรา</string>
+    <string name="email_report_tail">ให้เรามีข้อเสนอแนะหรือข้อบกพร่องรายงาน</string>
+    <string name="action_feedback_title">เลือกกล่องจดหมาย</string>
+    <string name="setting_recommend_to_friend">เชิญเพื่อนของคุณ</string>
+    <string name="setting_send_app_tips">ส่วนแบ่ง VideoShow:</string>
+    <string name="fullscreen_export_backstage">ทำงานในพื้นหลัง (Beta)</string>
+    <string name="background_export_tips">การส่งออกวิดีโอจะทำงานในส่วนพื้นหลัง ระบบแอนดรอยด์จะระงับการทำงานในส่วนพื้นหลังหากมีหน่วยความจำไม่พอ ดังนั้นจึงเป็นการดีกว่าหากคุณจะไม่เปิดใช้งานแอปที่ใช้หน่วยความจำมากเกินไป (เช่น เว็บเบราว์เซอร์ การเล่นวิดีโอ) เพื่อป้องกันการระงับการดำเนินการของวิดีโอที่อาจเกิดขึ้นได้</string>
+    <string name="home_edit_menu">แก้ไข</string>
+    <string name="be_pro_title">คำแนะนำ</string>
+    <string name="guide_nice_video">วิธีการถ่ายวิดีโอให้ดี</string>
+    <string name="guide_add_sticker">วิธีการเพิ่มสติกเกอร์</string>
+    <string name="guide_add_subtitle">วิธีการเพิ่มซับไตเติล</string>
+    <string name="guide_add_music">วิธีการเพิ่มเพลง</string>
+    <string name="guide_draw_video">วิธีการวาดภาพลงบนวิดีโอ</string>
+    <string name="guide_zoom_rotate">วิธีการซูมและหมุน</string>
+    <string name="guide_add_sound">วิธีการพากย์และเพิ่มเอฟเฟกต์เสียง</string>
+    <string name="guide_video_motion">วิธีการเปลี่ยนการเคลื่อนไหวของวิดีโอคุณ</string>
+    <string name="setting_terms_privacy_info">ข้อตกลงและความเป็นส่วนตัว</string>
+    <string name="invite_friend_prefix">สวัสดีครับผมใช้โปรแกรมตัดต่อวิดีโอที่น่ากลัวเรียกว่า \'Videoshow\' การตรวจสอบและติดตั้งโดย:</string>
+    <string name="download_more_music">ดาวน์โหลดเพลงเพิ่ม</string>
+    <string name="music_download">ดาวน์โหลดแล้ว</string>
+    <string name="music_local">เพลงของฉัน</string>
+    <string name="toolbox_multi_music">ซ้อนเพลง</string>
+    <string name="app_update_to_use_the_theme">ธีมนี้มีฟีเจอร์กราฟิกใหม่ ต้องอัปเกรดแอปเพื่อใช้มัน</string>
+    <string name="home_app_store">แอปแนะนำ</string>
+
+    <string name="export_video_mode_chooser_title_tips">ส่งออกวิดีโอ</string>
+    <string name="export_video_mode_chooser_1080p_ads_tips">ความคมชัดระดับ1080p HDโดยการดูวิดีโอ</string>
+    <string name="export_video_mode_chooser_1080p_pro_tips">ความคมชัดระดับ 1080p HD (รุ่นโปร)</string>
+    <string name="export_video_1080p_mode_tips">นำออกวิดีโอด้วยความคมชัดระดับ 1080p HD ตอนนี้</string>
+
+
+    <string name="lite_unlocker_pro_suc_info">คุณได้อัปเกรดเป็นเวอร์ชันหลักเรียบร้อยแล้ว!</string>
+    <string name="share_facebook_unlock_fail">การปลดล็อกล้มเหลว</string>
+    <string name="share_facebook_unlocked">ปลดล็อกแล้ว</string>
+    <string name="share_facebook_dialog_content">แชร์VideoShowบนFacebook เพื่อปลดล็อกธีมนี้ฟรี</string>
+    <string name="share_facebook_dialog_tips">เคล็ดลับ: ธีมนี้จะได้รับการปลดล็อกหลักจากการแชร์!</string>
+    <string name="share_facebook_dialog_btn_text">แชร์ตอนนี้</string>
+
+    <string name="delete_subtitle_tips">ลบข้อความ?</string>
+
+    <string name="export_dialog_msg">หากคุณต้องการส่งออกในพื้นหลัง คุณควรเข้าไปยังการตั้งค่าโทรศัพท์เพื่อเปิด dropzone มิฉะนั้น คุณจะสามารถส่งออกได้เมื่อเปิดแอปอยู่ด้านหน้าเท่านั้น</string>
+    <string name="export_dialog_ok">เปิด DROPZONE</string>
+    <string name="export_dialog_cancel">ส่งออกเมื่อเปิดอยู่ด้านหน้า</string>
+
+    <string name="lite_unlocker_pro_dialog_title">ข้อเสนอพิเศษ</string>
+    <string name="lite_unlocker_pro_dialog_info_new">Videoshow Lite จะหยุดการอัปเดตในอีกหนึ่งเดือน เพื่อขอบพระคุณการสนับสนุนต่อเรา นี่คือข้อเสนอพิเศษเพื่อปลดล็อกฟังก์ชัน Videoshow Pro (การส่งออก 1080P HD, การนำเข้าวิดีโอ 4K, การดาวน์โหลดเนื้อหาไม่จำกัด) ฟรี!
+    ข้อเสนอนี้มีให้คุณเพียงหนึ่งเดือน   ดังนั้น รีบรับมันตอนนี้เลย!
+    </string>
+    <string name="beta_unlocker_pro_dialog_info">Videoshow Beta will stop จะหยุดการอัปเดตในอีกหนึ่งเดือน เพื่อขอบพระคุณการสนับสนุนต่อเรา นี่คือข้อเสนอพิเศษเพื่อปลดล็อกฟังก์ชัน Videoshow Pro (การส่งออก 1080P HD, การนำเข้าวิดีโอ 4K, การดาวน์โหลดเนื้อหาไม่จำกัด) ฟรี!
+    ข้อเสนอนี้มีให้คุณเพียงหนึ่งเดือน   ดังนั้น รีบรับมันตอนนี้เลย!
+    </string>
+    <string name="lite_unlocker_pro_dialog_ok">ปลดล็อกฟีเจอร์ Pro ฟรี</string>
+    <string name="buy_pro_tip_content_new_water">\n5.ลบโลโก้ที่ด้านท้ายของวิดีโอธีม</string>
+
+    <string name="editor_set_different_duration">ตั้งระยะเวลาที่แตกต่างออกไปสำหรับคลิปแต่ละอัน </string>
+    <string name="login_rewards_title_tip">รางวัลการล็อกอินอย่างต่อเนื่อง</string>
+    <string name="login_rewards_remain_days_tip">คุณต้องการเพียง %s วันในการล็อกอินเพื่อปลดล็อกฟีเจอร์ Pro</string>
+    <string name="login_rewards_last_day_tip">รีบเข้า! ล็อกอินเพื่อปลดล็อกฟีเจอร์ Pro ตอนนี้เลย</string>
+    <string name="login_rewards_congratulations_tip">ยินดีด้วย!</string>
+    <string name="login_rewards_unlock_successful_tip">คุณได้ปลดล็อกฟีเจอร์ Pro เป็นเวลาหนึ่งเดือน ขอบคุณสำหรับการสนับสนุน! มาสร้างวิดีโอที่ยอดเยี่ยมกันเลยดีกว่า</string>
+    <string name="login_rewards_expired_tip">การทดลองใช้ฟีเจอร์ Pro หนึ่งเดือนของคุณได้หมดลงแล้ว แต่คุณสามารถปลดล็อกฟีเจอร์ Pro อีกครั้งได้โดยการล็อกอินต่อเนื่องกันเป็นเวลาสามวัน ต้องการได้รับมันหรือไม่? </string>
+    <string name="file_scan_notification_title">วิดีโอไฮไลต์พร้อมแล้วตอนนี้</string>
+    <string name="file_scan_notification_content">ชมวิดีโอที่ประกอบไปด้วยช่วงเวลาอันงดงามที่สุดของคุณ</string>
+    <string name="file_scan_notification_dialog_title">ใช้ VideoShow ด่วนหลังจากนั้น</string>
+    <string name="file_scan_notification_dialog_content_1">เมื่อคุณถ่ายภาพและวิดีโอเป็นจำนวนมาก VideoShow จะเตรียมไฮไลต์วิดีโออันยอดเยี่ยมไว้ให้คุณ </string>
+    <string name="file_scan_notification_dialog_content_2">นี่เป็นเพียงการเตรียมวิดีโอเท่านั้น จะไม่มีการแชร์วิดีโอของคุณโดยที่คุณไม่อนุญาต </string>
+    <string name="file_scan_notification_dialog_content_tip">เคล็ดลับ: คุณสามารถเปิด/ปิดมันได้ทุกเมื่อในส่วน การตั้งค่า เมื่อคุณต้องการ</string>
+    <string name="file_scan_notification_dialog_ok">เห็นด้วย</string>
+    <string name="file_scan_notification_dialog_cancel">ไม่เห็นด้วย</string>
+
+    <string name="tip_app_upgrad_dialog_ok">ปรับปรุง</string>
+    <string name="tip_app_upgrad_dialog_cancel">เตือนในภายหลัง</string>
+    <string name="theme_store_rating_rate_improve">ประเมินรูปแบบนี้ช่วยให้เราปรับปรุง!</string>
+    <string name="theme_store_rating_choose_very">ดีมาก!</string>
+    <string name="theme_store_rating_choose_normal">ปกติไม่ได้เลวร้าย</string>
+    <string name="theme_store_rating_choose_poor">ชั้นเลว!</string>
+    <string name="theme_store_rating_title_rate">อัตรารูปแบบนี้</string>
+
+
+    <string name="user_refuse_permission_camera_tip">คุณไม่ยินยอมให้VideoShow เข้าถึงการอนุญาตกล้องถ่ายรูป VideoShow ไม่สามารถใช้งานกล้องถ่ายรูปได้ตามปกติ กรุณาทำการอนุญาต</string>
+    <string name="user_refuse_permission_audio_recorder_tip">คุณไม่ยินยอมให้ VideoShow เข้าถึงการอนุญาตบันทึกเสียง VideoShow ไม่สามารถบันทึกเสียงได้ตามปกติ กรุณาทำการอนุญาต</string>
+    <string name="user_permit_permission_audio_recorder_tip">คุณอนุญาตการบันทึกเสียงแล้วตอนนี้คุณสามารถกดปุ่มเพื่อเริ่มบันทึกเสียงได้</string>
+
+    <string name="rate_please">ถ้าเป็นเช่นนั้นคุณจะทำคะแนนให้เราทราบเพื่อแสดงการสนับสนุนของคุณหรือไม่ เรากำลังพยายามที่จะดีกว่า!</string>
+    <string name="user_permit_permission_take_picture_tip">คุณได้รับอนุญาตสิทธิ์ของกล้องตอนนี้คุณสามารถเริ่มต้นการถ่ายภาพ</string>
+
+    <!--<string name="app_info">วิดีโอสตูดิโอ</string>-->
+    <string name="app_info_view_trim">การตัดวิดีโอ</string>
+    <string name="save_operation">ยกเลิกการเปลี่ยนแปลงหรือไม่</string>
+
+    <string name="remove_videos_original_voice">ลบเสียงเดิมออก</string>
+    <string name="restore_videos_original_voice">กู้คืนเสียงต้นฉบับ</string>
+    <string name="videos_original_voice_mute">ปิดเสียงต้นฉบับแล้ว</string>
+    <string name="videos_original_voice_unmute">เปิดเสียงต้นฉบับ</string>
+    <string name="remove_videos_original_voice_cannot_support_tip">ในสภาพปัจจุบันคุณไม่สามารถลบเสียงเดิม</string>
+    <string name="recover_videos_original_voice_cannot_support_tip">ในสภาพปัจจุบันคุณไม่สามารถกู้คืนเสียงเดิม</string>
+
+    <string name="share_result">เสร็จสิ้น</string>
+    <string name="rename_no_text">ห้ามหัวข้อเรื่องว่างเปล่า</string>
+
+    <string name="upload_to_youtube">อัปโหลดไปยังyoutube</string>
+    <string name="user_logout">ออกจากระบบ</string>
+
+    <string name="toast_cannot_retrieve_cropped_image">ไม่สามารถเรียกคืนรูปที่ตัดได้</string>
+    <string name="toast_unexpected_error">มีข้อผิดพลาดที่ไม่คาดคิด</string>
+    <string name="ucrop_label_original">ดั้งเดิม</string>
+    <string name="ucrop_label_edit_photo">แก้ไขรูปภาพ</string>
+
+    <string name="setting_hw_acc_notification_title">การเร่งฮาร์ดแวร์</string>
+    <string name="setting_hw_acc_toast_1">มีการเปลี่ยนไปเป็นโหมดทั่วไป ซึ่งจะทำให้การส่งออกวิดีโอช้าลง แต่จะมีความเสถียรมากขึ้น</string>
+    <string name="setting_hw_acc_toast_2">มีการเปลี่ยนไปเป็นโหมดการเร่งความเร็วฮาร์ดแวร์ ซึ่งจะทำให้การส่งออกวิดีโอเร็วขึ้น</string>
+    <string name="video_to_mp3_noaudio_tips">วิดีโอนี้ไม่มีเสียง</string>
+
+    <string name="title_trim_select_clip">อัลตราคัต</string>
+    <string name="title_preview">ตัวอย่าง</string>
+    <string name="video_trim_clip_null_tips">โปรดเพิ่มคลิปที่ถูกตัดแต่งแล้ว</string>
+    <string name="video_no_trim_clip_toast">คุณไม่มีคลิปที่ถูกตัดแต่งแล้ว</string>
+    <string name="video_trim_clip_duration_toast">ระยะเวลาของคลิปตัดแต่งไม่ควรน้อยกว่า 0.1 วินาที</string>
+    <string name="video_clip_count_toast">คลิปตัดแต่งไม่ควรมากกว่า 10</string>
+    <string name="no_add_video_trim_clip_toast">โปรดเพิ่มคลิปตัดแต่งเป็นอย่างแรก</string>
+    <string name="bt_trim_clip_add">เพิ่ม</string>
+    <string name="bt_trim_clip_add_tips">คุณยังสามารถตัดแต่งคลิปได้ต่อไปและเพิ่มคลิปได้!</string>
+
+    <!--导出界面文字内容-->
+    <string-array name="text_full_context">
+        <item>กรุณารอที่นี่อย่างอดทนเพื่อรับชมวิดีโอแบบละเอียดที่คุณสร้างขึ้นสำเร็จ มิฉะนั้นมันจะล้มเหลวในการส่งออกหากคุณไม่อยู่ในหน้าปัจจุบัน</item>
+        <item>โฆษณาช่วยให้ VideoShow ยังคงเป็นแอปฟรี ขอบคุณสำหรับความเข้าใจ คุณสามารถอัปเกรดเป็นเวอร์ชัน Pro เพื่อลบโฆษณาได้</item>
+        <item>หากโทรศัพท์ของคุณมีการกำหนดค่าที่ต่ำ แหล่งที่มาของวิดีโอใหญ่เกินไปหรือมีการใช้สื่อมากเกินไป กรณีทั้งสองอาจส่งผลให้การส่งออกไม่สำเร็จ ดังนั้น โปรดลองอีกครั้งหลังจากลบสื่อบางรายการแล้ว</item>
+        <item>ใช้ \"ตัดขั้นสูง\" เพื่อตัดส่วนต่าง ๆ หลายส่วนจากวิดีโอหนึ่งวิดีโอและบันทึกอย่างรวดเร็ว มันเป็นฟีเจอร์ที่มีประโยชน์อย่างมากสำหรับการลดขนาดวิดีโอขนาดใหญ่</item>
+        <item>ตัวแจ้งเตือนอย่างเป็นมิตร: โหมด รวดเร็ว มาพร้อมกับความเร็วในการส่งออกที่รวดเร็วแต่มีความละเอียดของวิดีโอต่ำกว่า ในขณะที่โหมด HD ใช้เวลาในการส่งออกมากกว่าเพื่อส่งออกด้วยคุณภาพที่สูงกว่า</item>
+        <item>ทำให้วิดีโอช้าลงหรือเร็วขึ้นด้วยการคลิก \"ความเร็ว\" ใน \"การแก้ไขคลิป\"</item>
+        <item>หลังจากส่งออกวิดีโอสำเร็จแล้ว คุณสามารถเปลี่ยนชื่อมันได้ใน สตูดิโอของฉัน หรือ แชร์ไปยังเพื่อนของคุณ</item>
+        <item>คลิก \"หลายเพลง\" ใน \"การแก้ไขขั้นโปร\" เพื่อเพิ่มเพลงหลากหลายเพลงในหนึ่งวิดีโอ </item>
+        <item>มันใช้เวลาในการส่งออกนาน? วิดีโอเจ๋ง ๆ จะแสดงให้คุณเห็นหากคุณเลือกที่จะดื่มกาแฟสักแก้วไปก่อน/item></item>
+        <item>ในโหมดหลากหลายเพลง คุณสามารถตั้งระดับเสียงที่แตกต่างกันให้กับเพลงต่าง ๆ </item>
+        <item>ใช้ประโยชน์อย่างเต็มที่ของ \"สติกเกอร์\" มีการรองรับสติกเกอร์แบบติดตั้งมาในตัว รูป Gif ของคุณเอง ยิ่งไปกว่านั้น มันยังรองรับหลากหลายเลเยอร์!</item>
+        <item>พิเศษ: การถ่ายมิวสิกวิดีโอ การบันทึกวิดีโอระหว่างกำลังเล่นเพลง มันมีประโยชน์มากสำหรับการถ่ายวิดีโอที่ซิงค์เวลากับการเต้น</item>
+        <item>คุณสามารถเปลี่ยนสีพื้นหลังได้โดยการคลิกไอคอนการตั้งค่าที่มุมบนขวาใน สตูดิโอการแก้ไข</item>
+        <item>ขยายวิดีโอและรูป ทำให้วิดีโอโฟกัสบนตำแหน่งที่คุณต้องการ คลิก \"การแก้ไขขั้นโปร\" > \"การแก้ไขคลิป\" > \"ขยาย\"</item>
+        <item>ใช้ \"บีบอัดวิดีโอ \" เพื่อลดขนาดวิดีโอและแชร์เร็วยิ่งขึ้นกับเครือข่ายแบนด์วิดท์ต่ำ คลิก \"บีบอัดวิดีโอ\" ในหน้าหลัก</item>
+        <item>ต้องการฟีเจอร์เพิ่มเติม? โปรดอย่าลังเลที่จะส่งอีเมลไปยัง support@enjoy-global.com และบอกเรา</item>
+    </string-array>
+
+    <string name="subtitle_effect_3d_type_modern"> B สมัยใหม่</string>
+    <string name="subtitle_effect_3d_type_modern_white"> W สมัยใหม่</string>
+    <string name="subtitle_effect_3d_type_news">ข่าว</string>
+    <string name="config_text_toolbox_effect">รูปแบบข้อความ</string>
+    <string name="subtitle_effect_3d_type_fade_out">จางออก</string>
+    <string name="subtitle_effect_3d_type_jump_in">กระโดดเข้า</string>
+    <string name="subtitle_effect_3d_type_pop_up">เด้งขึ้น</string>
+    <string name="subtitle_effect_3d_type_roll_in">ม้วนเข้า</string>
+    <string name="subtitle_effect_3d_type_kick_back">เตะกลับ</string>
+    <string name="subtitle_effect_3d_type_roll_up">ม้วนขึ้น</string>
+    <string name="subtitle_effect_3d_type_roll_left">ม้วนไปทางซ้าย</string>
+    <string name="subtitle_effect_3d_type_crack">แตก</string>
+    <string name="subtitle_effect_3d_type_sunshine">แสงอาทิตย์</string>
+    <string name="subtitle_effect_3d_type_darkclouds">เมฆดำ</string>
+    <string name="subtitle_effect_3d_type_drop">หยด</string>
+    <string name="subtitle_effect_3d_type_love">รัก</string>
+    <string name="subtitle_effect_3d_type_lamp">โคมไฟ</string>
+    <string name="subtitle_effect_3d_type_dialog">โต้ตอบ</string>
+    <string name="subtitle_effect_3d_type_crow">กา</string>
+    <string name="subtitle_effect_3d_type_flame">เปลวไฟ</string>
+    <string name="subtitle_effect_3d_type_thunder">ฟ้าร้อง</string>
+    <string name="subtitle_effect_3d_type_fire">ไฟ</string>
+    <string name="subtitle_effect_3d_type_lightning">ฟ้าผ่า</string>
+    <string name="subtitle_effect_3d_type_flash">แฟลช</string>
+    <string name="trans_new_90001">ไม่</string>
+    <string name="trans_new_90002">จาง</string>
+    <string name="trans_new_90003">วาด</string>
+    <string name="trans_new_90004">ขวาง</string>
+    <string name="trans_new_90005">กะพริบ</string>
+    <string name="trans_new_90006">กระโดด</string>
+    <string name="trans_new_90007">ลอย</string>
+    <string name="trans_new_90008">ง่าย</string>
+    <string name="trans_new_90009">ผสม</string>
+    <string name="trans_new_90010">คลื่น</string>
+    <string name="trans_new_90011">อุกกาบาต</string>
+    <string name="trans_new_90012">พับ</string>
+    <string name="trans_new_90013">ชัตเตอร์</string>
+    <string name="trans_new_90014">รัก</string>
+    <string name="trans_new_90015">ฟองสบู่</string>
+    <string name="trans_new_90016">นาฬิกา</string>
+    <string name="trans_new_90017">วงกลม</string>
+    <string name="trans_new_90018">ละลาย</string>
+    <string name="trans_new_90019">สไลด์</string>
+    <string name="trans_new_90020">ซูม</string>
+    <string name="trans_new_90021">แฟลช W</string>
+    <string name="trans_new_90022">แฟลช B</string>
+    <string name="trans_new_90023">ดอกไม้</string>
+    <string name="trans_new_90024">ดาวหกแฉก</string>
+
+    <string name="noenough_space_20m_tip">พื้นที่ดิสก์ของคุณน้อย ปล่อยพื้นที่ว่างให้กับมัน</string>
+    <string name="remove_watermark_content">ลบลายน้ำฟรี 1 วัน! เพียงติดตั้งและะเปิดแอป</string>
+    <string name="tip_config_sound_add_count_50">รองรับได้ไม่เกิน 50 เสียง!</string>
+    <string name="tip_config_video_clip_copy_count_60">จำนวนวิดีโอไม่ควรมากกว่า 60 รายการ!</string>
+
+    <string name="select_music_cannot_support_tip">ไฟล์เสียงที่ได้รับความเสียหาย</string>
+
+    <string name="share_to_get_surprise">แบ่งปันเพื่อรับเซอร์ไพรส์</string>
+    <string name="today_you_can_download_all_materials">วันนี้คุณสามารถดาวน์โหลด Pro วัสดุพิเศษ</string>
+
+    <string name="the_video_has_been_deleted">วิดีโอที่ถูกลบไปแล้ว</string>
+
+    <!--首页引导popwindow文字-->
+
+    <!--导出结果页，视频大小-->
+    <string name="share_result_video_size_content">บีบอัดจะน่ากลัวคุณต้องการที่จะลบวิดีโอต้นฉบับ?</string>
+    <string name="share_result_video_iess">น้อยกว่าเดิม</string>
+    <string name="share_result_video_original">เป็นต้นฉบับ</string>
+    <string name="share_result_video_compressed">การบีบอัด</string>
+
+    <!--VIP buy 界面-->
+    <string name="vip_buy_btn">ซื้อ</string>
+    <string name="vip_buy_advertising">ปิดโฆษณา</string>
+    <string name="vip_buy_export">ส่งออกวิดีโอแบบ 1080p</string>
+    <string name="vip_buy_import">รองรับการนำเข้าวิดีโอความละเอียด 4K</string>
+
+    <string name="home_mp3_new">ใหม่</string>
+    <string name="home_mp3_view">ดู</string>
+    <string name="fx_effect_3d_type_bubble">ฟองสบู่</string>
+    <string name="fx_effect_3d_type_thunder">ฟ้าร้อง</string>
+    <string name="hold_down_to_preview">แตะค้างเพื่อดูตัวอย่าง</string>
+
+    <!--素材各列表顶部广告条目文字-->
+
+    <!--素材激励广告弹框-->
+
+    <string name="discard_operation">ทิ้ง</string>
+
+    <string name="theme_clip_start_choose">บทนำ:</string>
+    <string name="theme_clip_end_choose">ฉากปิด:</string>
+    <string name="theme_clip_start_choose_a">บทนำ</string>
+    <string name="theme_clip_end_choose_b">ฉากปิด</string>
+    <string name="playing_music_preview_time">พรีวิว 20 วินาที</string>
+
+    <string name="material_store_theme_remove_confirm">ลบทิ้ง?</string>
+    <string name="material_store_fx_remove_confirm">ลบทิ้ง?</string>
+    <string name="material_store_music_remove_confirm">ลบทิ้ง?</string>
+    <string name="material_store_text_style_remove_confirm">ลบทิ้ง?</string>
+    <string name="material_store_sticker_remove_confirm">ลบทิ้ง?</string>
+    <string name="material_store_sound_effects_remove_confirm">ลบทิ้ง?</string>
+    <string name="material_store_font_remove_confirm">ลบทิ้ง?</string>
+    <string name="material_store_gif_remove_confirm">ลบทิ้ง?</string>
+    <string name="export_or_share_video_success">สำเร็จ!</string>
+    <string name="editor_theme_more">เพิ่มเติม</string>
+    <string name="music_my_download">การดาวน์โหลดของฉัน</string>
+    <string name="music_my_music">เพลงของฉัน</string>
+    <string name="music_no_music_history">ไม่มีประวัติเพลง</string>
+    <string name="music_set_add_music">เพิ่มเพลง</string>
+    <string name="today">วันนี้</string>
+    <string name="yesterday">เมื่อวาน</string>
+    <string name="mystudio_batch_delete">ลบทีละมากๆ</string>
+
+    <string name="fx_num_limit_pro">เพื่อให้การส่งออกสำเร็จได้ ไม่ควรใส่เอฟเฟคต์พร้อมกันเกิน 20 ชนิด</string>
+    <string name="clear_trans_all_values">เอาทรานซิชั่นออกจากคลิปทั้งหมด</string>
+    <string name="select_a_clip_to_edit">เลือกคลิปที่จะแก้ไข</string>
+    <string name="set_duration_for_each_photo">ตั้งระยะเวลาของแต่ละภาพ</string>
+    <string name="set_precise_time">ตั้งเวลาที่แน่นอน</string>
+    <string name="global_settings">การตั้งค่าทั่วไป</string>
+    <string name="take_a_short_preview">ดูตัวอย่างแบบสั้น</string>
+    <string name="set_export_mode">ตั้งค่าโหมดส่งออกวิดีโอ</string>
+    <string name="export_mode_background">โหมดเบื้องหลัง</string>
+    <string name="export_mode_foreground">โหมดเบื้องหน้า</string>
+
+    <string name="rate_quest_title">ขอบคุณที่ใช้งาน V Recorder</string>
+    <string name="rate_quest_yes">แน่นอน</string>
+    <string name="rate_quest_no">ไม่</string>
+
+    <string name="use_trans_current_values">ใช้ทรานซิชั่นแบบนี้กับทุกคลิป</string>
+    <string name="text_Selected">ที่เลือก</string>
+    <string name="text_clips">คลิป</string>
+    <string name="rename_dialog_title">ตั้งชื่อใหม่</string>
+
+    <string name="home_photo_movie">สไลด์โชว์</string>
+
+    <string name="manage">จัดการ</string>
+    <string name="done">เสร็จ</string>
+    <string name="giphy_noresult">ไม่พบผลลัพธ์\nแนะนำให้พิมพ์เป็นภาษาอังกฤษ</string>
+    <string name="dialog_duration_adjust_tips">เคล็ดลับ: คุณสามารถคลิกที่   %s  เพื่อกำหนดเวลาที่หยุดอยู่ให้เป็นเวลาเริ่มหรือเวลาสิ้นสุดได้</string>
+    <string name="duration_dialog_time_same_tip">เวลาเริ่มและเวลาสิ้นสุดไม่ควรเป็นเวลาเดียวกัน</string>
+
+    <string name="editor_select_online_gif">ภาพ Gif ออนไลน์</string>
+
+    <string name="gif_search_text_over">จำนวนอักขระต้องไม่เกิน 200</string>
+    <string name="export_video_resolution_limit">ความละเอียดของวิดีโอที่ส่งออกถูกจำกัดโดยความละเอียดของโทรศัพท์คุณ โปรดเข้าใจในจุดนี้ด้วย</string>
+    <string name="no_material_now">ไม่มีวัสดุ ณ ตอนนี้</string>
+    <string name="draftbox_is_null_tip_revert">คลิปต้นฉบับหายไป</string>
+    <string name="main_reverse">ย้อนกลับ</string>
+    <string name="app_info_view_reverse">ย้อนวิดีโอกลับ</string>
+    <string name="reverse_text_full_context_0">เสียงต้นฉบับของวิดีโอที่ส่งออกถูกลบไป เพื่อป้องกันเสียงรบกวนที่เกิดขึ้นจากการย้อนกลับ</string>
+    <string name="reverse_text_full_context_1">กรุณาอดใจรอสักนิดให้วิดีโอของคุณเสร็จเรียบร้อย มิฉะนั้นการส่งออกจะล้มเหลวหากคุณออกจากหน้านี้ไปก่อน</string>
+    <string name="reverse_text_full_context_2">วิดีโอที่ส่งออกจะถูกบันทึกเป็นคลิปใหม่ แต่ไฟล์ดั้งเดิมจะยังคงอยู่</string>
+    <string name="reverse_text_full_context_3">คุณสามารถเพิ่มเพลงและเอฟเฟคต์, ฯลฯ เพื่อให้วิดีโอย้อนกลับของคุณเจ๋งยิ่งขึ้น</string>
+
+    <string name="use_toolkit_create_video">ใช้ชุดเครื่องมือที่ทรงพลังที่สุดเพื่อสร้างวิดีโอเจ๋งๆ</string>
+    <string name="add_material_to_video">เพิ่มซับไตเติล, เอฟเฟกต์, สติ๊กเกอร์ และเนื้อหาสนุกๆ อื่นๆ ให้กับวิดีโอของคุณ</string>
+    <string name="simplest_way_make_video">วิธีง่ายที่สุดในการทำวิดีโอให้สุดยอด</string>
+    <string name="set_photo_display_time">ตั้งค่าการแสดงเวลาของรูปภาพ</string>
+    <string name="trim_video_save_part">ตัดวิดีโอเพื่อเก็บส่วนที่คุณต้องการไว้</string>
+    <string name="zoom_photo_video_focus_attention">ซูมรูปภาพและวิดีโอ, โฟกัสจุดสนใจของภาพ</string>
+    <string name="new_function_reverse_video">เพิ่มฟังก์ชั่นใหม่: วิดีโอย้อนกลับ</string>
+    <string name="video_setting_background">พื้นหลัง</string>
+    <string name="video_music_single_type">เพลงเดียว</string>
+    <string name="video_music_multi_type">หลายเพลง</string>
+    <string name="edit_clip_set_duration_all">ตั้งค่ากับทุกรูปภาพ</string>
+    <string name="local_gif">ภาพ Gif ในเครื่อง</string>
+
+    <string name="click_the_theme_again_to_edit">คลิกที่ธีมอีกครั้งเพื่อแก้ไข</string>
+    <string name="galleryvault_install_uppercase">ติดตั้ง</string>
+    <string name="galleryvault_share_extensions_gap_line_tip">ส่วนขยาย</string>
+    <string name="galleryvault_delete_draft_tip">วิดีโอถูกซ่อนไว้ ต้องการลบแบบร่างหรือไม่?</string>
+    <string name="material_pull_to_refresh">ดึงลงเพื่อรีเฟรช</string>
+    <string name="editor_add_music">แตะเพื่อเพิ่มเพลง</string>
+
+    <string name="install">ติดตั้ง</string>
+    <string name="use_vidcompact_convert">ใช้ VidCompact แปลงเลย! จากนั้นวิดีโอจะได้แก้ไขได้ง่ายๆ</string>
+    <string name="home_text_transcode">ทรานส์โค้ด</string>
+    <string name="home_text_gallery">Gallery</string>
+    <string name="home_text_slideshow">TapSlide</string>
+    <string name="home_transcode_content">ใช้ VidCompact เพื่อแปลงไฟล์วิดีโอของคุณเป็นฟอร์แมตอื่นๆ หรือบีบอัดให้ขนาดเล็กลง</string>
+    <string name="home_transcode_function">สิทธิพิเศษฟังกชัน</string>
+    <string name="home_transcode_convert">แปลงแบบคุณภาพสูง</string>
+    <string name="home_transcode_support">รองรับไฟล์หลายฟอร์แมต</string>
+    <string name="home_transcode_compact">กระทัดรัดมาก</string>
+    <string name="home_transcode_rapid">บีบอัดรวดเร็ว</string>
+    <string name="home_gallery_content">ใช้ Gallery เพื่อค้นดูรูปภาพและวิดีโอของคุณแล้วสร้างสไลด์โชว์ได้เลย</string>
+    <string name="home_gallery_browse">ค้นดู, สแกน และจัดการรูปภาพของคุณตามโฟลเดอร์</string>
+    <string name="home_gallery_add">เพิ่มรูปภาพและวิดีโอเป็นรายการโปรด</string>
+    <string name="home_gallery_engaging">ธีมน่าดึงดูดใจที่รองรับการใช้สร้างสไลด์โชว์</string>
+    <string name="home_gallery_automatically">จัดระเบียบรูปภาพและวิดีโอโดยอัตโนมัติตามกิจกรรม วัน เวลา และสถานที่</string>
+    <string name="home_slideshow_content">สนุกกับการสร้างสไลด์โชว์ด้วย TapSlide แค่แตะไปพร้อมกับจังหวะดนตรี</string>
+    <string name="home_slideshow_just">แค่ 4 ขั้น  </string>
+    <string name="home_slideshow_to">เพื่อสร้างสไลด์โชว์ประกอบเพลง</string>
+    <string name="home_slideshow_choose">เลือกรูปภาพ</string>
+    <string name="home_slideshow_choose_music">เลือกเพลง</string>
+    <string name="home_slideshow_tap">แตะพร้อมจังหวะเพื่อควบคุมรูปภาพ</string>
+    <string name="home_slideshow_save">บันทึกผลงานของคุณแล้วแชร์ให้เพื่อนๆ</string>
+    <string name="choose_too_large_video">วิดีโอนี้ใหญ่เกินกว่าจะนำเข้าได้</string>
+    <string name="dialog_facebook_main_title">แอปตัดต่อวิดีโอแบบครบครัน</string>
+    <string name="share">แบ่งปัน</string>
+    <string name="share_to">แบ่งปันไปยัง</string>
+    <string name="material_category_audio">เสียงประกอบ</string>
+    <string name="setting_clip_duration">ความยาว</string>
+    <string name="choose_4k_buypro_content">เฉพาะ VideoShow Pro เท่านั้นที่รองรับการนำเข้าวิดีโอความละเอียด 4K คุณต้องการซื้อเลยหรือไม่?</string>
+
+    <string name="home_discover">เปิดโลก</string>
+    <string name="discover_all_videos">วิดีโอทั้งหมด</string>
+    <string name="discover_all_contents">เนื้อหาทั้งหมด</string>
+    <string name="network_is_unavailable">เครือข่ายใช้งานไม่ได้</string>
+    <string name="discover_page_title">เปิดโลก          </string>
+    <string name="pinch_to_zoom">หนีบนิ้วเพื่อซูม</string>
+    <string name="guide_start_ui">เริ่ม</string>
+    <string name="guide_back_ui">กลับ</string>
+    <string name="video_setting_ratio">สัดส่วนจอภาพ</string>
+    <string name="video_setting_widescreen_mode">ไวด์สกรีน</string>
+    <string name="video_setting_square_mode">จัตุรัส</string>
+    <string name="video_setting_vertical_mode">แนวตั้ง</string>
+    <string name="noenough_space_ex_need">เมโมรีที่ต้องการ: </string>
+    <string name="noenough_space_ex_cur">เมโมรีที่ใช้ได้: </string>
+    <string name="go_to_clip_edit">ไปที่การแก้ไขคลิป</string>
+    <string name="share_no_enough_space">พื้นที่ว่างไม่พอ </string>
+    <string name="share_please_free_your">กรุณาเพิ่มพื้นที่จัดเก็บ คุณสามารถตัดคลิปหรือลบบางคลิปได้ในการแก้ไขคลิป</string>
+
+    <string name="click_the_button_set_theme_prologue_epilogue">คลิกที่ปุ่มเพื่อกำหนดธีมตอนเริ่มและตอนจบ</string>
+    <string name="tag_library">แท็กยอดนิยม</string>
+    <string name="selected_category">หมวดหมู่</string>
+    <string name="all_tags">แท็กทั้งหมด</string>
+    <string name="toolbox_sound">พากย์ทับ</string>
+    <string name="main_video_compress">บีบอัด</string>
+
+    <string name="music_sort_by_hot">ฮ็อต</string>
+    <string name="music_sort_by_new">ใหม่</string>
+
+    <string name="guide11">ตัดต่อวิดีโอ</string>
+    <string name="music_fadein_fadeout">เพลงเฟดเข้า/ออก</string>
+    <string name="music_add_limit_tip">สามารถเพิ่มได้ถึง %s เพลง</string>
+
+    <string name="tip_app_upgrad_dialog_title">เวอร์ชั่นใหม่</string>
+
+    <string name="power_setting_fast">ชาร์จเร็ว</string>
+    <string name="power_activity_edit">แก้ไขวิดีโอ</string>
+    <string name="power_activity_battery">แก้ไขวิดีโอ</string>
+    <string name="power_toast_text">ชาร์จโทรศัพท์ในวันที่กำหนดเพื่อปลดล็อกอีกครั้ง</string>
+    <string name="power_activity_slide">เลื่อนเพื่อปลดล็อก</string>
+    <string name="power_unlock_succ">ปลดล็อกสำเร็จ</string>
+    <string name="power_unlock_pro_material">คุณสามารถปลดล็อกวัตถุดิบแบบโปรได้หนึ่งครั้ง จะมัวรออะไรอยู่?</string>
+
+    <string name="home_gif_video">จากวิดีโอ</string>
+    <string name="home_gif_photo">จากรูปภาพ</string>
+    <string name="add_more_than_50">ใส่ได้ไม่เกิน 50 คลิป</string>
+    <string name="set_duration_10">กำหนดระยะเวลาไม่เกิน 10 วินาที</string>
+    <string name="select_gif_resolution">เลือกความละเอียด GIF</string>
+    <string-array name="gif_quality">
+        <item>คุณภาพต่ำ</item>
+        <item>คุณภาพปานกลาง</item>
+        <item>คุณภาพสูง</item>
+    </string-array>
+
+    <string name="set_duration_1">ตั้งระยะเวลาให้มากกว่า 1s</string>
+
+    <string name="drag_point_guide">คลิกแถบค้างไว้เพื่อขยับที่ วัตถุดิบจะเคลื่อนติดไปด้วย</string>
+    <string name="power_main_activity_1">เปิดการชาร์จเร็ว คุณสามารถ</string>
+    <string name="power_main_activity_2">1. รับวิดีโอยอดนิยมได้ก่อนใคร\n2. เข้าถึงการแก้ไขวิดีโอได้อย่างรวดเร็ว</string>
+
+    <string name="editor_clip_split">แบ่ง</string>
+    <string name="clip_is_too_short_to_split">คลิปสั้นเกินแบ่งได้</string>
+
+    <string name="select_needed_voice_change">เลือกเสียงที่คุณต้องการเปลี่ยน</string>
+    <string name="voice_change_type_man">ชาย</string>
+    <string name="voice_change_type_woman">หญิง</string>
+    <string name="voice_change_type_robot">หุ่นยนต์</string>
+    <string name="voice_change_type_kid">เด็ก</string>
+    <string name="voice_change_type_monster">มอนสเตอร์</string>
+    <string name="voice_change_done">เปลี่ยนเสียงแล้ว</string>
+    <string name="click_the_button_set_voice_change">คลิกที่ปุ่มเพื่อเปลี่ยนเสียงคุณ</string>
+    <string name="guide_skip">ข้าม</string>
+
+    <string name="ads_restore">คืนค่า</string>
+    <string name="menbership_success">ความสำเร็จ</string>
+    <string name="save_more">ลด 60%!</string>
+    <string name="vip_buy_materila">ใช้วัตถุดิบแบบโปรทั้งหมดได้ฟรี</string>
+
+
+    <string name="home_premium">เบี้ยประกันภัย</string>
+
+
+    <string name="remove_ads_checking">ตรวจสอบ...</string>
+    <string name="remove_ads_checking_succeed">คืนค่าสำเร็จแล้ว</string>
+    <string name="remove_ads_checking_failed">คืนค่าล้มเหลว</string>
+    <string name="gp_connect_fail_dialog_text_title">เริ่มต้นบริการ Google Play ล้มเหลว</string>
+    <string name="gp_connect_fail_dialog_text_1">-ตรวจสอบการเชื่อมต่อของคุณ</string>
+    <string name="gp_connect_fail_dialog_text_2">-ดูให้แน่ใจว่าคุณได้ล็อกอินบัญชี Google แล้ว</string>
+    <string name="gp_connect_fail_dialog_text_3">-ดูให้แน่ใจว่าคุณเปิดแอปพลิเคชัน Google Play แล้ว</string>
+
+    <string name="vip_buy_more_new_pro">วัตถุดิบโปรใหม่ๆ เพิ่มเติมจะอัปเดตอยู่เป็นระยะ</string>
+    <string name="clip">คลิป</string>
+    <string name="guide12">ทำช่วงเวลาพิเศษของคุณให้ล้ำค่า</string>
+    <string name="guide21">ซับไตเติล</string>
+    <string name="guide22">ใส่ซับไตเติลสวยๆ ได้หลากหลายสไตล์</string>
+    <string name="guide31">เพลง</string>
+    <string name="guide32">เพลงถูกลิขสิทธิ์กว่า 2000 เพลงเต็ม</string>
+    <string name="exporting_your_video_1080P">กำลังส่งออกวิดีโอ 1080p...</string>
+    <string name="exporting_your_video">กำลังส่งออกวิดีโอ...</string>
+    <string name="please_stay_in_this_page">อยู่ในหน้านี้แล้วรับ:</string>
+    <string name="higher_export_speed">ความเร็วการส่งออกเพิ่มขึ้น</string>
+    <string name="higher_export_success_rates">อัตราสำเร็จการส่งออกเพิ่มขึ้น</string>
+    <string name="quit_exporting_your_video">แน่ใจหรือไม่ว่าจะหยุดส่งออกวิดีโอนี้?</string>
+
+    <string name="home_premium_benefits">ผลประโยชน์พรีเมียม</string>
+    <string name="home_premium_benefits_tips">รับประโยชน์สุดพิเศษทั้งหมดสำหรับการสมัครสมาชิกแบบพรีเมียม ผลประโยชน์พรีเมียมอื่นๆ จะเพิ่มขึ้นอีกเร็วๆ นี้</string>
+    <string name="home_premium_month_buy">รายเดือน</string>
+    <string name="home_premium_year_buy">รายปี</string>
+
+
+    <string name="material_unlock">ปลดล็อกวัสดุ Pro ทั้งหมด</string>
+    <string name="membership_success_dialog_1">ขอแสดงความยินดี!</string>
+    <string name="membership_success_dialog_2">คุณมีสมาชิกพรีเมี่ยมของคุณ!</string>
+
+    <string name="export_video_mode_chooser_gif_tips">โหมด GIF</string>
+    <string name="export_video_mode_chooser_1080p_tips">โหมด 1080p</string>
+    <string name="gif_time_limited">กำหนดระยะเวลาของคลิปไม่เกิน 30 วินาที</string>
+    <string name="gif_incentive">ส่งออกวิดีโอเป็นรูปแบบ GIF</string>
+
+    <string name="gifguru_description_sub_title">ใช้ GifGuru เพื่อเปลี่ยนรูปภาพ/วิดีโอของคุณเป็น GIF</string>
+    <string name="gifguru_description_1">เพิ่มข้อความ สติกเกอร์ และฟิลเตอร์ให้ภาพ GIF</string>
+    <string name="gifguru_description_2">เล่นภาพ GIF เดินหน้า/ถอยหลัง และปรับความเร็วได้</string>
+    <string name="gifguru_description_3">สร้าง GIF ที่มีอยู่แล้วใหม่</string>
+    <string name="gifguru_description_4">ค้นหาภาพ GIF จาก Giphy แทนที่จะทำเอง</string>
+    <string name="free_music_pip_shooting_app">แอปเพลงฟรีและถ่ายภาพแบบ PIP พร้อมฟิลเตอร์มากมาย</string>
+    <string name="plenty_amazing_filters">ฟิลเตอร์มหัศจรรย์มากมาย</string>
+    <string name="creative_funny_pip_frame">กรอบภาพ PIP ที่แสนสนุกและสร้างสรรค์</string>
+    <string name="record_videos_with_your_local_songs">อัดวิดีโอกับเพลงในเครื่องของคุณ</string>
+    <string name="simple_dynamic_interface">หน้าตาการใช้งานเรียบง่ายและมีพลัง</string>
+    <string name="wanna_master_gif">อยากเชี่ยวชาญการทำภาพ GIF ใช่ไหม?</string>
+    <string name="use_gifguru_turn_video_into_gif">ใช้ GIFGuru เพื่อเปลี่ยนรูปภาพ/วิดีโอของคุณให้เป็น GIF</string>
+    <string name="camera">กล้อง</string>
+    <string name="export_lead_facebook">ชอบเราบน Facebook และแบ่งปันวิดีโอที่น่าอัศจรรย์ของคุณไปทั่วโลก</string>
+
+    <string name="refuse_allow_storage_permission">VideoShow ต้องการเข้าถึงรูปภาพวิดีโอเพื่อเรียกใช้โปรแกรมแก้ไขตามปกติ โปรดอนุญาตให้ใช้พื้นที่เก็บข้อมูล</string>
+    <string name="refuse_allow_camera_permission">VideoShow ต้องการเข้าถึงกล้องโทรศัพท์เพื่อถ่ายวิดีโอ โปรดอนุญาตให้กล้องถ่ายรูป</string>
+    <string name="refuse_allow_audio_permission">VideoShow ต้องการเข้าถึงไมโครโฟนเพื่อบันทึกเสียงของคุณ โปรดอนุญาตให้ใช้ไมโครโฟน</string>
+    <string name="allow">อนุญาตให้มีการ</string>
+    <string name="refuse">ปฏิเสธ</string>
+    <string name="enable">เปิดใช้งาน</string>
+    <string name="question_studio_title">ไม่สามารถส่งออกวิดีโอได้หรือไม่?</string>
+    <string name="question_attention">ข้อควรระวัง: วิธีนี้จะลบร่างทั้งหมดของคุณและรีเซ็ต VideoShow</string>
+    <string name="question_studio_step">ขั้นตอนแรก: ค้นหา "ที่เก็บข้อมูลภายใน" ในโทรศัพท์ของคุณ\nขั้นตอนที่สอง: ลบโฟลเดอร์ 1videoshow และ. 1videoshow (ถ้าคุณไม่เห็น. 1videoshow folder คุณควรเปิดไฟล์ที่ซ่อนอยู่)\nขั้นตอนที่สาม: เริ่ม VideoShow\nข้อควรระวัง: ถ้าคุณล้มเหลวลองอีกครั้งหรือติดต่อเราได้ที่ support@enjoy-global.com</string>
+
+
+    <string name="editor_mode_choose_tip">เลือกโหมดตัดต่อ</string>
+    <string name="editor_mode_pro_title">โหมดเชี่ยวชาญ</string>
+    <string name="editor_mode_pro_desc_content">เก็บทุกรายละเอียดในวิดีโอของคุณได้อย่างที่คุณต้องการ คุณจะสร้างสรรค์งานชิ้นเอกได้ในพริบตา!</string>
+    <string name="editor_mode_easy_speed">ความเร็ว</string>
+    <string name="editor_mode_easy_speed_min">ช้า</string>
+    <string name="editor_mode_easy_speed_max">เร็ว</string>
+    <string name="quick_trim_title">ตัดแต่ง</string>
+    <string name="quick_trim_desc_title">ตัดคลิปจากวิดีโอที่เลือกหรือลบคลิปจากวิดีโอที่เลือก</string>
+    <string name="ultra_cut_title">ตัดและรวม</string>
+    <string name="ultra_cut_desc_title">ตัดคลิปจากวิดีโอที่เลือกและรวมคลิปเหล่านั้นลงในวิดีโออื่น</string>
+
+    <string name="home_video_edit">แก้ไขวิดีโอ</string>
+    <string name="home_slideshow">สร้างสไลด์</string>
+    <string name="home_shoot">ยิง</string>
+    <string name="home_featured_app">แนะนำ</string>
+    <string name="home_gifguru">ทำ Gif</string>
+    <string name="home_my_studio_text">ของฉันร่าง</string>
+    <string name="my_studio_more">วิดีโอของฉัน ></string>
+    <string name="my_studio_no_video_yet">ยังไม่มีวิดีโอที่สร้างขึ้น</string>
+    <string name="my_studio_create_one">สร้างเลย</string>
+    <string name="tools">เครื่องมือ</string>
+    <string name="home_trim">ตัดแต่ง</string>
+    <string name="home_compress">อัด</string>
+    <string name="home_mp3">วิดีโอเป็นเสียง</string>
+    <string name="home_camera">PIP</string>
+    <string name="home_transcode">แปลง</string>
+    <string name="selected_materials">ธีมที่โดดเด่น</string>
+    <string name="more">มากกว่า ></string>
+    <string name="help">ช่วยด้วย</string>
+    <string name="like_us">ผลตอบรับ</string>
+    <string name="faq">คำถามที่พบ</string>
+    <string name="video_to_gif">วิดีโอไปที่ Gif</string>
+    <string name="beautify">ทำให้งาม</string>
+
+    <string name="editor_mode_easy_title">โหมดเพลง</string>
+    <string name="editor_mode_easy_desc_title">คลิกที่นี่เพื่อเริ่มต้น ></string>
+    <string name="editor_mode_easy_desc_content">สลับภาพถ่ายโดยอัตโนมัติด้วยจังหวะเพลง ขอแนะนำให้ผู้ใช้ 92%</string>
+
+    <string name="face_material_title">ดาวน์โหลดแล้ว สติกเกอร์</string>
+    <string name="face_material_select_all">เลือกทั้งหมด</string>
+    <string name="vip_buy_face_pro">ใช้สติกเกอร์โปรใบหน้า</string>
+    <string name="set_face_resolution_info">ตั้งค่าความละเอียดในการถ่ายภาพ</string>
+    <string name="purchase">ซื้อ</string>
+    <string name="next_make_video_editorchoose">ต่อไป</string>
+    <string name="exceed_cliplimit_video">ไม่สามารถเพิ่มวิดีโอเพิ่มเติม</string>
+    <string name="select_allitem_editorchoose">กำลังโหลด ...</string>
+    <string name="pupumenu_select_type_title">จัดเรียงตาม</string>
+    <string name="pupumenu_select_type_date">วันที่</string>
+    <string name="pupumenu_select_type_name">ชื่อ</string>
+    <string name="pupumenu_select_type_ascending">จากน้อยไปมาก</string>
+    <string name="pupumenu_select_type_dscending">จากมากไปน้อย</string>
+    <string name="long_touch_to_move_position">กดค้างไว้และลากเพื่อเรียงลำดับใหม่</string>
+    <string name="manual_search">คลิ๊กเพื่อหาคลิปอื่น ๆ</string>
+    <string name="operation_no_reminder">อย่าแสดงอีกครั้ง</string>
+    <string name="mosaic">โมเสก</string>
+    <string name="vip_buy_mosaic">ใช้ฟังก์ชันโมเสค</string>
+
+    <string name="toolbox_sound_effect">เอฟเฟ็กต์เสียง</string>
+    <string name="editor_draw_title">เพิ่ม เส้นขยุกขยิก</string>
+    <string name="editor_draw">เส้นขยุกขยิก</string>
+
+    <string name="voice_change_click_tips">คุณควรบันทึกเสียงก่อน</string>
+    <string name="draw_sticker_tab_0">สี</string>
+    <string name="draw_sticker_tab_1">ปากกา</string>
+    <string name="draw_sticker_tab_2">ยางลบ</string>
+    <string name="draw_sticker_tab_3">การเลิกทำ</string>
+    <string name="draw_sticker_tab_4">ฟื้นตัว</string>
+    <string name="main_shoot_new">กล้องซูเปอร์</string>
+    <string name="shoot_image_compress_tips">เฉพาะวิดีโอจะสามารถบีบอัด</string>
+    <string name="trim_mode">ตัดแต่ง</string>
+    <string name="export_mode">ส่งออก</string>
+    <string name="trim_select_part">ตัดส่วนที่เลือก</string>
+    <string name="delete_select_part">ลบส่วนที่เลือก</string>
+    <string name="new_file">สร้างไฟล์ใหม่</string>
+    <string name="cover_origin_file">เขียนทับไฟล์</string>
+    <string name="default_setting">การตั้งค่าเริ่มต้น</string>
+    <string name="click_here_modify_default_setting">เปลี่ยนการตั้งค่าเริ่มต้นที่นี่</string>
+    <string name="sort_activity_tag_restore">เรียกคืนค่าเริ่มต้น</string>
+    <string name="sort_activity_tag_normal">ปกติ</string>
+    <string name="tips_editor_tab_window">คำบรรยายสติ๊กเกอร์ผลกระทบ</string>
+    <string name="tool_bar_sort_title">การเรียงลำดับ</string>
+
+
+    <string name="text_refuse_premission">V Recorder ต้องการสิทธิ์เข้าถึงไมโครโฟนเพื่ออัดเสียง กรุณาเปิดสิทธิ์เข้าถึงไม่โครโฟน</string>
+    <string name="text_premission_allow">อนุญาต</string>
+    <string name="dialog_cancle_text">ยกเลิก</string>
+    <string name="string_notification_stop_recording">กำลังอัด</string>
+    <string name="string_notification_stop_tap">แตะที่นี่เพื่อหยุดการอัด</string>
+    <string name="string_notification_start_recording">V Recorder พร้อมแล้ว</string>
+    <string name="string_notification_start_tap">แตะที่นี่เพื่อเริ่มอัด</string>
+    <string name="string_video_setting">ตั้งค่าวิดีโอ</string>
+    <string name="string_video_resolution">ความละเอียดวิดีโอ</string>
+    <string name="string_video_quality">คุณภาพวิดีโอ</string>
+    <string name="string_video_fps">FPS</string>
+    <string name="string_record_audio">อัดเสียง</string>
+    <string name="string_video_record_audio_turn_on">เปิดเพื่ออัดเสียงจากภายนอก การอัดเสียงจากภายในไม่ได้รับอนุญาตบน Android</string>
+    <string name="string_video_hide_the_window">ซ่อนหน้าต่างอัดระหว่างการอัด</string>
+    <string name="string_video_terms_privary">ข้อตกลงและความเป็นส่วนตัว</string>
+    <string name="string_allow_notification_text">กรุณาอนุญาตการแจ้งเตือน V Recorder เพื่อรับรองว่าแอปจะทำงานได้อย่างเหมาะสมและคงที่</string>
+    <string name="string_allow_notification_ok_text">ตกลง</string>
+    <string name="string_video_v_recorder_text">V Recorder</string>
+    <string name="string_the_video_deleted_text">วิดีโอถูกลบไปแล้วหรือเกิดความเสียหาย</string>
+    <string name="string_low_storage_text">พื้นที่จัดเก็บข้อมูลเหลือน้อย กรุณาเคลียร์พื้นที่ของโทรศัพท์ก่อน</string>
+    <string name="string_recoeding_is_finished_text">การอัดเสร็จสิ้นแล้ว</string>
+    <string name="string_record_text">อัด</string>
+    <string name="stirng_home_text">หน้าหลัก</string>
+    <string name="string_exit_text">ออก</string>
+    <string name="string_facebook_is_uninstalled_text">ไม่ได้ติดตั้งไว้</string>
+    <string name="string_video_orientation_text">ทิศการวางวิดีโอ</string>
+    <string name="string_low_battery_text">แบตเตอรีเหลือน้อย เพื่อกันการสูญเสียข้อมูล กรุณาระมัดระวังเรื่องแบตเตอรีโทรศัพท์</string>
+    <string name="string_unsupported_resolution_text">ความละเอียดไม่รองรับในโทรศัพท์นี้</string>
+    <string name="string_portrait">แนวตั้ง</string>
+    <string name="string_landscape">แนวนอน</string>
+    <string name="string_needs_storage">V Recorder ต้องการเข้าถึงรูปภาพ, สื่อ และไฟล์ต่างๆ เพื่อเก็บวิดีโอที่อัดไว้</string>
+    <string name="string_no_recorded_vidoe">ไม่มีวิดีโอที่อัดไว้</string>
+    <string name="string_repair_system_ui_carsh_text">ซ่อมแซมการขัดข้องของ UI ระบบ</string>
+    <string name="string_systen_ui_carsh_reason_text">อนุญาตการเข้าถึงและลองแก้ปัญหา UI ระบบ</string>
+    <string name="string_video_item_share_text">แชร์</string>
+    <string name="are_you_sure_exit_tips">หากคุณออกจากหน้านี้ วิดีโอของคุณจะไม่ได้รับการบันทึก!</string>
+
+
+    <string name="guide_loating_window_instructions">กำลังโหลดหน้าต่างคำแนะนำ</string>
+    <string name="guide_loating_window_recorder">จัดลำดับใหม่</string>
+    <string name="guide_loating_window_video">วิดีโอ</string>
+    <string name="guide_loating_window_close">ปิดหน้าต่างโหลด</string>
+    <string name="guide_notification_panel_close">แผงการแจ้งเตือน</string>
+    <string name="guide_notification_panel_recorder">คุณยังสามารถใช้แผงการแจ้งเตือนเพื่อควบคุมการบันทึกได้ด้วย</string>
+
+    <string name="dialog_rate_us_feed_back">เสียงตอบรับ</string>
+    <string name="dialog_rate_us_feed_back_content">เสียงตอบรับของคุณมีประโยชน์มาก</string>
+    <string name="dialog_rate_us_feed_back1">ฉันไม่ชอบการออกแบบ</string>
+    <string name="dialog_rate_us_feed_back2">ไม่มีฟังก์ชันที่ฉันต้องการ</string>
+    <string name="dialog_rate_us_feed_back3">ใช้งานยาก</string>
+    <string name="dialog_rate_us_feed_back4">ยังมีบั๊กบางอย่างอยู่</string>
+    <string name="dialog_rate_us_feed_back5">การแปลแย่มาก</string>
+    <string name="dialog_rate_us_feed_back_suc">คำแนะนำของคุณช่วยเราได้มาก!</string>
+    <string name="dialog_rate_us_feed_back_suc_thank">ขอขอบพระคุณ!</string>
+    <string name="dialog_rate_us_submit">ส่ง</string>
+
+    <string name="recording_change_setting_toast">ไม่รองรับการเปลี่ยนข้อมูลวิดีโอขณะบันทึก</string>
+    <string name="setting_video_location">ตำแหน่งที่ตั้งวิดีโอ</string>
+    <string name="setting_countdown">นับถอยหลัง</string>
+    <string name="setting_countdow_0s">ไม่นับถอยหลัง</string>
+    <string name="setting_countdow_3s">3s</string>
+    <string name="setting_countdow_5s">5s</string>
+    <string name="setting_countdow_10s">10s</string>
+    <string name="edit_format_error">ไม่รองรับการตัดต่อในฟอร์แมตนี้</string>
+    <string name="play_large_error">ไม่สามารถเล่นได้เนื่องจากวิดีโอต้นฉบับมีขนาดใหญ่เกินไป</string>
+
+    <string name="watermark_title">ลายน้ำ</string>
+    <string name="string_watermark_desc">แสดงลายน้ำในวิดีโอที่บันทึกไว้</string>
+    <string name="cant_config_watermark_when_recording">ไม่สามารถแก้ไขการปรับแต่งลายน้ำได้ขณะบันทึกอยู่</string>
+    <string name="string_vip_privilege_success">คุณเป็นสมาชิก VIP ของ V Recorder อยู่แล้ว</string>
+    <string name="string_vip_buy_success">ซื้อสำเร็จแล้ว!</string>
+    <string name="string_vip_keep_title">ต้องการเลิกใช้ฟรีจริงหรือ?</string>
+    <string name="string_vip_keep_content">ฟีเจอร์พรีเมียมต่างๆ ด้านล่างทดลองใช้ได้ฟรี สามารถยกเลิกได้ตลอดเวลา</string>
+    <string name="string_vip_keep_time_title">แฟลชเซล!</string>
+    <string name="string_vip_privilege">สิทธิพิเศษ VIP</string>
+    <string name="string_vip_privilege_1080">กำลังบันทึก 1080P HD</string>
+    <string name="string_vip_privilege_no_water">ไม่มีลายน้ำ</string>
+    <string name="string_vip_privilege_no_ads">ไม่มีโฆษณา</string>
+    <string name="string_vip_privilege_trim">เล็มวิดีโอ</string>
+    <string name="string_vip_privilege_pro_materials">วัตถุดิบกว่า 1000 แบบ</string>
+    <string name="string_vip_privilege_more">ฟีเจอร์เพิ่มเติม</string>
+    <string name="string_vip_privilege_one_month">รายเดือน:</string>
+    <string name="string_vip_privilege_free_new">ฟรีสำหรับผู้ใช้ใหม่</string>
+    <string name="string_vip_buy_year_des">ทดลองใช้ฟรี 3 วัน จากนั้นสมัครรับ  %1$s / ปี</string>
+    <string name="string_vip_buy_month_des">ทดลองใช้ฟรี 3 วันจากนั้นสมัครสมาชิก %1$s/ เดือน</string>
+
+    <string name="string_vip_privilege_free">ไปต่อ</string>
+
+    <string name="float_permission_tips">กรุณาอนุญาตให้ V Recorder มีสิทธิ์เหนือแอปอื่นเพื่อให้แน่ใจว่าจะทำงานได้อย่างถูกต้อง</string>
+    <string name="orientation_auto">อัตโนมัติ</string>
+    <string name="sd_permission_msg">กรุณาเลือก root directory ของอุปกรณ์เก็บข้อมูลภายนอก \"%1$s\" ในหน้าจอต่อจากนี้แล้วคลิกที่ปุ่ม เลือก เพื่ออนุญาตการเขียนแอป ตั้งแต่ Android 5.0 Lollipop เป็นต้นไป เนื่องจากมีการเปลี่ยนแปลงนโยบายด้านความปลอดภัยของ Android ไฟล์บนอุปกรณ์เก็บข้อมูลภายนอกอาจไม่สามารถลบหรือเปลี่ยนชื่อได้หากแอปพลิเคชันไม่ได้รับอนุญาตให้เขียนไฟล์</string>
+    <string name="sd_permission">สิทธิ์การเข้าถึง</string>
+    <string name="available">ใช้งานได้</string>
+    <string name="default_save_path_name">ค่าเริ่มต้น</string>
+    <string name="cant_change_path_when_recording">ไม่สามารถเปลี่ยนแปลงเส้นทางบันทึกวิดีโอได้ขณะถ่ายอยู่</string>
+    <string name="caution">ระวัง</string>
+    <string name="uninstall_app_hint_for_video">วิดีโอที่เก็บไว้ใน SD Card จะถูกลบเมื่อคุณถอนการติดตั้ง V Recorder</string>
+    <string name="sd_card_change_tip">ไม่พบ SD Card จะเก็บไว้ในเครื่องแทน</string>
+    <string name="string_video_shake_stop_record">เขย่าโทรศัพท์เพื่อหยุดการบันทึก</string>
+    <string name="floating_window_camera">กล้อง</string>
+    <string name="string_record_success_nowatermark">อัดโดยไม่มีลายน้ำ</string>
+    <string name="string_record_success_nowatermark_button">ลองใช้ฟรี</string>
+
+    <string name="string_no_screen_capture_image">ไม่มีรูปภาพที่ใช้งานได้</string>
+    <string name="string_screen_captured_succuss">เก็บภาพสกรีนช็อตแล้ว</string>
+    <string name="string_screen_captured_look">ตรวจสอบ</string>
+    <string name="string_click_to_loook_screen_captured">แตะที่นี่เพื่อดูสกรีนช็อตของคุณ</string>
+    <string name="string_the_image_deleted_text">รูปภาพถูกลบไปแล้วหรือเกิดความเสียหาย</string>
+    <string name="string_image_deleted_succuss">ลบรูปภาพสำเร็จแล้ว</string>
+    <string name="brush">แปรง</string>
+    <string name="rate_us_content">ห้าดาวบน Google Play คือดีที่สุด</string>
+
+    <string name="string_setting_about_us">เกี่ยวกับ</string>
+    <string name="home_vip_banner_string"> ไม่มีลายน้ำ &amp; ไม่มีโฆษณา </string>
+    <string name="rate_quest_content">เราพยายามอย่างยิ่งเพื่อให้แอปดีขึ้น! คุณจะช่วยให้คะแนนเรา 5-ดาวได้ไหม?</string>
+
+
+    <string name="permission_title"> การอนุญาต</string>
+    <string name="permission_camera_msg"> ฟังก์ชั่นนี้ต้องการสิทธิ์การเข้าถึงกล้องถ่ายรูปโปรดเปิดและลองใหม่อีกครั้ง</string>
+
+
+    <string name = "str_vip_unlock_compress">ปลดล็อกการบีบอัดให้ฟรี</string>
+    <string name = "str_vip_unlock_trim">ปลดล็อควิดีโอ Trim ได้ฟรี</string>
+    <string name = "str_vip_guide_desc_clip">ดูสิทธิ์ระดับ VIP </string>
+    <string name ="str_vip_try_free">ลองใช้ฟรี 3 วัน</string>
+    <string name ="str_video_screen_off_continue_recording">เก็บบันทึกเมื่อหน้าจอปิด</string>
+    <string name = "str_vip_unlock_compress_desc">หากคุณต้องการใช้การบีบอัดคลิกเพื่อทดลองใช้สิทธิ์ VIP ฟรี</string>
+    <string name = "str_vip_unlock_trim_desc">หากคุณต้องการใช้ Trim Videos คลิกที่นี่เพื่อรับสิทธิ์ VIP ฟรี</string>
+    <string name = "feedback_submit_tip">ความคิดเห็นของคุณที่เราได้รับขอบคุณสำหรับการสนับสนุน</string>
+    <string name = "feedback_edit_hint">เรายินดีรับข้อเสนอแนะของคุณ</string>
+
+
+    <string name = "using"> อยู่ในระหว่างการใช้งาน </string>
+    <string name = "apply">ใช้</string>
+    <string name = "theme_apply_success">ธีมใช้ความสำเร็จ</string>
+    <string name = "free"> ฟรี </string>
+
+    <string name = "clip_zone_clip">ครอบตัด</string>
+
+    <string name = "record_tools">เครื่องมือบันทึก</string>
+    <string name = "float_screen_shoot" >ภาพหน้าจอ</string>
+    <string name="unlock_pro_privilege_watch_video_ad">ดูวิดีโอเพื่อปลดล็อกการอนุญาตวีไอพีนี้หนึ่งครั้ง</string>
+    <string name="unlock_pro_privilege_tips">ปลดล็อคสิทธิ์ VIP แล้ว</string>
+    <string name="unlock_pro_privilege_btn_str">ปลดล็อคฟรี</string>
+</resources>
+

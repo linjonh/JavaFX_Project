@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+
+    <string name="app_name">V Recorder</string>
+    <string name="setting">Instelling</string>
+    <string name="effectnone">Geen</string>
+    <string name="rename">Naam wijzigen</string>
+    <string name="delete">Verwijderen</string>
+    <string name="ok">OK</string>
+    <string name="unvailable_video">Ongeldig videopad!</string>
+    <string name="cpunotcompatible">Sorry, de CPU architectuur is niet compatibel met de app. We zullen dit probleem zo snel mogelijk oplossen</string>
+    <string name="share">Delen</string>
+
+    <string-array name="video_dialog_message">
+        <item>Voorbeeld</item>
+        <item>Video bewerken</item>
+        <item>Delen</item>
+        <item>Verwijderen</item>
+        <item>Naam wijzigen</item>
+        <item>Details</item>
+    </string-array>
+    <string-array name="audio_dialog_message">
+        <item>Voorbeeld</item>
+        <item>Delen</item>
+        <item>Verwijderen</item>
+        <item>Naam wijzigen</item>
+        <item>Details</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>Toon</item>
+        <item>Delen</item>
+        <item>Verwijderen</item>
+        <item>Naam wijzigen</item>
+        <item>Details</item>
+    </string-array>
+
+    <string name="no_write">Geen toestemming om dit bestand te schrijven</string>
+    <string name="input_cannot_empty">Invoer kan niet leeg zijn</string>
+    <string name="rename_success">Naam wijzigen gelukt!</string>
+    <string name="rename_fail">Naam wijzigen mislukt!</string>
+    <string name="sure_delete">Verwijderen</string>
+    <string name="sure_delete_file">Weet u zeker dat u wilt verwijderen?</string>
+    <string name="detail">Media-informatie</string>
+    <string name="file_name">Naam:</string>
+    <string name="file_path">Pad:</string>
+    <string name="sure">OK</string>
+    <string name="cancel">Annuleren</string>
+    <string name="sure_update">Nieuwe versie beschikbaar, nu updaten?</string>
+    <string name="sure_update_info1">Nieuwe versie:</string>
+
+    <!-- Home directory -->
+    <string name="about">Over</string>
+    <string name="set_l_info3">Over</string>
+
+    <!-- Recommended application -->
+    <!-- Output directory -->
+
+
+    <string name="dialog_yes">JA</string>
+    <string name="dialog_no">NEE</string>
+    <string name="buy_pro_tip_content_new">1. Geen advertenties\n2. Exporteren van video\'s in 1080p\n3. Exclusieve materialen\n4. Importeren van video\'s in 4K\n5. Geen VideoShow-watermerk\n6. Tot 20 effecten toevoegen\n7. Geen tijdslimiet voor omkering</string>
+    <string name="vip_buy_add_up_to_effects">Tot 20 effecten toevoegen</string>
+    <string name="vip_buy_no_reverse_duration_limit">Geen tijdslimiet voor omkering</string>
+    <string name="vip_buy_iwatermark">VideoShow-watermerk verwijderen</string>
+    <string name="please_add_gif_by_gif">Voeg een gif-bestand toe via Gif-functie onder Bewerken.</string>
+    <string name="opacity">Opaciteit</string>
+    <string name="use_auto_fx_values">Filters willekeurig toepassen op alle clips</string>
+    <string name="use_auto_tr_values">Overgangen willekeurig op alle clips toepassen</string>
+
+    <!-- Select video -->
+    <string name="Browser">Blader bestand</string>
+    <!-- Video editor -->
+    <string name="editor">Editor</string>
+    <string name="editor_trim">Bijsnijden</string>
+    <string name="editor_fx">Effecten</string>
+    <string name="editor_text_info2">Voer de ondertitels in</string>
+    <string name="editor_text_dialog_title">Tips</string>
+    <string name="nomusic_info">Niet zoeken voor muziek</string>
+    <string name="too_big_video">Te grote videoresolutie voor videobewerking</string>
+    <string name="unvailable_sd">SD-kaart op dit moment niet beschikbaar!</string>
+    <string name="error_sd">SD-kaart kan geen toegang krijgen!</string>
+    <string name="openvideo_error">Video openen mislukt</string>
+
+    <string name="switch2background">Schakel naar achtergrondtaak. Draai geen geheugenintensieve programma\'s (webbrowser, videospeler), om te voorkomen dat het transcoderingsproces afgebroken wordt</string>
+    <string name="editor_fx_info">Stel de filter juist in</string>
+    <string name="invalid_param">Ongeldige parameter om te bewerken!</string>
+    <string name="merge_toomany">Video\'s samenvoegen kan tot een maximum van 5 video\'s</string>
+
+    <!-- Split -->
+    <!-- Merge -->
+    <string name="merge_info">Videoparameters zijn niet consistent, kunnen niet worden samengevoegd</string>
+    <!-- Grab -->
+    <!-- Export dialog -->
+    <string name="export_info">Geen veranderingen</string>
+    <string name="export_output_set">Exporteer videopad-instellingen</string>
+    <string name="export_output_title">Bezig met exporteren...</string>
+    <string name="export_output_stop">Stop Export</string>
+    <string name="export_output_bg">Draai Achtergrond</string>
+    <string name="export_output_init">initialisatie ...</string>
+    <string name="export_output_success">Export geslaagd</string>
+    <string name="export_output_faild">Export mislukt</string>
+    <string name="export_outofmemory">Niet genoeg geheugen. Schoon het geheugen op en probeer opnieuw</string>
+
+    <!-- About -->
+    <string name="about_info1">VideoShow</string>
+    <string name="about_info3">VideoShow biedt goede videobewerking ervaring voor gebruikers. Met minimale handelingen kunt u de meest opvallende effecten toevoegen aan uw video\'s.\n\nAls u vragen of suggesties heeft, neem dan contact met ons op via support\@enjoy-global.com</string>
+
+    <!-- 指南 -->
+    <string name="guide">Hulpstand</string>
+
+    <!-- 设置 -->
+    <string name="set_quality_info1">Videokwaliteitsinstelling</string>
+
+    <string-array name="set_path_list">
+        <item>Opslaan in het telefoongeheugen</item>
+        <item>Opslaan in het externe geheugen</item>
+    </string-array>
+
+    <string name="wipe_off_watermark">Verwijder watermerk</string>
+    <string name="set_l_info2">Bijwerken</string>
+    <!-- 分享 -->
+
+    <string name="share_info3">YouTube</string>
+    <string name="share_info5">Meer</string>
+    <string name="share_info6">Uw telefoon heeft de applicatie niet geïnstalleerd, downloaden?</string>
+
+    <string-array name="trim_option_dialog_message">
+        <item>Bijsnijden</item>
+        <item>Verwijder geselecteerde deel</item>
+    </string-array>
+
+    <string name="main_mp3">Video naar MP3</string>
+    <string name="feedback">Feedback</string>
+
+    <!-- 2.0 add image -->
+    <string name="addimg_delete_info">Selecteer tenminste één clip</string>
+    <string name="addimg_ok_info">Selecteer tenminste één clip</string>
+    <string name="exceed_cliplimit">Kan niet meer clips toevoegen</string>
+    <string name="chooseclip">Clips selecteren</string>
+    <string name="choose_a_clip">Selecteer clip</string>
+    <string name="pressagain_stopexport">Klik opnieuw om export te verlaten. Bewerkte project zal niet opgeslagen worden</string>
+    <string name="unregnizeformat">Bestandstype werd niet herkend</string>
+    <string name="loading">Laden...</string>
+
+    <!-- 2.1 -->
+    <string name="custom_dialog_info1">Maak slideshow</string>
+    <string name="custom_dialog_info2">Maak video</string>
+    <string name="share_info_error">Video kan niet met succes gedeeld worden op uw apparaat. Wij lossen dit zo snel mogelijk op</string>
+    <string name="share_info_Instagram">Instagram</string>
+    <string name="setting_pay">Koop Pro-versie</string>
+    <string name="cpunotcompatible2">Sorry, kan de runtime-bibliotheek niet vinden. Dit kan komen door een incompatibel architectuur of te weinig ROM-geheugen. Deïnstalleer een aantal apps en probeer VideoShow dan opnieuw te installeren</string>
+    <string name="settingg_share_friend">Vertel een vriend</string>
+    <string name="settingg_share_friend_title">Videoshow - Video Editor</string>
+    <string name="settingg_share_friend_text">Bekijk deze videobewerkingsapplicatie, VideoShow, het is best gaaf! https://play.google.com/store/apps/details?id=com.xvideostudio.videoedito</string>
+    <string name="pro_bt_info1">Herinner mij er later aan.</string>
+    <string name="pro_bt_info2">Nee, bedankt</string>
+
+    <!-- Record -->
+    <string name="voice_info1">Stop met terugspelen</string>
+
+    <string name="input_invalid">Ongeldige invoer</string>
+    <string name="editor_trim_duration">Duur</string>
+    <string name="invalid_volume_setting1">U kunt de muziek niet dempen!</string>
+    <string name="unsupport_audio_format">Niet ondersteund audioformaat!</string>
+    <string name="share_info_weibo">Weibo</string>
+    <string name="noenough_space_ex">Externe geheugenkaart heeft niet voldoende ruimte. Verwijder wat ongebruikte bestanden</string>
+    <string name="changelog_title">VideoShow Wijzigingen log</string>
+    <string name="mp4_noaudio_notsupport">Sorry, video zonder audio track wordt momenteel niet ondersteund</string>
+    <string name="editor_text_dialog_options">Opties</string>
+    <string name="quick_export_sigle_video">Start export met snelle mode ... volgende voorwaarden zijn nodig:\n1. Muziek toevoegen aan een video\n2. Stem opnemen voor een video</string>
+    <string name="add_share_tag_tip">Label uw video # videoshowapp, en u wordt opgemerkt door meer mensen</string>
+    <string name="share_clipboard_copy_tip">Gekopieerd naar het klembord</string>
+    <string name="draftbox_is_null">Concept is leeg</string>
+    <string name="confirm_exit_editor">Weet u zeker dat u bewerken wilt afsluiten?</string>
+    <string name="stop_exporting_video_tip">Druk nogmaals om de export af te sluiten. kunt u ook blijven bewerken in Concept</string>
+    <string name="editor_fx_type_none">GEen</string>
+    <string name="editor_fx_type_sketch">Schets</string>
+    <string name="editor_fx_type_georgia">Georgië</string>
+    <string name="editor_fx_type_polaroid">Polaroid</string>
+    <string name="editor_fx_type_sahara">Sahara</string>
+    <string name="editor_fx_type_sepia">Sepia</string>
+    <string name="editor_fx_type_recho">Retro</string>
+    <string name="debug_mode_tip">Dit is een debug-versie die ons kan helpen om een aantal crash-events op te lossen wanneer u video\'s exporteert.\nEr zijn enkele feiten die u dient te weten:\n1. Bewerk en exporteer video\'s zoals gebruikelijk;\n2. Indien het is gecrashd terwijl u deze applicatie opnieuw opende, zullen alle gerelateerde bestanden gekopiëerd worden naar de folder (root dir / VideoShowLogPack).\n3. Sla de folder op en stuur het naar ons per e-mail: support\@enjoy-global.com\n Dat is alles, hatelijk dank.</string>
+
+    <string-array name="draftbox_dialog_message">
+        <item>Bewerken</item>
+        <item>Verwijderen</item>
+    </string-array>
+
+    <string name="recomment_video_play_error">Afspeelfout</string>
+    <string name="recomment_video_instagram_authentication_successful">Verificatie succesvol</string>
+    <string name="pull_to_refresh_pull_label">Naar beneden trekken om meer te laden</string>
+    <string name="pull_to_refresh_release_label">Loslaten kan meer vernieuwen</string>
+    <string name="pull_to_refresh_refreshing_label">Vernieuwen...</string>
+    <string name="network_connect_error">netwerkverbindingsfout, graag controleren</string>
+    <string name="ad_mode_tip">VideoShow is bijna gratis te gebruiken, daarom zijn advertenties nodig. Wij waarderen uw begrip. Met uw hulp maken wij de app nog perfecter!</string>
+    <string name="tx_next">Volgende</string>
+
+    <string-array name="studio_tab_title">
+        <item>MIJN DRAFTS</item>
+        <item>MIJN WERK</item>
+    </string-array>
+
+    <string name="home_adv_edit">Videobewerking</string>
+    <string name="home_my_studio">Mijn Studio</string>
+    <string name="setting_language">Taalinstellingen</string>
+    <string name="setting_language_auto">Automatisch</string>
+    <string name="setting_language_english">Engels</string>
+    <string name="facebook_copyright_tip">Facebook heeft een zeer strenge copyrightbescherming. Het toevoegen van muziek zonder copyright kan ervoor zorgen dat uw video verwijderd wordt. Denk hieraan.</string>
+    <string name="editor_rotate">Roteren</string>
+
+    <!-- Above is translated by Trusted Translation, please do not modify -->
+
+    <string name="editor_trans_type_none">Geen</string>
+    <string name="export_output_muxer_tip">Rendering ...</string>
+    <string name="share_more_dialog_title">Deel Video</string>
+    <string name="download_so_ok">Download</string>
+    <string name="download_so_titile">Downloaden</string>
+    <string name="download_so_success">Download Geslaagd</string>
+    <string name="export_not_enough_space_change_config_tip_sd_udisk">telefoongeheugen heeft onvoldoende ruimte, al overgeschakeld naar externe geheugenkaart en doorgegaan met exporteren</string>
+    <string name="export_not_enough_space_change_config_tip_udisk_sd">externe geheugenkaart heeft onvoldoende ruimte, al overgeschakeld naar telefoongeheugen en doorgegaan met exporteren</string>
+    <string name="sd_permission_invalid"> Sorry, videoshow is niet toegestaan ​​om video op te slaan op de geheugenkaart. Zorg ervoor dat uw geheugenkaart beschrijfbaar is</string>
+    <string name="no_artist">onbekend</string>
+    <string name="editor_exit_title">Bevestiging</string>
+    <string name="app_exit_toast_tips">druk nogmaals om af te sluiten</string>
+    <string name="setting_help_info">FAQ</string>
+    <string name="paintpad_no_operation">U heeft niets getekend</string>
+    <string name="paintdraft_saving">Afbeelding aan het opslaan...</string>
+    <string name="editor_select_clips">Galerij</string>
+    <string name="emoji_no_recent">U heeft geen enkele sticker gebruikt</string>
+    <string name="editor_fx_type_monochrome">B&amp;W</string>
+    <string name="editor_fx_type_lookup">Amatorka</string>
+    <string name="editor_fx_type_vignette">Vignet</string>
+    <string name="editor_fx_type_tonecurve">Schoonheid</string>
+    <string name="tv_no_video_selectvideo_text">geen bestand</string>
+    <string name="tv_My_video_selectvideo_text">mijn werkstukken</string>
+    <string name="changelog_setting">Verander Log</string>
+    <string name="editor_save_export">Opslaan</string>
+    <string name="export_output_showtips">(Laat het op de voorgrond draaien. Op de achtergrond draaien wordt binnenkort ondersteund)</string>
+    <string name="export_mode_manual">Handmatige Modus</string>
+    <string name="export_mode_fast">Snelle Modus</string>
+    <string name="export_mode_hd">HD-modus</string>
+    <string name="use_current_values">Dit effect toepassen op alle clips</string>
+    <string name="clear_all_values">Filters van alle clips verwijderen</string>
+    <string name="editor_title_trans">Overgang</string>
+    <string name="editor_sticker">Sticker</string>
+    <string name="music_preload">Voorladen</string>
+    <string name="music_my_local">Mijn muziek</string>
+
+    <string name="guide_start">Begin</string>
+    <string name="use_localapp_select_musicfile">Gebruik andere app om muziek te kiezen</string>
+    <string name="voice_info10">Video</string>
+    <string name="voice_info11">Muziek</string>
+    <string name="volume_setting">Muziekinstelling</string>
+    <string name="open_loop">Loop-weergave</string>
+    <string name="setting_attention_us">Volg ons</string>
+    <string name="material_free_price">Gratis</string>
+    <string name="network_bad">Controleer uw verbinding en probeer het opnieuw</string>
+    <string name="download_sd_full_fail">De geheugenkaart is vol. Verwijder enkele bestanden</string>
+    <string name="material_downlaod_state">Download</string>
+    <string name="material_updtae_state">Update</string>
+    <string name="material_downlaoding_state">Bezig met downloaden</string>
+    <string name="material_pause_state">Onderbreek</string>
+    <string name="download_fail_try_again">Download mislukt, probeer het opnieuw</string>
+    <string name="setting_push_message">Notificaties</string>
+    <string name="download_so_tips">U moet de library downloaden voordat u de app uitvoert. Download starten?</string>
+    <string name="firstclip_noSupport">Eerste clip kan de overgang niet instellen</string>
+    <string name="editor_theme_type_fade">Fade-out</string>
+    <string name="setting_edit_mode">Bewerkingsstand kiezen</string>
+    <string name="setting_edit_mode_manually">Handmatig instellen</string>
+    <string name="setting_edit_mode_crop">Passend maken door bijsnijden</string>
+    <string name="setting_edit_mode_fit">In kader laten passen</string>
+    <string name="timeline_not_space">Je hebt 0,5 slege ruimte nodig om een nieuw item toe te voegen</string>
+    <string name="record_completed">Opname OK</string>
+    <string name="record_too_short">Je kunt niet minder dan 1 seconde opnemen</string>
+    <string name="video_mute_tip">Video is gedempt </string>
+    <string name="music_time_short">muziektijd moet meer dan 1s zijn</string>
+    <string name="create_video_file_failed">app starten is mislukt, controleer of de SD-kaart is geladen!</string>
+    <string name="clips_all">Alle</string>
+    <string name="clips_video">Video</string>
+    <string name="clips_photo">Foto</string>
+    <string name="toast_voice_non_drag_tips">De spraaklengte kan niet worden gewijzigd</string>
+    <string name="editor_fx_type_japanstyle">Warm</string>
+    <string name="editor_fx_type_oldphoto">Ouderwets</string>
+    <string name="editor_fx_type_standardemboss">Reliëf</string>
+    <string name="editor_fx_type_pink">Roze</string>
+    <string name="editor_fx_type_hdr">HDR</string>
+    <string name="set_video_background">achtergrondkleur van video</string>
+    <string name="setting_video_background_gause">wazig</string>
+    <string name="setting_video_background_white">wit</string>
+    <string name="setting_video_background_black">zwart</string>
+    <string name="setting_app">App-instellingen</string>
+    <string name="editor_clip_zoom">Zoomen</string>
+    <string name="editor_clip_copy">Kopiëren</string>
+    <string name="music_history">Geschiedenis</string>
+    <string name="no_music_history">Nog geen muziek</string>
+    <string name="toolbox_theme">Thema</string>
+    <string name="toolbox_fx">Filter</string>
+    <string name="toolbox_music">Muziek</string>
+    <string name="toolbox_text">Subtitel</string>
+    <string name="toolbox_clip_edit">Clip bewerken</string>
+    <string name="setting_all_clip_duration">Duur van alle foto\'s</string>
+    <string name="setting_one_clip_duration">Duur van één foto</string>
+    <string name="editor_addclip">Clip toevoegen</string>
+    <string name="sort_method">Sorteermethode</string>
+
+    <!-- 视频设置页面 -->
+    <string name="video_setting">Instellingen</string>
+
+    <!-- 2015-03-25新内置音乐 -->
+    <string name="inside_music_copyright_info2">Het copyright van de muziek is aangekocht, maar is alleen voor persoonlijk, niet-commercieel gebruik.</string>
+    <string name="double_finger_to_zoom">Dubbele vingerbeweging op het scherm om te zoomen.</string>
+    <string name="clip_null_tips">Voeg clips toe</string>
+    <string name="disallow_record_tips">Ga naar "Rechteninstellingen" om met Videoshow spraak op te nemen</string>
+    <string name="audio_exception">Audioapparatuur is abnormaal</string>
+    <string name="app_pro_version">VideoShow Pro</string>
+    <string name="clip_duration">fotoduur: </string>
+
+    <!-- 视频设置页面调整字符串 -->
+    <string name="setting_purchase">Aankopen</string>
+    <string name="add_video_format">Niet ondersteund mediatype</string>
+
+    <string-array name="home_tab_title_new">
+        <item>Start</item>
+        <item>Inspiratie</item>
+        <item>Suggestie</item>
+        <!-- <item>Recent</item> -->
+    </string-array>
+
+    <string name="should_retain_one_clip">Bewaar meer dan één clip!</string>
+    <string name="music_preload_loacal">mijn muziek</string>
+    <string name="dialog_duration_more_setting_tip">Tijd mag niet langer dan3600sec. of korter dan 0,2sec. zijn.</string>
+    <string name="material_new_shop_title">Materiaalcentrum</string>
+    <string name="material_new_sticker_down">Sticker</string>
+    <string name="setting_updateto_normal_version">Upgraden naar de officiële versie van VideoShow</string>
+    <string name="setting_updateto_normal_version_title">Officiële versie van VideoShow</string>
+    <string name="setting_updateto_normal_version_content">Dit is de lab-versie van Videoshow. Hiermee kunt u de nieuwste functies veel eerder ervaren. Indien u een stabielere versie wilt hebben, is Videoshow MR (Maintenance Release) wellicht een betere keuze.</string>
+    <string name="setting_updateto_normal_version_ok">Upgraden</string>
+    <string name="import_gif_width_limit">De GIF die jeimporteert is te groot of de indeling wordt niet ondersteund.</string>
+    <string name="start_make_video_editorchoose">Start </string>
+    <string name="pro_function_dialog_content">Je VideoShow is nu een gratis versie, maar we hebben Pro VideoShow uitgebracht.Als je onze app leuk vindt, kun je de Pro-versie aanschaffen om ons team te steunen. De Pro-versie heeft ook wat andere functies：\n\n1.Geen advertenties\n2.Je kunt materiaal downloaden dat exclusief voor Pro-gebruikers is  \n3.Ondersteuning voor 4K-video</string>
+    <string name="add_font_tip_title">Zo voeg je meer lettertypen toe</string>
+    <string name="add_font_tip_content">Kopieer het lettertypebestand (.ttf- of .otf-bestanden) en plak het vervolgens in de map \n\n sdcard/1videoshow/fonts/</string>
+    <string name="choose_4k_buypro_title">De video is te groot</string>
+    <string name="loading_shuffle_ad_toast">Nu bezig met laden, een ogenblikje graag.</string>
+    <string name="editor_compress_mode">Selecteer de compressiemodus</string>
+    <string name="editor_triming">Bezig met bijsnijden…</string>
+    <string name="video_size_too_small">Je video is erg klein, comprimeren is niet nodig!</string>
+    <string name="choose_other_sticker_localapp">Selecteer uw eigen sticker of Gif</string>
+    <string name="add">toevoegen</string>
+    <string name="choose_other_font_localapp">Selecteer de map om lettertypen toe te voegen</string>
+    <string name="editor_clip_ff">Snelheid</string>
+    <string name="editor_clip_ff_title_tip">Selecteer de snelheid van de clip</string>
+    <string name="editor_clip_ff_video_too_long_tip">Deze clips is te lang. Snij de clip bij voordat je de snelheid vertraagt of versnelt.</string>
+    <string name="editor_clip_ff_cannot_support_picture_tip">Een foto kan niet versnellen of vertragen.</string>
+    <string name="editor_clip_ff_less_1second_tip">Geëxporteerde clip mag niet korter dan %s seconde duren.</string>
+    <string name="editor_clip_ff_encoding_tip">Transcoding……</string>
+    <string name="editor_clip_ff_stop_encode_tip">Stop transcoding</string>
+    <string name="duration_batch_video_char">Tijdsduur</string>
+    <string name="duration_batch_clip_char">Elke foto</string>
+    <string name="duration_batch_custom">Door gebruiker gedefinieerd</string>
+    <string name="add_clip_memory_warn_tip">U hebt veel foto’s geselecteerd, het geheugen zal vol raken</string>
+    <string name="duration_input_begin_char">Starttijd</string>
+    <string name="duration_input_end_char">Eindtijd</string>
+    <string name="duration_input_starttimeout_errinfo">Starttijd dient niet meer te zijn dan bewerkbare tijd!</string>
+    <string name="duration_input_endtimeout_errinfo">Eindtijd dient niet meer te zijn dan bewerkbare tijd!</string>
+    <string name="duration_input_startgtend_errinfo">Eindtijd moet meer zijn dan starttijd!</string>
+    <string name="editor_paint_new_clip">Nieuwe clip</string>
+    <string name="app_info_view_compress">Deze video comprimeren</string>
+    <string name="setting_edit_skill">tips bewerken</string>
+    <string name="save_draftbox_fail_tip">Sla op te stellen is mislukt, is er niet genoeg ruimte is!</string>
+    <string name="editor_fx_type_nashville">Hoop</string>
+    <string name="editor_fx_type_lordkevin">Zonsondergang</string>
+    <string name="editor_fx_type_1977">Lente</string>
+    <string name="editor_fx_type_xproii">Kalm</string>
+    <string name="editor_fx_type_walden">Droom</string>
+    <string name="editor_fx_type_lomo">Lomo</string>
+    <string name="editor_fx_type_valencia">Elegant</string>
+    <string name="editor_fx_type_amaro">Yuppie</string>
+    <string name="editor_fx_type_hudson">Winter</string>
+    <string name="editor_fx_type_rise">Natuur</string>
+    <string name="editor_fx_type_sierra">Room</string>
+    <string name="editor_fx_type_brannan">Geheugen</string>
+    <string name="editor_fx_type_earlybird">Eenmaal</string>
+    <string name="editor_fx_type_sutro">Night</string>
+    <string name="editor_fx_type_toaster">Schijnen</string>
+    <string name="editor_fx_type_hefe">Dageraad</string>
+    <string name="config_text_toolbox_setting">Opgericht</string>
+    <string name="share_save_to_my_studio">Opslaan in galerij</string>
+    <string name="buy_pro_tip_content_new_2">\n4.Ondersteuning voor het exporteren van 1080P video naar(een apparaat).</string>
+    <string name="editor_add_clip_select">Selecteer de clip</string>
+    <string name="clip_cannot_switch">Gelieve te bevestigen of het in orde maken van de huidige clip te annuleren!</string>
+    <string name="camera_util_no_camera_tip">Het maken van video wordt niet ondersteund</string>
+    <string name="camera_util_only_one_camera_tip">Slechts ééncamera, je kunt niet wisselen</string>
+    <string name="camera_resolution">resolutie</string>
+    <string name="camera_recording_failed">Opnemen van video is mislukt</string>
+    <string name="camera_switch_waitting">Wacht een tijdje om van camera te wisselen</string>
+    <string name="camera_no_camera_permission_tip">Voer systeeminstellingen in of open toegang tot de camera.</string>
+    <string name="camera_take_picture_waitting_tip">Er wordt nu opgenomen, een moment geduld</string>
+    <string name="camera_no_take_pictrue_tip">Je hebt nog geen clip opgenomen</string>
+    <string name="download_more_audio">Meer audio downloaden</string>
+    <string name="downloaded">Gedownload</string>
+    <string name="material_category_sticker">Sticker</string>
+    <string name="material_category_theme">Thema</string>
+    <string name="material_category_audio">Audio</string>
+    <string name="material_category_font">Lettertype</string>
+    <string name="setting_evaluate">Beoordeel ons</string>
+    <string name="email_report_tail">Geef ons een paar ideeën of doe melding van fouten</string>
+    <string name="action_feedback_title">Selecteer mailbox</string>
+    <string name="setting_recommend_to_friend">Nodig je vrienden uit</string>
+    <string name="setting_send_app_tips">VideoShow delen:</string>
+    <string name="fullscreen_export_backstage">Lopen in de achtergrond (Beta)</string>
+    <string name="background_export_tips">Het exporteren van de video wordt op de achtergrond uitgevoerd. Het android-systeem zal de achtergrond taak stoppen indien er niet voldoende geheugen beschikbaar is.
+    Het is dus beter dat u geen applicatie gebruikt die veel geheugen in beslag neemt (zoals een webbrowser, videospeler etc.) om te voorkomen dat het videoproces eventueel gestopt wordt.</string>
+    <string name="home_edit_menu">Bewerken</string>
+    <string name="be_pro_title">Uitleg</string>
+    <string name="guide_nice_video">Mooie video\'s maken</string>
+    <string name="guide_add_sticker">Stickers toevoegen</string>
+    <string name="guide_add_subtitle">Ondertitels toevoegen</string>
+    <string name="guide_add_music">Muziek toevoegen</string>
+    <string name="guide_draw_video">Tekenen op video</string>
+    <string name="guide_zoom_rotate">Zoomene en draaien</string>
+    <string name="guide_add_sound">Nasynchronisatie en geluidseffecten toevoegen</string>
+    <string name="guide_video_motion">Snelheid van video\'s veranderen</string>
+    <string name="setting_terms_privacy_info">Voorwaarden&amp;Privacy</string>
+    <string name="invite_friend_prefix">Hallo, ik gebruik Videoshow, een geweldige app om video’s te bewerken. Bekijk en installeer hem voor:</string>
+    <string name="download_more_music">Download meer muziek</string>
+    <string name="music_download">Gedownload</string>
+    <string name="music_local">Mijnnummers</string>
+    <string name="toolbox_multi_music">Multimuziek</string>
+    <string name="app_update_to_use_the_theme">Het thema heeft nieuwe grafische kenmerken. De app moet opgewaardeerd worden om deze te kunnen gebruiken.</string>
+    <string name="home_app_store">Aanbevolen Apps</string>
+
+    <string name="export_video_mode_chooser_title_tips">Videoexporteren</string>
+    <string name="export_video_mode_chooser_1080p_ads_tips">1080p HD door video\'s tebekijken</string>
+    <string name="export_video_mode_chooser_1080p_pro_tips">1080p HD (Pro-versie) </string>
+    <string name="export_video_1080p_mode_tips">1080p HD Nu bezig met exporteren</string>
+
+
+    <string name="lite_unlocker_pro_suc_info">Je upgrade naarMain versie is gelukt!</string>
+    <string name="share_facebook_unlock_fail">Ontgrendelenmislukt</string>
+    <string name="share_facebook_unlocked">Ontgrendeld</string>
+    <string name="share_facebook_dialog_content">DeelVideoShow op Facebook om ditthema gratis tevergrendelen</string>
+    <string name="share_facebook_dialog_tips">Tip:Het themaontgrendeltna het delen!</string>
+    <string name="share_facebook_dialog_btn_text">Nu delen</string>
+
+    <string name="delete_subtitle_tips">De test verwijderen?</string>
+
+    <string name="export_dialog_msg">Als je op de achtergrond wilt exporteren, gadannaar de instellingen van je telefoon en schakelDropzone in. Anders kan je alleenexporteren op de voorgrond</string>
+    <string name="export_dialog_ok">DROPZONE INSCHAKELEN</string>
+    <string name="export_dialog_cancel">OP DE VOORGROND EXPORTEREN</string>
+
+    <string name="lite_unlocker_pro_dialog_title">Speciale aanbieding</string>
+    <string name="lite_unlocker_pro_dialog_info_new">Videoshow Lite zal over een maand niet meer worden bijgewerkt. Om u te danken voor uw steun hebben we een speciale aanbieding om Videoshow Pro-functies(1080P HD Exporteren, 4K video importeren, onbeperkt materiaal downloaden) gratis te ontgrendelen!
+    De speciale aanbieding komt over een maand beschikbaar.   Wees dus snel en neem het nu!
+    </string>
+    <string name="beta_unlocker_pro_dialog_info">Videoshow Beta zal over een maand niet meer worden bijgewerkt. Om u te danken voor uw steun hebben we een speciale aanbieding om Videoshow Pro-functies(1080P HD Exporteren, 4K video importeren, onbeperkt materiaal downloaden) gratis te ontgrendelen!
+    De speciale aanbieding komt over een maand beschikbaar.   Wees dus snel en neem het nu!
+    </string>
+    <string name="lite_unlocker_pro_dialog_ok">Ontgrendel gratis de Pro-functies</string>
+
+    <string name="editor_set_different_duration">Voor elke clip een verschillende tijdsduur instellen</string>
+    <string name="buy_pro_tip_content_new_water">\n5.Logo aan het einde van de themavideo verwijderen</string>
+    <string name="login_rewards_title_tip">Beloningen voor continu inloggen</string>
+    <string name="login_rewards_remain_days_tip">Je hebt alleen maar %s inlogdagen nodig om de Pro-functies te ontgrendelen</string>
+    <string name="login_rewards_last_day_tip">Schiet op! Log nu in om de Pro-functies te ontgrendelen</string>
+    <string name="login_rewards_congratulations_tip">Gefeliciteerd!</string>
+    <string name="login_rewards_unlock_successful_tip">Je hebt de Pro-functies voor een maand ontgrendeld. Bedankt voor je steun! Maak zo snel mogelijk de beste video\'s.</string>
+    <string name="login_rewards_expired_tip">Jouw proefperiode van een maand voor de pro-functies is verlopen. Maar je kunt de pro-functies opnieuw ontgrendelen met nog drie dagen continulogin. Wil je dit krijgen? </string>
+    <string name="file_scan_notification_title">Video hoogtepunten zijn nu klaar</string>
+    <string name="file_scan_notification_content">paar van jouw dierbaarste ogenblikken</string>
+    <string name="file_scan_notification_dialog_title">Gebruik erna Instant VideoShow</string>
+    <string name="file_scan_notification_dialog_content_1">Als je heel veel foto\'s en video\'s maakt, zal VideoShow een video met geweldige hoogtepunten maken.</string>
+    <string name="file_scan_notification_dialog_content_2">Dit is nog slechts een conceptvideo en de video zal niet zonder jouw toestemming worden gedeeld.</string>
+    <string name="file_scan_notification_dialog_content_tip">Tip: je kunt het op elk gewenst moment aan/uitzetten in de Instellingen.</string>
+    <string name="file_scan_notification_dialog_ok">MEE EENS</string>
+    <string name="file_scan_notification_dialog_cancel">NIET MEE EENS</string>
+    <string name="tip_app_upgrad_dialog_ok">Update nu</string>
+    <string name="tip_app_upgrad_dialog_cancel">Herinner later</string>
+    <string name="theme_store_rating_rate_improve">Beoordeel dit thema, help ons te verbeteren!</string>
+    <string name="theme_store_rating_choose_very">Erg goed!</string>
+    <string name="theme_store_rating_choose_normal">Normaal, niet slecht.</string>
+    <string name="theme_store_rating_choose_poor">Slechte kwaliteit!</string>
+    <string name="theme_store_rating_title_rate">Beoordeel dit thema</string>
+
+    <string name="user_refuse_permission_camera_tip">U hebt VideoShow toegang tot camerapermissies geweigerd. VideoShow is niet in staat om taken met de camera uit te voeren. Autoriseer de permissies.</string>
+    <string name="user_refuse_permission_audio_recorder_tip">U hebt VideoShow toegang geweigerd tot de opnamepermissies. VideoShow is niet in staat om te dubben. Autoriseer de permissies.</string>
+    <string name="user_permit_permission_audio_recorder_tip">U heeft opnamepermissies geautoriseerd. U kunt nu de knop indrukken om met dubben te beginnen.</string>
+
+    <string name="rate_please">Als dat zo is, vind je het erg waarderen ons om uw steun te tonen? We proberen om beter te worden!</string>
+    <string name="user_permit_permission_take_picture_tip">Je hebt camera toestemmingen geautoriseerd, nu kun je beginnen met een foto.</string>
+
+    <!--<string name="app_info">Video Studio</string>-->
+    <string name="app_info_view_trim">Videobijsnijden</string>
+    <string name="save_operation">Wijzigingen ongedaan maken?</string>
+
+    <string name="remove_videos_original_voice">Verwijder originele stem</string>
+    <string name="restore_videos_original_voice">Recover originele stem</string>
+    <string name="videos_original_voice_mute">Originele stem is gesloten</string>
+    <string name="videos_original_voice_unmute">Originele stem is op</string>
+    <string name="remove_videos_original_voice_cannot_support_tip">Als de huidige toestand, kon je niet verwijderen originele stem</string>
+    <string name="recover_videos_original_voice_cannot_support_tip">Als de huidige toestand, kon je niet herstellen originele stem</string>
+
+    <string name="share_result">Afwerking</string>
+    <string name="rename_no_text">De titel mag niet leeg zijn</string>
+
+    <string name="upload_to_youtube">uploaden naar youtube</string>
+    <string name="user_logout">afmelden</string>
+
+    <string name="toast_cannot_retrieve_cropped_image"> Kan beeld bijgesneden niet ophalen </string>
+    <string name="toast_unexpected_error"> Onverwachte fout</string>
+    <string name="ucrop_label_original"> origineel </string>
+    <string name="ucrop_label_edit_photo"> Bewerk foto </string>
+
+    <string name="setting_hw_acc_notification_title">Hardwareversnelling</string>
+    <string name="setting_hw_acc_toast_1">Is overgeschakeld naar normale modus, waardoor video trager wordt geëxporteerd maar met een hogere stabiliteit</string>
+    <string name="setting_hw_acc_toast_2">Is overgeschakeld naar het hardwareversnellingsmodel, waardoor video sneller wordt geëxporteerd</string>
+    <string name="video_to_mp3_noaudio_tips">Deze video heeft geen geluid</string>
+
+    <string name="title_trim_select_clip">Ultracut</string>
+    <string name="title_preview">Voorbeeld</string>
+    <string name="video_trim_clip_null_tips">Voeg bijgesneden clips toe</string>
+    <string name="video_no_trim_clip_toast">Je hebt geen bijgesneden clips</string>
+    <string name="video_trim_clip_duration_toast">De lengte van bijgesneden clips moet minstens 0,1 sec. zijn</string>
+    <string name="video_clip_count_toast">Bijgesneden clips mogen niet langer zijn dan 10</string>
+    <string name="no_add_video_trim_clip_toast">Voeg eerst bijgesneden clips toe</string>
+    <string name="bt_trim_clip_add">Toevoegen</string>
+    <string name="bt_trim_clip_add_tips">Je kunt clips blijven bijsnijden en ze toevoegen!</string>
+
+    <!--导出界面文字内容-->
+    <string-array name="text_full_context">
+        <item>Wacht geduldig totdat je de volledige door jou gemaakte video kunt bekijken. Als je het scherm verlaat mislukt het exporteren.</item>
+        <item>Advertenties zorgen dat VideoShow een gratis app kan blijven. Bedankt voor je begrip. Je kunt upgraden naar de Pro-versie om advertenties te verwijderen.</item>
+        <item>Als je mobiel niet zo krachtig is, de videobron te groot is of er te veel materialen gebruikt worden, kan het exporteren mislukken. Probeer het opnieuw na het verwijderen van wat beeldmateriaal.</item>
+        <item>Gebruik \"Ultracut\" om meerdere delen uit een video te snijden en snel op te slaan. Het is een erg handige functie waarmee je een grote video kan verkleinen.</item>
+        <item>Herinnering: SNELLE MODUS heeft een hoge exporteersnelheid maar een lage kwaliteit. HD-MODUS neemt langer de tijd maar exporteert met hogere kwaliteit.</item>
+        <item>Vertraag of versnel de video door op \"Snelheid\" te klikken in \"Clip bewerken\".</item>
+        <item>Nadat het exporteren van de video is geslaagd, kun je hem in Mijn Studio hernoemen of delen met je vrienden.</item>
+        <item>Klik op \"Multi-muziek\" in \"Pro bewerken\" om verschillende muziek aan een video toe te voegen.</item>
+        <item>Duurt het exporteren te lang? We laten je graag een leuke video zien terwijl je geniet van een kop koffie.</item>
+        <item>In de modus met verschillende muziek kun je het volume voor elke muziek anders instellen.</item>
+        <item>Maak optimaal gebruik van \"Sticker\". De functie ondersteunt ingebouwde stickers, je eigen afbeeldingen en GIF\'s. Bovendien worden meerdere lagen ondersteund!</item>
+        <item>Exclusief: muziekvideo-opname. Neem video op terwijl je muziek afspeelt. Dit kan erg handig zijn om een dansvideo op te nemen die synchroon met de muziek loopt.</item>
+        <item>Je kunt de achtergrondkleur wijzigen door rechtsboven in de Bewerkingsstudio op het instellingenicoontje te klikken.</item>
+        <item>Zoom in op de video en afbeelding, breng in je video in beeld wat jij wilt laten zien. Klik op \"Pro bewerken\" > \"Clip bewerken\" > \"Zoomen\".</item>
+        <item>Gebruik \"Video comprimeren\" om de video te verkleinen, zodat je deze sneller kunt delen via netwerken met weinig bandbreedte. Klik op de startpagina op \"Video comprimeren\".</item>
+        <item>Wil je meer functies? Stuur gerust een e-mailtje naar support@enjoy-global.com en laat het ons weten.</item>
+    </string-array>
+
+    <string name="subtitle_effect_3d_type_modern">Modern B</string>
+    <string name="subtitle_effect_3d_type_modern_white">Modern W</string>
+    <string name="subtitle_effect_3d_type_news">Nieuws</string>
+    <string name="config_text_toolbox_effect">Stijl</string>
+    <string name="subtitle_effect_3d_type_fade_out">Uitfaden</string>
+    <string name="subtitle_effect_3d_type_jump_in">Inspringen</string>
+    <string name="subtitle_effect_3d_type_pop_up">Verschijnen</string>
+    <string name="subtitle_effect_3d_type_roll_in">Binnenrollen</string>
+    <string name="subtitle_effect_3d_type_kick_back">Terugslaan</string>
+    <string name="subtitle_effect_3d_type_roll_up">Oprollen</string>
+    <string name="subtitle_effect_3d_type_roll_left">Naar links rollen</string>
+    <string name="subtitle_effect_3d_type_crack">Breken</string>
+    <string name="subtitle_effect_3d_type_sunshine">Zonneschijn</string>
+    <string name="subtitle_effect_3d_type_darkclouds">Donkere wolken</string>
+    <string name="subtitle_effect_3d_type_drop">Vallen</string>
+    <string name="subtitle_effect_3d_type_love">Liefde</string>
+    <string name="subtitle_effect_3d_type_lamp">Lamp</string>
+    <string name="subtitle_effect_3d_type_dialog">Gesprek</string>
+    <string name="subtitle_effect_3d_type_crow">Gekraai</string>
+    <string name="subtitle_effect_3d_type_flame">Vlam</string>
+    <string name="subtitle_effect_3d_type_thunder">Donder</string>
+    <string name="subtitle_effect_3d_type_fire">Vuur</string>
+    <string name="subtitle_effect_3d_type_lightning">Bliksem</string>
+    <string name="subtitle_effect_3d_type_flash">Flits</string>
+    <string name="trans_new_90001">Geen</string>
+    <string name="trans_new_90002">Faden</string>
+    <string name="trans_new_90003">Tekenen</string>
+    <string name="trans_new_90004">Kruisen</string>
+    <string name="trans_new_90005">Knipperen</string>
+    <string name="trans_new_90006">Springen</string>
+    <string name="trans_new_90007">Zweven</string>
+    <string name="trans_new_90008">Simpel</string>
+    <string name="trans_new_90009">Mengen</string>
+    <string name="trans_new_90010">Golf</string>
+    <string name="trans_new_90011">Meteoor</string>
+    <string name="trans_new_90012">Vouwen</string>
+    <string name="trans_new_90013">Sluiter</string>
+    <string name="trans_new_90014">Liefde</string>
+    <string name="trans_new_90015">Bubbel</string>
+    <string name="trans_new_90016">Klok</string>
+    <string name="trans_new_90017">Cirkel</string>
+    <string name="trans_new_90018">Oplossen</string>
+    <string name="trans_new_90019">Glijden</string>
+    <string name="trans_new_90020">Zoomen</string>
+    <string name="trans_new_90021">Flits W</string>
+    <string name="trans_new_90022">Flits B</string>
+    <string name="trans_new_90023">Bloem</string>
+    <string name="trans_new_90024">Hexagram</string>
+
+    <string name="noenough_space_20m_tip">Je hebt weinig schijfruimte, maak ruimte vrij</string>
+    <string name="remove_watermark_content">Watermerk GRATIS voor 1 dagen verwijderen! Installeer en open de app, dat is alles!</string>
+    <string name="tip_config_sound_add_count_50">Ondersteunt niet meer dan 50 geluiden!</string>
+    <string name="tip_config_video_clip_copy_count_60">Het aantal video\'s mag niet groter zijn dan 60!</string>
+    <string name="select_music_cannot_support_tip">Het audiobestand is beschadigd.</string>
+
+    <string name="share_to_get_surprise">Delen voor een verrassing</string>
+    <string name="today_you_can_download_all_materials">Vandaag kunt u downloaden exclusieve pro materialen</string>
+
+    <string name="the_video_has_been_deleted">De video is verwijderd</string>
+
+    <!--首页引导popwindow文字-->
+
+    <!--导出结果页，视频大小-->
+    <string name="share_result_video_size_content">De gecomprimeerde is geweldig, wil je originele video verwijderen?</string>
+    <string name="share_result_video_iess">Minder dan de oorspronkelijke</string>
+    <string name="share_result_video_original">origineel</string>
+    <string name="share_result_video_compressed">Compressed</string>
+
+    <!--VIP buy 界面-->
+    <string name="vip_buy_btn">Kopen</string>
+    <string name="vip_buy_advertising">Advertenties verwijderen</string>
+    <string name="vip_buy_export">Video\'s exporteren in 1080p</string>
+    <string name="vip_buy_import">Importeren 4K-video\'s ondersteund</string>
+
+    <string name="home_mp3_new">Nieuw</string>
+    <string name="home_mp3_view">Bekijken</string>
+    <string name="fx_effect_3d_type_bubble">Zeepbel</string>
+    <string name="fx_effect_3d_type_thunder">Donder</string>
+    <string name="hold_down_to_preview">Vasthouden voor voorbeeld</string>
+
+    <!--素材各列表顶部广告条目文字-->
+
+    <!--素材激励广告弹框-->
+
+    <string name="discard_operation">Ongedaan maken</string>
+
+    <string name="theme_clip_start_choose">Proloog:</string>
+    <string name="theme_clip_end_choose">Naschrift:</string>
+    <string name="theme_clip_start_choose_a">Proloog</string>
+    <string name="theme_clip_end_choose_b">Naschrift</string>
+    <string name="playing_music_preview_time">20 seconden voorbeeld</string>
+
+    <string name="material_store_theme_remove_confirm">Verwijderen?</string>
+    <string name="material_store_fx_remove_confirm">Verwijderen?</string>
+    <string name="material_store_music_remove_confirm">Verwijderen?</string>
+    <string name="material_store_text_style_remove_confirm">Verwijderen?</string>
+    <string name="material_store_sticker_remove_confirm">Verwijderen?</string>
+    <string name="material_store_sound_effects_remove_confirm">Verwijderen?</string>
+    <string name="material_store_font_remove_confirm">Verwijderen?</string>
+    <string name="material_store_gif_remove_confirm">Verwijderen?</string>
+    <string name="export_or_share_video_success">Geslaagd!</string>
+    <string name="editor_theme_more">Meer</string>
+    <string name="music_my_download">Mijn Downloads</string>
+    <string name="music_my_music">Mijn Muziek</string>
+    <string name="music_no_music_history">Geen Muziekgeschiedenis</string>
+    <string name="music_set_add_music">Muziek Toevoegen</string>
+    <string name="today">Vandaag</string>
+    <string name="yesterday">Gisteren</string>
+    <string name="mystudio_batch_delete">Batch Verwijderen</string>
+
+    <string name="fx_num_limit_pro">Om je bestand te exporteren, mag je niet meer dan 20 effecten tegelijkertijd gebruiken</string>
+    <string name="clear_trans_all_values">Overgangen uit alle clips verwijderen</string>
+    <string name="select_a_clip_to_edit">Clip selecteren om te bewerken</string>
+    <string name="set_duration_for_each_photo">Duur voor elke foto instellen</string>
+    <string name="set_precise_time">Precieze tijd instellen</string>
+    <string name="global_settings">Algemene instellingen</string>
+    <string name="take_a_short_preview">Een kort voorproefje nemen</string>
+
+    <string name="rate_quest_title">Bedankt voor het gebruik van V Recorder!</string>
+    <string name="rate_quest_yes">Jazeker!</string>
+    <string name="rate_quest_no">NEE</string>
+
+    <string name="set_export_mode">Instelling video-exportmodus</string>
+    <string name="export_mode_background">Achtergrondmodus</string>
+    <string name="export_mode_foreground">Voorgrondmodus</string>
+
+    <string name="use_trans_current_values">Deze overgang toepassen op alle clips</string>
+    <string name="text_Selected">Geselecteerd:</string>
+    <string name="text_clips">clips</string>
+    <string name="rename_dialog_title">Hernoemen</string>
+
+    <string name="home_photo_movie">Diashow</string>
+
+    <string name="manage">Beheren</string>
+    <string name="done">Gereed</string>
+    <string name="giphy_noresult">Geen resultaten\nEngels gebruiken aanbevolen</string>
+    <string name="dialog_duration_adjust_tips">Tip: Je kunt op  %s  klikken om de huidige pauzetijd in te stellen als start- of stoptijd</string>
+    <string name="duration_dialog_time_same_tip">Start- en stoptijd kunnen niet hetzelfde zijn</string>
+
+    <string name="editor_select_online_gif">Online Gif</string>
+
+    <string name="gif_search_text_over">Maximaal 200 lettertekens</string>
+
+    <string name="export_video_resolution_limit">De resolutie van de geëxporteerde video wordt beperkt door de resolutie van je telefoon.</string>
+    <string name="no_material_now">Geen materiaal</string>
+    <string name="draftbox_is_null_tip_revert">De originele clip ontbreekt</string>
+    <string name="main_reverse">Omkeren</string>
+    <string name="app_info_view_reverse">De video omkeren</string>
+    <string name="reverse_text_full_context_0">Het oorspronkelijke geluid van geëxporteerde video\'s wordt verwijderd om lawaai in omgekeerde video\'s te vermijden.</string>
+    <string name="reverse_text_full_context_1">Even geduld a.u.b. om de video te bekijken. Als je de huidige pagina verlaat, kan het exporteren mislukken.</string>
+    <string name="reverse_text_full_context_2">De geëxporteerde video wordt opgeslagen als nieuwe clip. Het oorspronkelijke bestand blijft behouden.</string>
+    <string name="reverse_text_full_context_3">Je kunt muziek, geluidseffecten, enz. toevoegen om je omgekeerde video\'s nog leuker te maken.</string>
+
+    <string name="use_toolkit_create_video">Gebruik de krachtige tools om een geweldige video te maken.</string>
+    <string name="add_material_to_video">Ondertitels, effecten, stickers en andere leuke content toevoegen aan je video\'s.</string>
+    <string name="simplest_way_make_video">De gemakkelijkste manier om je video geweldig te maken.</string>
+    <string name="set_photo_display_time">Stel de weergavetijd van foto\'s in.</string>
+    <string name="trim_video_save_part">Trim de video om het gewenste deel te bewaren.</string>
+    <string name="zoom_photo_video_focus_attention">Zoom in op foto\'s en video\'s om de focus van de kijker te richten.</string>
+    <string name="new_function_reverse_video">Nieuwe functie: video\'s omdraaien.</string>
+    <string name="video_setting_background">Achtergrond</string>
+    <string name="video_music_single_type">Muziek Enkel</string>
+    <string name="video_music_multi_type">Muziek Multi</string>
+    <string name="edit_clip_set_duration_all">Instellen voor alle foto\'s</string>
+    <string name="local_gif">Lokale gif</string>
+
+    <string name="click_the_theme_again_to_edit">Klik nogmaal op het thema om het te bewerken.</string>
+    <string name="galleryvault_install_uppercase">INSTALLEREN</string>
+    <string name="galleryvault_share_extensions_gap_line_tip">Extensies</string>
+    <string name="galleryvault_delete_draft_tip">De video is verborgen. De draft verwijderen?</string>
+    <string name="material_pull_to_refresh">Omlaag trekken om te verversen</string>
+    <string name="editor_add_music">Tikken om muziek toe te voegen</string>
+
+
+    <string name="install">Installeren</string>
+    <string name="use_vidcompact_convert">Gebruik VidCompact om te converteren. Daarna kun je video\'s gemakkelijk bewerken.</string>
+    <string name="home_text_transcode">Transcoderen</string>
+    <string name="home_text_gallery">Gallery</string>
+    <string name="home_text_slideshow">TapSlide</string>
+    <string name="home_transcode_content">Gebruik VidCompact om je video naar een ander formaat te converteren of te comprimeren</string>
+    <string name="home_transcode_function">Functietoegang</string>
+    <string name="home_transcode_convert">Omzetten met hoge kwaliteit</string>
+    <string name="home_transcode_support">Veel bestandsformaten ondersteund</string>
+    <string name="home_transcode_compact">Sterke compressie</string>
+    <string name="home_transcode_rapid">Snelle compressie</string>
+    <string name="home_gallery_content">Gebruik de Gallery om door je foto\'s en video\'s te bladeren en er diashows mee te maken</string>
+    <string name="home_gallery_browse">Je foto\'s per map bekijken, scannen en organiseren</string>
+    <string name="home_gallery_add">Foto\'s en video\'s toevoegen aan favorieten</string>
+    <string name="home_gallery_engaging">Leuke thema\'s om te gebruiken in de diashows</string>
+    <string name="home_gallery_automatically">Organiseer je foto\'s en video\'s automatisch op gebeurtenis, datum, tijd en locatie</string>
+    <string name="home_slideshow_content">Maak leuke diashows met TapSlide door op het ritme van de muziek te tikken</string>
+    <string name="home_slideshow_just">Slechts 4 stappen  </string>
+    <string name="home_slideshow_to">om een muzikale diashow te maken</string>
+    <string name="home_slideshow_choose">Foto\'s kiezen</string>
+    <string name="home_slideshow_choose_music">Muziek kiezen</string>
+    <string name="home_slideshow_tap">Tik op het ritme om de foto\'s te beheren</string>
+    <string name="home_slideshow_save">Sla je werk op en deel het met vrienden</string>
+    <string name="choose_too_large_video">De video is te lang om te worden geïmporteerd</string>
+    <string name="setting_clip_duration">Duur</string>
+    <string name="share_to">Delen naar</string>
+    <string name="choose_4k_buypro_content">Alleen VideoShow Pro ondersteunt het importeren van video\'s met een 4K-resolutie. Kopen?</string>
+
+    <string name="home_discover">Ontdekken</string>
+    <string name="discover_all_videos">Alle video\'s</string>
+    <string name="discover_all_contents">Alle inhoud</string>
+    <string name="network_is_unavailable">Netwerk niet beschikbaar</string>
+    <string name="discover_page_title">Ontdekken          </string>
+
+    <string name="click_the_button_set_theme_prologue_epilogue">Klik op de knop om de proloog en epiloog van het thema in te stellen.</string>
+    <string name="tag_library">Populaire tags</string>
+    <string name="selected_category">Categorieën</string>
+    <string name="all_tags">Alle tags</string>
+    <string name="toolbox_sound">Voiceover</string>
+    <string name="main_video_compress">Comprimeren</string>
+
+    <string name="pinch_to_zoom">Knijpen om te zoomen</string>
+    <string name="guide_start_ui">Start</string>
+    <string name="guide_back_ui">Terug</string>
+    <string name="video_setting_ratio">Beeldverhouding</string>
+    <string name="video_setting_widescreen_mode">Breedbeeld</string>
+    <string name="video_setting_square_mode">Vierkant</string>
+    <string name="video_setting_vertical_mode">Verticaal</string>
+    <string name="noenough_space_ex_need">Vereist geheugen: </string>
+    <string name="noenough_space_ex_cur">Beschikbaar geheugen: </string>
+    <string name="go_to_clip_edit">Naar Clip bewerken</string>
+    <string name="share_no_enough_space">Niet genoeg ruimte. </string>
+    <string name="share_please_free_your">Maak opslagruimte vrij. Je kunt videoclips bijsnijden of verwijderen via Clip bewerken.</string>
+
+    <string name="music_sort_by_hot">Hot</string>
+    <string name="music_sort_by_new">Nieuw</string>
+
+    <string name="guide11">Video bewerken</string>
+    <string name="music_fadein_fadeout">Fade in/out muziek</string>
+    <string name="music_add_limit_tip">Je kunt tot %s nummers toevoegen</string>
+
+    <string name="tip_app_upgrad_dialog_title">Nieuwe versie</string>
+
+    <string name="power_setting_fast">Snel opladen</string>
+    <string name="power_activity_edit">Video bewerken</string>
+    <string name="power_activity_battery">Batterij</string>
+    <string name="power_toast_text">Telefoon opladen opgegeven dagen om weer vrij te geven</string>
+    <string name="power_activity_slide">Schuiven om vrij te geven</string>
+    <string name="power_unlock_succ">Vrijgegeven</string>
+    <string name="power_unlock_pro_material">Je kunt een pro-materiaal eenmalig vrijgeven. Waar wacht je nog op?</string>
+
+    <string name="home_gif_video">Van video</string>
+    <string name="home_gif_photo">Van foto</string>
+    <string name="add_more_than_50">Niet meer dan 50 clips toevoegen</string>
+    <string name="set_duration_10">Duur max. 10 seconden</string>
+    <string name="select_gif_resolution">Gif-resolutie selecteren</string>
+    <string-array name="gif_quality">
+        <item>Lage kwaliteit</item>
+        <item>Medium kwaliteit</item>
+        <item>Hoge kwaliteit</item>
+    </string-array>
+
+    <string name="set_duration_1">Stel de duur langer dan 1 sec. in.</string>
+
+    <string name="drag_point_guide">Klik en houd de balk vast om te verplaatsen. Materiaal volgt de beweging.</string>
+    <string name="power_main_activity_1">Je kunt snel opladen inschakelen</string>
+    <string name="power_main_activity_2">1. De meest populaire video\'s eerst\n2. Snelle toegang tot het bewerken van video\'s</string>
+
+    <string name="editor_clip_split">Splitsen</string>
+    <string name="clip_is_too_short_to_split">Clip is te kort om te splitsen</string>
+
+    <string name="select_needed_voice_change">Kies de stem die je wilt veranderen</string>
+    <string name="voice_change_type_man">Man</string>
+    <string name="voice_change_type_woman">Vrouw</string>
+    <string name="voice_change_type_robot">Robot</string>
+    <string name="voice_change_type_kid">Kind</string>
+    <string name="voice_change_type_monster">Monster</string>
+    <string name="voice_change_done">Stem veranderd</string>
+    <string name="click_the_button_set_voice_change">Tik op de knop om je stem te veranderen.</string>
+    <string name="guide_skip">Overslaan</string>
+
+    <string name="ads_restore">Herstellen</string>
+    <string name="menbership_success">Succes</string>
+    <string name="save_more">60% KORTING!</string>
+    <string name="vip_buy_materila">Gebruik alle pro-materialen, gratis</string>
+
+
+    <string name="home_premium">Premie</string>
+
+
+    <string name="remove_ads_checking">Controleren...</string>
+    <string name="remove_ads_checking_succeed">Herstel geslaagd</string>
+    <string name="remove_ads_checking_failed">Herstel mislukt</string>
+    <string name="gp_connect_fail_dialog_text_title">Google Play services niet geïnitialiseerd</string>
+    <string name="gp_connect_fail_dialog_text_1">-Controleer je netwerkverbinding</string>
+    <string name="gp_connect_fail_dialog_text_2">-Zorg dat je bent ingelogd op je Google-account</string>
+    <string name="gp_connect_fail_dialog_text_3">-Zorg ervoor dat je de Google Play applicatie kunt starten</string>
+
+    <string name="vip_buy_more_new_pro">Er komen regelmatg nieuwe pro-materialen bij</string>
+
+    <string name="clip">Clips</string>
+
+    <string name="guide12">Voor die speciale momenten</string>
+    <string name="guide21">Ondertitels</string>
+    <string name="guide22">Verschillende stijlen voor artistieke ondertitels</string>
+    <string name="guide31">Muziek</string>
+    <string name="guide32">2000+ muzieknummers met volledige licentie</string>
+    <string name="exporting_your_video_1080P">1080P-VIDEO EXPORTEREN...</string>
+    <string name="exporting_your_video">JE VIDEO WORDT GEËXPORTEERD...</string>
+    <string name="please_stay_in_this_page">Blijf op deze pagina voor:</string>
+    <string name="higher_export_speed">Hogere exportsnelheid</string>
+    <string name="higher_export_success_rates">Meer geslaagde exports</string>
+    <string name="quit_exporting_your_video">Weet je zeker dat je het exporteren van de video wil stoppen?</string>
+    <string name="home_premium_benefits">Voordelen van Premium</string>
+    <string name="home_premium_benefits_tips">Maak gebruik van alle exclusieve voordelen met je Premium-abonnement. We hebben nog meer Premium-voordelen voor je in petto.</string>
+    <string name="home_premium_month_buy">PER MAAND</string>
+    <string name="home_premium_year_buy">PER JAAR</string>
+
+
+    <string name="material_unlock">Ontgrendel alle pro materialen</string>
+    <string name="membership_success_dialog_1">GEFELICITEERD!</string>
+    <string name="membership_success_dialog_2">Je hebt je Premium Lidmaatschap!</string>
+
+    <string name="export_video_mode_chooser_gif_tips">GIF-modus</string>
+    <string name="export_video_mode_chooser_1080p_tips">1080p-modus</string>
+    <string name="gif_time_limited">De max. duur van de clip is 30 seconden.</string>
+    <string name="gif_incentive">Video\'s exporteren als GIF-bestand</string>
+
+    <string name="gifguru_description_sub_title">Gebruik GifGuru om je foto\'s/video\'s in GIFs te veranderen</string>
+    <string name="gifguru_description_1">Voeg tekst, stickers en filters toe aan je GIF-bestanden</string>
+    <string name="gifguru_description_2">Speel het GIF-bestand voorwaarts of achterwaarts af en pas de snelheid aan</string>
+    <string name="gifguru_description_3">Maak bestaande GIFs opnieuw</string>
+    <string name="gifguru_description_4">GIF-bestanden zoeken met Giphy in plaats van doe-het-zelf</string>
+    <string name="free_music_pip_shooting_app">App met gratis muziek en PiP-opnames met heel veel filters</string>
+    <string name="plenty_amazing_filters">Heel veel geweldige filters</string>
+    <string name="creative_funny_pip_frame">Creatieve en grappige PiP-frames</string>
+    <string name="record_videos_with_your_local_songs">Video\'s opnemen met je plaatselijke muziek</string>
+    <string name="simple_dynamic_interface">Eenvoudige en dynamische interface</string>
+    <string name="wanna_master_gif">Wil je echt heel goede GIF-bestanden maken?</string>
+    <string name="use_gifguru_turn_video_into_gif">Gebruik GifGuru om je foto\'s/video\'s in GIFs te veranderen</string>
+    <string name="camera">Camera</string>
+    <string name="export_lead_facebook">Vind ons leuk op Facebook en deel uw geweldige video\'s naar de wereld.</string>
+
+    <string name="refuse_allow_storage_permission">VideoShow moet toegang hebben tot foto\'s, video\'s om normaal gesproken editor te draaien. Gelieve de opslagvergunning toe te staan.</string>
+    <string name="refuse_allow_camera_permission">VideoShow heeft toegang tot de telefooncamera nodig om een video te maken. Gelieve de camera toestemming te geven.</string>
+    <string name="refuse_allow_audio_permission">VideoShow moet toegang hebben tot de microfoon om uw stem op te nemen. Gelieve de toestemming van de microfoon toe te staan.</string>
+    <string name="allow">TOESTAAN</string>
+    <string name="refuse">WEIGEREN</string>
+    <string name="enable">ENABLE</string>
+    <string name="question_studio_title">Kan video niet exporteren?</string>
+    <string name="question_attention">Opgelet: deze methode zal al je ontwerp verwijderen en VideoShow opnieuw instellen.</string>
+    <string name="question_studio_step">Eerste stap: vind \'interne opslag\' in je telefoon.\nTweede stap: verwijder 1videoshow en .1videoshow-map (als u geen .1videoshow-map ziet, moet u de verborgen bestanden aanzetten).\nDerde stap: start VideoShow.\nLet op: als u het mislukt, probeer het opnieuw of contacteer ons op support@enjoy-global.com.</string>
+
+
+    <string name="editor_mode_choose_tip">Bewerkingsmodus selecteren</string>
+    <string name="editor_mode_pro_title">Expert-modus</string>
+    <string name="editor_mode_pro_desc_content">Bepaal zelf elk detail van je video precies zoals jij wilt. Binnen de kortste keren is je meesterwerk af!</string>
+    <string name="editor_mode_easy_speed">Snelheid</string>
+    <string name="editor_mode_easy_speed_min">Langzaam</string>
+    <string name="editor_mode_easy_speed_max">Snel</string>
+    <string name="quick_trim_title">Trim</string>
+    <string name="quick_trim_desc_title">Trim een clip uit de geselecteerde video of verwijder een clip uit de geselecteerde video.</string>
+    <string name="ultra_cut_title">Trim en samenvoegen</string>
+    <string name="ultra_cut_desc_title">Knip fragmenten uit de geselecteerde video bij elkaar en voeg deze samen in een andere video.</string>
+
+    <string name="home_video_edit">Bewerk Video</string>
+    <string name="home_slideshow">Maak Dia\'s</string>
+    <string name="home_shoot">Schieten</string>
+    <string name="home_featured_app">Uitgelicht</string>
+    <string name="home_gifguru">Maak Gif</string>
+    <string name="home_my_studio_text">Mijn Concepten</string>
+    <string name="my_studio_more">Mijn video\'s ></string>
+    <string name="my_studio_no_video_yet">Er is nog geen video gemaakt</string>
+    <string name="my_studio_create_one">Maak nu</string>
+    <string name="tools">Gereedschap</string>
+    <string name="home_trim">Trimmen</string>
+    <string name="home_compress">Kompres</string>
+    <string name="home_mp3">Video naar audio</string>
+    <string name="home_camera">PIP</string>
+    <string name="home_transcode">Omzetten</string>
+    <string name="selected_materials">Uitgelichte thema\'s</string>
+    <string name="more">Meer ></string>
+    <string name="help">Helpen</string>
+    <string name="like_us">Terugkoppeling</string>
+    <string name="faq">FAQ</string>
+    <string name="video_to_gif">Video to Gif</string>
+    <string name="beautify">Verfraai</string>
+
+    <string name="editor_mode_easy_title">Muziekmodus</string>
+    <string name="editor_mode_easy_desc_title">Klik hier om te starten ></string>
+    <string name="editor_mode_easy_desc_content">Wissel automatisch van foto met muziekritme. 92% gebruikers bevelen sterk aan.</string>
+
+    <string name="face_material_title">Gedownloade stickers</string>
+    <string name="face_material_select_all">Alles selecteren</string>
+    <string name="vip_buy_face_pro">Gebruik pro gezichtsstickers</string>
+    <string name="set_face_resolution_info">Opname resolutie instelling</string>
+    <string name="purchase">AANKOOP</string>
+    <string name="next_make_video_editorchoose">Volgend</string>
+    <string name="exceed_cliplimit_video">Kan niet meer video\'s toe te voegen</string>
+    <string name="select_allitem_editorchoose">Bezig met laden...</string>
+    <string name="pupumenu_select_type_title">Sorteren op</string>
+    <string name="pupumenu_select_type_date">Datum</string>
+    <string name="pupumenu_select_type_name">Naam</string>
+    <string name="pupumenu_select_type_ascending">Oplopende</string>
+    <string name="pupumenu_select_type_dscending">Aflopend</string>
+    <string name="long_touch_to_move_position">Houd en sleep om bij te bestellen</string>
+    <string name="manual_search">Klik om meer clips te vinden</string>
+    <string name="operation_no_reminder">Niet meer laten zien</string>
+    <string name="mosaic">Mozaïek</string>
+    <string name="vip_buy_mosaic">Gebruik mozaïekfunctie</string>
+
+    <string name="toolbox_sound_effect">Geluidseffect</string>
+    <string name="editor_draw_title">Voeg Doodle</string>
+    <string name="editor_draw">Doodle</string>
+
+    <string name="voice_change_click_tips">Je moet eerst opnemen</string>
+    <string name="draw_sticker_tab_0">Kleur</string>
+    <string name="draw_sticker_tab_1">Pen</string>
+    <string name="draw_sticker_tab_2">Gom</string>
+    <string name="draw_sticker_tab_3">Annuleer</string>
+    <string name="draw_sticker_tab_4">Herstellen</string>
+    <string name="main_shoot_new">Super Camera</string>
+    <string name="shoot_image_compress_tips">Alleen video\'s kunnen worden gecomprimeerd</string>
+    <string name="trim_mode">Trim</string>
+    <string name="export_mode">Uitvoer</string>
+    <string name="trim_select_part">Trim geselecteerd deel</string>
+    <string name="delete_select_part">Verwijder het geselecteerde deel</string>
+    <string name="new_file">Maak een nieuw bestand</string>
+    <string name="cover_origin_file">Overschrijf het bestand</string>
+    <string name="default_setting">Standaard instellingen</string>
+    <string name="click_here_modify_default_setting">Wijzig hier de standaardinstellingen</string>
+
+    <string name="sort_activity_tag_restore">Standaard herstellen</string>
+    <string name="sort_activity_tag_normal">Normaal</string>
+    <string name="tips_editor_tab_window">Ondertitels, stickers, effecten</string>
+    <string name="tool_bar_sort_title">Sorteer</string>
+
+
+    <string name="text_refuse_premission">V Recorder heeft toegang tot de microfoon nodig om geluid op te nemen. Schakel toegang tot de microfoon in.</string>
+    <string name="text_premission_allow">TOESTAAN</string>
+    <string name="dialog_cancle_text">ANNULEREN</string>
+    <string name="string_notification_stop_recording">Opname</string>
+    <string name="string_notification_stop_tap">Tik hier om opname te stoppen</string>
+    <string name="string_notification_start_recording">V Recorder is gereed</string>
+    <string name="string_notification_start_tap">Tik hier om opname te starten</string>
+    <string name="string_video_setting">Instellingen video</string>
+    <string name="string_video_resolution">Resolutie video</string>
+    <string name="string_video_quality">Kwaliteit video</string>
+    <string name="string_video_fps">FPS</string>
+    <string name="string_record_audio">Geluid opnemen</string>
+    <string name="string_video_record_audio_turn_on">Inschakelen om externe audio op te nemen. Interne audio opnemen is niet toegestaan door Android</string>
+    <string name="string_video_hide_the_window">Opnamevenster verbergen tijdens opname</string>
+    <string name="string_video_terms_privary">Gebruiksvoorwaarden en privacy</string>
+    <string name="string_allow_notification_text">Geef toestemming voor meldingen van V Recorder om ervoor te zorgen dat de app correct werkt</string>
+    <string name="string_allow_notification_ok_text">Oké</string>
+    <string name="string_video_v_recorder_text">V Recorder</string>
+    <string name="string_the_video_deleted_text">Deze video is beschadigd of verwijderd</string>
+    <string name="string_low_storage_text">Weinig opslagruimte. Maak eerst wat ruimte op je telefoon vrij</string>
+    <string name="string_recoeding_is_finished_text">Opname is voltooid</string>
+    <string name="string_record_text">Opnemen</string>
+    <string name="stirng_home_text">Start</string>
+    <string name="string_exit_text">Sluiten</string>
+    <string name="string_facebook_is_uninstalled_text">is niet geïnstalleerd</string>
+    <string name="string_video_orientation_text">Oriëntatie video</string>
+    <string name="string_low_battery_text">Batterij bijna leeg. Laad de batterij van de telefoon op om gegevensverlies te voorkomen</string>
+    <string name="string_unsupported_resolution_text">Resolutie wordt niet ondersteund voor deze telefoon</string>
+    <string name="string_portrait">Portret</string>
+    <string name="string_landscape">Landschap</string>
+    <string name="string_needs_storage">V Recorder heeft toegang tot foto\'s media en bestanden nodig om opgenomen video\'s op te slaan</string>
+    <string name="string_no_recorded_vidoe">Geen opgenomen video</string>
+    <string name="string_repair_system_ui_carsh_text">Crash systeeminterface herstellen</string>
+    <string name="string_systen_ui_carsh_reason_text">Geef toestemming om het systeeminterfaceprobleem te herstellen</string>
+    <string name="string_video_item_share_text">Delen</string>
+    <string name="are_you_sure_exit_tips">Als je de huidige pagina sluit, wordt je video niet opgeslagen!</string>
+
+    <string name="guide_loating_window_instructions">Instructies laadvenster</string>
+    <string name="guide_loating_window_recorder">Opnemen</string>
+    <string name="guide_loating_window_video">Video</string>
+    <string name="guide_loating_window_close">De laadvensters sluiten</string>
+    <string name="guide_notification_panel_close">Meldingspaneel</string>
+    <string name="guide_notification_panel_recorder">U kunt ook het meldingspaneel gebruiken om de opnamen te beheren</string>
+    <string name="dialog_rate_us_feed_back">Feedback</string>
+    <string name="dialog_rate_us_feed_back_content">Je feedback is erg handig.</string>
+    <string name="dialog_rate_us_feed_back1">Het ontwerp bevalt niet</string>
+    <string name="dialog_rate_us_feed_back2">Het heeft niet de functies die ik zoek</string>
+    <string name="dialog_rate_us_feed_back3">Het is niet gemakkelijk te gebruiken</string>
+    <string name="dialog_rate_us_feed_back4">Het bevat programmeerfouten</string>
+    <string name="dialog_rate_us_feed_back5">De vertaling is slecht</string>
+    <string name="dialog_rate_us_feed_back_suc">Je suggesties zijn erg nuttig!</string>
+    <string name="dialog_rate_us_feed_back_suc_thank">Bedankt!</string>
+    <string name="dialog_rate_us_submit">Verzenden</string>
+
+    <string name="recording_change_setting_toast">Het wijzigen van video-informatie tijdens het opnemen wordt niet ondersteund.</string>
+    <string name="setting_video_location">Videolocatie</string>
+    <string name="setting_countdown">Aftellen</string>
+    <string name="setting_countdow_0s">Niet aftellen</string>
+    <string name="setting_countdow_3s">3 sec.</string>
+    <string name="setting_countdow_5s">5 sec.</string>
+    <string name="setting_countdow_10s">10 sec.</string>
+    <string name="edit_format_error">Bewerken van video in deze indeling wordt niet ondersteund.</string>
+    <string name="play_large_error">Videobron is te groot om af te spelen</string>
+
+    <string name="watermark_title">Watermerk</string>
+    <string name="string_watermark_desc">Watermerk zichtbaar in opgenomen video</string>
+    <string name="cant_config_watermark_when_recording">De watermerkconfiguratie kan niet worden aangepast tijdens het opnemen.</string>
+    <string name="string_vip_privilege_success">Je bent als VIP-lid van V Recorder.</string>
+    <string name="string_vip_buy_success">Aankoop geslaagd!</string>
+    <string name="string_vip_keep_title">Wil je de gratis proefperiode afbreken?</string>
+    <string name="string_vip_keep_content">Je kunt de onderstaande premiumfuncties nu gratis proberen. Je kunt het altijd annuleren.</string>
+    <string name="string_vip_keep_time_title">Flitsactie!</string>
+    <string name="string_vip_privilege">VIP-privilege</string>
+    <string name="string_vip_privilege_1080">Opnemen in 1080P HD</string>
+    <string name="string_vip_privilege_no_water">Geen watermerk</string>
+    <string name="string_vip_privilege_no_ads">Geen reclame</string>
+    <string name="string_vip_privilege_trim">Video\'s trimmen</string>
+    <string name="string_vip_privilege_pro_materials">1.000+ materialen</string>
+    <string name="string_vip_privilege_more">Meer functies</string>
+    <string name="string_vip_privilege_one_month">Maandelijks:</string>
+    <string name="string_vip_privilege_free_new">Gratis voor nieuwe gebruikers</string>
+    <string name="string_vip_buy_year_des">3 dagen gratis op proef, daarna een abonnement op  %1$s/jaar.</string>
+    <string name="string_vip_buy_month_des">3 dagen gratis proefabonnement, abonneer je dan op %1$s/ maand</string>
+
+    <string name="string_vip_privilege_free">DOORGAAN</string>
+
+    <string name="float_permission_tips">Geef V Recorder toestemming over andere apps te tekenen zodat de app juist kan werken.</string>
+    <string name="orientation_auto">Autom.</string>
+    <string name="sd_permission_msg">Selecteer op het volgende scherm de rootbestemming voor je externe opslag \"%1$s\" en tik op Selecteren om de app schrijfrechten te geven. Vanaf Android 5.0 Lollipop bepaalt het beveiligingsbeleid van Android dat bestanden op een externe opslag niet kunnen worden hernoemd of verwijderd tenzij de applicatie schrijfrechten heeft.</string>
+    <string name="sd_permission">Toegangsrechten</string>
+    <string name="available">beschikbaar</string>
+    <string name="default_save_path_name">Standaard</string>
+    <string name="cant_change_path_when_recording">Je kunt de opslagbestemming voor de video niet wijzigen terwijl je aan het opnemen bent.</string>
+    <string name="caution">Waarschuwing</string>
+    <string name="uninstall_app_hint_for_video">De video\'s opgeslagen op de SD-kaart worden verwijderd wanneer je de installatie van V Recorder ongedaan maakt.</string>
+    <string name="sd_card_change_tip">Geen SD-kaart gedetecteerd. Opgeslagen op interne opslag.</string>
+    <string name="string_video_shake_stop_record">Schud de telefoon om te stoppen met opnemen</string>
+    <string name="floating_window_camera">Camera</string>
+    <string name="string_record_success_nowatermark">Opnemen zonder watermerk</string>
+    <string name="string_record_success_nowatermark_button">Gratis proberen</string>
+
+    <string name="string_no_screen_capture_image">Geen afbeelding beschikbaar</string>
+    <string name="string_screen_captured_succuss">Screenshot vastgelegd</string>
+    <string name="string_screen_captured_look">Controle</string>
+    <string name="string_click_to_loook_screen_captured">Tik hier om je screenshot te bekijken.</string>
+    <string name="string_the_image_deleted_text">De afbeelding is verwijderd of beschadigd.</string>
+    <string name="string_image_deleted_succuss">De afbeelding is verwijderd.</string>
+    <string name="brush">Penseel</string>
+    <string name="rate_us_content">Vijf sterren betekent het beste op Google Play</string>
+
+    <string name="string_setting_about_us">Over</string>
+    <string name="home_vip_banner_string"> Geen watermerk &amp; Geen reclame </string>
+    <string name="rate_quest_content">We proberen de app verder te verbeteren! Geef jij ons 5 sterren?</string>
+
+
+    <string name="permission_title"> Toestemming</string>
+    <string name="permission_camera_msg"> Voor deze functies is toestemming van Camera Access vereist. Schakel het in en probeer het opnieuw.</string>
+
+    <string name = "str_vip_unlock_compress">Comprimeer gratis </string>
+    <string name = "str_vip_unlock_trim"> Gratis Trim-video\'s ontgrendelen</string>
+    <string name = "str_vip_guide_desc_clip"> VIP-rechtenbekijken</string>
+    <string name ="str_vip_try_free">Probeer 3 dagen gratis </string>
+    <string name ="str_video_screen_off_continue_recording">Blijfopnemenwanneer het scherm is uitgeschakeld</string>
+    <string name = "str_vip_unlock_compress_desc">Als u Compress.Click wilt gebruiken om gratis VIP-privileges teproberen. </string>
+    <string name = "str_vip_unlock_trim_desc">Als u Trim Videos wilt gebruiken. Klik om gratis VIP-privileges teproberen. </string>
+    <string name = "feedback_submit_tip">Uw feedback die we hebbenontvangen, bedanktvooruwsteun</string>
+    <string name = "feedback_edit_hint"> We verwelkomenuw feedback </string>
+
+
+    <string name = "using"> in gebruik </string>
+    <string name = "apply">Van toepassing zijn</string>
+    <string name = "theme_apply_success">thema succes toepassen</string>
+    <string name = "free"> Gratis </string>
+
+    <string name = "clip_zone_clip">Bijsnijden</string>
+
+    <string name = "record_tools">Opnametools</string>
+
+    <string name = "float_screen_shoot" >Schermafbeelding</string>
+
+    <string name="unlock_pro_privilege_watch_video_ad">Bekijk de video om deze VIP-machtiging eenmaal te ontgrendelen</string>
+    <string name="unlock_pro_privilege_tips">VIP-machtiging is ontgrendeld</string>
+    <string name="unlock_pro_privilege_btn_str">GRATIS ONTGRENDELEN</string>
+
+
+中文
+<string name =“ unlock_pro_privilege_btn_str”>免费解锁</string>
+
+中文繁体
+<string name =“ unlock_pro_privilege_btn_str”>免費解鎖</string>
+
+Values-AR  阿拉伯语
+<string name = "unlock_pro_privilege_btn_str"> فتح القفل مجانًا </string>
+
+Values-de-rDE  德语
+<string name = "unlock_pro_privilege_btn_str"> KOSTENLOS ENTSPERREN </string>
+
+Values-es-RES 西班牙语
+<string name = "unlock_pro_privilege_btn_str"> DESBLOQUEAR GRATIS </string>
+
+Values-fil  菲律宾语
+<string name = "unlock_pro_privilege_btn_str"> UNLOCK PARA SA LIBRE </string>
+
+Values-fr-rFR  法语
+<string name = "unlock_pro_privilege_btn_str"> DÉVERROUILLER GRATUITEMENT </string>
+
+Values-hi-rln   印地语
+<string name = "unlock_pro_privilege_btn_str"> मुफ़्त के लिए अनलॉक करें </string>
+
+Values-id   马来语
+<string name = "unlock_pro_privilege_btn_str"> UNLOCK FOR FREE </string>
+
+Values-in   马来语
+<string name = "unlock_pro_privilege_btn_str"> UNLOCK FOR FREE </string>
+
+Values-ja 日语
+<string name = "trim_desc">お気に入りのクリップを保持</string>
+
+Values-ko  韩语
+<string name = "unlock_pro_privilege_btn_str"> 무료 잠금 해제 </string>
+
+Values-ms-rmy  印尼语
+<string name = "unlock_pro_privilege_btn_str"> BUKA KUNCI GRATIS </string>
+
+Values-nl-rnl  荷兰语
+<string name = "unlock_pro_privilege_btn_str"> GRATIS ONTGRENDELEN </string>
+
+Values-pt-rpt  葡萄牙
+<string name = "unlock_pro_privilege_btn_str"> DESBLOQUEIE DE GRAÇA </string>
+
+Values-ru-rRu  俄语
+<string name = "unlock_pro_privilege_btn_str"> БЛОКИРОВАТЬ БЕСПЛАТНО </string>
+
+Values-th  泰语
+<string name = "unlock_pro_privilege_btn_str"> ปลดล็อคฟรี </string>
+
+Values-tl   菲律宾语
+<string name = "unlock_pro_privilege_btn_str"> UNLOCK PARA SA LIBRE </string>
+
+Values-tr  土耳其语
+<string name = "unlock_pro_privilege_btn_str"> BEDAVA KİLİT AÇMA </string>
+
+Values-vi  越南语
+<string name = "unlock_pro_privilege_btn_str">UNLOCK MIỄN PHÍ </string>
+
+Values-it  意大利语
+<string name = "unlock_pro_privilege_btn_str"> SBLOCCA GRATUITAMENTE </string>
+null
+
+
+
+中文
+<string name =“ unlock_pro_privilege_btn_str”>免费解锁</string>
+
+中文繁体
+<string name =“ unlock_pro_privilege_btn_str”>免費解鎖</string>
+
+Values-AR  阿拉伯语
+<string name = "unlock_pro_privilege_btn_str"> فتح القفل مجانًا </string>
+
+Values-de-rDE  德语
+<string name = "unlock_pro_privilege_btn_str"> KOSTENLOS ENTSPERREN </string>
+
+Values-es-RES 西班牙语
+<string name = "unlock_pro_privilege_btn_str"> DESBLOQUEAR GRATIS </string>
+
+Values-fil  菲律宾语
+<string name = "unlock_pro_privilege_btn_str"> UNLOCK PARA SA LIBRE </string>
+
+Values-fr-rFR  法语
+<string name = "unlock_pro_privilege_btn_str"> DÉVERROUILLER GRATUITEMENT </string>
+
+Values-hi-rln   印地语
+<string name = "unlock_pro_privilege_btn_str"> मुफ़्त के लिए अनलॉक करें </string>
+
+Values-id   马来语
+<string name = "unlock_pro_privilege_btn_str"> UNLOCK FOR FREE </string>
+
+Values-in   马来语
+<string name = "unlock_pro_privilege_btn_str"> UNLOCK FOR FREE </string>
+
+Values-ja 日语
+<string name = "trim_desc">お気に入りのクリップを保持</string>
+
+Values-ko  韩语
+<string name = "unlock_pro_privilege_btn_str"> 무료 잠금 해제 </string>
+
+Values-ms-rmy  印尼语
+<string name = "unlock_pro_privilege_btn_str"> BUKA KUNCI GRATIS </string>
+
+Values-nl-rnl  荷兰语
+<string name = "unlock_pro_privilege_btn_str"> GRATIS ONTGRENDELEN </string>
+
+Values-pt-rpt  葡萄牙
+<string name = "unlock_pro_privilege_btn_str"> DESBLOQUEIE DE GRAÇA </string>
+
+Values-ru-rRu  俄语
+<string name = "unlock_pro_privilege_btn_str"> БЛОКИРОВАТЬ БЕСПЛАТНО </string>
+
+Values-th  泰语
+<string name = "unlock_pro_privilege_btn_str"> ปลดล็อคฟรี </string>
+
+Values-tl   菲律宾语
+<string name = "unlock_pro_privilege_btn_str"> UNLOCK PARA SA LIBRE </string>
+
+Values-tr  土耳其语
+<string name = "unlock_pro_privilege_btn_str"> BEDAVA KİLİT AÇMA </string>
+
+Values-vi  越南语
+<string name = "unlock_pro_privilege_btn_str">UNLOCK MIỄN PHÍ </string>
+
+Values-it  意大利语
+<string name = "unlock_pro_privilege_btn_str"> SBLOCCA GRATUITAMENTE </string>
+
+</resources>
+
+

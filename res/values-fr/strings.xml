@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+
+
+    <string-array name="video_dialog_message">
+        <item>Aperçu</item>
+        <item>Editer la video</item>
+        <item>Partager</item>
+        <item>Supprimer</item>
+        <item>Renommer</item>
+        <item>Détails</item>
+    </string-array>
+    <string-array name="audio_dialog_message">
+        <item>Aperçu</item>
+        <item>Partager</item>
+        <item>Supprimer</item>
+        <item>Renommer</item>
+        <item>Détails</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>Afficher</item>
+        <item>Partager</item>
+        <item>Supprimer</item>
+        <item>Renommer</item>
+        <item>Détails</item>
+    </string-array>
+
+
+    <string-array name="set_path_list">
+        <item>Enregistrer dans la mémoire du téléphone</item>
+        <item>Enregistrer dans la mémoire externe</item>
+    </string-array>
+
+
+    <string-array name="trim_option_dialog_message">
+        <item>Rogner</item>
+        <item>Supprimer la Partie sélectionnée</item>
+    </string-array>
+
+    <string-array name="draftbox_dialog_message">
+        <item>Modifier</item>
+        <item>Supprimer</item>
+    </string-array>
+
+
+    <string-array name="studio_tab_title">
+        <item>MES DAMES</item>
+        <item>Mes TRAVAUX</item>
+    </string-array>
+
+
+    <string-array name="home_tab_title_new">
+        <item>Accueil</item>
+        <item>Inspiration</item>
+        <item>Suggestion</item>
+        <!-- <item>Récent</item> -->
+    </string-array>
+
+
+    <!--导出界面文字内容-->
+    <string-array name="text_full_context">
+        <item>Veuillez patienter ici pour pouvoir regarder la vidéo élaborée que vous avez réussi à réaliser. Dans le cas contraire, l\'exportation échouera si vous n\'êtes pas sur la page actuelle.</item>
+        <item>Les publicités aident à maintenir VideoShow gratuite. Merci pour votre compréhension. Vous pouvez passer à la version Pro pour supprimer les pubs.</item>
+        <item>Si votre téléphone a une faible configuration, des sources vidéo trop importantes ou un trop grand nombre de matériels utilisés sont susceptibles de nuire à l\’exportation. Veuillez essayer à nouveau après avoir supprimé certains matériels.</item>
+        <item>Utilisez « Ultra Cut » pour couper votre vidéo en plusieurs parties et la sauvegarder rapidement. C\'est une fonctionnalité très pratique pour réduire vos grosses vidéos.</item>
+        <item>Petit rappel : le MODE RAPIDE représente une vitesse d’exportation rapide, mais une résolution vidéo plus faible. Au contraire, le MODE HD prend plus de temps pour exporter avec la meilleure qualité.</item>
+        <item>Ralentissez ou accélérez votre vidéo en cliquant sur « Vitesse » dans « Modifier la vidéo ».</item>
+        <item>Une fois que la vidéo est correctement exportée, vous pouvez la renommer dans Mon Studio ou la partager avec vos amis.</item>
+        <item>Cliquez sur « Multi Musique » dans « Modification Pro » pour ajouter plusieurs musiques à une vidéo.</item>
+        <item>L\'exportation dure-t-elle longtemps ? Vous pourrez profiter d\'une superbe vidéo en prenant juste le temps de boire une tasse de café.</item>
+        <item>Dans le mode musique multiple, vous pouvez paramétrer différents volumes sonores pour différentes musiques.</item>
+        <item>Utilisez tout le potentiel des « Sticker ». Créez vos stickers à partir de vos propres Images, Gifs. Vous pouvez même les superposer !</item>
+        <item>Exclusif : prise de vue vidéo avec musique. Enregistrer une vidéo avec de la musique. C\'est très utile pour prendre une vidéo synchro avec de la musique.</item>
+        <item>Vous pouvez modifier la couleur de l\'arrière-plan en cliquant sur l\'icône des paramètres en haut à droite dans le Studio de modification.</item>
+        <item>Zoomez sur la vidéo ou la photo, ciblez ce que vous souhaitez sur la vidéo. Cliquez sur « Modification Pro » > « Modifier la vidéo » > « Zoom ».</item>
+        <item>Utilisez « Compression de vidéo » pour réduire la vidéo et la partager plus rapidement avec une connexion internet lente. Cliquez sur « Compression de vidéo » sur la page d\'accueil.</item>
+        <item>Vous souhaitez plus de fonctionnalités ? N\'hésitez pas à nous envoyer un e-mail à support@enjoy-global.com et dites-les nous.</item>
+    </string-array>
+
+
+    <string name="power_unlock_pro_material">Vous pouvez débloquer un matériau pro une fois. Qu\'est-ce que vous attendez ?</string>
+
+
+    <string-array name="gif_quality">
+        <item>Basse qualité</item>
+        <item>Qualité moyenne</item>
+        <item>Haute qualité</item>
+    </string-array>
+
+
+    <string name="string_record_success_nowatermark">Enregistrement sans filigrane</string>
+    <string name="string_record_success_nowatermark_button">Essayez gratuitement</string>
+
+    <string name="string_no_screen_capture_image">Aucune image disponible</string>
+    <string name="string_screen_captured_succuss">Capture d\'écran effactuée</string>
+    <string name="string_screen_captured_look">Vérifier</string>
+    <string name="string_click_to_loook_screen_captured">Touchez ici pour visualiser votre capture d\'écran.</string>
+    <string name="string_the_image_deleted_text">L\'image a été supprimée ou est corrompue.</string>
+    <string name="string_image_deleted_succuss">L\'image a bien été supprimée.</string>
+    <string name="brush">Brosse</string>
+    <string name="rate_us_content">Cinq étoiles est la note maximum sur Google Play</string>
+
+    <string name="string_setting_about_us">À propos de</string>
+
+
+    <string name="rename">Renommer</string>
+    <string name="unvailable_video">Chemin de vidéo non valide!</string>
+    <string name="effectnone">Aucun</string>
+    <string name="delete">Supprimer</string>
+    <string name="ok">OK</string>
+    <string name="rename_success">Renommage réussi!</string>
+    <string name="setting">Paramètres</string>
+    <string name="share">Partager</string>
+    <string name="cpunotcompatible">Désolé, la construction CPU n’est pas compatible avec l’app Nous résoudrons ce problème dès que possible.</string>
+    <string name="input_cannot_empty">L’entrée ne peut pas être vide</string>
+    <string name="no_write">La lecture de ce fichier n’est pas autorisée</string>
+    <string name="rename_fail">Renommage échoué!</string>
+    <string name="app_name">VRecorder</string>
+    <string name="sure_delete_file">Êtes-vous sûr de supprimer?</string>
+    <string name="file_name">Nom:</string>
+    <string name="sure">OK</string>
+    <string name="file_path">Chemin:</string>
+    <string name="detail">Information de média</string>
+    <string name="sure_delete">Supprimer</string>
+    <string name="editor">Editeur</string>
+    <string name="Browser">Navigateur de fichier</string>
+    <string name="cancel">Annuler</string>
+    <string name="about">A propos</string>
+    <string name="sure_update">Nouvelle version disponible, mettez à jour maintenant?</string>
+    <string name="editor_fx">Effets</string>
+    <string name="set_l_info3">A propos</string>
+    <string name="editor_trim">Rogner</string>
+    <string name="editor_text_info2">Veuillez entrer les sous-titres</string>
+    <string name="sure_update_info1">Nouvelle version:</string>
+    <string name="editor_text_dialog_title">Conseils</string>
+    <string name="nomusic_info">Aucune musique n’a trouvée</string>
+    <string name="unvailable_sd">Carte SD actuellement Indisponible!</string>
+    <string name="error_sd">Carte SD inaccessible!</string>
+    <string name="openvideo_error">Insuccès d’activer la vidéo</string>
+    <string name="switch2background">Passez en tâche de fond.\nVeuillez ne pas exécuter certains
+        programmes en mémoire intensive (navigateur Web, lecteur vidéo) en cas d\'échec du transcodage.</string>
+    <string name="too_big_video">Résolution de Vidéo trop élevée pour le Montage Vidéo</string>
+    <string name="merge_info">La vidéo ne peut pas être fusionnée à cause des paramètres inconstants.</string>
+    <string name="editor_fx_info">Le filtre est configuré avec succès.</string>
+    <string name="merge_toomany">La Fusion de vidéo accepte 5 vidéos au maximum.</string>
+    <string name="export_info">Aucun changement</string>
+    <string name="invalid_param">Paramètre d’édition non valide!</string>
+    <string name="export_output_bg">Exécution d’Arrière-plan</string>
+    <string name="export_output_title">Exportation…</string>
+    <string name="export_output_success">Exportation réussie</string>
+    <string name="export_output_faild">Exportation échouée</string>
+    <string name="export_outofmemory">Pas assez de mémoire RAM pour cette app Veuillez vider la mémoire et réessayer</string>
+    <string name="export_output_init">initialisation…</string>
+    <string name="about_info1">VRecorder</string>
+    <string name="about_info3">VRrecoder fournit une bonne expérience de montage vidéo aux
+        utilisateurs. Avec un minimum d\'opérations, vous pouvez ajouter les effets les plus remarquables à vos vidéos.\n\nSi vous avez des questions ou suggestions, veuillez nous contacter à support@enjoy-global.com</string>
+    <string name="export_output_stop">Arrêter l’Exportation</string>
+    <string name="guide">Guide de Débutant</string>
+    <string name="set_quality_info1">Paramètre de qualité de la vidéo</string>
+    <string name="set_l_info2">Mettre à jour</string>
+    <string name="share_info3">YouTube</string>
+    <string name="share_info5">Plus</string>
+    <string name="main_mp3">Vidéo vers MP3</string>
+    <string name="feedback">Commentaire</string>
+    <string name="share_info6">L’application n’a pas été installée dans votre téléphone, voulez-vous la télécharger?</string>
+    <string name="addimg_delete_info">Sélectionnez au moins un clip</string>
+    <string name="export_output_set">Paramètre de chemin d’exportation de vidéo</string>
+    <string name="choose_a_clip">Sélectionnez un clip</string>
+    <string name="pressagain_stopexport">Appuyez à nouveau pour sortir. Le projet modifié ne sera pas sauvegardé.</string>
+    <string name="exceed_cliplimit">Impossible d’ajouter plus de clips</string>
+    <string name="chooseclip">Sélectionnez les clips</string>
+    <string name="addimg_ok_info">Sélectionnez au moins un clip</string>
+    <string name="please_add_gif_by_gif">Veuillez ajouter un gif par fonction Gif sous l’onglet Edition.</string>
+    <string name="custom_dialog_info1">Faire un diaporama</string>
+    <string name="unregnizeformat">Type de fichier non reconnu</string>
+    <string name="share_info_error">Echec du partage de vidéo sur votre appareil. Nous le résoudrons dès que possible.</string>
+    <string name="share_info_Instagram">Instagram</string>
+    <string name="custom_dialog_info2">Faire une vidéo</string>
+    <string name="setting_pay">Acheter la Version Pro</string>
+    <string name="loading">Chargement…</string>
+    <string name="settingg_share_friend">Parler à un ami</string>
+    <string name="settingg_share_friend_text">Découvrez cette application de montage vidéo, VRrecorder, elle est vraiment sympa! https://play.google.com/store/apps/details?id=com.xvideostudio.videoeditor</string>
+    <string name="pro_bt_info1">Rappeler moi plus tard</string>
+    <string name="pro_bt_info2">Non, Merci</string>
+    <string name="settingg_share_friend_title">VRrecorder – Montage Vidéo</string>
+    <string name="editor_trim_duration">Durée</string>
+    <string name="cpunotcompatible2">Désolé, la bibliothèque d\'exécution est introuvable. La raison peut être la composition incompatible ou la taille de ram est insuffisante. Désinstallez certaines applications puis essayez à nouveau d’installer VRrecorder</string>
+    <string name="input_invalid">Entrée non valide</string>
+    <string name="invalid_volume_setting1">Vous ne pouvez pas mettre la musique en sourdine!</string>
+    <string name="voice_info1">Veuillez arrêtez la lecture</string>
+    <string name="unsupport_audio_format">Format audio non supporté!</string>
+    <string name="share_info_weibo">Weibo</string>
+    <string name="noenough_space_ex_cur">Mémoire disponible:</string>
+    <string name="noenough_space_ex_need">Mémoire requise:</string>
+    <string name="quick_export_sigle_video">Démarrez l’exportation avec le mode rapide… Les conditions suivantes supportent le mode rapide\n1. Ajoutez la musique à une vidéo\n2. Enregistrez la voix à une vidéo</string>
+    <string name="mp4_noaudio_notsupport">Désolé, la vidéo sans piste audio n\'est pas supportée actuellement</string>
+    <string name="changelog_title">Journal des modifications de VRrecorder</string>
+    <string name="noenough_space_ex">La carte mémoire externe n’a pas assez d’espace. Veuillez supprimer les fichiers non utilisés</string>
+    <string name="editor_text_dialog_options">Options</string>
+    <string name="add_share_tag_tip">Taguez votre app vidéo #VRrecorder, vous serez remarqué par plus de personnes</string>
+    <string name="share_clipboard_copy_tip">Copié dans le presse-papier</string>
+    <string name="confirm_exit_editor">Êtes-vous sûr de vouloir quitter l’édition?</string>
+    <string name="draftbox_is_null">La boîte de brouillons est vide</string>
+    <string name="stop_exporting_video_tip">Appuyez à nouveau pour sortir. Vous pouvez aussi continuer à éditer dans la boîte de Brouillons.</string>
+    <string name="editor_fx_type_none">Aucun</string>
+    <string name="editor_fx_type_sepia">Sépia</string>
+    <string name="editor_fx_type_sahara">Sahara</string>
+    <string name="editor_fx_type_polaroid">Polaroid</string>
+    <string name="editor_fx_type_sketch">Sketch</string>
+    <string name="editor_fx_type_recho">Retro</string>
+    <string name="editor_fx_type_georgia">Georgia</string>
+    <string name="home_my_studio">Mon Studio</string>
+    <string name="home_photo_movie">Diaporama</string>
+    <string name="setting_language">Paramètres de langue</string>
+    <string name="ad_mode_tip">Parce que VRrecorder est presque gratuit pour les utilisateurs, le revenu de publicité est important pour nous en poursuivant le projet. Nous apprécions grandement votre compréhension. Avec votre aide, nous perfectionnerons encore plus l’app!</string>
+    <string name="setting_language_auto">Automatique</string>
+    <string name="setting_language_english">Anglais</string>
+    <string name="facebook_copyright_tip">Facebook a une protection de droits d’auteur très stricte. En ajoutant la musique sans droits d\'auteur, Facebook supprimera probablement vos vidéos. Veuillez noter.</string>
+    <string name="export_output_muxer_tip">Réédition…</string>
+    <string name="share_more_dialog_title">Partager la Vidéo</string>
+    <string name="export_not_enough_space_change_config_tip_udisk_sd">La carte mémoire externe n’a pas assez d’espace. Elle a déjà été transmise dans la mémoire du téléphone et continue d’exporter</string>
+    <string name="export_not_enough_space_change_config_tip_sd_udisk">La mémoire du téléphone n’a pas assez d’espace. Elle a déjà été transmise dans la carte mémoire externe et continue d’exporter</string>
+    <string name="sd_permission_invalid">Désolé, VRecorder n’est pas autorisé à sauvegarder la vidéo vers la carte mémoire. Veuillez vous assurer que votre carte mémoire est inscriptible</string>
+    <string name="editor_exit_title">Confirmation</string>
+    <string name="setting_help_info">FAQ</string>
+    <string name="app_exit_toast_tips">Appuyez à nouveau pour sortir</string>
+    <string name="paintpad_no_operation">Vous n’avez fait aucun brouillon</string>
+    <string name="editor_select_clips">Galerie</string>
+    <string name="emoji_no_recent">Vous n’avez utilisé aucune étiquette</string>
+    <string name="paintdraft_saving">Sauvegarde de l’image…</string>
+    <string name="editor_save_export">Sauvegarde</string>
+    <string name="export_output_showtips">(Veuillez laissez l’exécution en premier plan. L’ « Exécution en arrière-plan » sera bientôt supportée)</string>
+    <string name="export_mode_manual">Mode Manuel</string>
+    <string name="export_mode_fast">Mode Rapide</string>
+    <string name="changelog_setting">Journal de modifications</string>
+    <string name="export_mode_hd">Mode HD</string>
+    <string name="use_auto_fx_values">Appliquez des filtres de manière aléatoire à tous les clips</string>
+    <string name="clear_all_values">Supprimez les filtres de tous les clips</string>
+    <string name="use_current_values">Appliquez ce filtre à tous les clips</string>
+    <string name="editor_title_trans">Transition</string>
+    <string name="use_auto_tr_values">Appliquez des transitions de manière aléatoire à tous les clips</string>
+    <string name="editor_sticker">Etiquette</string>
+    <string name="music_preload">Préchargement</string>
+    <string name="guide_start">Démarrer</string>
+    <string name="music_my_local">Ma musique</string>
+    <string name="use_localapp_select_musicfile">Utilisez d\'autres applications pour sélectionner la musique</string>
+    <string name="voice_info11">Musique</string>
+    <string name="voice_info10">Vidéo</string>
+    <string name="volume_setting">Paramètre de musique</string>
+    <string name="material_free_price">Gratuit</string>
+    <string name="setting_attention_us">Suivez-nous</string>
+    <string name="open_loop">Lecture en boucle</string>
+    <string name="download_sd_full_fail">La carte mémoire est pleine. Veuillez supprimer des fichiers</string>
+    <string name="network_bad">Vérifiez votre connexion et essayez à nouveau</string>
+    <string name="material_downlaod_state">Télécharger</string>
+    <string name="material_downlaoding_state">Téléchargement</string>
+    <string name="material_updtae_state">Mettre à jour</string>
+    <string name="download_fail_try_again">Le téléchargement a échoué, veuillez essayer à nouveau</string>
+    <string name="setting_push_message">Notifications</string>
+    <string name="download_so_tips">Vous devez télécharger la bibliothèque avant d’exécuter l’app. Démarrez-vous le téléchargement?</string>
+    <string name="material_pause_state">Pause</string>
+    <string name="firstclip_noSupport">Le premier clip ne peut pas ajouter de transition</string>
+    <string name="setting_edit_mode">Choisissez le mode d’édition</string>
+    <string name="editor_theme_type_fade">Fondu</string>
+    <string name="setting_edit_mode_crop">Recadrez pour remplir</string>
+    <string name="record_completed">Enregistrement OK</string>
+    <string name="timeline_not_space">Vous devez laisser un espace vide de 0.5 seconde pour ajouter un nouvel élément</string>
+    <string name="setting_edit_mode_fit">Convient au cadre</string>
+    <string name="setting_edit_mode_manually">Paramètre manuel</string>
+    <string name="record_too_short">Vous ne pouvez pas enregistrer moins de 1 seconde</string>
+    <string name="video_mute_tip">La vidéo a été mise en sourdine</string>
+    <string name="editor_fx_type_japanstyle">Chaleur</string>
+    <string name="editor_fx_type_hdr">HDR</string>
+    <string name="editor_fx_type_standardemboss">Relief</string>
+    <string name="editor_fx_type_pink">Rose</string>
+    <string name="editor_fx_type_oldphoto">Kiosque Antique</string>
+    <string name="set_video_background">Couleur de fond de la vidéo</string>
+    <string name="setting_video_background_black">Noir</string>
+    <string name="setting_video_background_gause">Flou</string>
+    <string name="setting_app">Paramètres d’Application</string>
+    <string name="editor_clip_zoom">Zoom</string>
+    <string name="setting_video_background_white">Blanc</string>
+    <string name="music_history">Historique</string>
+    <string name="editor_clip_copy">Copie</string>
+    <string name="toolbox_music">Musique</string>
+    <string name="no_music_history">Pas encore de musique</string>
+    <string name="toolbox_theme">Thème</string>
+    <string name="toolbox_fx">Filtre</string>
+    <string name="toolbox_clip_edit">Edition de Clip</string>
+    <string name="toolbox_text">Sous-titre</string>
+    <string name="setting_all_clip_duration">Durée de toutes les photos</string>
+    <string name="editor_addclip">Ajouter des Clips</string>
+    <string name="setting_one_clip_duration">Durée d’une photo</string>
+    <string name="video_setting">Paramètres</string>
+    <string name="sort_method">Méthode de tri</string>
+    <string name="video_setting_ratio">Rapport Hauteur/Longueur</string>
+    <string name="video_setting_square_mode">Carré</string>
+    <string name="double_finger_to_zoom">Taper avec deux doigts pour zoomer avant et arrière.</string>
+    <string name="inside_music_copyright_info2">Les droits d\'auteur sur la musique sont achetés, mais ils ne peuvent être utilisés que pour des projets personnels et non en faveur d’intérêts commerciaux.</string>
+    <string name="disallow_record_tips">Veuillez aller dans le « Paramètre d’Autorisation » et autoriser VRecorder à enregistrer une voix</string>
+    <string name="clip_null_tips">Sélectionnez un ou plusieurs clips</string>
+    <string name="audio_exception">Il pourrait y avoir des problèmes avec votre dispositif audio</string>
+    <string name="app_pro_version">VRrecorderPro</string>
+    <string name="clip_duration">Durée de Photo:</string>
+    <string name="setting_purchase">Achat</string>
+    <string name="music_preload_loacal">Ma musique</string>
+    <string name="should_retain_one_clip">Veuillez sauvegarder un clip!</string>
+    <string name="add_video_format">Type de media non supporté</string>
+    <string name="set_export_mode">Paramètre de Mode d’Exportation de Vidéo</string>
+    <string name="export_mode_background">Mode Arrière-plan</string>
+    <string name="export_mode_foreground">Mode Avant-plan</string>
+    <string name="dialog_duration_more_setting_tip">La durée de la vidéo ne peut être plus de 3600 secondes ou moins de 0.2 seconde !</string>
+    <string name="setting_updateto_normal_version">Mettre à jour VRecorder à la version officielle</string>
+    <string name="share_to">Partager vers</string>
+    <string name="setting_updateto_normal_version_title">Version officielle de VRecorder</string>
+    <string name="setting_updateto_normal_version_content">Ceci est la version d’essai de VRecorder. Vous pouvez découvrir les dernières fonctionnalités beaucoup plus tôt. Si vous souhaitez une version plus stable, VRecorder MR (Version de Maintenance) peut constituer un meilleur choix.</string>
+    <string name="setting_updateto_normal_version_ok">Mettre à jour</string>
+    <string name="import_gif_width_limit">Le Gif que vous importez est trop gros ou est d’un format non supporté.</string>
+    <string name="start_make_video_editorchoose">Démarrer</string>
+    <string name="add_font_tip_title">Comment ajouter plus de polices</string>
+    <string name="pro_function_dialog_content">Maintenant votre VRecorder est en version gratuite. Et nous avons publié ProVRecorder. Si vous aimez notre app, vous pouvez acheter la version Pro pour soutenir notre équipe. Et la version Pro comporte différentes fonctions:\n\n1. Pas de pub\n2. Vous pouvez télécharger des documents exclusifs aux utilisateurs de Pro.\n3. Supporte les vidéos 4K</string>
+    <string name="buy_pro_tip_content_new">1. Pas de pub\n2. Supporte l’exportation des vidéos 1080p\n3. Documents exclusifs\n4. Supporte l’import des vidéos 4K\n5. Pas de filigrane VRrecorder\n6. Ajoutez jusqu’à 20 effets\n7. Aucune limite de durée inverse</string>
+    <string name="choose_4k_buypro_title">La vidéo est trop longue</string>
+    <string name="loading_shuffle_ad_toast">En charge, veuillez patienter!</string>
+    <string name="editor_compress_mode">Sélectionnez le mode compression</string>
+    <string name="choose_other_sticker_localapp">Sélectionnez votre propre étiquette ou Gif</string>
+    <string name="add">Ajouter</string>
+    <string name="editor_triming">Réduction…</string>
+    <string name="editor_clip_ff_title_tip">Veuillez sélectionner la vitesse du clip</string>
+    <string name="editor_clip_ff">Vitesse</string>
+    <string name="choose_other_font_localapp">Sélectionnez le dossier pour ajouter des polices</string>
+    <string name="add_font_tip_content">Copiez le fichier de police (formats .ttf ou .otf), puis coller dans le dossier\n\nSD card/1VRecorder/fonts/</string>
+    <string name="video_size_too_small">Votre vidéo n’a pas besoin d’être compressée car la taille est trop petite!</string>
+    <string name="editor_clip_ff_stop_encode_tip">Arrêtez le transcodage</string>
+    <string name="editor_clip_ff_less_1second_tip">Le clip exporté ne peut pas être moins de %s seconde !</string>
+    <string name="editor_clip_ff_encoding_tip">Transcodage…</string>
+    <string name="duration_batch_video_char">Durée</string>
+    <string name="add_clip_memory_warn_tip">Sélectionnez trop de photos peut prendre beaucoup d\'espace de stockage et votre téléphone sera bloqué.</string>
+    <string name="editor_clip_ff_cannot_support_picture_tip">La photo ne peut aller plus vite, ni moins vite!</string>
+    <string name="duration_batch_clip_char">Chaque photo</string>
+    <string name="duration_batch_custom">Défini par l’utilisateur</string>
+    <string name="editor_clip_ff_video_too_long_tip">Ce clip est trop long, veuillez le rogner avant d’augmenter ou réduire la vitesse !</string>
+    <string name="duration_input_starttimeout_errinfo">L\'heure de début ne devrait pas excéder le temps d\'édition!</string>
+    <string name="duration_input_startgtend_errinfo">L\'heure de fin doit dépasser l\'heure de début!</string>
+    <string name="duration_input_endtimeout_errinfo">L\'heure de fin ne devrait pas excéder le temps d\'édition!</string>
+    <string name="duration_input_end_char">Heure de fin</string>
+    <string name="setting_edit_skill">Editez les conseils</string>
+    <string name="editor_paint_new_clip">Ajoutez un clip vide</string>
+    <string name="video_setting_widescreen_mode">Écran large</string>
+    <string name="duration_input_begin_char">Heure de début</string>
+    <string name="video_setting_vertical_mode">Vertical</string>
+    <string name="editor_fx_type_lordkevin">Coucher de soleil</string>
+    <string name="app_info_view_compress">Compressez cette vidéo</string>
+    <string name="save_draftbox_fail_tip">Sauvegarde du brouillon échouée, il n’y a pas assez d’espace!</string>
+    <string name="editor_fx_type_nashville">Espoir</string>
+    <string name="editor_fx_type_xproii">Calme</string>
+    <string name="editor_fx_type_walden">Rêve</string>
+    <string name="editor_fx_type_1977">Printemps</string>
+    <string name="editor_fx_type_valencia">Elégant</string>
+    <string name="editor_fx_type_lomo">Lomo</string>
+    <string name="editor_fx_type_hudson">Hiver</string>
+    <string name="editor_fx_type_amaro">Yuppie</string>
+    <string name="editor_fx_type_rise">Nature</string>
+    <string name="editor_fx_type_sierra">Crème</string>
+    <string name="editor_fx_type_brannan">Mémoire</string>
+    <string name="editor_fx_type_toaster">Eclat</string>
+    <string name="editor_fx_type_hefe">Aube</string>
+    <string name="editor_fx_type_sutro">Tombée de la nuit</string>
+    <string name="config_text_toolbox_setting">Paramètres de Polices</string>
+    <string name="share_save_to_my_studio">Sauvegardez vers la Galerie</string>
+    <string name="buy_pro_tip_content_new_2">\n4. Supporter l’exportation des vidéos 1080p.</string>
+    <string name="editor_fx_type_earlybird">Une fois</string>
+    <string name="editor_add_clip_select">Sélectionnez le clip</string>
+    <string name="clip_cannot_switch">Veuillez confirmer ou annuler la réduction du clip actuel!</string>
+    <string name="camera_util_no_camera_tip">L’enregistrement de la vidéo n’est pas permissible</string>
+    <string name="camera_resolution">Résolution</string>
+    <string name="camera_util_only_one_camera_tip">Une seule camera, vous ne pouvez pas changer</string>
+    <string name="camera_recording_failed">Echec de l’enregistrement de la vidéo</string>
+    <string name="camera_switch_waitting">Attendez un moment pour changer de camera</string>
+    <string name="camera_no_take_pictrue_tip">Vous n’avez enregistré aucun clip</string>
+    <string name="camera_take_picture_waitting_tip">Enregistrement en cours</string>
+    <string name="camera_no_camera_permission_tip">Veuillez aller dans les paramètres de système pour autoriser l’accès à la camera.</string>
+    <string name="download_more_audio">Téléchargez plus de fréquences audio</string>
+    <string name="downloaded">Téléchargé</string>
+    <string name="material_category_theme">Thèmes</string>
+    <string name="material_category_sticker">Etiquettes</string>
+    <string name="setting_evaluate">Evaluez-nous</string>
+    <string name="email_report_tail">Donnez-nous des suggestions ou signalez des bugs</string>
+    <string name="action_feedback_title">Sélectionnez l’adresse e-mail</string>
+    <string name="material_category_audio">Effets sonores</string>
+    <string name="fullscreen_export_backstage">Exécutez en arrière-plan (Beta)</string>
+    <string name="material_new_shop_title">Centre de Matériel</string>
+    <string name="setting_recommend_to_friend">Invitez vos amis</string>
+    <string name="background_export_tips">La vidéo sera exportée en arrière-plan. Si la mémoire n’est pas suffisante, Androïd fermera la tâche en arrière-plan. Vous devriez mieux de désactiver les autres applications qui occupent beaucoup de mémoire (navigateurs, lecteurs, etc.), ce qui empêchera la fermeture de la vidéo lors de son exportation en arrière-plan.</string>
+    <string name="home_adv_edit">Montage Vidéo</string>
+    <string name="setting_send_app_tips">Partager VRecorder:</string>
+    <string name="home_edit_menu">Montage</string>
+    <string name="guide_add_sticker">Comment ajouter des étiquettes</string>
+    <string name="guide_nice_video">Comment faire une belle vidéo</string>
+    <string name="guide_add_subtitle">Comment ajouter des sous-titres</string>
+    <string name="guide_draw_video">Comment dessiner sur une vidéo</string>
+    <string name="guide_add_music">Comment ajouter de la musique</string>
+    <string name="guide_zoom_rotate">Comment zoomer et pivoter</string>
+    <string name="be_pro_title">Instructions</string>
+    <string name="guide_add_sound">Comment doubler et ajouter des effets sonores</string>
+    <string name="guide_video_motion">Comment changer le mouvement de votre vidéo</string>
+    <string name="material_new_sticker_down">Etiquette</string>
+    <string name="download_more_music">Télécharger plus de musiques</string>
+    <string name="music_download">Télécharger</string>
+    <string name="music_local">Mes Chansons</string>
+    <string name="toolbox_multi_music">Multi Musiques</string>
+    <string name="app_update_to_use_the_theme">Le thème a de nouvelles fonctions graphiques. Vous devez mettre à jour l’app pour utiliser la dernière version.</string>
+    <string name="home_app_store">Apps Mises en Avant</string>
+    <string name="export_video_mode_chooser_1080p_ads_tips">HD 1080p en regardant les vidéos</string>
+    <string name="export_video_1080p_mode_tips">HD 1080p en exportant maintenant</string>
+    <string name="export_video_mode_chooser_1080p_pro_tips">HD 1080p (Version Pro)</string>
+    <string name="export_video_mode_chooser_title_tips">Exportation de Vidéo</string>
+    <string name="lite_unlocker_pro_suc_info">Vous avez réussi la mise à jour vers la version Principale!</string>
+    <string name="share_facebook_unlock_fail">Echec du déblocage</string>
+    <string name="share_facebook_unlocked">Débloqué</string>
+    <string name="share_facebook_dialog_tips">Conseil: Le thème sera débloqué après le partage!</string>
+    <string name="share_facebook_dialog_content">Partagez VRecorder sur Facebook pour débloquer ce thème gratuitement</string>
+    <string name="share_facebook_dialog_btn_text">Partagez Maintenant</string>
+    <string name="text_Selected">Sélectionné</string>
+    <string name="text_clips">clips</string>
+    <string name="export_dialog_msg">Si vous souhaitez exporter en arrière-plan, vous devez entrer aux paramètres du téléphone pour activer la fenêtre flottante, ou vous pouvez uniquement exporter en  premier plan.</string>
+    <string name="export_dialog_cancel">EXPORTATION DEVANT</string>
+    <string name="export_dialog_ok">COMMUTATION DE DROPZONE</string>
+    <string name="lite_unlocker_pro_dialog_title">Offre Spéciale</string>
+    <string name="beta_unlocker_pro_dialog_info">VRecorderBeta cessera de se mettre à jour dans un mois. Pour vous remercier de votre soutien, voici une offre spéciale permettant de déverrouiller les fonctionnalités de VRecorderPro (exportation HD 1080p, importation vidéo 4K, téléchargement illimité de documents) gratuitement! L’offre spéciale est disponible pendant un mois. Alors dépêchez-vous de la procurer!</string>
+    <string name="lite_unlocker_pro_dialog_info_new">VRecorderLite cessera de se mettre à jour dans un mois. Pour vous remercier de votre soutien, voici une offre spéciale permettant de déverrouiller les fonctionnalités de VRecorderPro (exportation HD 1080p, importation vidéo 4K, téléchargement illimité de documents) gratuitement! L’offre spéciale est disponible pendant un mois. Alors dépêchez-vous de la procurer!</string>
+    <string name="lite_unlocker_pro_dialog_ok">Débloquez les fonctions Pro gratuitement</string>
+    <string name="buy_pro_tip_content_new_water">\n5. Supprimez le Logo à la fin de la vidéo thématique.</string>
+    <string name="editor_set_different_duration">Définissez une durée différente pour chaque clip</string>
+    <string name="login_rewards_title_tip">Récompenses de connexion quotidienne</string>
+    <string name="login_rewards_remain_days_tip">Vous n’avez besoin que de %s jours de connexion pour débloquer les fonctions Pro</string>
+    <string name="login_rewards_last_day_tip">Faites vite! Connectez-vous pour débloquer les fonctions Pro maintenant</string>
+    <string name="login_rewards_congratulations_tip">Félicitations!</string>
+    <string name="file_scan_notification_title">Les extraits vidéo sont prêts maintenant</string>
+    <string name="login_rewards_expired_tip">Votre essai d’un mois sur les fonctions Pro a expiré. Mais vous pouvez continuer à vous connecter pendant trios autres jours pour débloquer les fonctions Pro. Voulez-vous les avoir?</string>
+    <string name="file_scan_notification_content">Regardez une vidéo de vos moments les plus chers</string>
+    <string name="file_scan_notification_dialog_content_2">Ceci est juste une vidéo de brouillon, et
+la vidéo ne sera pas partagée sans votre autorisation.</string>
+    <string name="file_scan_notification_dialog_content_1">Chaque fois que vous prenez des photos ou des vidéos, VRecorder prépare un album vidéo génial pour vous.</string>
+    <string name="file_scan_notification_dialog_content_tip">Conseil: Vous pouvez l\'activer/le désactiver à tout moment dans les paramètres lorsque vous en avez besoin.</string>
+    <string name="file_scan_notification_dialog_ok">AGREE</string>
+    <string name="file_scan_notification_dialog_cancel">DISAGREE</string>
+    <string name="tip_app_upgrad_dialog_cancel">RAPPELER PLUS TARD</string>
+    <string name="tip_app_upgrad_dialog_ok">METTRE A JOUR MAINTENANT</string>
+    <string name="theme_store_rating_rate_improve">Evaluez ce thème, aidez-nous à l’améliorer!</string>
+    <string name="theme_store_rating_choose_very">Très bien!</string>
+    <string name="theme_store_rating_choose_normal">Normal, pas mal</string>
+    <string name="theme_store_rating_choose_poor">Mauvaise qualité</string>
+    <string name="theme_store_rating_title_rate">Evaluer</string>
+    <string name="user_refuse_permission_camera_tip">Vous avez refusé à VRecorder d\'accéder aux autorisations de l\'appareil photo. VRecorder ne peut pas utiliser l\'appareil photo normalement. Veuillez activer les autorisations.</string>
+    <string name="user_refuse_permission_audio_recorder_tip">Vous avez refusé à VRecorder d\'accéder aux autorisations d\'enregistrement, VRecorder ne peut pas être copié normalement, veuillez activer les autorisations.</string>
+    <string name="rate_please">Si oui, acceptez-vous de nous évaluer pour montrer votre soutien? Nous essayons d\'être meilleurs!</string>
+    <string name="user_permit_permission_audio_recorder_tip">Vous avez donné l’autorisation d\'enregistrement, vous pouvez maintenant appuyer sur le bouton pour lancer la copie.</string>
+    <string name="user_permit_permission_take_picture_tip">Vous avez donné l’autorisation de caméra, vous pouvez maintenant commencer à prendre une photo.</string>
+    <string name="save_operation">Annulez-vous les modifications?</string>
+    <string name="app_info_view_trim">Réduction de Vidéo</string>
+    <string name="remove_videos_original_voice">Supprimez le son original</string>
+    <string name="restore_videos_original_voice">Récupérez le son original</string>
+    <string name="videos_original_voice_mute">La voix originale est désactivée</string>
+    <string name="videos_original_voice_unmute">La voix originale est activée</string>
+    <string name="recover_videos_original_voice_cannot_support_tip">En état actuel, on ne peut pas récupérer la voix originale</string>
+    <string name="remove_videos_original_voice_cannot_support_tip">En état actuel, on ne peut pas supprimer la voix originale</string>
+    <string name="rename_no_text">Le titre ne peut pas être vide</string>
+    <string name="share_result">Terminer</string>
+    <string name="rename_dialog_title">Renommer</string>
+    <string name="upload_to_youtube">Charger vers YouTube</string>
+    <string name="user_logout">Déconnecter</string>
+    <string name="toast_cannot_retrieve_cropped_image">Impossible de récupérer une image recadrée</string>
+    <string name="ucrop_label_original">Original</string>
+    <string name="ucrop_label_edit_photo">Modifiez la Photo</string>
+    <string name="setting_hw_acc_notification_title">Accélération du matériel</string>
+    <string name="toast_unexpected_error">Erreur inattendue, veuillez essayer à nouveau!</string>
+    <string name="setting_hw_acc_toast_1">Il a été commuté en mode normal, ce qui ralentira le processus d’exportation de la vidéo, mais le rendra plus stable.</string>
+    <string name="setting_hw_acc_toast_2">Il a été commuté en mode d\'accélération du matériel, ce qui accélérera le processus d\'exportation</string>
+    <string name="video_to_mp3_noaudio_tips">Cette vidéo n’a pas de son</string>
+    <string name="title_trim_select_clip">Coupure Ultra</string>
+    <string name="title_preview">Aperçu</string>
+    <string name="video_trim_clip_null_tips">Veuillez ajouter les clips réduits</string>
+    <string name="video_no_trim_clip_toast">Vous n’avez pas ajouté de clips réduits</string>
+    <string name="video_clip_count_toast">Les clips réduits ne doivent pas durer plus de 10 secondes</string>
+    <string name="video_trim_clip_duration_toast">La durée du clip réduit ne doit pas être inférieure à 0,1 seconde</string>
+    <string name="no_add_video_trim_clip_toast">Veuillez ajouter les clips réduits en premier</string>
+    <string name="bt_trim_clip_add">Ajouter</string>
+    <string name="bt_trim_clip_add_tips">Vous pouvez continuer à réduire des clips et à les ajouter!</string>
+    <string name="subtitle_effect_3d_type_modern">Noir Moderne</string>
+    <string name="subtitle_effect_3d_type_news">Nouvelle</string>
+    <string name="config_text_toolbox_effect">TextStyles</string>
+    <string name="subtitle_effect_3d_type_modern_white">Blanc Moderne</string>
+    <string name="subtitle_effect_3d_type_fade_out">Fondu</string>
+    <string name="subtitle_effect_3d_type_jump_in">Sauter Dedans</string>
+    <string name="subtitle_effect_3d_type_pop_up">Surgir</string>
+    <string name="subtitle_effect_3d_type_roll_in">Revenir</string>
+    <string name="subtitle_effect_3d_type_kick_back">Renvoyer</string>
+    <string name="subtitle_effect_3d_type_roll_left">Revenir à Gauche</string>
+    <string name="subtitle_effect_3d_type_roll_up">Avancer</string>
+    <string name="subtitle_effect_3d_type_crack">Casser</string>
+    <string name="subtitle_effect_3d_type_drop">Laisser tomber</string>
+    <string name="subtitle_effect_3d_type_sunshine">Ensoleillement</string>
+    <string name="subtitle_effect_3d_type_darkclouds">Nuages sombres</string>
+    <string name="subtitle_effect_3d_type_love">Amour</string>
+    <string name="subtitle_effect_3d_type_lamp">Lumière</string>
+    <string name="subtitle_effect_3d_type_crow">Corbeau</string>
+    <string name="subtitle_effect_3d_type_dialog">Dialogue</string>
+    <string name="subtitle_effect_3d_type_flame">Flamme</string>
+    <string name="subtitle_effect_3d_type_thunder">Tonnerre</string>
+    <string name="subtitle_effect_3d_type_lightning">Foudre</string>
+    <string name="subtitle_effect_3d_type_fire">Feu</string>
+    <string name="subtitle_effect_3d_type_flash">Flash</string>
+    <string name="trans_new_90001">Aucun</string>
+    <string name="trans_new_90003">Dessin</string>
+    <string name="trans_new_90002">Fondu</string>
+    <string name="trans_new_90004">Croix</string>
+    <string name="trans_new_90008">Simple</string>
+    <string name="trans_new_90006">Saut</string>
+    <string name="trans_new_90009">Mélange</string>
+    <string name="trans_new_90007">Flotte</string>
+    <string name="trans_new_90011">Météor</string>
+    <string name="trans_new_90012">Plier</string>
+    <string name="trans_new_90013">Obturateur</string>
+    <string name="trans_new_90014">Amour</string>
+    <string name="trans_new_90015">Bulle</string>
+    <string name="trans_new_90016">Horloge</string>
+    <string name="trans_new_90017">Cercle</string>
+    <string name="trans_new_90018">Dissoudre</string>
+    <string name="trans_new_90020">Zoom</string>
+    <string name="trans_new_90021">Flash Blanc</string>
+    <string name="trans_new_90022">Flash Noir</string>
+    <string name="trans_new_90023">Fleur</string>
+    <string name="trans_new_90024">Hexagramme</string>
+    <string name="remove_watermark_content">Supprimez le filigrane GRATUITEMENT pendant 1 jour! Installez et ouvrez l’app.</string>
+    <string name="noenough_space_20m_tip">L’espace de votre disque n’est pas suffisant, veuillez libérer la mémoire</string>
+    <string name="tip_config_video_clip_copy_count_60">Le nombre de vidéos ne doit pas dépasser 60!</string>
+    <string name="select_music_cannot_support_tip">Le fichier audio est corrompu.</string>
+    <string name="share_result_video_size_content">La vidéo compressée est géniale, voulez-vous supprimer l’originale?</string>
+    <string name="share_result_video_iess">Moins que l\'originale</string>
+    <string name="tip_config_sound_add_count_50">Ne supporte pas plus de 50 sons!</string>
+    <string name="share_result_video_original">Original</string>
+    <string name="share_result_video_compressed">Compressé</string>
+    <string name="today_you_can_download_all_materials">Aujourd’hui vous pouvez télécharger tous les documents exclusifs.</string>
+    <string name="the_video_has_been_deleted">La vidéo a été supprimée</string>
+    <string name="share_to_get_surprise">Partagez pour avoir une surprise</string>
+    <string name="vip_buy_advertising">Supprimez les pubs</string>
+    <string name="vip_buy_export">Exportation des vidéos 1080p</string>
+    <string name="vip_buy_btn">Achat</string>
+    <string name="vip_buy_add_up_to_effects">Ajoutez jusqu’à 20 effets</string>
+    <string name="vip_buy_no_reverse_duration_limit">Aucune limite de durée inverse</string>
+    <string name="vip_buy_materila">Utilisez tous les Pro documents gratuitement</string>
+    <string name="hold_down_to_preview">Maintenez pour prévisualiser</string>
+    <string name="vip_buy_import">Supporte l’import des vidéos 4K</string>
+    <string name="menbership_success">Succès</string>
+    <string name="vip_buy_iwatermark">Supprimez le filigrane VRecorder</string>
+    <string name="ads_restore">Restaurez</string>
+    <string name="remove_ads_checking_succeed">Restauration réussie</string>
+    <string name="remove_ads_checking">Vérification…</string>
+    <string name="remove_ads_checking_failed">Restauration échouée</string>
+    <string name="my_studio_create_one">Créez maintenant</string>
+    <string name="my_studio_no_video_yet">Aucune vidéo n’a encore été crée</string>
+    <string name="home_mp3_view">Voir</string>
+    <string name="fx_effect_3d_type_bubble">Bulle</string>
+    <string name="home_mp3_new">Nouveau</string>
+    <string name="fx_effect_3d_type_thunder">Tonnerre</string>
+    <string name="fx_num_limit_pro">Pour réussir l’exportation, vous ne pouvez pas ajouter plus de 20 effets simultanément.</string>
+    <string name="mystudio_batch_delete">Suppression par Lots</string>
+    <string name="discard_operation">Jetez</string>
+    <string name="theme_clip_start_choose">Prologue:</string>
+    <string name="theme_clip_end_choose">Epilogue:</string>
+    <string name="theme_clip_start_choose_a">Prologue:</string>
+    <string name="theme_clip_end_choose_b">Epilogue:</string>
+    <string name="playing_music_preview_time">Aperçu de 20 secondes</string>
+    <string name="clear_trans_all_values">Supprimez les transitions de tous les clips</string>
+    <string name="use_trans_current_values">Appliquez cette transition à tous les clips</string>
+    <string name="material_store_theme_remove_confirm">Supprimez-vous le Thème?</string>
+    <string name="material_store_fx_remove_confirm">Supprimez-vous les Effets?</string>
+    <string name="material_store_music_remove_confirm">Supprimez-vous la Musique?</string>
+    <string name="material_store_text_style_remove_confirm">Supprimez-vous le TextStyle?</string>
+    <string name="material_store_sound_effects_remove_confirm">Supprimez-vous les Effets Sonores?</string>
+    <string name="material_store_sticker_remove_confirm">Supprimez-vous l’Etiquette?</string>
+    <string name="material_store_font_remove_confirm">Supprimez-vous la Police?</string>
+    <string name="material_store_gif_remove_confirm">Supprimez-vous le Gif?</string>
+    <string name="export_or_share_video_success">Réussi!</string>
+    <string name="music_my_download">Mes Téléchargements</string>
+    <string name="music_no_music_history">Pas d’Historique de Musique</string>
+    <string name="editor_theme_more">Plus</string>
+    <string name="music_set_add_music">Ajoutez de la Musique</string>
+    <string name="music_my_music">Ma Musique</string>
+    <string name="today">Aujourd’hui</string>
+    <string name="yesterday">Hier</string>
+    <string name="guide_start_ui">Démarrer</string>
+    <string name="guide_back_ui">Retour</string>
+    <string name="select_a_clip_to_edit">Sélectionnez un clip à modifier</string>
+    <string name="set_precise_time">Réglez l\'heure précise</string>
+    <string name="global_settings">Paramètres généraux</string>
+    <string name="take_a_short_preview">Prennez un aperçu</string>
+    <string name="set_duration_for_each_photo">Définissez la durée de chaque photo</string>
+    <string name="rate_quest_title">Merci d’utiliser VRecorder!</string>
+    <string name="rate_quest_no">Non</string>
+    <string name="rate_quest_yes">Sûr</string>
+    <string name="pinch_to_zoom">Pincez l\'écran pour zoomer</string>
+    <string name="done">Fait</string>
+    <string name="manage">Gérez</string>
+    <string name="giphy_noresult">Aucun résultat</string>
+    <string name="dialog_duration_adjust_tips">Conseil: Vous pouvez cliquer sur % s pour définir l\'heure de pause actuelle comme heure de début ou de fin</string>
+    <string name="duration_dialog_time_same_tip">L\'heure de début et l\'heure de fin ne doivent pas être les mêmes</string>
+    <string name="editor_select_online_gif">Gif en ligne</string>
+    <string name="gif_search_text_over">Les caractères ne devraient pas dépasser 200</string>
+    <string name="main_reverse">Sens inverse</string>
+    <string name="draftbox_is_null_tip_revert">Le clip original était manquant</string>
+    <string name="app_info_view_reverse">Inversez la vidéo</string>
+    <string name="reverse_text_full_context_0">Lorsque le processus d\'exportation sera terminé, le son d\'origine sera supprimé afin d\'éviter les interférences causées par le son inverse.</string>
+
+    <string name="reverse_text_full_context_1">Veuillez patienter ici et ne fermez pas la page en cours, sinon l\'exportation de la vidéo échouera.</string>
+    <string name="reverse_text_full_context_2">La vidéo sera enregistrée en tant que nouveau clip, mais l\'original reste également.</string>
+    <string name="reverse_text_full_context_3">Vous pouvez ajouter la musique et des effets, etc. pour rendre vos vidéos inversées plus impressionnantes.</string>
+    <string name="export_video_resolution_limit">La définition de la vidéo exportée est limitée par
+la résolution de votre téléphone, merci de votre compréhension</string>
+    <string name="no_material_now">Aucun Document Pour le Moment</string>
+    <string name="video_setting_background">Arrière-plan</string>
+    <string name="local_gif">Gif Local</string>
+    <string name="video_music_single_type">Musique Seule</string>
+    <string name="video_music_multi_type">Multi Musiques</string>
+    <string name="edit_clip_set_duration_all">Réglez toutes les photos</string>
+    <string name="use_toolkit_create_video">Utilisez la boîte à outils la plus puissante pour créer une vidéo géniale.</string>
+    <string name="add_material_to_video">Ajoutez des sous-titres, des effets, des autocollants et d’autres contenus attrayants à votre vidéo.</string>
+    <string name="simplest_way_make_video">Le moyen le plus simple de créer une vidéo géniale.</string>
+    <string name="set_photo_display_time">Définissez l\'heure d\'affichage des photos.</string>
+    <string name="zoom_photo_video_focus_attention">Zoomez la photo et la vidéo pour choisir votre mise au point.</string>
+    <string name="new_function_reverse_video">Nouvelles fonctionnalités ajoutées: vidéo inversée.</string>
+    <string name="click_the_theme_again_to_edit">Cliquez à nouveau sur le thème pour modifier.</string>
+    <string name="trim_video_save_part">Coupez la vidéo pour enregistrer la partie dont vous avez besoin.</string>
+    <string name="material_pull_to_refresh">Tirez pour rafraîchir</string>
+    <string name="galleryvault_install_uppercase">Installez</string>
+    <string name="galleryvault_share_extensions_gap_line_tip">Extensions</string>
+    <string name="galleryvault_delete_draft_tip">La vidéo a été masquée avec succès. Voulez-vous supprimer le brouillon?</string>
+    <string name="editor_add_music">Appuyez sur pour ajouter de la musique</string>
+    <string name="home_text_transcode">Transcode</string>
+    <string name="choose_too_large_video">La vidéo est trop grande pour être importée</string>
+    <string name="home_text_slideshow">TapSlide</string>
+    <string name="home_transcode_content">Utilisez VidCompact pour compresser votre vidéo ou convertir en d\'autres formats</string>
+    <string name="home_text_gallery">Galerie</string>
+    <string name="home_transcode_function">Privilèges de fonction</string>
+    <string name="home_transcode_convert">Convertissez avec une haute qualité</string>
+    <string name="home_transcode_support">Supporter de nombreux formats de fichiers</string>
+    <string name="home_transcode_compact">Fortement compacte</string>
+    <string name="home_transcode_rapid">Compression rapide</string>
+    <string name="home_gallery_browse">Parcourez et organisez vos photos par dossier</string>
+    <string name="home_gallery_content">Utilisez la Galerie pour parcourir des photos/vidéos et faire un diaporama</string>
+    <string name="home_gallery_engaging">Utilisation de thèmes supportées pour la création d\'un diaporama</string>
+    <string name="home_gallery_add">Ajoutez des photos et des vidéos aux favoris</string>
+    <string name="home_gallery_automatically">Organisez les photos et vidéos par événement, date et lieu</string>
+    <string name="home_slideshow_content">Tapotez avec le rythme de la musique pour faire un diaporama avec TapSlike</string>
+    <string name="home_slideshow_just">Juste 4 étapes</string>
+    <string name="home_slideshow_to">pour faire un diaporama en musique</string>
+    <string name="home_slideshow_choose">Choisissez les photos</string>
+    <string name="home_slideshow_choose_music">Choisissez la musique</string>
+    <string name="home_slideshow_tap">Appuyez avec le rythme pour contrôler les photos</string>
+    <string name="home_slideshow_save">Enregistrez votre travail et partagez-le avec vos amis</string>
+    <string name="install">Installez</string>
+    <string name="use_vidcompact_convert">Utilisez VidCompact pour convertir maintenant! Ensuite, les vidéos pourraient être éditées facilement.</string>
+    <string name="go_to_clip_edit">Allez dans Editer le Clip</string>
+    <string name="share_no_enough_space">Pas assez d’espace.</string>
+    <string name="share_please_free_your">Veuillez libérer de l’espace. Vous pouvez réduire les clips vidéo ou supprimer certains clips dans Editer le Clip.</string>
+    <string name="material_category_font">Polices</string>
+    <string name="setting_clip_duration">Durée</string>
+    <string name="choose_4k_buypro_content">Seul VRecorderPro supporte l’importation de vidéos en résolution 4K. Voulez-vous acheter?</string>
+    <string name="home_discover">Découvrir</string>
+    <string name="discover_all_videos">Toutes les Vidéos</string>
+    <string name="discover_all_contents">Tous les Contenus</string>
+    <string name="network_is_unavailable">Le réseau n’est pas disponible</string>
+    <string name="discover_page_title">Découvrir</string>
+    <string name="click_the_button_set_theme_prologue_epilogue">Cliquez sur le bouton pour définir le prologue et l\'épilogue du thème.</string>
+    <string name="selected_category">Catégories</string>
+    <string name="tag_library">Tendance de Tags</string>
+    <string name="toolbox_sound">Voix off</string>
+    <string name="all_tags">Tous les Tags</string>
+    <string name="material_unlock">Débloquez tous les documents Pro</string>
+    <string name="main_video_compress">Compressez</string>
+    <string name="dialog_yes">YES</string>
+    <string name="opacity">Opacité</string>
+    <string name="tip_app_upgrad_dialog_title">Nouvelle Version</string>
+    <string name="dialog_no">Non</string>
+    <string name="guide11">Montage Vidéo</string>
+    <string name="music_sort_by_hot">Chaud</string>
+    <string name="music_sort_by_new">Nouveau</string>
+    <string name="music_add_limit_tip">Vous pouvez ajouter jusqu\'à % s musiques tout au plus</string>
+    <string name="music_fadein_fadeout">Fondu de musique</string>
+    <string name="power_activity_battery">Batterie</string>
+    <string name="power_setting_fast">Charge Rapide</string>
+    <string name="power_activity_edit">Montage Vidéo</string>
+    <string name="power_activity_slide">Glissez pour déverrouiller</string>
+    <string name="home_gif_video">De la Vidéo</string>
+    <string name="add_more_than_50">N\'ajoutez pas plus de 50 clips</string>
+    <string name="home_gif_photo">De la Photo</string>
+    <string name="set_duration_10">Réglez la durée sur 10 secondes maximum</string>
+    <string name="select_gif_resolution">Sélectionnez la résolution gif</string>
+    <string name="set_duration_1">Définissez la durée sur plus d’1 seconde</string>
+    <string name="power_main_activity_1">Activez la charge rapide, vous le pouvez</string>
+    <string name="drag_point_guide">Cliquez et maintenez la barre pour déplacer. Le matériel suivra son mouvement.</string>
+    <string name="editor_clip_split">Divisez</string>
+    <string name="clip_is_too_short_to_split">Le clip est trop court pour se diviser</string>
+    <string name="power_main_activity_2">1. Obtenez les vidéos les plus populaires en premier\n2. Avoir un accès rapide pour éditer la vidéo</string>
+    <string name="save_more">60% de réduction!</string>
+    <string name="guide_skip">Passez</string>
+    <string name="gp_connect_fail_dialog_text_title">Impossible d\'initier le service Google Play</string>
+    <string name="gp_connect_fail_dialog_text_1">-Vérifiez votre connexion réseau</string>
+    <string name="gp_connect_fail_dialog_text_2">-Assurez-vous que vous êtes connecté à votre compte Google.</string>
+    <string name="gp_connect_fail_dialog_text_3">-Assurez-vous que vous pouvez exécuter l\'application Google Play</string>
+    <string name="home_premium">Premium</string>
+    <string name="vip_buy_more_new_pro">De nouveaux documents Pro seront mis à jour régulièrement</string>
+    <string name="clip">Clips</string>
+    <string name="guide12">Fidélisez vos moments privilégiés</string>
+    <string name="guide31">Musique</string>
+    <string name="guide22">Différents styles pour créer des sous-titres artistiques</string>
+    <string name="guide21">Sous-titres</string>
+    <string name="guide32">2000+ morceaux de musique sous licence</string>
+    <string name="exporting_your_video_1080P">EXPORTATION DE VIDEO 1080p</string>
+    <string name="exporting_your_video">EXPORTATION DE VOTRE VIDEO</string>
+    <string name="please_stay_in_this_page">Restez sur cette page et obtenez:</string>
+    <string name="higher_export_speed">Vitesse d’exportation plus grande</string>
+    <string name="higher_export_success_rates">Taux de réussite d’exportation plus élevé</string>
+    <string name="quit_exporting_your_video">Êtes-vous sûr de vouloir arrêter l’exportation de la vidéo ?</string>
+    <string name="home_premium_benefits">Avantages Premium</string>
+    <string name="home_premium_benefits_tips">Obtenez tous les avantages exclusifs avec votre Abonnement Premium. Les nouveaux avantages premium arrivent bientôt.</string>
+    <string name="home_premium_month_buy">Mensuel</string>
+    <string name="home_premium_year_buy">ANNUALLY</string>
+    <string name="membership_success_dialog_1">FELICITATIONS!</string>
+    <string name="membership_success_dialog_2">Vous avez l’Abonnement Premium!</string>
+    <string name="export_video_mode_chooser_1080p_tips">Mode 1080p</string>
+    <string name="export_video_mode_chooser_gif_tips">Mode GIF</string>
+    <string name="gif_incentive">Exportation des vidéos au format GIF</string>
+    <string name="gif_time_limited">Définissez la durée du clip sur 30 secondes maximum</string>
+    <string name="gifguru_description_sub_title">Utilisez GifGuru pour transformer vos images/vidéos en GIF</string>
+    <string name="gifguru_description_1">Ajoutez des textes, des autocollants et des filtres au format GIF</string>
+    <string name="gifguru_description_2">Jouez le GIF avant/arrière et ajustez la vitesse</string>
+    <string name="gifguru_description_3">Recréez des GIFs existants</string>
+    <string name="gifguru_description_4">Cherchez les GIFs avec Giphy à la place de DIY</string>
+    <string name="free_music_pip_shooting_app">Musique gratuite et application de prise de vue PIP avec beaucoup de filtres</string>
+    <string name="plenty_amazing_filters">Beaucoup de filtres étonnants</string>
+    <string name="creative_funny_pip_frame">Cadres PIP créatifs et amusants</string>
+    <string name="simple_dynamic_interface">Interface simple et dynamique</string>
+    <string name="wanna_master_gif">Voulez-vous être un maître dans la création de GIF?</string>
+    <string name="record_videos_with_your_local_songs">Enregistrez des vidéos avec vos chansons locales</string>
+    <string name="use_gifguru_turn_video_into_gif">Utilisez GifGuru pour transformer vos images/vidéos en GIF.</string>
+    <string name="camera">Caméra</string>
+    <string name="export_lead_facebook">Aimez-nous sur Facebook et partagez vos vidéos incroyables avec le monde entier.</string>
+    <string name="refuse_allow_storage_permission">VRecorder doit accéder aux photos et vidéos pour faire fonctionner
+normalement l’éditeur. Veuillez autoriser l\'autorisation de stockage.</string>
+    <string name="refuse_allow_camera_permission">VRecorder doit accéder à l’appareil photo du téléphone pour faire
+une vidéo. Veuillez activer l’autorisation de la caméra.</string>
+    <string name="refuse_allow_audio_permission">VRrecorder doit accéder au microphone pour enregistrer
+votre voix. Veuillez active l’autorisation du Microphone.</string>
+    <string name="allow">permettre</string>
+    <string name="refuse">REFUSE</string>
+    <string name="enable">ENABLE</string>
+    <string name="question_studio_title">Vous ne pouvez pas exporter de vidéo?</string>
+    <string name="question_attention">Attention: cette méthode supprimera tout votre brouillon et réinitialisera VRecorder.</string>
+    <string name="question_studio_step">Première étape: recherchez la mémoire interne sur votre téléphone.\nDeuxième étape: supprimez VRecorder et le dossier VRecorder (si vous ne trouvez pas le dossier VRecorder, vous devez chercher dans les fichiers cachés).\nTroisième étape: démarrez VRecorder.\nAttention: si vous échouez, essayez à nouveau ou contactez-nous à support@enjoy-global.com.</string>
+    <string name="editor_mode_pro_title">Mode Expert</string>
+    <string name="editor_mode_pro_desc_content">Faites en sorte que chaque détail de votre vidéo soit comme vous le souhaitez. Vous allez produire des chefs-d’œuvre immédiatement!</string>
+    <string name="editor_mode_choose_tip">Sélectionnez le Mode Edition</string>
+    <string name="editor_mode_easy_speed">Vitesse</string>
+    <string name="editor_mode_easy_speed_min">Lent</string>
+    <string name="editor_mode_easy_speed_max">Rapide</string>
+    <string name="quick_trim_title">Rogner</string>
+    <string name="quick_trim_desc_title">Réduisez un clip à partir de la vidéo sélectionnée ou supprimer un clip à partir de la vidéo sélectionnée.</string>
+    <string name="ultra_cut_desc_title">Réduisez des clips à partir de la vidéo sélectionnée ou supprimer des clips à partir de la vidéo sélectionnée.</string>
+    <string name="home_video_edit">Montage Vidéo</string>
+    <string name="ultra_cut_title">Réduisez et fusionner</string>
+    <string name="home_slideshow">Créez des Diaporamas</string>
+    <string name="home_shoot">Filmez</string>
+    <string name="home_featured_app">Mis en avant</string>
+    <string name="home_gifguru">Faites un Gif</string>
+    <string name="home_my_studio_text">Mes Brouillons</string>
+    <string name="my_studio_more">Mes vidéos ></string>
+    <string name="tools">Outils</string>
+    <string name="home_trim">Rogner</string>
+    <string name="home_compress">Compressez</string>
+    <string name="home_mp3">Vidéo vers audio</string>
+    <string name="home_camera">PIP</string>
+    <string name="selected_materials">Thèmes Mis en Avant</string>
+    <string name="home_transcode">Convertir</string>
+    <string name="more">Plus ></string>
+    <string name="faq">FAQ</string>
+    <string name="help">Aide</string>
+    <string name="like_us">Commentaire</string>
+    <string name="video_to_gif">Vidéo vers Gif</string>
+    <string name="editor_mode_easy_title">Mode Musique</string>
+    <string name="beautify">Embellir</string>
+    <string name="editor_mode_easy_desc_title">Cliquez ici pour démarrer ></string>
+    <string name="editor_mode_easy_desc_content">Changez de photo automatiquement avec le rythme de la musique. 92% des utilisateurs le recommandent fortement.</string>
+    <string name="face_material_title">Téléchargez des étiquettes</string>
+    <string name="face_material_select_all">Sélectionnez tout</string>
+    <string name="vip_buy_face_pro">Utilisez les étiquettes de visages Pro</string>
+    <string name="set_face_resolution_info">Réglage de la résolution des prises de vue</string>
+    <string name="purchase">Achat</string>
+    <string name="exceed_cliplimit_video">Impossible d\'ajouter plus de vidéos</string>
+    <string name="next_make_video_editorchoose">Suivant</string>
+    <string name="pupumenu_select_type_title">Trier par</string>
+    <string name="select_allitem_editorchoose">Chargement…</string>
+    <string name="pupumenu_select_type_date">Date</string>
+    <string name="pupumenu_select_type_name">Nom</string>
+    <string name="pupumenu_select_type_ascending">Ascendant</string>
+    <string name="long_touch_to_move_position">Maintenez et faites glisser pour réorganiser</string>
+    <string name="operation_no_reminder">Ne plus montrer</string>
+    <string name="manual_search">Cliquez pour trouver d’autres clips</string>
+    <string name="mosaic">Mosaïque</string>
+    <string name="vip_buy_mosaic">Utilisez les fonctions mosaïques</string>
+    <string name="pupumenu_select_type_dscending">Descendant</string>
+    <string name="toolbox_sound_effect">Effet sonore</string>
+    <string name="editor_draw_title">Ajoutez un Griffonnage</string>
+    <string name="draw_sticker_tab_0">Couleur</string>
+    <string name="voice_change_click_tips">Vous devez enregistrer d’abord</string>
+    <string name="draw_sticker_tab_1">Stylo</string>
+    <string name="editor_draw">Griffonnage</string>
+    <string name="draw_sticker_tab_2">Gomme</string>
+    <string name="draw_sticker_tab_3">Annuler</string>
+    <string name="draw_sticker_tab_4">Résumé</string>
+    <string name="main_shoot_new">Super Caméra</string>
+    <string name="shoot_image_compress_tips">Seules les vidéos peuvent être compressées</string>
+    <string name="trim_mode">Rogner</string>
+    <string name="trim_select_part">Réduisez la partie sélectionnée</string>
+    <string name="export_mode">Exportation</string>
+    <string name="new_file">Créez un nouveau fichier</string>
+    <string name="cover_origin_file">Ecrasez le fichier</string>
+    <string name="delete_select_part">Supprimez la partie sélectionnée</string>
+    <string name="default_setting">Paramètres par défaut</string>
+    <string name="click_here_modify_default_setting">Modifiez ici les paramètres par défaut</string>
+    <string name="sort_activity_tag_restore">Restaurez par Défaut</string>
+    <string name="sort_activity_tag_normal">Normal</string>
+    <string name="tips_editor_tab_window">Sous-titres, étiquettes, effets</string>
+    <string name="text_refuse_premission">V Recorder a besoin de l\'autorisation du microphone pour enregistrer l\'audio, veuillez activer les autorisations du microphone</string>
+    <string name="text_premission_allow">ALLOW</string>
+    <string name="tool_bar_sort_title">Trier</string>
+    <string name="dialog_cancle_text">Annuler</string>
+    <string name="string_notification_stop_tap">Appuyez ici pour arrêter l\'enregistrement</string>
+    <string name="string_notification_stop_recording">Enregistrement</string>
+    <string name="string_notification_start_recording">VRecorder est prêt</string>
+    <string name="string_video_setting">Paramètres Vidéo</string>
+    <string name="string_video_resolution">Résolution Vidéo</string>
+    <string name="string_notification_start_tap">Appuyez ici pour commencer l\'enregistrement</string>
+    <string name="string_video_quality">Qualité Vidéo</string>
+    <string name="string_video_fps">FPS</string>
+    <string name="string_record_audio">Enregistrement Audio</string>
+    <string name="string_video_record_audio_turn_on">Activez pour enregistrer du son externe. L\'enregistrement audio interne n\'est pas autorisé dans Android</string>
+    <string name="string_video_hide_the_window">Masquez la fenêtre d\'enregistrement pendant l\'enregistrement</string>
+    <string name="string_video_terms_privary">Termes et Confidentialité</string>
+    <string name="string_video_shake_stop_record">Secouez le téléphone pour arrêter l\'enregistrement</string>
+    <string name="string_allow_notification_ok_text">OK</string>
+    <string name="string_allow_notification_text">Veuillez autoriser les notifications de VRecorder pour vous assurer que l\'application fonctionne correctement et régulièrement</string>
+    <string name="string_video_v_recorder_text">VRecorder</string>
+    <string name="string_the_video_deleted_text">La vidéo est supprimée ou endommagée</string>
+    <string name="string_low_storage_text">Stockage faible. Veuillez d’abord libérer la mémoire du téléphone</string>
+    <string name="string_record_text">Enregistrer</string>
+    <string name="stirng_home_text">Accueil</string>
+    <string name="string_recoeding_is_finished_text">L’enregistrement est terminé</string>
+    <string name="string_exit_text">Sortie</string>
+    <string name="string_video_orientation_text">Orientation de la Vidéo</string>
+    <string name="string_low_battery_text">batterie faible. Pour éviter toute perte de données, veillez à préserver l’énergie de votre batterie.</string>
+    <string name="string_facebook_is_uninstalled_text">Désinstallé</string>
+    <string name="string_unsupported_resolution_text">Résolution non supportée pour ce téléphone</string>
+    <string name="string_portrait">Portrait</string>
+    <string name="string_needs_storage">VRecorder doit avoir accès aux photos, aux médias et aux fichiers pour stocker les vidéos enregistrées</string>
+    <string name="string_landscape">Paysage</string>
+    <string name="string_no_recorded_vidoe">Vous n\'avez encore enregistré aucune vidéo.</string>
+    <string name="string_repair_system_ui_carsh_text">Réparation du système UI Crash</string>
+    <string name="string_systen_ui_carsh_reason_text">Activez l\'autorisation et essayez de
+        résoudre le problème du système UI</string>
+    <string name="string_video_item_share_text">Partager</string>
+    <string name="guide_loating_window_recorder">Enregistrer</string>
+    <string name="guide_loating_window_instructions">Instructions de la fenêtre flottante</string>
+    <string name="are_you_sure_exit_tips">Si vous quittez la page en cours, votre vidéo ne sera pas enregistrée!</string>
+    <string name="guide_loating_window_video">Vidéo</string>
+    <string name="guide_loating_window_close">Fermez la fenêtre flottante</string>
+    <string name="guide_notification_panel_recorder">Vous pouvez également utiliser le panneau de
+        notifications pour contrôler l\'enregistrement</string>
+    <string name="guide_notification_panel_close">Panneau de notification</string>
+    <string name="dialog_rate_us_feed_back">Commentaire</string>
+    <string name="dialog_rate_us_feed_back_content">Votre commentaire est utile.</string>
+    <string name="dialog_rate_us_feed_back1">Je n’aime pas le design</string>
+    <string name="dialog_rate_us_feed_back2">Il ne comporte pas les fonctions dont j’ai besoin</string>
+    <string name="dialog_rate_us_feed_back3">Cela n’est pas facile à utiliser</string>
+    <string name="dialog_rate_us_feed_back4">Il a certains bugs</string>
+    <string name="dialog_rate_us_feed_back5">La traduction est mauvaise</string>
+    <string name="dialog_rate_us_feed_back_suc">Vos suggestions sont très utiles!</string>
+    <string name="dialog_rate_us_feed_back_suc_thank">Merci!</string>
+    <string name="dialog_rate_us_submit">Soumettre</string>
+    <string name="float_permission_tips">Veuillez autoriser VRecorder à apparaitre par-dessus
+        d\'autres applications pour vous assurer que l\'application fonctionne correctement
+        .</string>
+    <string name="recording_change_setting_toast">La modification du paramètre vidéo n\'est pas
+        permissible pendant l\'enregistrement.</string>
+    <string name="setting_video_location">Localisation de Vidéo</string>
+    <string name="setting_countdow_0s">Pas de compte à rebours</string>
+    <string name="setting_countdow_3s">3 secondes</string>
+    <string name="setting_countdown">Compte à rebours</string>
+    <string name="setting_countdow_5s">5 secondes</string>
+    <string name="setting_countdow_10s">10 secondes</string>
+    <string name="edit_format_error">La vidéo dans ce format n\'est pas supportée</string>
+    <string name="play_large_error">La ressource vidéo est trop volumineuse pour supporter la lecture.</string>
+    <string name="orientation_auto">Auto</string>
+    <string name="sd_permission_msg">Veuillez sélectionner le répertoire racine de votre stockage externe
+"%1$s" sur l’écran suivant et cliquez sur le bouton de sélection pour autoriser.
+À partir d\'Android 5.0 Lollipop, en raison de la politique de sécurité d\'Android, les fichiers
+        du stockage externe ne peuvent pas être supprimés ou renommés si l\’édition n\'est pas
+        autorisée dans cette application.</string>
+    <string name="available">disponible</string>
+    <string name="default_save_path_name">Défaut</string>
+    <string name="sd_permission">Droit d’Accès</string>
+    <string name="cant_change_path_when_recording">Impossible de modifier le chemin
+        d\'enregistrement vidéo lors de l\'enregistrement.</string>
+    <string name="caution">Mise en garde</string>
+    <string name="uninstall_app_hint_for_video">Les vidéos stockées sur la carte SD seront supprimées lorsque vous désinstallerez VRecorder.</string>
+    <string name="sd_card_change_tip">Vidéo stockée dans la mémoire interne car la carte SD
+        n\'est pas détectée</string>
+    <string name="watermark_title">Filigrane</string>
+    <string name="string_watermark_desc">Le filigrane apparaît dans la vidéo enregistrée</string>
+    <string name="cant_config_watermark_when_recording">La configuration du filigrane ne peut pas
+        être modifiée pendant l\'enregistrement.</string>
+    <string name="string_vip_buy_success">Achat réussi!</string>
+    <string name="string_vip_privilege_success">Vous êtes déjà membre VIP de VRecorder.</string>
+    <string name="string_vip_keep_title">Vraiment envie de quitter l’Essai Gratuit?</string>
+    <string name="string_vip_keep_content">L’essai des fonctionnalités Premium ci-dessous est
+        gratuit maintenant. Vous pouvez l\'annuler à tout moment.</string>
+    <string name="string_vip_keep_time_title">Vente flash!</string>
+    <string name="string_vip_privilege">Privilège VIP</string>
+    <string name="string_vip_privilege_1080">Enregistrement HD 1080p</string>
+    <string name="string_vip_privilege_no_water">Pas de Filigrane</string>
+    <string name="string_vip_privilege_no_ads">Pas de Pubs</string>
+    <string name="string_vip_privilege_pro_materials">1000+ Documents</string>
+    <string name="string_vip_privilege_trim">Réduire les Vidéos</string>
+    <string name="string_vip_privilege_more">Plus de fonctions</string>
+    <string name="string_vip_privilege_free_new">Gratuit pour les nouveaux utilisateurs</string>
+    <string name="string_vip_privilege_free">CONTINUE</string>
+    <string name="string_vip_buy_year_des">Essai gratuit de 3 jours, puis abonnez-vous pour %1$s/an.</string>
+    <string name="string_vip_buy_month_des">3 jours d\'essai gratuit, puis abonnez-vous à %1$s/
+        mois</string>
+
+    <string name="string_vip_privilege_one_month">Mensuel:</string>
+    <string name="floating_window_camera">Caméra</string>
+
+
+    <string name="wipe_off_watermark">Supprimez le Filigrane</string>
+    <string name="recomment_video_play_error">Erreur de lecture</string>
+    <string name="debug_mode_tip">Ceci est une version de débogage qui peut nous aider à résoudre certains incidents lors de l’exportation de vidéos.\nIl y a quelques informations que vous devez savoir comme suit:\n1. Éditez et exportez des vidéos normalement;\n2. Lorsque vous ouvrez à nouveau cette application, si elle se bloque, tous les fichiers relatifs sont copiés dans le répertoire (répertoire racine/VRecorder Log Pack).\n3. Veuillez rassembler le répertoire sur un ordinateur et nous le renvoyer par email: support@enjoy-global.com\nC’est tout, merci beaucoup.</string>
+    <string name="recomment_video_instagram_authentication_successful">Authentification réussie</string>
+    <string name="pull_to_refresh_release_label">Desserrez pour actualiser davantage</string>
+    <string name="pull_to_refresh_pull_label">Tirez vers le bas pour charger plus</string>
+    <string name="network_connect_error">Erreur de connexion réseau. Veuillez vérifier.</string>
+    <string name="pull_to_refresh_refreshing_label">Actualisation…</string>
+    <string name="tx_next">Suivant</string>
+    <string name="editor_trans_type_none">Aucun</string>
+    <string name="editor_rotate">Pivoter</string>
+    <string name="download_so_ok">Télécharger</string>
+    <string name="download_so_titile">Téléchargement</string>
+    <string name="download_so_success">Téléchargement Réussi</string>
+    <string name="no_artist">Inconnu</string>
+    <string name="tv_no_video_selectvideo_text">Pas de fichier</string>
+    <string name="editor_fx_type_vignette">Vignette</string>
+    <string name="editor_fx_type_lookup">Amateur</string>
+    <string name="editor_fx_type_tonecurve">Beauté</string>
+    <string name="tv_My_video_selectvideo_text">Mes projets</string>
+    <string name="editor_fx_type_monochrome">Noir et Blanc</string>
+    <string name="music_time_short">Le temps de musique doit dépasser 1 seconde</string>
+    <string name="create_video_file_failed">L\'initialisation de l\'application a échoué, vérifiez
+        que la carte SD est chargée!</string>
+    <string name="clips_1VRecorder">1VRecorder</string>
+    <string name="clips_video">Vidéo</string>
+    <string name="clips_all">Tout</string>
+    <string name="compress_p240">240p</string>
+    <string name="toast_voice_non_drag_tips">La durée de la voix ne peut pas être changée</string>
+    <string name="compress_p320">320p</string>
+    <string name="compress_p480">480p</string>
+    <string name="compress_p1080">1080p</string>
+    <string name="clips_photo">Photo</string>
+    <string name="compress_p720">720p</string>
+    <string name="setting_watermark_open">Allumer</string>
+    <string name="watermark_name">Anonyme</string>
+    <string name="set_watermark">Fin de la vidéo</string>
+    <string name="setting_watermark_close">Eteindre</string>
+    <string name="set_director_name">Modifiez le nom de l\'auteur</string>
+    <string name="watermark_director">Réalisateur:</string>
+    <string name="click_to_video_mute">Eliminez le son d’origine</string>
+    <string name="export_output_complete">Exportez la Vidéo Terminée!</string>
+    <string name="share_ad_title">Devinez ce que vous aimez</string>
+    <string name="share_info7">Email</string>
+    <string name="send_to_friend_sms">Salut mon pote! Rejoignez-nous pour profiter de VRecorder App maintenant!</string>
+    <string name="share_info8">SMS</string>
+    <string name="text_count_limit_info">Supporte un maximum de 5 sous-titres en même temps</string>
+    <string name="sticker_count_limit_info">Supporte un maximum de 5 étiquettes en même temps</string>
+    <string name="draw_count_limit_info">Supporte un maximum de 5 graffitis en même temps</string>
+    <string name="duration_batch_instagram">Instagram</string>
+    <string name="facebook_ad_sponsored_tip">Sponsorisé</string>
+    <string name="camera_freememory_space_no_tip">L\'espace de disque est insuffisant, le
+        démarrage de la caméra a échoué</string>
+    <string name="camera_freememory_space_no_shooting_tip">L\'espace de disque est insuffisant,
+        la prise de vue est arrêtée et la vidéo sauvegardée!</string>
+    <string name="camera_freememory_space_low_tip">L\'espace de disque est insuffisant, veuillez nettoyer</string>
+    <string name="facebook_app_id_normal">1695172134048956</string>
+    <string name="invite_friend_prefix">Bonjour, j\'utilise une application d\'édition vidéo géniale appelée "V
+Recorder", découvrez-la et installez-la en:</string>
+    <string name="be_pro_editing_skill">Apprenez %d Compétences Indispensables</string>
+    <string name="be_pro_complete_title">Terminez les tâches suivantes</string>
+    <string name="be_pro_share_to_friends">Partagez notre application avec vos amis</string>
+    <string name="be_pro_follow_on_facebook">Suivez-nous sur Facebook</string>
+    <string name="be_pro_edit_skill_audio_add">Ajout d’Audio</string>
+    <string name="be_pro_edit_skill_camera">Caméra</string>
+    <string name="be_pro_edit_skill_export">Exportation</string>
+    <string name="be_pro_edit_skill_music_add">Ajout de Musique</string>
+    <string name="be_pro_edit_skill_ff_speed">Vitesse FF</string>
+    <string name="be_pro_edit_skill_rotate_zoom">Pivotez le Zoom</string>
+    <string name="be_pro_edit_skill_sticker_add">Ajout d’Etiquette</string>
+    <string name="be_pro_edit_skill_text_add">Ajout de Texte</string>
+    <string name="be_pro_edit_skill_draw_add">Ajout de Dessin</string>
+    <string name="skill_rescan">Regarder à nouveau</string>
+    <string name="skill_known">J’ai compris</string>
+    <string name="bepro_activate">Activer</string>
+    <string name="gif_learn_title">Apprendre Gif</string>
+    <string name="setting_terms_privacy_info">Termes et Confidentialité</string>
+    <string name="pro_usable_title">Félicitations!</string>
+    <string name="task_complete">Fait</string>
+    <string name="pro_usable_content">Vous avez les avantages VIP d\'un mois.</string>
+    <string name="move_drag_video_play_stop">Vous êtes maintenant à la fin de la vidéo.</string>
+    <string name="material_apply">Appliquer</string>
+    <string name="delete_subtitle_tips">Supprimez-vous le texte?</string>
+    <string name="share_facebook_content">VRecorder-La meilleure application de montage vidéo, c\'est amusant de faire des vidéos. Venez nous rejoindre!</string>
+    <string name="theme_clip_start_default_text">Ma Vidéo</string>
+    <string name="theme_clip_end_default_text">Merci d’avoir Regardé</string>
+    <string name="editor_theme_3d_type_elegant">Elégant</string>
+    <string name="export_hw_encoder_err_auto_change_to_sw">Désolé, Hardware Accelerating a un bug, nous devons donc passer à l’exportation de logiciel.</string>
+    <string name="editor_theme_3d_type_years">Années</string>
+    <string name="file_scan_notification_dialog_title">Utilisez Instant VRecorder ensuite?</string>
+    <string name="title_right_edit">Montage</string>
+    <string name="edit_clip_mute">En sourdine</string>
+    <string name="edit_clip_mute_cannot_support_picture_tip">La photo ne peut pas être en sourdine!</string>
+    <string name="rename_used_before">Veuillez renommer la vidéo car le nom a déjà été utilisé.</string>
+    <string name="trans_new_90005">Cligner</string>
+    <string name="trans_new_90010">Vague</string>
+    <string name="trans_new_90019">Glisser</string>
+    <string name="home_mp3_title">MP3</string>
+    <string name="home_mp3_no_mp3_yet">Pas encore de MP3</string>
+    <string name="fx_num_limit">Pour pouvoir exporter avec succès, vous ne pouvez pas ajouter plus de 10 effets spéciaux simultanément</string>
+    <string name="special_symbols_not_supported">Les symboles spéciaux ne sont pas supportés!</string>
+    <string name="click_here_to_enjoy_the_new_effects_tip">Cliquez ici pour profiter des NOUVEAUX effets</string>
+    <string name="editor_theme_3d_type_fluctuate">Fluctuer</string>
+    <string name="editor_theme_3d_type_loveday">Jour d’amour</string>
+    <string name="time_initial_value">00:00:0</string>
+    <string name="config_text_toolbox_gip">GIPHY</string>
+    <string name="editor_gif">Gif</string>
+    <string name="giphy_edittext_search">Recherchez dans tous les GIFs</string>
+    <string name="share_result_ad_apps_title">Applications mises en avant pour les vidéastes</string>
+    <string name="dialog_facebook_main_title">Montage Vidéo Tout en Un</string>
+    <string name="reverse_4k_video_too_big_tip">La résolution vidéo est trop élevée pour être inversée. Veuillez la compresser.</string>
+    <string name="power_toast_text">Les jours pour charger le téléphone va déverrouiller à nouveau</string>
+    <string name="power_unlock_succ">Débloquez avec Succès</string>
+    <string name="select_needed_voice_change">Choisissez un effet sonore que vous voulez.</string>
+    <string name="voice_change_type_man">Homme</string>
+    <string name="voice_change_type_woman">Femme</string>
+    <string name="voice_change_type_robot">Robot</string>
+    <string name="voice_change_type_kid">Enfant</string>
+    <string name="voice_change_type_monster">Monstre</string>
+    <string name="voice_change_done">Changement de voix</string>
+    <string name="click_the_button_set_voice_change">Cliquez sur le bouton pour changer votre voix.</string>
+    <string name="editor_mode_easy_theme_inside_position_600002">Séduisant 2</string>
+    <string name="editor_mode_easy_theme_inside_position_600003">Séduisant 3</string>
+    <string name="fu_effects_inside_position_800001">Effet 1</string>
+    <string name="fu_filter_inside_position_810001">Filtre 1</string>
+    <string name="video_setting_music">Fondu</string>
+    <string name="string_refuse_premission_text">VRecorder: L’autorisation d\'enregistrer une vidéo est requise en premier.</string>
+    <string name="string_admob_ad_text">Pub</string>
+    <string name="record_video_save_path">/storage/emulated/0/1VRecorder</string>
+    <string name="home_vip_banner_string"> Aucun filigrane &amp; Aucune publicité </string>
+
+    <string name="rate_quest_content">Nous essayons de rendre l’app meilleure! Aimeriez-vous nous montrer votre soutien en nous évaluant?</string>
+
+
+    <string name="permission_title"> Autorisation</string>
+    <string name="permission_camera_msg"> Cette fonction nécessite une autorisation d\'accès à la
+        caméra. Veuillez l\'activer et réessayer. </string>
+
+    <string name = "str_vip_unlock_compress">DéverrouillerCompressergratuitement</string>
+    <string name = "str_vip_unlock_trim">Déverrouillergratuitement les vidéos de rognage</string>
+    <string name = "str_vip_guide_desc_clip">Afficher les privilèges VIP </string>
+    <string name ="str_vip_try_free">Essayezgratuitement pendant 3 jours</string>
+
+    <string name ="str_video_screen_off_continue_recording"> Conserver
+        l\'enregistrementlorsquel\'écranestéteint</string>
+    <string name = "str_vip_unlock_compress_desc"> Si voussouhaitezutiliserCompress.Click pour essayer le privilège VIP gratuitement. </string>
+    <string name = "str_vip_unlock_trim_desc"> Si voussouhaitezutiliser Trim Videos.Cliquez pour essayer le privilège VIP gratuitement. </string>
+    <string name = "feedback_submit_tip"> Vos commentaires, merci de votresoutien</string>
+    <string name = "feedback_edit_hint"> Vos commentairessont les bienvenus</string>
+
+
+    <string name = "using"> en cours d\'utilisation </string>
+    <string name = "apply">Appliquer</string>
+    <string name = "theme_apply_success">application réussie du thème</string>
+    <string name = "free"> Libre </string>
+
+    <string name = "clip_zone_clip">recadrage</string>
+
+    <string name = "record_tools">Outilsd\'enregistrement</string>
+    <string name = "float_screen_shoot" > Capture d\'écran</string>
+    <string name="unlock_pro_privilege_watch_video_ad">Regardez la vidéo pour déverrouiller cette permission VIP une fois</string>
+    <string name="unlock_pro_privilege_tips">Le privilège VIP a été déverrouillé</string>
+    <string name="unlock_pro_privilege_btn_str">DÉVERROUILLER GRATUITEMENT</string>
+</resources>
+

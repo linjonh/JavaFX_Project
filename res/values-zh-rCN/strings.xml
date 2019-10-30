@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+
+    <string name="app_name">乐秀录屏大师</string>
+    <string name="effectnone">无</string>
+    <string name="rename">重命名</string>
+    <string name="delete">删除</string>
+    <string name="ok">确认</string>
+    <string name="cpunotcompatible">对不起，由于手机CPU架构和程序不兼容导致无法使用本程序，我们正在全力修复这个问题</string>
+
+    <string-array name="video_dialog_message">
+        <item>预览</item>
+        <item>编辑视频</item>
+        <item>分享</item>
+        <item>删除</item>
+        <item>重命名</item>
+        <item>详情</item>
+    </string-array>
+    <string-array name="audio_dialog_message">
+        <item>预览</item>
+        <item>分享</item>
+        <item>删除</item>
+        <item>重命名</item>
+        <item>详情</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>预览</item>
+        <item>分享</item>
+        <item>删除</item>
+        <item>重命名</item>
+        <item>详情</item>
+    </string-array>
+
+
+    <string name="no_write">无法对该文件进行写操作</string>
+    <string name="input_cannot_empty">输入不能为空</string>
+    <string name="rename_success">重命名成功！</string>
+    <string name="rename_fail">重命名失败！</string>
+    <string name="sure_delete">确认</string>
+    <string name="sure_delete_file">确定要删除吗？</string>
+    <string name="detail">详情</string>
+    <string name="file_name">标题： </string>
+    <string name="file_path">路径： </string>
+    <string name="sure">确认</string>
+    <string name="cancel">取消</string>
+    <string name="sure_update">发现新版本,是否马上更新</string>
+    <string name="sure_update_info1">最新版本:</string>
+
+    <!-- 主目录 -->
+    <string name="about">关于我们</string>
+    <string name="setting">设置</string>
+    <!-- 推荐应用 -->
+    <!-- 输出目录 -->
+
+    <!-- 选择视频 -->
+    <string name="Browser">文件浏览</string>
+    <!-- 视频编辑 -->
+    <string name="editor">视频美化</string>
+    <string name="editor_trim">裁剪</string>
+    <string name="editor_fx">特效</string>
+    <string name="editor_text_info2">请输入字幕</string>
+    <string name="editor_text_dialog_title">小提示</string>
+    <string name="nomusic_info">找不到任何音乐文件</string>
+    <string name="too_big_video">视频尺寸太大，无法编辑</string>
+    <string name="unvailable_sd">SD卡状态异常！</string>
+    <string name="error_sd">SD卡无法访问！</string>
+    <string name="unvailable_video">视频无法正常读入！</string>
+    <string name="openvideo_error">打开视频失败</string>
+
+    <string name="switch2background">已切换到后台任务...\n 请不要运行占用内存较大的程序（浏览器，视频播放等），以避免导出进程被终止</string>
+    <string name="editor_fx_info">设置滤镜成功</string>
+    <string name="invalid_param">错误的选取时间，无法导出</string>
+    <string name="merge_toomany">最多能合并5个视频！</string>
+
+    <!-- 分割 -->
+    <!-- 合并 -->
+    <string name="merge_info">视频参数不一致，不能合并</string>
+    <!-- 抓图 -->
+    <!-- 导出框 -->
+    <string name="export_info">没有对视频进行任何编辑</string>
+    <string name="export_output_set">视频默认存储路径</string>
+    <string name="export_output_title">正在导出...</string>
+    <string name="export_output_stop">停止导出</string>
+    <string name="export_output_bg">后台运行</string>
+    <string name="export_output_init">初始化中...</string>
+    <string name="export_output_success">导出成功</string>
+    <string name="export_output_faild">导出失败</string>
+    <string name="export_outofmemory">没有足够的运行内存.请清理任务以释放内存,然后再试一次</string>
+
+    <!-- 关于 -->
+    <string name="about_info1">Android最好的视频编辑制作工具</string>
+    <string name="about_info3">乐秀为用户提供最好的视频编辑制作体验。只需简单的几步操作，就可以给你的视频添上精彩的效果。\n\n  有任何问题或建议，请发邮件给我们support@enjoy-global.com。\n\n  欢迎加入乐秀玩家QQ群98653006， 参与火热讨论!</string>
+
+    <!-- 指南 -->
+    <string name="guide">新手向导</string>
+
+    <!-- 设置 -->
+    <string name="set_quality_info1">导出视频质量设定</string>
+
+    <string name="dialog_yes">是</string>
+    <string name="dialog_no">否</string>
+    <string name="buy_pro_tip_content_new">1. 无广告 \n2. 支持1080p视频导出 \n3. Pro版专享素材 \n4. 支持导入4k视频 \n5. 无乐秀水印 \n6. 特效添加上限增至20个 \n7. 倒放不限时长</string>
+    <string name="vip_buy_add_up_to_effects">特效添加上限增至20个</string>
+    <string name="vip_buy_no_reverse_duration_limit">倒放不限时长</string>
+    <string name="vip_buy_iwatermark">无乐秀水印</string>
+    <string name="please_add_gif_by_gif">请通过【编辑】中的Gif功能来添加gif。</string>
+    <string name="opacity">不透明度</string>
+    <string name="use_auto_fx_values">为所有片段添加随机滤镜</string>
+    <string name="use_auto_tr_values">为所有片段添加随机转场</string>
+
+    <string-array name="set_path_list">
+        <item>保存至内置存储卡</item>
+        <item>保存至外置存储卡</item>
+    </string-array>
+
+    <string name="wipe_off_watermark">清除水印</string>
+    <string name="set_l_info2">版本更新</string>
+    <string name="set_l_info3">关于</string>
+    <!-- 分享 -->
+    <string name="share">分享</string>
+    <string name="share_info3">Youtube</string>
+    <string name="share_info5">更多</string>
+    <string name="share_info6">您的手机没有安装此应用,是否前往下载?</string>
+
+    <string-array name="trim_option_dialog_message">
+        <item>剪切</item>
+        <item>删除选中的部分</item>
+    </string-array>
+
+    <string name="main_mp3">视频转MP3</string>
+    <string name="feedback">意见反馈</string>
+
+    <!-- 2.0 add image -->
+    <string name="addimg_delete_info">保留至少一个片段</string>
+    <string name="addimg_ok_info">选择至少一个片段</string>
+    <string name="exceed_cliplimit">不能添加更多片段</string>
+    <string name="chooseclip">选择片段</string>
+    <string name="choose_a_clip">选择片段</string>
+    <string name="pressagain_stopexport">再次点击就将退出. 编辑项目将不被保存</string>
+    <string name="unregnizeformat">不识别的格式</string>
+    <string name="loading">加载中...</string>
+
+    <!-- 2.1 -->
+    <string name="custom_dialog_info1">制作音乐相册</string>
+    <string name="custom_dialog_info2">制作视频</string>
+    <string name="share_info_error">很抱歉目前无法分享到Youtube,我们会尽快修复这个问题</string>
+    <string name="share_info_Instagram">Instagram</string>
+    <string name="setting_pay">购买专业版</string>
+    <string name="cpunotcompatible2">抱歉，无法找到运行时库。原因可能是不兼容的架构或没有足够的ROM。卸载一些应用程序然后尝试再次安装VideoShow</string>
+    <string name="settingg_share_friend">推荐给朋友</string>
+    <string name="settingg_share_friend_title">乐秀-手机视频编辑制作</string>
+    <string name="settingg_share_friend_text">来看看这个视频编辑APP，乐秀，真的很好用! https://play.google.com/store/apps/details?id=com.xvideostudio.videoeditor</string>
+    <string name="pro_bt_info1">稍后提醒</string>
+    <string name="pro_bt_info2">不再提醒</string>
+
+    <!-- Record -->
+    <string name="voice_info1">正在播放,请停止播放</string>
+
+    <string name="input_invalid">不合法的输入!</string>
+    <string name="editor_trim_duration">时长</string>
+    <string name="invalid_volume_setting1">你不能把配乐设置成静音</string>
+    <string name="unsupport_audio_format">不支持的声音格式</string>
+    <string name="share_info_weibo">微博</string>
+    <string name="noenough_space_ex">外部存储卡空间不够,请删除一些文件</string>
+    <string name="changelog_title">乐秀版本记录</string>
+    <string name="mp4_noaudio_notsupport">对不起,暂时不支持没有音轨的视频</string>
+    <string name="editor_text_dialog_options">选项</string>
+    <string name="quick_export_sigle_video">进入快速导出模式...以下情况支持快速导出:\n1.给单个视频加配乐\n2.给单个视频加配音</string>
+    <string name="add_share_tag_tip">给视频打上标签 #videoshowapp，让更多人看到你的视频</string>
+    <string name="share_clipboard_copy_tip">已复制到剪贴板</string>
+    <string name="draftbox_is_null">草稿箱为空</string>
+    <string name="confirm_exit_editor">是否退出编辑？</string>
+    <string name="stop_exporting_video_tip">再次点击就将退出。本次编辑已更新到草稿箱，下一次還可以继续编辑</string>
+    <string name="editor_fx_type_none">无</string>
+    <string name="editor_fx_type_sketch">素描</string>
+    <string name="editor_fx_type_georgia">乔治亚</string>
+    <string name="editor_fx_type_polaroid">宝丽来</string>
+    <string name="editor_fx_type_sahara">沙漠</string>
+    <string name="editor_fx_type_sepia">怀旧</string>
+    <string name="editor_fx_type_recho">复古</string>
+
+    <string-array name="draftbox_dialog_message">
+        <item>编辑视频</item>
+        <item>删除</item>
+    </string-array>
+
+    <string name="ad_mode_tip">Videoshow是免费应用，所以广告收入对于我们继续工作是很有必要的，非常感谢您的理解。有了您的支持，我们将应用程序做到更加完美！</string>
+
+    <string-array name="studio_tab_title">
+        <item>草稿箱</item>
+        <item>我的作品</item>
+    </string-array>
+
+    <string name="home_adv_edit">视频编辑</string>
+    <string name="home_my_studio">工作室</string>
+    <string name="tx_next">下一步</string>
+    <string name="setting_language">切换语言</string>
+    <string name="setting_language_auto">自动</string>
+    <string name="setting_language_english">English</string>
+    <string name="facebook_copyright_tip">Facebook有非常严格的版权保护。添加无版权的音乐可能会导致您的视频被删除。请知悉。</string>
+    <string name="editor_rotate">旋转</string>
+
+    <string name="editor_trans_type_none">无</string>
+    <string name="export_output_muxer_tip">正在保存...</string>
+    <string name="share_more_dialog_title">分享视频</string>
+    <string name="download_so_ok">下载</string>
+    <string name="download_so_titile">下载中</string>
+    <string name="download_so_success">下载成功</string>
+    <string name="export_not_enough_space_change_config_tip_sd_udisk">手机内存没有足够的空间，已经切换到外部存储卡，并继续导出</string>
+    <string name="export_not_enough_space_change_config_tip_udisk_sd">外置存储卡没有足够的空间，已经切换到手机内存，并继续导出</string>
+    <string name="sd_permission_invalid">对不起，系统不允许videoshow将视频保存到存储卡，请确认存储卡是可写的。</string>
+    <string name="share_to">分享到</string>
+    <string name="no_artist">未知艺术家</string>
+    <string name="editor_exit_title">确认</string>
+    <string name="app_exit_toast_tips">再次点击就将退出</string>
+    <string name="setting_help_info">FAQ</string>
+    <string name="paintpad_no_operation">未对手绘板进行任何操作</string>
+    <string name="paintdraft_saving">保存中...</string>
+    <string name="editor_select_clips">从相册添加</string>
+    <string name="emoji_no_recent">您还没有使用任何表情</string>
+    <string name="editor_fx_type_monochrome">黑白照</string>
+    <string name="editor_fx_type_lookup">英伦风</string>
+    <string name="editor_fx_type_vignette">光晕</string>
+    <string name="editor_fx_type_tonecurve">美白</string>
+    <string name="tv_no_video_selectvideo_text">没有视频文件</string>
+    <string name="tv_My_video_selectvideo_text">我的作品</string>
+    <string name="changelog_setting">版本历程</string>
+    <string name="editor_save_export">保存</string>
+    <string name="export_output_showtips">(请保持程序在前台运行.  “后台运行”我们会尽快支持)</string>
+    <string name="export_mode_manual">手动模式</string>
+    <string name="export_mode_fast">快速模式</string>
+    <string name="export_mode_hd">高清模式</string>
+    <string name="use_current_values">为所有片段添加此滤镜</string>
+    <string name="clear_all_values">移除所有片段的滤镜</string>
+    <string name="editor_title_trans">转场</string>
+    <string name="editor_sticker">贴图</string>
+    <string name="music_preload">预置</string>
+    <string name="music_my_local">我的曲库</string>
+
+    <string name="guide_start">开始</string>
+    <string name="use_localapp_select_musicfile">通过其他软件选择配乐</string>
+    <string name="voice_info10">视频</string>
+    <string name="voice_info11">配乐</string>
+    <string name="volume_setting">配乐设置</string>
+    <string name="open_loop">开启循环播放</string>
+    <!-- Above is translated by TOMEDES Translation, please do not modify -->
+
+    <string name="setting_attention_us">关注我们</string>
+    <string name="material_free_price">免费</string>
+    <string name="network_bad">当前网络状况不佳，请重试</string>
+    <string name="download_sd_full_fail">SD卡存储空间已满，请先清理SD卡</string>
+    <string name="material_downlaod_state">下载</string>
+    <string name="material_updtae_state">更新</string>
+    <string name="material_downlaoding_state">下载中</string>
+    <string name="material_pause_state">暂停</string>
+    <string name="download_fail_try_again">下载失败,请重试</string>
+    <string name="setting_push_message">接收通知推送</string>
+    <string name="download_so_tips">程序启动需要支持库文件，本地没有找到，是否从服务器下载？</string>
+    <string name="firstclip_noSupport">第一张不支持设置转场</string>
+    <string name="editor_theme_type_fade">淡出</string>
+    <string name="setting_edit_mode">编辑尺寸设置</string>
+    <string name="setting_edit_mode_manually">手动设置</string>
+    <string name="setting_edit_mode_crop">方形尺寸</string>
+    <string name="setting_edit_mode_fit">原始尺寸</string>
+    <string name="timeline_not_space">至少需要0.5秒的空白区域才能添加</string>
+    <string name="record_completed">录音完成</string>
+    <string name="record_too_short">录音时长不能小于1秒</string>
+    <string name="video_mute_tip">视频已被静音</string>
+
+    <!-- 以下是V3.9.5更新的string -->
+
+
+    <!-- 这几个没有使用，暂时不用翻译 -->
+    <string name="music_time_short">录音时长不能小于1秒</string>
+    <string name="create_video_file_failed">初始化应用失败，请检查存储卡是否可用</string>
+    <string name="clips_all">所有文件</string>
+    <string name="clips_video">视频</string>
+    <string name="clips_photo">图片</string>
+    <string name="toast_voice_non_drag_tips">配音的时间是不能修改的!</string>
+    <string name="editor_fx_type_japanstyle">日系</string>
+    <string name="editor_fx_type_oldphoto">老照片</string>
+    <string name="editor_fx_type_standardemboss">浮雕</string>
+    <string name="editor_fx_type_pink">粉嫩</string>
+    <string name="editor_fx_type_hdr">HDR</string>
+    <string name="set_video_background">视频背景</string>
+    <string name="setting_video_background_gause">模糊</string>
+    <string name="setting_video_background_white">白色</string>
+    <string name="setting_video_background_black">黑色</string>
+    <string name="setting_app">应用设置</string>
+
+    <!-- 4.0版本新增string begin -->
+    <string name="editor_clip_zoom">缩放</string>
+    <string name="editor_clip_copy">复制</string>
+    <string name="music_history">历史</string>
+    <string name="no_music_history">还没有添加音乐</string>
+    <string name="toolbox_theme">主题</string>
+    <string name="toolbox_fx">滤镜</string>
+    <string name="toolbox_music">配乐</string>
+    <string name="toolbox_text">字幕</string>
+    <string name="toolbox_clip_edit">片段编辑</string>
+    <string name="setting_all_clip_duration">所有照片时长</string>
+    <string name="setting_one_clip_duration">当前照片时长</string>
+    <string name="editor_addclip">添加片段</string>
+    <string name="sort_method">排序方式</string>
+
+    <!-- 视频设置页面 -->
+    <string name="video_setting">设置</string>
+
+    <!-- 2015-03-25新内置音乐 -->
+    <string name="inside_music_copyright_info2">配乐版权已购买，仅限用于个人作品，禁止用于商业用途</string>
+    <string name="double_finger_to_zoom">双指开合缩放视频</string>
+    <string name="clip_null_tips">请添加片段</string>
+    <string name="disallow_record_tips">请前往“权限设置”,允许Videoshow记录声音</string>
+    <string name="audio_exception">音频设备异常</string>
+    <string name="app_pro_version">乐秀专业版</string>
+    <string name="clip_duration">片段时长: </string>
+
+    <!-- 视频设置页面调整字符串 -->
+    <string name="setting_purchase">购买</string>
+    <string name="add_video_format">不支持的媒体类型</string>
+
+    <string-array name="home_tab_title_new">
+        <item>主页</item>
+        <item>灵感</item>
+        <item>应用推荐</item>
+        <!-- <item>最近</item> -->
+    </string-array>
+
+    <string name="should_retain_one_clip">请保存至少一个片段</string>
+    <string name="music_preload_loacal">我的音乐</string>
+
+    <!-- 4.0版本新增string end -->
+
+    <!-- 4.1.0版本新增string begin -->
+
+    <string name="set_export_mode">视频导出模式</string>
+    <string name="export_mode_background">后台模式</string>
+    <string name="export_mode_foreground">前台模式</string>
+    <string name="export_output_complete">视频导出已经完成！</string>
+    <string name="dialog_duration_more_setting_tip">片段时长不能大于3600秒或小于0.2秒</string>
+    <!-- 4.1.0版本新增string end -->
+    <string name="material_new_shop_title">素材中心</string>
+    <string name="material_new_sticker_down">贴图</string>
+    <string name="text_count_limit_info">同一时间最多支持5个字幕</string>
+    <string name="sticker_count_limit_info">同一时间最多支持5个贴图</string>
+    <string name="draw_count_limit_info">同一时间最多支持5个涂鸦</string>
+    <string name="setting_updateto_normal_version">升级到乐秀主版本</string>
+    <string name="setting_updateto_normal_version_title">乐秀主版本</string>
+    <string name="setting_updateto_normal_version_content">您现在使用的是工程版乐秀，你可以抢先体验最新的功能！如果你想要更稳定的体验，乐秀主版本会是更好的选择。</string>
+    <string name="setting_updateto_normal_version_ok">升级</string>
+    <string name="import_gif_width_limit">导入的GIF动画文件像素太大或不支持的格式</string>
+    <string name="start_make_video_editorchoose">开始</string>
+    <string name="pro_function_dialog_content">您当前使用的是乐秀免费版。我们已经发布了乐秀专业版。如果您喜欢我们的应用，您可以购买专业版乐秀来支持我们团队。当然，乐秀专业版拥有免费版所没有的功能：\n\n1.无广告\n2.您可以下载乐秀专业版的专属素材 \n3.支持4K高分辨率视频</string>
+    <string name="add_font_tip_title">自定义字体</string>
+    <string name="add_font_tip_content">想要使用更多字体\n复制字体文件（.ttf或.otf)，放入手机以下文件夹下，就可以使用了\n\n sdcard/1videoshow/fonts/</string>
+    <string name="choose_4k_buypro_title">你添加的视频过大</string>
+    <string name="loading_shuffle_ad_toast">正在加载，请稍等</string>
+    <string name="editor_compress_mode">选择压缩模式</string>
+    <string name="editor_triming">正在剪切...</string>
+    <string name="video_size_too_small">您的视频已经很小，不需要压缩了！</string>
+    <string name="choose_other_sticker_localapp">选择你自己的表情或Gif</string>
+    <string name="add">添加</string>
+    <string name="choose_other_font_localapp">选择文件夹添加字体</string>
+    <string name="editor_clip_ff">快慢</string>
+    <string name="editor_clip_ff_title_tip">请选择视频速度</string>
+    <string name="editor_clip_ff_video_too_long_tip">视频过长，建议先裁剪出精彩部分再做快慢速镜头</string>
+    <string name="editor_clip_ff_cannot_support_picture_tip">不支持图片进行快放/慢放</string>
+    <string name="editor_clip_ff_less_1second_tip">导出的快放镜头不能小于%s秒</string>
+    <string name="editor_clip_ff_encoding_tip">正在转码……</string>
+    <string name="editor_clip_ff_stop_encode_tip">停止转码</string>
+    <string name="duration_batch_video_char">时长</string>
+    <string name="duration_batch_clip_char">每个照片</string>
+    <string name="duration_batch_custom">自定义</string>
+    <string name="add_clip_memory_warn_tip">你选择的照片较多，可能会使用大量手机内存，导致手机较卡！</string>
+    <string name="duration_input_begin_char">开始时间</string>
+    <string name="duration_input_end_char">结束时间</string>
+    <string name="duration_input_starttimeout_errinfo">开始时间不能超过可编辑时间！</string>
+    <string name="duration_input_endtimeout_errinfo">结束时间不能超过可编辑时间！</string>
+    <string name="duration_input_startgtend_errinfo">结束时间必须大于开始时间</string>
+    <string name="editor_paint_new_clip">新建空白片段</string>
+    <string name="app_info_view_compress">压缩该视频</string>
+    <string name="setting_edit_skill">视频编辑小技巧</string>
+    <string name="save_draftbox_fail_tip">保存到草稿箱失败,没有足够的空间!</string>
+    <string name="editor_fx_type_nashville">希望</string>
+    <string name="editor_fx_type_lordkevin">夕阳</string>
+    <string name="editor_fx_type_1977">春</string>
+    <string name="editor_fx_type_xproii">沉静</string>
+    <string name="editor_fx_type_walden">梦想</string>
+    <string name="editor_fx_type_lomo">Lomo</string>
+    <string name="editor_fx_type_valencia">优雅</string>
+    <string name="editor_fx_type_amaro">流年</string>
+    <string name="editor_fx_type_hudson">冬</string>
+    <string name="editor_fx_type_rise">自然</string>
+    <string name="editor_fx_type_sierra">奶油</string>
+    <string name="editor_fx_type_brannan">回忆</string>
+    <string name="editor_fx_type_earlybird">曾经</string>
+    <string name="editor_fx_type_sutro">夜幕</string>
+    <string name="editor_fx_type_toaster">光芒</string>
+    <string name="editor_fx_type_hefe">破晓</string>
+    <string name="config_text_toolbox_setting">字幕设置</string>
+    <string name="share_save_to_my_studio">保存至相册</string>
+    <string name="buy_pro_tip_content_new_2">\n4.支持导出1080P视频.</string>
+    <string name="editor_add_clip_select">选择片段</string>
+    <string name="clip_cannot_switch">请先确定或取消当前片段的操作!</string>
+    <string name="camera_util_no_camera_tip">没有摄像头，不支持拍摄</string>
+    <string name="camera_util_only_one_camera_tip">只有一个摄像头，不支持切换</string>
+    <string name="camera_resolution">分辨率</string>
+    <string name="camera_recording_failed">录制视频失败</string>
+    <string name="camera_switch_waitting">请稍候再切换摄像头</string>
+    <string name="camera_no_camera_permission_tip">请到系统设置或权限管理中开启相机权限</string>
+    <string name="camera_take_picture_waitting_tip">正在拍照请稍候</string>
+    <string name="camera_no_take_pictrue_tip">你还没有拍摄片段</string>
+    <string name="camera_freememory_space_low_tip">存储空间过小，请前往清理</string>
+    <string name="camera_freememory_space_no_tip">存储空间不足，相机无法启动</string>
+    <string name="download_more_audio">下载更多音效</string>
+    <string name="downloaded">已下载</string>
+    <string name="material_category_sticker">贴图</string>
+    <string name="material_category_theme">主题</string>
+    <string name="material_category_audio">音效</string>
+    <string name="material_category_font">字体</string>
+    <string name="setting_evaluate">评价我们</string>
+    <string name="email_report_tail">给我们一些建议或者反馈bug</string>
+    <string name="action_feedback_title">选择邮箱</string>
+    <string name="setting_recommend_to_friend">邀请好友</string>
+    <string name="setting_send_app_tips">分享乐秀:</string>
+    <string name="fullscreen_export_backstage">后台导出(Beta)</string>
+    <string name="background_export_tips">视频将在后台导出。如果内存不够安卓系统会关闭后台任务。因此你最好先关闭内存消耗大的其它应用（比如浏览器，播放器等），这样就可以防止视频在后台导出时被关闭了。</string>
+    <string name="invite_friend_prefix">Hi,我正在使用超棒的视频编辑软件“乐秀”，推荐你也使用哦：</string>
+    <string name="setting_terms_privacy_info">隐私权限</string>
+    <string name="home_edit_menu">编辑</string>
+    <string name="be_pro_title">引导</string>
+    <string name="guide_nice_video">如何拍摄漂亮的视频</string>
+    <string name="guide_add_sticker">如何添加表情贴图</string>
+    <string name="guide_add_subtitle">如何添加文字</string>
+    <string name="guide_add_music">如何给视频添加音乐</string>
+    <string name="guide_draw_video">如何在视频上涂鸦</string>
+    <string name="guide_zoom_rotate">如何旋转缩放视频和照片</string>
+    <string name="guide_add_sound">如何为视频配音、添加音效</string>
+    <string name="guide_video_motion">如何让视频快慢放</string>
+    <string name="download_more_music">下载更多音乐</string>
+    <string name="music_download">已下载</string>
+    <string name="music_local">我的歌曲</string>
+    <string name="toolbox_multi_music">多段音乐</string>
+    <string name="app_update_to_use_the_theme">该主题拥有全新的效果。你需要升级我们的应用才可以使用它。</string>
+    <string name="home_app_store">应用推荐</string>
+
+
+    <string name="export_video_mode_chooser_title_tips">视频导出</string>
+    <string name="export_video_mode_chooser_1080p_ads_tips">1080P高清导出</string>
+    <string name="export_video_mode_chooser_1080p_pro_tips">1080p高清导出（专业版）</string>
+    <string name="export_video_1080p_mode_tips">1080p高清导出中</string>
+
+
+    <string name="material_apply">应用</string>
+
+    <string name="lite_unlocker_pro_suc_info">您已成功升级到乐秀主版本</string>
+    <string name="share_facebook_unlock_fail">解锁失败</string>
+    <string name="share_facebook_unlocked">解锁成功</string>
+    <string name="share_facebook_dialog_content">将乐秀分享到Facebook就可以解锁免费使用这款主题</string>
+    <string name="share_facebook_dialog_tips">提示：分享就可以解锁该主题！</string>
+    <string name="share_facebook_dialog_btn_text">立即分享</string>
+
+    <string name="delete_subtitle_tips">确定删除该字幕吗？</string>
+
+    <string name="export_dialog_msg">如果您想使用后台导出，请进入设置打开应用悬浮窗，否则你只可以使用前台导出。</string>
+    <string name="export_dialog_ok">前往打开悬浮窗</string>
+    <string name="export_dialog_cancel">继续使用前台导出</string>
+
+    <string name="theme_clip_start_default_text">我的视频</string>
+    <string name="theme_clip_end_default_text">谢谢观看</string>
+
+    <string name="editor_theme_3d_type_elegant">优雅</string>
+    <string name="editor_theme_3d_type_years">岁月</string>
+
+    <string name="export_hw_encoder_err_auto_change_to_sw">对不起，目前硬件编码加速存在一些问题，因此我们已经帮你切换到软件编码导出。</string>
+    <string name="lite_unlocker_pro_dialog_title">特别优惠</string>
+    <string name="lite_unlocker_pro_dialog_info_new">乐秀Lite版将会在一个月内停止更新。为了感谢大家一直以来的支持，我们将会为大家免费提供乐秀专业版的一些功能（1080高清导出，支持4k视频添加，无限制下载所有素材）。
+这个特别优惠只在一个月内可以获得，所以快来解锁这些功能吧！</string>
+    <string name="beta_unlocker_pro_dialog_info">乐秀Beta版将会在一个月内停止更新。为了感谢大家一直以来的支持，我们将会为大家免费提供乐秀专业版的一些功能（1080高清导出，支持4k视频添加，无限制下载所有素材）。
+这个特别优惠只在一个月内可以获得，所以快来解锁这些功能吧！
+</string>
+    <string name="lite_unlocker_pro_dialog_ok">免费解锁专业版功能</string>
+
+    <string name="editor_set_different_duration">每个片段设置不同时长</string>
+    <string name="buy_pro_tip_content_new_water">\n5.视频添加主题，末尾去除水印。</string>
+
+
+    <string name="login_rewards_title_tip">连续登陆奖励</string>
+    <string name="login_rewards_remain_days_tip">你还需要 %s 天登录解锁专业版功能</string>
+    <string name="login_rewards_last_day_tip">现在登录解锁专业版功能吧</string>
+    <string name="login_rewards_congratulations_tip">恭喜！</string>
+    <string name="login_rewards_unlock_successful_tip">你可以免费使用专业版功能1个月。感谢你的支持！快点制作一个最棒的视频吧！</string>
+    <string name="login_rewards_expired_tip">你的免费限时一个月专业版功能已经到期。但是你可以继续登录解锁该功能。你确定要继续解锁专业版功能吗？</string>
+    <string name="file_scan_notification_title">您的照片影集已经准备好了</string>
+    <string name="file_scan_notification_content">欣赏一段包含你最美好时刻的视频吧</string>
+    <string name="file_scan_notification_dialog_title">即刻使用乐秀？</string>
+    <string name="file_scan_notification_dialog_content_1">无论何时你拍摄了一些照片或者视频，乐秀会为你准备一个超棒的影集.</string>
+    <string name="file_scan_notification_dialog_content_2">这还只是一个草稿，只有经过你的允许视频才会被分享。</string>
+    <string name="file_scan_notification_dialog_content_tip">提示: 你可以在需要时随时打开/关闭它。</string>
+    <string name="file_scan_notification_dialog_ok">同意</string>
+    <string name="file_scan_notification_dialog_cancel">不同意</string>
+
+    <string name="tip_app_upgrad_dialog_ok">立即升级</string>
+    <string name="tip_app_upgrad_dialog_cancel">稍后提醒</string>
+    <string name="theme_store_rating_rate_improve">评价该主题，帮助我们提升</string>
+    <string name="theme_store_rating_choose_very">非常好</string>
+    <string name="theme_store_rating_choose_normal">一般</string>
+    <string name="theme_store_rating_choose_poor">比较差</string>
+    <string name="theme_store_rating_title_rate">评价</string>
+
+
+    <string name="user_refuse_permission_camera_tip">你拒绝了使用相机权限，应用无法正常使用相机功能，请选择同意授权该权限</string>
+    <string name="user_refuse_permission_audio_recorder_tip">你拒绝了录音权限，应用无法正常使用录音功能，请选择同意授权该权限</string>
+    <string name="user_permit_permission_audio_recorder_tip">你已经同意了录音权限，现在可以按下录音按钮开始录音</string>
+
+    <string name="rate_please">如果喜欢，请前往评价支持我们！我们会继续努力！</string>
+    <string name="user_permit_permission_take_picture_tip">你已经同意了相机权限，现在可以点击拍照按钮开始拍照</string>
+
+    <!--<string name="app_info">视频编辑</string>-->
+    <string name="app_info_view_trim">视频剪切</string>
+    <string name="save_operation">放弃当前改动？</string>
+
+    <string name="remove_videos_original_voice">去除视频原音</string>
+    <string name="restore_videos_original_voice">恢复视频原音</string>
+    <string name="videos_original_voice_mute">视频原音已关闭</string>
+    <string name="videos_original_voice_unmute">视频原音已开启</string>
+    <string name="remove_videos_original_voice_cannot_support_tip">当前情况，你无法去除视频原音</string>
+    <string name="recover_videos_original_voice_cannot_support_tip">当前情况，你无法恢复视频原音</string>
+
+
+    <string name="share_result">完成</string>
+    <string name="rename_no_text">请输入标题</string>
+    <string name="rename_dialog_title">重命名</string>
+    <string name="rename_used_before">这个名字已经有视频在用了，请换一个吧</string>
+
+    <string name="upload_to_youtube">上传到youtube</string>
+    <string name="user_logout">登出</string>
+
+    <string name="toast_cannot_retrieve_cropped_image">不能获取裁剪图像</string>
+    <string name="toast_unexpected_error">意外错误，请重试</string>
+    <string name="ucrop_label_original">Original</string>
+    <string name="ucrop_label_edit_photo">编辑照片</string>
+
+
+    <string name="hifont_download_tip">免费下载Emoji Maker 创建自己的自定义emoji</string>
+
+    <string name="setting_hw_acc_notification_title">硬件加速</string>
+    <string name="setting_hw_acc_toast_1">已经转换为正常模式，该模式会导致导出视频过程变慢，但是稳定性更高</string>
+    <string name="setting_hw_acc_toast_2">已经转换为硬件加速模式，该模式会导致导出视频过程变快</string>
+    <string name="video_to_mp3_noaudio_tips">所选择的片段无音频</string>
+
+    <string name="title_trim_select_clip">多段剪切</string>
+    <string name="title_preview">预览</string>
+    <string name="video_trim_clip_null_tips">请先剪切片段并添加</string>
+    <string name="video_no_trim_clip_toast">您还没有添加剪切的片段</string>
+    <string name="video_trim_clip_duration_toast">剪切的片段时长不能少于0.1秒</string>
+    <string name="video_clip_count_toast">剪切片段不能超过10个</string>
+    <string name="no_add_video_trim_clip_toast">请先添加剪切的片段</string>
+    <string name="bt_trim_clip_add">添加</string>
+    <string name="bt_trim_clip_add_tips">你可以继续添加剪切的片段！</string>
+
+    <!--导出界面文字内容-->
+    <string-array name="text_full_context">
+        <item>跳出当前页面很可能造成导出失败，为了顺利看到你精心制作的视频，请多一点耐心停留在这里。</item>
+        <item>广告帮助乐秀成为一款免费的应用。感谢大家的理解！</item>
+        <item>如果您的手机配置偏低，视频源过大、素材过多都有可能造成导出失败，可以删减素材后重新尝试。</item>
+        <item>使用\“多段剪切\”从一个视频中剪辑多个片段并且快速保存，这对于大视频非常有帮助。</item>
+        <item>友情提示：快速模式转出速度更快，但视频清晰度略低；选择高清模式，耗时更长但视频更清晰。</item>
+        <item>点击\“片段编辑\”的\“快慢\”来进行视频快慢放。</item>
+        <item>视频导出成功后，您可以在工作室里对视频进行重命名，也可以分享给您的朋友。</item>
+        <item>点击\“高级编辑\”的\“多段音乐\”，给整个视频添加多个音乐。</item>
+        <item>导出时间太长？不妨去喝杯咖啡，小歇过后您就能看到精彩的视频了！</item>
+        <item>在多段音乐模式下，您可以调节设置多种配音，并设置不同的音量。</item>
+        <item>充分利用\“贴图\”。我们不仅支持内置贴图、您自己的图片和gif动图，也支持多层贴图哟！</item>
+        <item>独家：音乐视频拍摄。播放音乐时录像，对于舞蹈视频非常有用哦！</item>
+        <item>您可以在视频编辑主界面的右上方，点击项目设置按钮设置背景色哦。</item>
+        <item>旋转缩放您的视频或图片，以达到你要表达的焦点。</item>
+        <item>在主界面使用\“压缩视频\”来压缩视频，方便更快速地分享！</item>
+        <item>想要更多功能？把你的想法发送给我们吧：support@enjoy-global.com</item>
+    </string-array>
+
+    <string name="subtitle_effect_3d_type_modern">现代黑</string>
+    <string name="subtitle_effect_3d_type_modern_white">现代白</string>
+    <string name="subtitle_effect_3d_type_news">新闻</string>
+    <string name="config_text_toolbox_effect">字幕特效</string>
+    <string name="subtitle_effect_3d_type_fade_out">淡入淡出</string>
+    <string name="subtitle_effect_3d_type_jump_in">跳入</string>
+    <string name="subtitle_effect_3d_type_pop_up">向上</string>
+    <string name="subtitle_effect_3d_type_roll_in">滚入</string>
+    <string name="subtitle_effect_3d_type_kick_back">回弹</string>
+    <string name="subtitle_effect_3d_type_roll_up">向上滚动</string>
+    <string name="subtitle_effect_3d_type_roll_left">向左滚动</string>
+    <string name="subtitle_effect_3d_type_crack">破碎</string>
+    <string name="subtitle_effect_3d_type_sunshine">阳光</string>
+    <string name="subtitle_effect_3d_type_darkclouds">乌云</string>
+    <string name="subtitle_effect_3d_type_drop">下坠</string>
+    <string name="subtitle_effect_3d_type_love">爱心</string>
+    <string name="subtitle_effect_3d_type_lamp">灯光</string>
+    <string name="subtitle_effect_3d_type_dialog">对话框</string>
+    <string name="subtitle_effect_3d_type_crow">乌鸦</string>
+    <string name="subtitle_effect_3d_type_flame">火焰</string>
+    <string name="subtitle_effect_3d_type_thunder">雷电</string>
+    <string name="subtitle_effect_3d_type_fire">喷火</string>
+    <string name="subtitle_effect_3d_type_lightning">闪电</string>
+    <string name="subtitle_effect_3d_type_flash">闪光</string>
+    <string name="trans_new_90001">无</string>
+    <string name="trans_new_90002">淡入淡出</string>
+    <string name="trans_new_90003">涂鸦</string>
+    <string name="trans_new_90004">纵横</string>
+    <string name="trans_new_90005">闪烁</string>
+    <string name="trans_new_90006">飞跃</string>
+    <string name="trans_new_90007">浮块</string>
+    <string name="trans_new_90008">简约</string>
+    <string name="trans_new_90009">合成</string>
+    <string name="trans_new_90010">水波</string>
+    <string name="trans_new_90011">流星</string>
+    <string name="trans_new_90012">翻折</string>
+    <string name="trans_new_90013">百叶窗</string>
+    <string name="trans_new_90014">爱心</string>
+    <string name="trans_new_90015">泡泡</string>
+    <string name="trans_new_90016">时钟</string>
+    <string name="trans_new_90017">圆</string>
+    <string name="trans_new_90018">溶解</string>
+    <string name="trans_new_90019">幻灯片</string>
+    <string name="trans_new_90020">缩放</string>
+    <string name="trans_new_90021">闪白</string>
+    <string name="trans_new_90022">闪黑</string>
+    <string name="trans_new_90023">花朵</string>
+    <string name="trans_new_90024">六角星</string>
+
+    <!--美拍-->
+
+    <string name="noenough_space_20m_tip">你的磁盘空间不足，请及时清理！</string>
+    <string name="remove_watermark_content">安装并打开应用，免费去除水印1天！</string>
+    <string name="tip_config_sound_add_count_50">最多只支持50个配音！</string>
+    <string name="tip_config_video_clip_copy_count_60">视频的个数不能超过60个！</string>
+    <string name="select_music_cannot_support_tip">音频文件已损坏。</string>
+
+    <string name="pull_to_refresh_pull_label">向下拉动可以刷新</string>
+    <string name="pull_to_refresh_release_label">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中&#8230;</string>
+    <string name="share_to_get_surprise">分享有惊喜</string>
+    <string name="today_you_can_download_all_materials">今天你可以下载所有专业版素材</string>
+
+    <string name="the_video_has_been_deleted">该视频已被删除</string>
+
+    <!--首页引导popwindow文字-->
+
+    <!--导出结果页，视频大小-->
+    <string name="share_result_video_size_content">压缩的视频很棒，需要删除原视频吗？</string>
+    <string name="share_result_video_iess">少于原视频</string>
+    <string name="share_result_video_original">原来的</string>
+    <string name="share_result_video_compressed">压缩的</string>
+
+    <!--VIP buy 界面-->
+    <string name="vip_buy_btn">购买</string>
+    <string name="vip_buy_advertising">无广告</string>
+    <string name="vip_buy_export">支持1080P视频导出</string>
+    <string name="vip_buy_import">支持导入4K视频</string>
+
+    <string name="home_mp3_new">新建</string>
+    <string name="home_mp3_view">查看</string>
+    <string name="fx_effect_3d_type_bubble">泡泡</string>
+    <string name="fx_effect_3d_type_thunder">闪电</string>
+    <string name="hold_down_to_preview">长按可全屏预览</string>
+    <string name="fx_num_limit">为了导出视频顺利，最多只能添加10个特效</string>
+    <string name="fx_num_limit_pro">为了使导出成功，不能同时添加超过20个特效</string>
+    <string name="click_here_to_enjoy_the_new_effects_tip">新功能特效上线，点击尝鲜</string>
+
+    <!--素材各列表顶部广告条目文字-->
+
+    <!--素材激励广告弹框-->
+
+
+    <!--素材激励广告微信弹框-->
+
+    <!--我的视屏，草稿箱，MP3文件从命名特殊字符无效-->
+    <string name="special_symbols_not_supported">不可使用的特殊符号！</string>
+    <string name="editor_theme_3d_type_fluctuate">变换</string>
+    <string name="editor_theme_3d_type_loveday">爱的一天</string>
+
+    <string name="discard_operation">放弃</string>
+
+    <string name="theme_clip_start_choose">片头：</string>
+    <string name="theme_clip_end_choose">片尾：</string>
+    <string name="theme_clip_start_choose_a">片头</string>
+    <string name="theme_clip_end_choose_b">片尾</string>
+    <string name="playing_music_preview_time">试听20秒</string>
+
+    <string name="material_store_theme_remove_confirm">确认删除?</string>
+    <string name="material_store_fx_remove_confirm">确认删除?</string>
+    <string name="material_store_music_remove_confirm">确认删除?</string>
+    <string name="material_store_text_style_remove_confirm">确认删除?</string>
+    <string name="material_store_sticker_remove_confirm">确认删除?</string>
+    <string name="material_store_sound_effects_remove_confirm">确认删除?</string>
+    <string name="material_store_font_remove_confirm">确认删除?</string>
+    <string name="material_store_gif_remove_confirm">确认删除?</string>
+    <string name="use_trans_current_values">为所有片段添加此转场</string>
+    <string name="clear_trans_all_values">移除所有片段的转场</string>
+
+    <string name="export_or_share_video_success">成功！</string>
+    <string name="editor_theme_more">更多</string>
+    <string name="music_my_download">我的下载</string>
+    <string name="music_my_music">我的音乐</string>
+    <string name="music_no_music_history">无音乐历史</string>
+    <string name="music_set_add_music">添加音乐</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <string name="mystudio_batch_delete">批量删除</string>
+
+    <string name="select_a_clip_to_edit">请选中一个片段编辑</string>
+    <string name="set_duration_for_each_photo">为每张照片设置时长</string>
+    <string name="set_precise_time">设置精确时间</string>
+    <string name="global_settings">全局设置</string>
+    <string name="take_a_short_preview">短暂预览</string>
+
+    <string name="rate_quest_title">感谢使用乐秀录屏大师!</string>
+    <string name="rate_quest_yes">好啊</string>
+    <string name="rate_quest_no">我不愿意</string>
+
+    <string name="text_Selected">选中</string>
+    <string name="text_clips">个片段</string>
+
+    <string name="home_photo_movie">音乐相册</string>
+    <string name="send_to_friend_sms">小伙伴们,快点来用乐秀吧！！！</string>
+
+    <string name="manage">管理</string>
+    <string name="done">完成</string>
+    <string name="giphy_noresult">没有对应的搜索结果\n建议输入英文</string>
+    <string name="dialog_duration_adjust_tips">Tips: 点击  %s  你可以将当前暂停的时间点作为开始时间或结束时间</string>
+    <string name="duration_dialog_time_same_tip">开始和结束时间不能相同</string>
+
+    <string name="giphy_edittext_search">搜索Gif图片</string>
+    <string name="editor_select_online_gif">在线Gif</string>
+
+    <string name="gif_search_text_over">字数不应超过200字</string>
+
+    <string name="export_video_resolution_limit">你的手机分辨率限制了导出视频的清晰度，请理解</string>
+    <string name="no_material_now">你还没有下载素材</string>
+    <string name="draftbox_is_null_tip_revert">源文件已丢失</string>
+    <string name="main_reverse">倒放</string>
+    <string name="app_info_view_reverse">视频倒放</string>
+    <string name="reverse_text_full_context_0">导出成功后的视频会去除原音，以避免倒放形成的杂音干扰。</string>
+    <string name="reverse_text_full_context_1">精彩视频马上呈现，请稍作等待不要退出导出界面，以免影响导出。</string>
+    <string name="reverse_text_full_context_2">导出的倒放视频作为新片段保存，原文件仍保留。</string>
+    <string name="reverse_text_full_context_3">您可以在视频编辑中添加音乐以及特效等，让倒放视频更精彩。</string>
+
+    <string name="use_toolkit_create_video">功能一应俱全，精美视频即刻呈现。</string>
+    <string name="add_material_to_video">添加字幕，特效，贴图等内容来美化你的视频。</string>
+    <string name="simplest_way_make_video">添加主题，简单快速制作精美视频。</string>
+    <string name="set_photo_display_time">设置照片的展示时长。</string>
+    <string name="trim_video_save_part">剪切视频，留住精彩。</string>
+    <string name="zoom_photo_video_focus_attention">缩放视频和照片以选择你的焦点。</string>
+    <string name="new_function_reverse_video">增加新功能：视频倒放。</string>
+    <string name="video_setting_background">背景</string>
+    <string name="video_music_single_type">整段配乐</string>
+    <string name="video_music_multi_type">多段配乐</string>
+    <string name="edit_clip_set_duration_all">应用到所有图片</string>
+    <string name="local_gif">本地Gif</string>
+
+    <string name="click_the_theme_again_to_edit">点击以编辑主题。</string>
+    <!--V7.2.6-->
+    <string name="material_pull_to_refresh">下拉刷新</string>
+    <string name="galleryvault_install_uppercase">安装</string>
+    <string name="galleryvault_share_extensions_gap_line_tip">扩展功能</string>
+    <string name="galleryvault_delete_draft_tip">视频已经隐藏成功，是否删除对应的草稿？</string>
+    <string name="choose_too_large_video">视频文件过大，不支持导入</string>
+    <string name="home_text_transcode">视频转码</string>
+    <string name="home_text_gallery">图库</string>
+    <string name="home_text_slideshow">节拍相册</string>
+    <string name="editor_add_music">点击添加音乐</string>
+
+    <string name="install">安装</string>
+    <string name="use_vidcompact_convert">使用视频压缩大师，转码后可进行美化编辑。</string>
+    <string name="home_transcode_content">立即使用视频压缩大师，压缩视频，轻松转码</string>
+    <string name="home_transcode_function">功能</string>
+    <string name="home_transcode_convert">高清转码</string>
+    <string name="home_transcode_support">多格式支持</string>
+    <string name="home_transcode_compact">迷你尺寸</string>
+    <string name="home_transcode_rapid">快速压缩</string>
+    <string name="home_gallery_content">使用FlickMoment浏览照片和视频，还可即刻制作视频</string>
+    <string name="home_gallery_browse">文件夹管理，有序浏览照片</string>
+    <string name="home_gallery_add">照片视频，一键添加到收藏</string>
+    <string name="home_gallery_engaging">精美主题，快速制作视频</string>
+    <string name="home_gallery_automatically">智能管理照片视频（ 活动，日期，地址等分类 ）</string>
+    <string name="home_slideshow_content">使用节拍相册跟随音乐节奏敲击按钮，立享精美视频</string>
+    <string name="home_slideshow_just">仅需4步  </string>
+    <string name="home_slideshow_to">快速制作音乐视频</string>
+    <string name="home_slideshow_choose">选择照片</string>
+    <string name="home_slideshow_choose_music">选择音乐</string>
+    <string name="home_slideshow_tap">跟随节奏，点击照片</string>
+    <string name="home_slideshow_save">保存视频，快速分享</string>
+
+    <string name="reverse_4k_video_too_big_tip">视频分辨率过高，请先进行压缩</string>
+    <string name="setting_clip_duration">时长</string>
+    <string name="choose_4k_buypro_content">只有乐秀专业版支持导入4K分辨率的视频，是否前往购买乐秀专业版？</string>
+
+    <string name="home_discover">发现</string>
+    <string name="discover_all_videos">所有视频</string>
+    <string name="discover_all_contents">所有资讯</string>
+    <string name="network_is_unavailable">网络不可用</string>
+    <string name="discover_page_title">发现          </string>
+    <string name="pinch_to_zoom">捏住视频区域进行缩放</string>
+    <string name="guide_start_ui">开始</string>
+    <string name="guide_back_ui">返回</string>
+    <string name="video_setting_ratio">视频比例</string>
+    <string name="video_setting_widescreen_mode">宽屏</string>
+    <string name="video_setting_square_mode">方块</string>
+    <string name="video_setting_vertical_mode">竖屏</string>
+    <string name="noenough_space_ex_need">需要空间：</string>
+    <string name="noenough_space_ex_cur">可用空间：</string>
+    <string name="go_to_clip_edit">进入片段编辑</string>
+    <string name="share_no_enough_space">空间不足。</string>
+    <string name="share_please_free_your">请清理手机空间。你可以在片段编辑中对视频进行剪切或是删除一些片段。</string>
+
+    <string name="click_the_button_set_theme_prologue_epilogue">点击按钮设置主题片头&amp;片尾。</string>
+    <string name="tag_library">热门标签</string>
+    <string name="selected_category">精选专题</string>
+    <string name="all_tags">标签库</string>
+    <string name="toolbox_sound">声音</string>
+    <string name="main_video_compress">视频压缩</string>
+
+    <string name="music_sort_by_hot">最热</string>
+    <string name="music_sort_by_new">最新</string>
+
+    <string name="guide11">视频编辑</string>
+    <string name="guide12">装点人生美好时刻</string>
+    <string name="guide21">动效字幕</string>
+    <string name="guide22">旋转跳跃绝不停歇</string>
+    <string name="guide31">海量配乐</string>
+    <string name="guide32">大片级别听觉盛宴</string>
+    <string name="music_fadein_fadeout">音乐淡入淡出</string>
+    <string name="music_add_limit_tip">最多能添加%s首音乐</string>
+    <string name="tip_app_upgrad_dialog_title">最新版本</string>
+
+    <string name="home_gif_video">视频转GIF</string>
+    <string name="home_gif_photo">图片转GIF</string>
+    <string name="add_more_than_50">最多只能添加50张图片</string>
+    <string name="set_duration_10">选取的视频片段不能超过10秒</string>
+    <string name="select_gif_resolution">选择GIF分辨率</string>
+    <string-array name="gif_quality">
+        <item>标清</item>
+        <item>高清</item>
+        <item>超清</item>
+    </string-array>
+
+
+    <string name="set_duration_1">选取的视频片段需超过1秒</string>
+
+
+    <string name="drag_point_guide">点击该按钮可记录素材移动轨迹。</string>
+
+    <string name="editor_clip_split">分割</string>
+    <string name="clip_is_too_short_to_split">视频太短，无法分割</string>
+
+    <string name="select_needed_voice_change">选择你需要的变声</string>
+    <string name="voice_change_type_man">男人</string>
+    <string name="voice_change_type_woman">女人</string>
+    <string name="voice_change_type_robot">机器人</string>
+    <string name="voice_change_type_kid">小孩</string>
+    <string name="voice_change_type_monster">怪兽</string>
+    <string name="voice_change_done">变声已完成</string>
+    <string name="click_the_button_set_voice_change">点击该按钮可以变换你的声音。</string>
+
+    <string name="ads_restore">恢复购买</string>
+    <string name="menbership_success">成功</string>
+    <string name="vip_buy_materila">乐秀300+专业配乐，10+专业主题等</string>
+
+
+    <string name="guide_skip">跳过</string>
+
+    <string name="remove_ads_checking">检查中…</string>
+    <string name="remove_ads_checking_succeed">恢复购买成功</string>
+    <string name="remove_ads_checking_failed">恢复购买失败</string>
+    <string name="gp_connect_fail_dialog_text_title">启动Google Play服务失败</string>
+    <string name="gp_connect_fail_dialog_text_1">-请检查网络连接</string>
+    <string name="gp_connect_fail_dialog_text_2">-确认已登录谷歌账号</string>
+    <string name="gp_connect_fail_dialog_text_3">-确认手机可运行Google Play</string>
+
+    <string name="save_more">优惠60%！</string>
+    <string name="vip_buy_more_new_pro">更多专业素材会定期更新</string>
+    <string name="clip">片段</string>
+    <string name="exporting_your_video_1080P">正在导出1080P视频...</string>
+    <string name="exporting_your_video">正在导出你的视频...</string>
+    <string name="please_stay_in_this_page">留在当前页面你可以获得:</string>
+    <string name="higher_export_speed">更快的导出速度</string>
+    <string name="higher_export_success_rates">更高的导出成功率</string>
+    <string name="quit_exporting_your_video">确定要退出视频导出吗？</string>
+
+    <string name="home_premium">黄金会员</string>
+    <string name="home_premium_benefits">乐秀黄金会员</string>
+    <string name="home_premium_benefits_tips">订阅乐秀黄金会员即可获得专属的会员特权，并能畅享即将震撼来袭的所有特权。</string>
+    <string name="home_premium_month_buy">按月订阅</string>
+    <string name="home_premium_year_buy">按年订阅</string>
+
+
+    <string name="material_unlock">解锁所有专享素材</string>
+    <string name="membership_success_dialog_1">恭喜!</string>
+    <string name="membership_success_dialog_2">你获得了所有的会员特权!</string>
+
+    <string name="export_video_mode_chooser_gif_tips">GIF模式</string>
+    <string name="export_video_mode_chooser_1080p_tips">1080p模式</string>
+    <string name="gif_time_limited">设置片段的时长不超过30秒</string>
+    <string name="gif_incentive">支持GIF导出</string>
+
+    <string name="gifguru_description_sub_title">使用GifGuru将图片/视频变成好玩的GIF</string>
+    <string name="gifguru_description_1">为GIF添加字幕、贴图和滤镜</string>
+    <string name="gifguru_description_2">正序／倒序播放GIF，或是调整速度</string>
+    <string name="gifguru_description_3">对已有GIF进行重新制作</string>
+    <string name="gifguru_description_4">通过Giphy在线搜索GIF，省去制作时间</string>
+    <string name="free_music_pip_shooting_app">集合音乐拍摄、PIP拍摄、大量滤镜为一体的相机应用</string>
+    <string name="plenty_amazing_filters">精心制作的滤镜</string>
+    <string name="creative_funny_pip_frame">富有趣味的画中画效果</string>
+    <string name="record_videos_with_your_local_songs">使用本地的音乐录制视频</string>
+    <string name="simple_dynamic_interface">简洁的操作界面</string>
+    <string name="wanna_master_gif">想成为制作GIF的大师吗？</string>
+    <string name="use_gifguru_turn_video_into_gif">使用GifGuru将你的视频/图片转化为GIF。</string>
+    <string name="camera">微相机</string>
+    <string name="export_lead_facebook">关注乐秀官方Facebook，向世界分享你的精彩视频。</string>
+
+    <string name="refuse_allow_storage_permission">乐秀需要获取照片、视频才可以正常运行编辑器。请允许乐秀获取存储的权限。</string>
+    <string name="refuse_allow_camera_permission">乐秀需要获取系统相机才可以正常拍摄视频。请允许乐秀获取相机的权限。</string>
+    <string name="refuse_allow_audio_permission">乐秀需要获取系统话筒才可以正常录音。请允许乐秀获取话筒的权限。</string>
+    <string name="allow">允许</string>
+    <string name="refuse">拒绝</string>
+    <string name="power_setting_fast">快速充电</string>
+    <string name="power_activity_edit">编辑视频</string>
+    <string name="power_activity_battery">电量</string>
+    <string name="power_activity_slide">滑动解锁</string>
+    <string name="power_main_activity_1">开启快速充电，你能</string>
+    <string name="power_main_activity_2">1.获取时下最流行的视频\n2.拥有编辑视频的快速入口</string>
+    <string name="enable">开启</string>
+    <string name="question_studio_title">无法导出视频？</string>
+    <string name="question_attention">注意：此方法将删除所有草稿并重置乐秀。</string>
+    <string name="question_studio_step">第一步：在手机中找到“内部存储”。\n第二步：删除1videoshow和.1videoshow文件夹（如果没有看到.1videoshow文件夹，应该打开显示隐藏文件）。\n第三步：启动乐秀。\n注意：如果您失败，请重试或联系我们support@enjoy-global.com。</string>
+
+
+    <string name="editor_mode_choose_tip">选择编辑模式</string>
+    <string name="editor_mode_pro_title">专业模式</string>
+    <string name="editor_mode_pro_desc_content">基础片段编辑功能、众多高级编辑功能，加上丰富多彩的视频素材，满足你对视频制作的所有需要，实现对视频片段各个细节的完美把控。</string>
+    <string name="editor_mode_easy_speed">速度</string>
+    <string name="editor_mode_easy_speed_min">慢</string>
+    <string name="editor_mode_easy_speed_max">快</string>
+
+    <string name="quick_trim_title">裁剪视频</string>
+    <string name="quick_trim_desc_title">从选定的视频中裁剪出一个片段或者删除一个片段。</string>
+    <string name="ultra_cut_title">裁剪并合并视频</string>
+    <string name="ultra_cut_desc_title">从选定的视频中裁剪出多个片段，并合并成另一个视频。</string>
+
+    <string name="home_video_edit">视频编辑</string>
+    <string name="home_slideshow">音乐相册</string>
+    <string name="home_shoot">拍摄</string>
+    <string name="home_featured_app">推荐</string>
+    <string name="home_gifguru">制作Gif</string>
+    <string name="home_my_studio_text">我的草稿</string>
+    <string name="my_studio_more">我的视频 ></string>
+    <string name="my_studio_no_video_yet">你还没有制作任何视频</string>
+    <string name="my_studio_create_one">现在制作</string>
+    <string name="tools">工具</string>
+    <string name="home_trim">裁剪视频</string>
+    <string name="home_compress">压缩视频</string>
+    <string name="home_mp3">视频转音频</string>
+    <string name="home_camera">画中画</string>
+    <string name="home_transcode">格式转换</string>
+    <string name="selected_materials">推荐主题</string>
+    <string name="more">更多 ></string>
+    <string name="help">帮助</string>
+    <string name="like_us">反馈</string>
+    <string name="faq">常见问题</string>
+    <string name="video_to_gif">视频转Gif</string>
+    <string name="beautify">美化视频</string>
+
+    <string name="editor_mode_easy_title">音乐模式</string>
+    <string name="editor_mode_easy_desc_title">点击开始制作 ></string>
+    <string name="editor_mode_easy_desc_content">根据音乐的节奏自动切换图片。92%的用户都强烈推荐该模式。</string>
+
+    <string name="face_material_title">已下载贴纸</string>
+    <string name="face_material_select_all">全选</string>
+    <string name="vip_buy_face_pro">使用专业面部贴纸</string>
+    <string name="set_face_resolution_info">拍摄分辨率设置</string>
+    <string name="purchase">购买</string>
+    <string name="next_make_video_editorchoose">开始制作</string>
+    <string name="exceed_cliplimit_video">无法添加更多视频</string>
+    <string name="select_allitem_editorchoose">加载中...</string>
+    <string name="pupumenu_select_type_title">排序</string>
+    <string name="pupumenu_select_type_date">按日期</string>
+    <string name="pupumenu_select_type_name">按命名</string>
+    <string name="pupumenu_select_type_ascending">升序</string>
+    <string name="pupumenu_select_type_dscending">降序</string>
+    <string name="long_touch_to_move_position">按住并拖动可重新排序</string>
+    <string name="manual_search">点击查找更多片段</string>
+    <string name="operation_no_reminder">不再提醒</string>
+    <string name="mosaic">马赛克</string>
+    <string name="vip_buy_mosaic">使用马赛克功能</string>
+
+    <string name="toolbox_sound_effect">音效</string>
+    <string name="editor_draw_title">添加涂鸦</string>
+    <string name="editor_draw">涂鸦</string>
+
+    <string name="voice_change_click_tips">你需要先录音</string>
+    <string name="draw_sticker_tab_0">颜色</string>
+    <string name="draw_sticker_tab_1">画笔</string>
+    <string name="draw_sticker_tab_2">橡皮</string>
+    <string name="draw_sticker_tab_3">撤销</string>
+    <string name="draw_sticker_tab_4">恢复</string>
+    <string name="main_shoot_new">超级相机</string>
+    <string name="shoot_image_compress_tips">只有视频可以被压缩</string>
+    <string name="video_setting_music">淡入淡出</string>
+    <string name="trim_mode">裁剪模式</string>
+    <string name="export_mode">导出模式</string>
+    <string name="trim_select_part">裁剪选中的部分</string>
+    <string name="delete_select_part">删除选中的部分</string>
+    <string name="new_file">新建文件</string>
+    <string name="cover_origin_file">覆盖源文件</string>
+    <string name="default_setting">默认设置</string>
+    <string name="click_here_modify_default_setting">这里可修改默认设置</string>
+
+    <string name="sort_activity_tag_restore">恢复默认</string>
+    <string name="sort_activity_tag_normal">正常</string>
+    <string name="tips_editor_tab_window">字幕、贴图、特效</string>
+    <string name="tool_bar_sort_title">排序</string>
+
+
+    <string name="text_refuse_premission">乐秀录屏大师需要麦克风权限才能录音，请开启麦克风权限</string>
+    <string name="text_premission_allow">允许</string>
+    <string name="dialog_cancle_text">取消</string>
+    <string name="string_notification_stop_recording">正在录制</string>
+    <string name="string_notification_stop_tap">点击这里停止录制</string>
+    <string name="string_notification_start_recording">乐秀录屏大师已准备就绪</string>
+    <string name="string_notification_start_tap">点击这里开始录制</string>
+    <string name="string_video_setting">视频设置</string>
+    <string name="string_video_resolution">视频分辨率</string>
+    <string name="string_video_quality">视频质量</string>
+    <string name="string_video_fps">FPS</string>
+    <string name="string_record_audio">录音</string>
+    <string name="string_video_record_audio_turn_on">打开以录制外部音频。Android中不允许内部录音</string>
+    <string name="string_video_hide_the_window">录制过程中隐藏录制窗口</string>
+    <string name="string_video_terms_privary">条款和隐私</string>
+    <string name="string_allow_notification_text">请允许乐秀录屏大师发出通知以确保本应用正常稳定运行</string>
+    <string name="string_allow_notification_ok_text">确定</string>
+    <string name="string_video_v_recorder_text">乐秀录屏大师</string>
+    <string name="string_the_video_deleted_text">该视频已被删除或损坏</string>
+    <string name="string_low_storage_text">存储空间不足。请先释放手机存储空间</string>
+    <string name="string_recoeding_is_finished_text">录制已结束</string>
+    <string name="string_record_text">录制</string>
+    <string name="stirng_home_text">主页</string>
+    <string name="string_exit_text">退出</string>
+    <string name="string_facebook_is_uninstalled_text">未安装。</string>
+    <string name="string_video_orientation_text">视频方向</string>
+    <string name="string_low_battery_text">电量不足。为防止数据丢失，请小心使用手机电池</string>
+    <string name="string_unsupported_resolution_text">此手机不支持该分辨率</string>
+    <string name="string_portrait">纵向</string>
+    <string name="string_landscape">横向</string>
+    <string name="string_needs_storage">乐秀录屏大师需要访问照片、媒体和文件以存储录制的视频</string>
+    <string name="string_no_recorded_vidoe">没有已录制的视频</string>
+    <string name="string_repair_system_ui_carsh_text">修复系统UI崩溃</string>
+    <string name="string_systen_ui_carsh_reason_text">允许该权限并尝试修复系统UI问题</string>
+    <string name="string_video_item_share_text">分享</string>
+    <string name="are_you_sure_exit_tips">如果退出当前页面，您的视频将无法保存!</string>
+    <string name="string_refuse_premission_text">乐秀录屏大师：抱歉，需要先允许屏幕录制权限才能录制</string>
+
+    <string name="guide_loating_window_instructions">悬浮球介绍</string>
+    <string name="guide_loating_window_recorder">录制</string>
+    <string name="guide_loating_window_video">视频</string>
+    <string name="guide_loating_window_close">关闭悬浮球</string>
+    <string name="guide_notification_panel_close">通知栏</string>
+    <string name="guide_notification_panel_recorder">你也可以使用通知栏录屏</string>
+
+
+    <string name="dialog_rate_us_feed_back">反馈</string>
+    <string name="dialog_rate_us_feed_back_content">您的反馈很有用处</string>
+    <string name="dialog_rate_us_feed_back1">设计不喜欢</string>
+    <string name="dialog_rate_us_feed_back2">没有我需要的功能</string>
+    <string name="dialog_rate_us_feed_back3">用起来不方便</string>
+    <string name="dialog_rate_us_feed_back4">有一些bug</string>
+    <string name="dialog_rate_us_feed_back5">翻译做的不好</string>
+    <string name="dialog_rate_us_feed_back_suc">您的建议对我们很有帮助！</string>
+    <string name="dialog_rate_us_feed_back_suc_thank">谢谢！</string>
+    <string name="dialog_rate_us_submit">提交</string>
+
+    <string name="recording_change_setting_toast">录制过程中，不支持更改视频参数。</string>
+    <string name="setting_video_location">视频储存位置</string>
+    <string name="setting_countdown">倒计时</string>
+    <string name="setting_countdow_0s">没有倒计时</string>
+    <string name="setting_countdow_3s">3s</string>
+    <string name="setting_countdow_5s">5s</string>
+    <string name="setting_countdow_10s">10s</string>
+    <string name="edit_format_error">不支持该格式视频的编辑</string>
+    <string name="play_large_error">视频资源太大，暂不支持播放</string>
+    <string name="caution">注意</string><![CDATA[
+
+
+
+        
+
+        
+
+        
+        
+    ]]>
+    <string name="float_permission_tips">请允许V Recorder在其他应用程序上方，以确保应用程序正常运行。</string>
+        
+    <string name="orientation_auto">自动</string>
+        
+    <string name="sd_permission_msg">请选择外部的根目录
+        在后续屏幕上存储\“%1$s\”，然后单击“选择”按钮进行授权
+        应用程序写访问权限。从android 5.0 Lollipop开始，由于android安全策略
+        如果未授权应用程序写入权限，则可能无法删除或重命名外部存储上的文件。</string>
+        
+    <string name="sd_permission">访问权限</string>
+        
+    <string name="available">可用</string>
+        
+    <string name="default_save_path_name">默认</string>
+        
+    <string name="cant_change_path_when_recording">录制时无法更改保存视频路径。</string>
+        
+    <string name="uninstall_app_hint_for_video">卸载V Recorder时，将删除存储在SD卡中的视频。</string>
+        
+    <string name="sd_card_change_tip">未检测到SD卡，存储到内部存储器。</string>
+        
+    <string name="string_video_shake_stop_record">摇动手机以停止录制</string>
+        
+    <string name="floating_window_camera">相机</string>
+
+
+    <string name="watermark_title">水印</string>
+        
+    <string name="string_watermark_desc">在录制的视频上显示水印</string>
+        
+    <string name="cant_config_watermark_when_recording">录制过程中，不能修改水印的配置。</string>
+        
+    <string name="string_vip_privilege_success">恭喜你已成为V Recorder VIP成员。</string>
+        
+    <string name="string_vip_buy_success">成功购买！</string>
+        
+    <string name="string_vip_keep_title">真的要退出免费试用吗？</string>
+        
+    <string name="string_vip_keep_content">下面高级功能现在免费试用。您可以随时取消。</string>
+        
+    <string name="string_vip_keep_time_title">限时抢购！</string>
+        
+    <string name="string_vip_privilege">VIP特权</string>
+        
+    <string name="string_vip_privilege_1080">1080P高清录制</string>
+        
+    <string name="string_vip_privilege_no_water">去水印</string>
+        
+    <string name="string_vip_privilege_no_ads">无广告</string>
+        
+    <string name="string_vip_privilege_trim">裁剪视频</string>
+        
+    <string name="string_vip_privilege_pro_materials"> 1000+素材</string>
+        
+    <string name="string_vip_privilege_more">更多功能正在更新</string>
+        
+    <string name="string_vip_privilege_one_month">每月：</string>
+        
+    <string name="string_vip_privilege_free_new">新用户免费</string>
+        
+    <string name="string_vip_buy_year_des"> 3天免费试用，然后订阅 %1$s/年。</string>
+        
+    <string name="string_vip_buy_month_des"> 3天免费试用，然后订阅 %1$s/月。</string>
+        
+    <string name="string_vip_privilege_free">继续</string><![CDATA[
+        
+    ]]>
+    <string name="string_record_success_nowatermark">录制无水印视频</string>
+    <string name="string_record_success_nowatermark_button">免费试用</string>
+
+    <string name="string_no_screen_capture_image">没有已截取的图片</string>
+    <string name="string_screen_captured_succuss">已成功截屏</string>
+    <string name="string_screen_captured_look">查看</string>
+    <string name="string_click_to_loook_screen_captured">点击查看你的截屏。</string>
+    <string name="string_the_image_deleted_text">该图片已被删除或损坏</string>
+    <string name="string_image_deleted_succuss">图片删除成功</string>
+    <string name="brush">涂鸦</string>
+    <string name="rate_us_content">五星是Google Play 上最好的评价</string>
+
+    <string name="string_setting_about_us">关于我们</string>
+    <string name="string_setting_control">控制设置</string>
+    <string name="string_setting_other">其它</string>
+    <string name="string_select_no_content">未选择刪除內容</string>
+    <string name="string_video_deleted_succuss">删除成功</string>
+    <string name="home_vip_banner_string">去水印&amp;无广告</string>
+    <string name="rate_quest_content">我们一致努力让我们的软件更加好用，您能支持我们给我们五星好评么？</string>
+
+    <string name="permission_title">权限</string>
+    <string name="permission_camera_msg">这项功能需要开启相机权限，请打开后再重启应用。</string>
+
+    <string name="str_vip_unlock_compress">免费解锁压缩</string>
+    <string name="str_vip_unlock_trim">免费解锁剪裁视频</string>
+    <string name="str_vip_guide_desc_clip">查看VIP权限</string>
+    <string name="str_vip_try_free">免费试用3天</string>
+    <string name="str_video_screen_off_continue_recording">屏幕关闭时保持录制</string>
+    <string name="str_vip_unlock_compress_desc">如果您想使用压缩.点击免费试用VIP特权。</string>
+    <string name="str_vip_unlock_trim_desc">如果您想使用剪切视频.点击免费试用VIP特权。</string>
+    <string name="feedback_submit_tip">您的反馈我们已经收到,感谢您的支持</string>
+    <string name="feedback_edit_hint">我们欢迎您的反馈</string>
+
+
+    <string name ="using">使用中</string>
+    <string name ="apply">应用</string>
+    <string name ="theme_apply_success">主题应用成功</string>
+    <string name ="free">免费</string>
+
+
+    <string name ="clip_zone_clip">裁切</string>
+
+    <string name="clip_zone_clip_theme_change_tip">使用主题可能会使裁切的视频比例发生变化。是否继续使用主题？</string>
+
+    <string name ="record_tools">录制工具</string>
+    <string name ="float_screen_shoot" >截屏</string>
+    <string name="export_full_hd_1080">全高清 1080P</string>
+    <string name="export_hd_720">高清 720P</string>
+    <string name="export_normal_480">普通 480P</string>
+    <string name="unlock_pro_privilege_watch_video_ad">观看完整视频解锁此VIP权限一次</string>
+    <string name="unlock_pro_privilege_tips">已经解锁此VIP特权</string>
+    <string name="unlock_pro_privilege_btn_str">免费解锁</string>
+
+    <string name="touch_effect_guide_step1">由于系统限制，无法直接通过V
+        Recorder开启“展示点击位置\"功能。如果您仍然需要在录制时展示点击位置,可以通过手机设置开启，方法如下(不同设备的开启路径可能不同) :
+        \n\n第一步:在手机的【设置】或【更多设置】页面点击【开发者选项】</string>
+    <string name="touch_effect_guide_step2">第二步：在【开发者选项】中找到并开启【显示点按操作反馈】</string>
+    <string name="touch_effect_guide_step3">如果您的设备_上没有开发者选项，需要先启用开发者模式，启用方法:
+        \n\n在手机的【设置】页面点击【关于手机】或【我的设备】，进入【软件信息】，然后连续点击【版本号】点击5次左右，系统即提示“您现在处于开发者模式”。返回【设置】页面后，即可看到【开发者选项】。 注意，【版本号】不是指【Android版本】，不同设备可能不同，例如小米设备.上为【MIUI版本】 ， 三星设备.上为【编译编号】</string>
+</resources>

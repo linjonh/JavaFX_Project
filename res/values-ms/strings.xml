@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+
+    <string name="app_name">V Recorder</string>
+    <string name="effectnone">Tiada</string>
+    <string name="rename">Namakan semula</string>
+    <string name="delete">Padam</string>
+    <string name="ok">OK</string>
+    <string name="cpunotcompatible">Maaf, seni bina CPU tidak sesuai dengan aplikasi. Kami akan memperbetulkan masalah ini secepat mungkin.</string>
+
+    <string-array name="video_dialog_message">
+        <item>Pratonton</item>
+        <item>Sunting Video</item>
+        <item>Kongsi</item>
+        <item>Hapuskan</item>
+        <item>Hapuskan</item>
+        <item>Namakan semula</item>
+        <item>Butiran</item>
+    </string-array>
+    <string-array name="audio_dialog_message">
+        <item>Pratonton</item>
+        <item>Kongsi</item>
+        <item>Hapuskan</item>
+        <item>Namakan semula</item>
+        <item>Butiran</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>Tunjuk</item>
+        <item>Kongsi</item>
+        <item>Hapuskan</item>
+        <item>Namakan semula</item>
+        <item>Butiran</item>
+    </string-array>
+
+    <string name="no_write">Tiada kebenaran untuk menulis fail ini</string>
+    <string name="input_cannot_empty">Input tidak boleh kosong</string>
+    <string name="rename_success">Berjaya namakan semula!</string>
+    <string name="rename_fail">Gagal namakan semula!</string>
+    <string name="sure_delete">Padam</string>
+    <string name="sure_delete_file">Adakah anda pasti untuk memadamkan?</string>
+    <string name="detail">Maklumat media</string>
+    <string name="file_name">Nama： </string>
+    <string name="file_path">Laluan： </string>
+    <string name="sure">OK</string>
+    <string name="cancel">Batal</string>
+    <string name="sure_update">Versi baru tersedia, kemas kini sekarang?</string>
+    <string name="sure_update_info1">Versi baru:</string>
+
+    <!-- Home directory -->
+    <string name="about">Mengenai</string>
+    <string name="setting">Tetapan</string>
+    <!-- Recommended application -->
+    <!-- Output directory -->
+
+
+    <string name="dialog_yes">YA</string>
+    <string name="dialog_no">TIDAK</string>
+    <string name="buy_pro_tip_content_new">1. Tiada iklan\n2. Menyokong pengeksportan video 1080p\n3. Bahan yang eksklusif\n4. Menyokong pengimportan video 4K\n5. Tiada tera air VideoShow\n6. Menambah sehingga 20 kesan\n7. Tiada had tempoh mengundur</string>
+    <string name="vip_buy_add_up_to_effects">Menambah sehingga 20 kesan</string>
+    <string name="vip_buy_no_reverse_duration_limit">Tiada had tempoh mengundur</string>
+    <string name="vip_buy_iwatermark">Membuang VideoShow selamanya</string>
+    <string name="please_add_gif_by_gif">Sila tambah gif menggunakan fungsi Gif di bawah tab Edit.</string>
+    <string name="opacity">Kelegapan</string>
+    <string name="use_auto_fx_values">Gunakan penapis pada semua klip secara rawak</string>
+    <string name="use_auto_tr_values">Gunakan peralihan pada semua klip secara rawak</string>
+
+    <!-- Select video -->
+    <string name="Browser">Melayari fail</string>
+    <!-- Video editor -->
+    <string name="editor">Editor</string>
+    <string name="editor_trim">Potong</string>
+    <string name="editor_fx">Kesan</string>
+    <string name="editor_text_info2">Sila masukkan sari kata</string>
+    <string name="editor_text_dialog_title">Petua</string>
+    <string name="nomusic_info">Tiada carian untuk muzik</string>
+    <string name="too_big_video">Resolusi Video terlalu besar untuk Sunting Video</string>
+    <string name="unvailable_sd">Kad SD tidak tersedia!</string>
+    <string name="error_sd"> Tidak dapat mengakses kad SD!</string>
+    <string name="unvailable_video">Laluan video tidak sah!</string>
+    <string name="openvideo_error">Gagal membukan video</string>
+
+    <string name="switch2background">Bertukar ke tugasan latar belakang.\n Jangan jalankan program intensif memori (pelayar web, pemain video), untuk mengelakkan daripada proses transpengekodan dimatikan</string>
+    <string name="editor_fx_info">Berjaya menetapkan penapis</string>
+    <string name="invalid_param">Parameter untuk suntingan tidak sah!</string>
+    <string name="merge_toomany">Maksimum 5 video dibenarkan untuk Gabung Video</string>
+
+    <!-- Split -->
+    <!-- Merge -->
+    <string name="merge_info">Parameter video tidak konsisten, tidak boleh digabungkan</string>
+    <!-- Grab -->
+    <!-- Export dialog -->
+    <string name="export_info">Tiada perubahan langsung</string>
+    <string name="export_output_set">Tetapan laluan eksport video</string>
+    <string name="export_output_title">Mengeksport...</string>
+    <string name="export_output_stop">Hentikan mengeksport</string>
+    <string name="export_output_bg">Jalankan Ltr Blkg</string>
+    <string name="export_output_init">Pengawalan...</string>
+    <string name="export_output_success">Berjaya mengeksport</string>
+    <string name="export_output_faild">Eksport gagal</string>
+    <string name="export_outofmemory">Tidak memori yang cukup. Sila membersihkan ingatan dan cuba lagi</string>
+
+    <!-- About -->
+    <string name="about_info1">VideoShow </string>
+    <string name="about_info3">VideoShow memberikan pengalaman baik menyunting video kepada penggunanya. Anda boleh menambah kesan paling menakjubkan kepada video dengan pengendalian minimum.\n\n Jika anda ada sebarang soalan atau cadangan, sila hubungi kami di support@enjoy-global.com</string>
+
+    <!-- 指南 -->
+    <string name="guide">Mod panduan</string>
+
+    <!-- 设置 -->
+    <string name="set_quality_info1">Tetapan kualiti video</string>
+
+    <string-array name="set_path_list">
+        <item>Simpan ke dalam memori telefon</item>
+        <item>Simpan ke memori luaran</item>
+    </string-array>
+
+    <string name="set_l_info2">Kemaskini</string>
+    <string name="set_l_info3">Mengenai</string>
+    <!-- 分享 -->
+    <string name="share">Kongsi</string>
+    <string name="share_info3">Youtube</string>
+    <string name="share_info5">Lebih banyak</string>
+    <string name="share_info6">Telefon anda tidak dipasang dengan aplikasi ini. Mahu memuat turun?</string>
+
+    <string-array name="trim_option_dialog_message">
+        <item>Potong</item>
+        <item>Delete Selected Part</item>
+    </string-array>
+
+    <string name="main_mp3">Video to MP3</string>
+    <string name="feedback">Maklum balas</string>
+
+    <!-- 2.0 add image -->
+    <string name="addimg_delete_info">Pilih satu klip sekurang-kurangnya</string>
+    <string name="addimg_ok_info">Pilih satu klip sekurang-kurangnya</string>
+    <string name="exceed_cliplimit">Tidak boleh menambah lebih klip</string>
+    <string name="chooseclip">Pilih klip</string>
+    <string name="choose_a_clip">Pilih klip</string>
+    <string name="pressagain_stopexport">Tekan sekali lagi untuk keluar eksport. Edit projek yang tidak akan disimpan</string>
+    <string name="unregnizeformat">Jenis fail yang tidak diiktiraf</string>
+    <string name="loading">Sedang memuatkan ...</string>
+
+    <!-- 2.1 -->
+    <string name="custom_dialog_info1">Buat tayangan slaid</string>
+    <string name="custom_dialog_info2">Buat video</string>
+    <string name="share_info_error">Video tidak boleh berkongsi dengan jayanya pada peranti anda. Kami akan memperbaikinya secepat mungkin</string>
+    <string name="share_info_Instagram">Instagram</string>
+    <string name="setting_pay">Beli Versi Pro</string>
+    <string name="cpunotcompatible2">Maaf, tidak dapat mencari perpustakaan runtime. Sebabnya mungkin seni bina yang tidak serasi atau tidak saiz rom mencukupi. Uninstall beberapa aplikasi dan cuba memasang sekali lagi VideoShow</string>
+    <string name="settingg_share_friend">Beritahu rakan</string>
+    <string name="settingg_share_friend_title">VideoShow - Video Editor</string>
+    <string name="settingg_share_friend_text">Lihat ini permohonan editor video, VideoShow, Ia adalah cukup sejuk! https://play.google.com/store/apps/details?id=com.xvideostudio.videoeditor</string>
+    <string name="pro_bt_info1">Ingatkan saya kemudian</string>
+    <string name="pro_bt_info2">Tidak, Terima kasih sahaja</string>
+
+    <!-- Record -->
+    <string name="voice_info1">Hentikan main balik pertama</string>
+
+    <string name="input_invalid">input tidak sah</string>
+    <string name="editor_trim_duration">Tempoh</string>
+    <string name="invalid_volume_setting1">Anda tidak boleh menetapkan muzik bisu!</string>
+    <string name="unsupport_audio_format">format audio Tidak disokong</string>
+    <string name="share_info_weibo">Weibo</string>
+    <string name="noenough_space_ex">Kad memori luaran tidak mempunyai ruang yang cukup. sila memadam beberapa fail yang tidak digunakan</string>
+    <string name="changelog_title">VideoShow Change log</string>
+    <string name="mp4_noaudio_notsupport">Maaf, video tanpa trek audio tidak disokong pada masa ini</string>
+    <string name="editor_text_dialog_options">pilihan</string>
+    <string name="quick_export_sigle_video">Mula eksport dengan mod cepat ... mesti perlu syarat-syarat berikut: \n1. Tambah muzik kepada satu video \n2.Rekod suara kepada satu video</string>
+    <string name="add_share_tag_tip">Tag video anda dengan #videoshowapp, anda akan disedari oleh ramai orang</string>
+    <string name="share_clipboard_copy_tip">Disalin ke clipboard</string>
+    <string name="draftbox_is_null">Draf kosong</string>
+    <string name="confirm_exit_editor">Adakah anda pasti untuk keluar dari menyunting?</string>
+    <string name="stop_exporting_video_tip">Tekan sekali lagi untuk keluar eksport. anda juga boleh terus mengedit dalam Draf</string>
+    <string name="editor_fx_type_none">Tiada</string>
+    <string name="editor_fx_type_sketch">Sketch</string>
+    <string name="editor_fx_type_georgia">Georgia</string>
+    <string name="editor_fx_type_polaroid">Polaroid</string>
+    <string name="editor_fx_type_sahara">Sahara</string>
+    <string name="editor_fx_type_sepia">Sepia</string>
+    <string name="editor_fx_type_recho">Retro</string>
+
+    <string-array name="draftbox_dialog_message">
+        <item>meneruskan pengeditan</item>
+        <item>Padam</item>
+    </string-array>
+
+    <string name="ad_mode_tip">Videoshow hampir percuma untuk digunakan, jadi iklan adalah perlu untuk meneruskan kerja-kerja ini, kami amat menghargai pemahaman anda. Dengan sokongan anda, kami akan membuat aplikasi yang lebih sempurna!</string>
+
+    <string-array name="studio_tab_title">
+        <item>DRAF AKU</item>
+        <item>KERJA SAYA</item>
+    </string-array>
+
+    <string name="home_adv_edit">Sunting Video</string>
+    <string name="home_my_studio">Studio Saya</string>
+    <string name="setting_language">Menetapkan bahasa</string>
+    <string name="setting_language_auto">automatik</string>
+    <string name="setting_language_english">English</string>
+    <string name="facebook_copyright_tip">Facebook mempunyai perlindungan hak cipta yang ketat. Menambah muzik tanpa hak cipta boleh menyebabkan video anda untuk dipadamkan. Sila ambil perhatian.</string>
+
+    <string name="export_output_muxer_tip">pemprosesan...</string>
+    <string name="share_more_dialog_title">Kongsi Video</string>
+    <string name="export_not_enough_space_change_config_tip_sd_udisk">memori telefon tidak mempunyai ruang yang cukup, sudah beralih kepada kad memori luaran dan terus mengeksport</string>
+    <string name="export_not_enough_space_change_config_tip_udisk_sd">kad memori luaran tidak mempunyai ruang yang cukup, sudah bertukar ke memori telefon dan terus mengeksport</string>
+    <string name="sd_permission_invalid">maaf, videoshow tidak dibenarkan untuk menyimpan video ke kad memori. sila pastikan kad memori anda boleh ditulis</string>
+    <string name="editor_exit_title">Pengesahan</string>
+    <string name="app_exit_toast_tips">tekan sekali lagi untuk keluar</string>
+    <string name="setting_help_info">Soalan Lazim</string>
+    <string name="paintpad_no_operation">You did not draw anything</string>
+    <string name="paintdraft_saving">Saving picture...</string>
+    <string name="editor_select_clips">Galeri</string>
+    <string name="emoji_no_recent">Anda tidak menggunakan sebarang pelekat</string>
+    <string name="changelog_setting">Perubahan log</string>
+    <string name="editor_save_export">Simpan</string>
+    <string name="export_output_showtips">(Please keep running in the foreground.  "Background run" will be supported soon)</string>
+    <string name="export_mode_manual">Mod Manual</string>
+    <string name="export_mode_fast">Mod Pantas</string>
+    <string name="export_mode_hd">Mod HD</string>
+    <string name="use_current_values">Gunakan penapis ini ke semua klip</string>
+    <string name="clear_all_values">Keluarkan penapis dari semua klip</string>
+    <string name="editor_title_trans"> Transisi</string>
+    <string name="editor_sticker"> Pelekat</string>
+    <string name="music_preload"> Pra muat</string>
+    <string name="music_my_local"> Muzik saya</string>
+
+    <string name="guide_start"> Mula</string>
+    <string name="use_localapp_select_musicfile">Gunakan aplikasi lain untuk mengambil muzik</string>
+    <string name="voice_info10"> Video</string>
+    <string name="voice_info11"> Muzik</string>
+    <string name="volume_setting"> Tetapan muzik</string>
+    <string name="open_loop"> Mainan gelung</string>
+    <string name="setting_attention_us"> Ikuti kami</string>
+    <string name="material_free_price"> Percuma</string>
+    <string name="network_bad"> Periksa sambungan anda dan cuba lagi</string>
+    <string name="download_sd_full_fail"> Kad memori sudah penuh. Sila padamkan beberapa fail</string>
+    <string name="material_downlaod_state"> Muat Turun</string>
+    <string name="material_updtae_state">Kemaskini</string>
+    <string name="material_downlaoding_state"> Memuat Turun</string>
+    <string name="material_pause_state"> Berhenti</string>
+    <string name="download_fail_try_again"> Muat turun gagal, sila cuba lagi</string>
+    <string name="setting_push_message"> Pemberitahuan</string>
+    <string name="download_so_tips"> Anda perlu memuat turun pustaka sebelum menjalankan aplikasi. Mulakan muat turun?</string>
+    <string name="firstclip_noSupport">Muzik pertama tidak boleh diletakkan peralihan</string>
+    <string name="editor_theme_type_fade">Pudar keluar</string>
+    <string name="setting_edit_mode">Pilih mod edit</string>
+    <string name="setting_edit_mode_manually">Tetapan manual</string>
+    <string name="setting_edit_mode_crop">Potong untuk mengisi</string>
+    <string name="setting_edit_mode_fit">Suaikan dalam bingkai</string>
+    <string name="timeline_not_space">Anda memerlukan 0.5s ruang kosong untuk menambah item baharu</string>
+    <string name="record_completed">Rekod OK</string>
+    <string name="record_too_short">Anda tidak boleh merakam kurang daripada 1 saat</string>
+    <string name="video_mute_tip">Video telah dibisukan </string>
+    <string name="music_time_short">Masa muzik mestilah lebih daripada 1s.</string>
+    <string name="create_video_file_failed">Pelancaran aplikasi gagal, sila semak bahawa kad SD telah dimuatkan!</string>
+    <string name="clips_all">Semua</string>
+    <string name="clips_video">Video</string>
+    <string name="clips_photo">Foto</string>
+    <string name="toast_voice_non_drag_tips">Tempoh suara tidak boleh ditukar</string>
+    <string name="editor_fx_type_japanstyle">Suam</string>
+    <string name="editor_fx_type_oldphoto">Gerai Lama</string>
+    <string name="editor_fx_type_standardemboss">Cetak Timbul</string>
+    <string name="editor_fx_type_pink">Merah Jambu</string>
+    <string name="editor_fx_type_hdr">HDR</string>
+    <string name="set_video_background">Warna latar belakang video</string>
+    <string name="setting_video_background_gause">Kabur</string>
+    <string name="setting_video_background_white">Putih</string>
+    <string name="setting_video_background_black">Hitam</string>
+    <string name="setting_app">Tetapan Aplikasi</string>
+    <string name="editor_clip_zoom">Zum</string>
+    <string name="editor_clip_copy">Salin</string>
+    <string name="music_history">Sejarah</string>
+    <string name="no_music_history">Tiada muzik lagi</string>
+    <string name="toolbox_theme">Tema</string>
+    <string name="toolbox_fx">Penapis</string>
+    <string name="toolbox_music">Muzik</string>
+    <string name="toolbox_text">Sari kata</string>
+    <string name="toolbox_clip_edit">Sunting Klip</string>
+    <string name="setting_all_clip_duration">Tempoh semua foto</string>
+    <string name="setting_one_clip_duration">Tempoh satu gambar</string>
+    <string name="editor_addclip">Tambah Klip</string>
+    <string name="sort_method">Kaedah isihan</string>
+
+    <!-- 视频设置页面 -->
+    <string name="video_setting">Tetapan</string>
+
+    <!-- 2015-03-25新内置音乐 -->
+    <string name="inside_music_copyright_info2">Hak cipta muzik dibeli, tetapi ia hanya boleh digunakan untuk tujuan kerja-kerja peribadi sahaja, bukan untuk komersil.</string>
+    <string name="double_finger_to_zoom">Leret dua jari pada skrin untuk zum.</string>
+    <string name="clip_null_tips">Sila tambah klip</string>
+    <string name="disallow_record_tips">Sila pergi ke "Tetapan Keizinan" dan benarkan VideoShow merakam suara</string>
+    <string name="audio_exception">Peralatan audio tidak normal</string>
+    <string name="app_pro_version">VideoShow Pro</string>
+    <string name="clip_duration">tempoh foto: </string>
+
+    <!-- 视频设置页面调整字符串 -->
+    <string name="setting_purchase">Pembelian</string>
+    <string name="add_video_format">Jenis media tidak disokong</string>
+
+    <string-array name="home_tab_title_new">
+        <item>Utama</item>
+        <item>Inspirasi</item>
+        <item>Cadangan</item>
+        <!-- <item>Terkini</item> -->
+    </string-array>
+
+    <string name="should_retain_one_clip">Sila kekalkan lebih daripada satu klip! </string>
+    <string name="music_preload_loacal">muzik saya</string>
+    <string name="dialog_duration_more_setting_tip">Jangka masa tidak sepatutunya melebihi 3600s atau kurang dari 0.2s !</string>
+    <string name="material_new_shop_title">Pusat Bahan</string>
+    <string name="material_new_sticker_down">Sticker</string>
+    <string name="setting_updateto_normal_version">Naik taraf ke versi rasmi VideoShow</string>
+    <string name="setting_updateto_normal_version_title">Versi rasmi VideoShow</string>
+    <string name="setting_updateto_normal_version_content">Ini ialah versi makmal Videoshow. Anda boleh menikmati ciri-ciri terkini dengan lebih awal lagi. Sekiranya anda inginkan versi yang lebih stabil, Videoshow MR (Keluaran Selenggaraan) mungkin merupakan pilihan yang lebih baik.</string>
+    <string name="setting_updateto_normal_version_ok">Naik Taraf</string>
+    <string name="import_gif_width_limit">Gif yang anda import terlalu besar atau ia bukan format yang disokong. </string>
+    <string name="start_make_video_editorchoose">Mula </string>
+    <string name="pro_function_dialog_content">VideoShow anda sekarang merupakan versi percuma. Dan, kami telah mengeluarkan Pro VideoShow. Jika anda sukakan aplikasi kami, anda boleh membeli versi Pro untuk menyokong pasukan kami. Dan versi Pro mempunyai beberapa ciri-ciri yang berbeza：\n\n1.No ads\n2.Anda boleh memuat turun bahan eksklusif untuk pengguna Pro.  \n3.Support 4K video</string>
+    <string name="add_font_tip_title">Cara-cara menambah lebih banyak fon</string>
+    <string name="add_font_tip_content">Salin fail fon(.ttf or.otf formats),kemudian tampal pada folder \n\n sdcard/1videoshow/fonts/</string>
+    <string name="choose_4k_buypro_title">Video terlalu besar</string>
+    <string name="loading_shuffle_ad_toast">Sedang dimuatkan, harap bersabar!</string>
+    <string name="editor_compress_mode">Pilih mod mampatan</string>
+    <string name="editor_triming">Pemendekan…</string>
+    <string name="video_size_too_small">Saiz video anda terlalu kecil, tidak perlu dimampatkan!</string>
+    <string name="choose_other_sticker_localapp">Pilih pelekat sendiri atau Gif</string>
+    <string name="add">Tambah</string>
+    <string name="choose_other_font_localapp">Pilih folder untuk menambah fon</string>
+    <string name="editor_clip_ff">Kelajuan</string>
+    <string name="editor_clip_ff_title_tip">Sila pilih kelajuan klip</string>
+    <string name="editor_clip_ff_video_too_long_tip">Klip ini terlalu panjang, sila potong sebelum melajukan atau melambatkannya!</string>
+    <string name="editor_clip_ff_cannot_support_picture_tip">Foto tidak boleh dilajukan atau dilambatkan!</string>
+    <string name="editor_clip_ff_less_1second_tip">Klip yang dieksport hendaklah tidak kurang daripada %s saat!</string>
+    <string name="editor_clip_ff_encoding_tip">Mengekod...</string>
+    <string name="editor_clip_ff_stop_encode_tip">Stop mengekod</string>
+    <string name="duration_batch_video_char">Tempoh</string>
+    <string name="duration_batch_clip_char">Setiap foto</string>
+    <string name="duration_batch_custom">Didefinisikan oleh pengguna</string>
+    <string name="add_clip_memory_warn_tip">Anda telah memilih banyak foto, ia akan kehabisan memori</string>
+    <string name="duration_input_begin_char">Masa mula</string>
+    <string name="duration_input_end_char">Masa tamat</string>
+    <string name="duration_input_starttimeout_errinfo">Masa mula tidak seharusnya lebih daripada masa yang boleh diedit!</string>
+    <string name="duration_input_endtimeout_errinfo">Masa akhir tidak seharusnya lebih dariapda masa yang boleh diedit!</string>
+    <string name="duration_input_startgtend_errinfo">Masa akhir mestilah lebih daripada masa mula!</string>
+    <string name="editor_paint_new_clip">Tambah Klip Kosong</string>
+    <string name="app_info_view_compress">Mampatkan video ini</string>
+    <string name="setting_edit_skill">Tip suntingan</string>
+    <string name="save_draftbox_fail_tip">Simpan ke dalam draf gagal, tidak ada ruang yang cukup!</string>
+    <string name="editor_fx_type_nashville">Harap</string>
+    <string name="editor_fx_type_lordkevin">Senja</string>
+    <string name="editor_fx_type_1977">Musim Bunga</string>
+    <string name="editor_fx_type_xproii">Tenang</string>
+    <string name="editor_fx_type_walden">Bermimpi</string>
+    <string name="editor_fx_type_lomo">Lomo</string>
+    <string name="editor_fx_type_valencia">Anggun</string>
+    <string name="editor_fx_type_amaro">Yuppie</string>
+    <string name="editor_fx_type_hudson">Musim sejuk</string>
+    <string name="editor_fx_type_rise">Alam Semula Jadi</string>
+    <string name="editor_fx_type_sierra">Krim</string>
+    <string name="editor_fx_type_brannan">Ingatan</string>
+    <string name="editor_fx_type_earlybird">Sekali</string>
+    <string name="editor_fx_type_sutro">Malam</string>
+    <string name="editor_fx_type_toaster">Sinar</string>
+    <string name="editor_fx_type_hefe">Fajar</string>
+    <string name="config_text_toolbox_setting">Tetapan Tulisan</string>
+    <string name="share_save_to_my_studio">Simpan ke Galeri</string>
+    <string name="buy_pro_tip_content_new_2">\n4.Menyokong pengeksportan video 1080P (sesetengah peranti)</string>
+    <string name="editor_add_clip_select">Pilih klip</string>
+    <string name="clip_cannot_switch">Sila sahkan atau membatalkan pemangkasan klip semasa!</string>
+    <string name="camera_util_no_camera_tip">Tidak menyokong rakaman video</string>
+    <string name="camera_util_only_one_camera_tip">Hanya satu kamera, anda tidak boleh menukar</string>
+    <string name="camera_resolution">Resolusi</string>
+    <string name="camera_recording_failed">Gagal untuk merakam video</string>
+    <string name="camera_switch_waitting">Tunggu sebentar untuk menukar kamera</string>
+    <string name="camera_no_camera_permission_tip">Sila masukkan tetapan sistem atau untuk membuka akses kamera.</string>
+    <string name="camera_take_picture_waitting_tip">Sedang merakam sekarang, sila tunggu </string>
+    <string name="camera_no_take_pictrue_tip">Anda tidak merakamkan sebarang klip</string>
+    <string name="download_more_audio">Muat turun lebih banyak audio</string>
+    <string name="downloaded">Dimuat turun</string>
+    <string name="material_category_sticker">Stikers</string>
+    <string name="material_category_theme">Tema</string>
+    <string name="material_category_audio">Kesan Bunyi</string>
+    <string name="material_category_font">Tulisan</string>
+    <string name="setting_evaluate">Nilaikan kami</string>
+    <string name="email_report_tail">Berikan kami beberapa cadangan atau laporkan pepijat</string>
+    <string name="action_feedback_title">Pilih peti mel</string>
+    <string name="setting_recommend_to_friend">Jemput rakan anda</string>
+    <string name="setting_send_app_tips">KongsiVideoShow:</string>
+    <string name="fullscreen_export_backstage">Berjalan di latar belakang (Beta)</string>
+    <string name="background_export_tips">Eksport video akan berjalan di latar belakang. Sistem Android akan membunuh tugasan latar sekiranya tidak terdapat memori yang mencukupi. Jadi lebih baik anda tidak menjalankan aplikasi yang menggunakan terlalu banyak memori(Seperti  Pelayar web, mainan video), untuk mengelakkan proses video daripada kemungkinan dibunuh.</string>
+    <string name="setting_terms_privacy_info">Syarat&amp;Privasi</string>
+    <string name="home_edit_menu">Edit</string>
+    <string name="be_pro_title">Bimbingan</string>
+    <string name="guide_nice_video">Bagaimana untuk merakam video yang hebat</string>
+    <string name="guide_add_sticker">Bagaimana untuk menambah pelekat</string>
+    <string name="guide_add_subtitle">Bagaimana untuk menambah sari kata</string>
+    <string name="guide_add_music">Bagaimana untuk menambah muzik</string>
+    <string name="guide_draw_video">Bagaimana untuk melukis pada video</string>
+    <string name="guide_zoom_rotate">Bagaimana untuk zum dan putar</string>
+    <string name="guide_add_sound">Bagaimana untuk mengalih suara dan menambah kesan bunyi</string>
+    <string name="guide_video_motion">Bagaimana untuk menukar pergerakan video anda </string>
+    <string name="invite_friend_prefix">Hai, saya sedang menggunakan sebuah aplikasi editor video yang dipanggil \'Videoshow\',lihat dan pasangnya sebelum:</string>
+    <string name="download_more_music">Muat turun lebih banyak muzik</string>
+    <string name="music_download">Dimuat Turun</string>
+    <string name="music_local">Lagu Saya</string>
+    <string name="toolbox_multi_music">Pelbagai Muzik</string>
+    <string name="app_update_to_use_the_theme">Tema ini mempunyai ciri grafik yang baharu. Aplikasi ini perlu dinaik taraf untuk menggunakannya.</string>
+    <string name="home_app_store">Apl Ditampilkan</string>
+
+    <string name="export_video_mode_chooser_title_tips">Eksport Video</string>
+    <string name="export_video_mode_chooser_1080p_ads_tips">1080p HD dengan menonton video</string>
+    <string name="export_video_mode_chooser_1080p_pro_tips">1080p HD (Versi Pro) </string>
+    <string name="export_video_1080p_mode_tips">Mengeksport 1080 HD Sekarang </string>
+
+
+    <string name="lite_unlocker_pro_suc_info">Anda telah berjaya menaik taraf ke versi Utama!</string>
+    <string name="share_facebook_unlock_fail">Gagal untuk membuka kunci</string>
+    <string name="share_facebook_unlocked">Dibuka kunci</string>
+    <string name="share_facebook_dialog_content">Kongsi VideoShow di Facebook untuk membuka kunci tema ini secara percuma</string>
+    <string name="share_facebook_dialog_tips">Petua:Tema ini akan dibuka kunci selepas berkongsi!</string>
+    <string name="share_facebook_dialog_btn_text">Kongsi Sekarang</string>
+
+    <string name="delete_subtitle_tips">Padamkan teks?</string>
+
+    <string name="export_dialog_msg">Jika anda ingin mengeksport dalam latar belakang, anda hendaklah memasukkan tetapan telefon untuk menukar pada zon jatuh atau anda hanya boleh mengeksport di hadapan</string>
+    <string name="export_dialog_ok">TUKAR PADA ZON JATUH</string>
+    <string name="export_dialog_cancel">EKSPORT DI HADAPAN</string>
+
+    <string name="lite_unlocker_pro_dialog_title">Tawaran Istimewa</string>
+    <string name="lite_unlocker_pro_dialog_info_new">Videoshow Lite akan berhenti tanpa tarikh dalam masa sebulan. Bagi berterima kasih kerana menyokong kami, Berikut ialah tawaran istimewa untuk membuka kunci fungsi Videoshow Pro (Eksport 1080P HD, import video 4K, muat turun bahan tanpa had) secara percuma!
+    Tawaran istimewa boleh didapati dalam masa sebulan.Oleh itu, segera dapatkannya sekarang!
+    </string>
+    <string name="beta_unlocker_pro_dialog_info">Videoshow Beta akan berhenti tanpa tarikh dalam masa sebulan. Bagi berterima kasih kerana menyokong kami, Berikut ialah tawaran istimewa untuk membuka kunci fungsi Videoshow Pro (Eksport 1080P HD, import video 4K, muat turun bahan tanpa had) secara percuma!
+    Tawaran istimewa boleh didapati dalam masa sebulan.Oleh itu, segera dapatkannya sekarang !
+    </string>
+    <string name="lite_unlocker_pro_dialog_ok">Buka kunci ciri Pro secara percuma</string>
+    <string name="editor_set_different_duration">Tetapkan tempoh berbeza untuk setiap klip</string>
+    <string name="buy_pro_tip_content_new_water">\n5.Alih Keluar Logo pada penghujung videobertema </string>
+
+
+    <string name="login_rewards_title_tip">Hadiah Log Masuk Berterusan</string>
+    <string name="login_rewards_remain_days_tip">Anda hanya memerlukan %s hari untuk membuka kunci ciri Pro</string>
+    <string name="login_rewards_last_day_tip">Ayuh! Log masuk untuk membuka kunci ciri Pro sekarang</string>
+    <string name="login_rewards_congratulations_tip">Tahniah!</string>
+    <string name="login_rewards_unlock_successful_tip">Anda telah membuka kunci ciri Pro untuk satu bulan. Terima kasih atas sokongan anda! Cuma ciptakan video yang terbaik secepat mungkin.</string>
+    <string name="login_rewards_expired_tip">Percubaan ciri pro satu bulan anda telah luput. Tetapi anda boleh membuka kunci pro sekali lagi dengan melog masuk secara berterusan selama tiga hari. Adakah anda pasti anda ingin mendapatkannya? </string>
+    <string name="file_scan_notification_title">Sorotan video tersedia sekarang</string>
+    <string name="file_scan_notification_content">Tonton sebuah video termasuk beberapa saat termanis anda</string>
+    <string name="file_scan_notification_dialog_title">Gunakan Instant VideoShow selepas itu</string>
+    <string name="file_scan_notification_dialog_content_1">Setiap kali anda mengambil foto dan video dengan banyak, VideoShow akan menyediakan sorotan terbaik video yang menarik. </string>
+    <string name="file_scan_notification_dialog_content_2">Ini hanyalah deraf video, dan video tidak akan dikongsi tanpa kebenaran anda.</string>
+    <string name="file_scan_notification_dialog_content_tip">Petua: Anda boleh menghidupkan/mematikannya dalam Tetapan apabila diperlukan.</string>
+    <string name="file_scan_notification_dialog_ok">SETUJU</string>
+    <string name="file_scan_notification_dialog_cancel">TIDAK SETUJU</string>
+    <string name="tip_app_upgrad_dialog_ok">Mengemas kini sekarang</string>
+    <string name="tip_app_upgrad_dialog_cancel">Ingatkan kemudian</string>
+    <string name="theme_store_rating_rate_improve">Menilai tema ini, membantu kami meningkatkan!</string>
+    <string name="theme_store_rating_choose_very">Sangat bagus!</string>
+    <string name="theme_store_rating_choose_normal">Normal, tidak buruk.</string>
+    <string name="theme_store_rating_choose_poor">Berkualiti rendah!</string>
+    <string name="theme_store_rating_title_rate">Menilai Tema ini</string>
+
+    <string name="user_refuse_permission_camera_tip">Anda enggan membenarkan kebenaran kamera akses VideoShow, VideoShowtidak dapat menjalankan kamera dengan normal, sila benarkan kebenaran.</string>
+    <string name="user_refuse_permission_audio_recorder_tip">Anda enggan membenarkan akses kebenaran rakaman akses VideoShow, VideoShowtidak dapat mendab secara normal, sila benarkan kebenaran.</string>
+    <string name="user_permit_permission_audio_recorder_tip">Anda mempunyai kebenaran rakaman yang dibenarkan, anda boleh menekan butang untuk mula mendab.</string>
+
+    <string name="rate_please">Jika ya, adakah anda keberatan rating kita untuk menunjukkan sokongan anda? Kami cuba untuk menjadi lebih baik!</string>
+    <string name="user_permit_permission_take_picture_tip">Anda telah membenarkan kebenaran kamera, kini anda boleh mula mengambil foto.</string>
+
+    <!--<string name="app_info">Studio Video</string>-->
+    <string name="app_info_view_trim">Pemangkasan Video</string>
+    <string name="save_operation">Membuang perubahan?</string>
+
+    <string name="remove_videos_original_voice">Keluarkan bunyi asal</string>
+    <string name="restore_videos_original_voice">Pulihkan suara asal</string>
+    <string name="videos_original_voice_mute">Suara asal ditutup</string>
+    <string name="videos_original_voice_unmute">Suara asal dihidupkan</string>
+    <string name="remove_videos_original_voice_cannot_support_tip">Dalam keadaan semasa, anda tidak boleh mengalih keluar suara asal</string>
+    <string name="recover_videos_original_voice_cannot_support_tip">Dalam keadaan semasa, anda tidak boleh memulihkan suara asal</string>
+
+    <string name="share_result">Selesai</string>
+    <string name="rename_no_text">Gelaran ini tidak boleh kosong</string>
+
+    <string name="upload_to_youtube">muat naik ke youtube</string>
+    <string name="user_logout">log keluar</string>
+    <string name="toast_cannot_retrieve_cropped_image">Gagal mendapatkan imej yang dipangkas </string>
+    <string name="toast_unexpected_error">Ralat luar jangkaan </string>
+    <string name="ucrop_label_original">Asal</string>
+    <string name="ucrop_label_edit_photo">Edit Foto</string>
+
+    <string name="setting_hw_acc_notification_title">Pecutan perkakasan</string>
+    <string name="setting_hw_acc_toast_1">Telah ditukar ke mod normal, yang akan membawa kepada pengeksportan video yang lebih perlahan, tetapi kestabilan yang lebih tinggi</string>
+    <string name="setting_hw_acc_toast_2">telah ditukar kepada model pemecutan perkakasan, yang akan membawa kepada pengeksportan video yang lebih pantas</string>
+    <string name="video_to_mp3_noaudio_tips">Video ini tiada bunyi</string>
+
+    <string name="title_trim_select_clip">Potong Ultra</string>
+    <string name="title_preview">Pratonton</string>
+    <string name="video_trim_clip_null_tips">Sila tambah klip yang dipotong</string>
+    <string name="video_no_trim_clip_toast">Anda belum memotong klip</string>
+    <string name="video_trim_clip_duration_toast">Tempoh klip yang dipotong tidak patut kurang daripada 0.1s</string>
+    <string name="video_clip_count_toast">Klip yang dipotong tidak patut lebih daripada 10</string>
+    <string name="no_add_video_trim_clip_toast">Sila tambahkan klip yang dipotong dahulu</string>
+    <string name="bt_trim_clip_add">Tambah</string>
+    <string name="bt_trim_clip_add_tips">Anda boleh terus memotong klip dan menambah mereka!</string>
+
+
+    <!--导出界面文字内容-->
+    <string-array name="text_full_context">
+        <item>Sila tunggu di sini dan harap dapat bersabar sambil menonton video terperinci yang anda telah berjaya hasilkan. Atau ia mungkin gagal dieksport sekiranya anda keluar dari halaman ini sekarang.</item>
+        <item>Iklan membantu mengekalkan VideoShow sebagai aplikasi yang percuma. terima kasih atas pemahaman anda. Anda boleh menaik taraf kepada versi Pro untuk mengalih keluar iklan.</item>
+        <item>Sekiranya konfigurasi telefon anda berada pada tahap rendah, sumber video terlalu besar atau terlalu banyak bahan yang digunakan, ia boleh menyebabkan pengeksportan video gagal. Jadi, sila cuba sekali lagi selepas memadam beberapa bahan.</item>
+        <item>Gunakan \"Ultra Cut\" untuk memotong pelbagai bahagian daripada sesebuah video, dan simpan dengan segera. Ia merupakan ciri yang amat berguna untuk menyingkatkan video-video yang besar.</item>
+        <item>Peringatan Mesra: MOD PANTAS menggunakan kelajuan mengeksport yang pantas tetapi resolusi video adalah lebih rendah. Manakala Mod HD pula mengambil masa lebih lama untuk mengeksport tetapi dengan kualiti yang lebih tinggi.</item>
+        <item>Perlahankan atau percepatkan video dengan mengklik pada \"Speed\" di \"Clip Edit\".</item>
+        <item>Selepas video berjaya dieksport, anda boleh menamakannya semula dalam Studio Saya atau berkongsi dengan kawan-kawan anda.</item>
+        <item>Klik \"Multi Music\" di \"Pro Edit\" untuk menambah pelbagai muzik dalam satu video.</item>
+        <item>Mengambil masa terlalu lama untuk mengeksportnya? Apabila selesai, video yang hebat akan dapat ditunjukkan kepada anda, sambil menunggu ia selesai nikmatilah secawan dua kopi dahulu.</item>
+        <item>Dalam mod muzik pelbagai, anda boleh menetapkan pelbagai tahap bunyi untuk muzik yang berbeza.</item>
+        <item>Gunakan dengan penuh \"Sticker\". Ia menyokong Pelekat Yang Tersedia, Imej dan Gif anda. Tambahan pula, ia menyokong pelbagai lapisan!</item>
+        <item>Eksklusif: Rakaman video muzik. Rakaman video apabila memainkan muzik. Ia amat berguna untuk merakam video tarian-segerakan.</item>
+        <item>Anda boleh menukar warna latar belakang dengan mengklik pada ikon tetapan pada sudut atas kanan di Studio Edit.</item>
+        <item>Zum video dan gambar, jadikan video anda memfokus pada kedudukan yang anda ingini. Klik \"Pro Edit\" > \"Clip Edit\" > \"Zoom\".</item>
+        <item>Gunakan \"Compress video\" untuk menyingkatkan video dan berkongsi lebih pantas dengan rangkaian berjaringan rendah. Klik \"Compress Video\" di laman asal.</item>
+        <item>Inginkan lebih banyak ciri? Jangan teragak-agak untuk menghantar e-mel ke support@enjoy-global.com dan beritahu kami.</item>
+    </string-array>
+
+    <string name="subtitle_effect_3d_type_modern">B Moden</string>
+    <string name="subtitle_effect_3d_type_modern_white">W Moden</string>
+    <string name="subtitle_effect_3d_type_news">Berita</string>
+    <string name="config_text_toolbox_effect">Gaya Teks</string>
+    <string name="subtitle_effect_3d_type_fade_out">Pudar</string>
+    <string name="subtitle_effect_3d_type_jump_in">Lompat Masuk</string>
+    <string name="subtitle_effect_3d_type_pop_up">Pop Up</string>
+    <string name="subtitle_effect_3d_type_roll_in">Guling Masuk</string>
+    <string name="subtitle_effect_3d_type_kick_back">Tendang Belakang</string>
+    <string name="subtitle_effect_3d_type_roll_up">Guling Atas</string>
+    <string name="subtitle_effect_3d_type_roll_left">Guling Kiri</string>
+    <string name="subtitle_effect_3d_type_crack">Retak</string>
+    <string name="subtitle_effect_3d_type_sunshine">Sinar Matahari</string>
+    <string name="subtitle_effect_3d_type_darkclouds">Awan Gelap</string>
+    <string name="subtitle_effect_3d_type_drop">Titisan</string>
+    <string name="subtitle_effect_3d_type_love">Cinta</string>
+    <string name="subtitle_effect_3d_type_lamp">Lampu</string>
+    <string name="subtitle_effect_3d_type_dialog">Dialog</string>
+    <string name="subtitle_effect_3d_type_crow">Gagak</string>
+    <string name="subtitle_effect_3d_type_flame">Api</string>
+    <string name="subtitle_effect_3d_type_thunder">Petir</string>
+    <string name="subtitle_effect_3d_type_fire">Air</string>
+    <string name="subtitle_effect_3d_type_lightning">Kilat</string>
+    <string name="subtitle_effect_3d_type_flash">Cahaya</string>
+    <string name="trans_new_90001">Tiada</string>
+    <string name="trans_new_90002">Pudar</string>
+    <string name="trans_new_90003">Melukis</string>
+    <string name="trans_new_90004">Pangkah</string>
+    <string name="trans_new_90005">Kelip</string>
+    <string name="trans_new_90006">Lompat</string>
+    <string name="trans_new_90007">Terapung</string>
+    <string name="trans_new_90008">Mudah</string>
+    <string name="trans_new_90009">Campur</string>
+    <string name="trans_new_90010">Ombak</string>
+    <string name="trans_new_90011">Tahi Bintang</string>
+    <string name="trans_new_90012">Lipat</string>
+    <string name="trans_new_90013">Penutup</string>
+    <string name="trans_new_90014">Cinta</string>
+    <string name="trans_new_90015">Buih</string>
+    <string name="trans_new_90016">Jam</string>
+    <string name="trans_new_90017">Bulat</string>
+    <string name="trans_new_90018">Cari</string>
+    <string name="trans_new_90019">Gelongsor</string>
+    <string name="trans_new_90020">Zum</string>
+    <string name="trans_new_90021">W Flash</string>
+    <string name="trans_new_90022">B Flash</string>
+    <string name="trans_new_90023">Bunga</string>
+    <string name="trans_new_90024">Heksagram</string>
+
+    <string name="noenough_space_20m_tip">Ruang disk anda tinggal sedikit, sila kosongkannya</string>
+    <string name="remove_watermark_content">Membuang tera air secara PERCUMA selama 1 hari! Hanya pasang dan buka aplikasi.</string>
+    <string name="tip_config_sound_add_count_50">Tidak menyokong lebih daripada 50 bunyi!</string>
+    <string name="tip_config_video_clip_copy_count_60">Bilangan video hendaklah tidak lebih daripada 60!</string>
+    <string name="select_music_cannot_support_tip">Fail audio rosak.</string>
+
+    <string name="share_to_get_surprise">Kongsi untuk Dapatkan Kejutan</string>
+    <string name="today_you_can_download_all_materials">Hari ini anda boleh muat turun bahan-bahan pro eksklusif</string>
+
+    <string name="the_video_has_been_deleted">Video ini telah dipadam</string>
+
+    <!--首页引导popwindow文字-->
+
+    <!--导出结果页，视频大小-->
+    <string name="share_result_video_size_content">Termampat adalah hebat, adakah anda mahu memadam video asal?</string>
+    <string name="share_result_video_iess">Kurang daripada yang asal</string>
+    <string name="share_result_video_original">Original</string>
+    <string name="share_result_video_compressed">mampat</string>
+
+    <!--VIP buy 界面-->
+    <string name="vip_buy_btn">Pembelian</string>
+    <string name="vip_buy_advertising">Buang iklan</string>
+    <string name="vip_buy_export">Eksport video 1080p</string>
+    <string name="vip_buy_import">Sokongan mengimport video 4K</string>
+
+    <string name="home_mp3_new">Baru</string>
+    <string name="home_mp3_view">Lihat</string>
+    <string name="fx_effect_3d_type_bubble">Buih</string>
+    <string name="fx_effect_3d_type_thunder">Guruh</string>
+    <string name="hold_down_to_preview">Tekan ke bawah untuk pratonton</string>
+
+    <!--素材各列表顶部广告条目文字-->
+
+    <!--素材激励广告弹框-->
+
+    <string name="discard_operation">Buang</string>
+
+    <string name="theme_clip_start_choose">Prolog:</string>
+    <string name="theme_clip_end_choose">Epilog:</string>
+    <string name="theme_clip_start_choose_a">Prolog</string>
+    <string name="theme_clip_end_choose_b">Epilog</string>
+    <string name="playing_music_preview_time">Pratonton 20 saat</string>
+
+    <string name="material_store_theme_remove_confirm">Padam?</string>
+    <string name="material_store_fx_remove_confirm">Padam?</string>
+    <string name="material_store_music_remove_confirm">Padam?</string>
+    <string name="material_store_text_style_remove_confirm">Padam?</string>
+    <string name="material_store_sticker_remove_confirm">Padam?</string>
+    <string name="material_store_sound_effects_remove_confirm">Padam?</string>
+    <string name="material_store_font_remove_confirm">Padam?</string>
+    <string name="material_store_gif_remove_confirm">Padam?</string>
+    <string name="export_or_share_video_success">Berjaya!</string>
+    <string name="editor_theme_more">Lebih banyak</string>
+    <string name="music_my_download">Muat turun Saya</string>
+    <string name="music_my_music">Muzik Saya</string>
+    <string name="music_no_music_history">Tiada Sejarah Muzik</string>
+    <string name="music_set_add_music">Tambah Muzik</string>
+    <string name="today">Hari Ini</string>
+    <string name="yesterday">Semalam</string>
+    <string name="mystudio_batch_delete">Padam Kelompok</string>
+
+    <string name="fx_num_limit_pro">Untuk berjaya mengeksport, tidak lebih daripada 20 kesan boleh ditambah secara serentak</string>
+    <string name="clear_trans_all_values">Alih keluar peralihan daripada semua klip</string>
+    <string name="select_a_clip_to_edit">Pilih klip untuk disunting</string>
+    <string name="set_duration_for_each_photo">Menetapkan tempoh untuk setiap foto</string>
+    <string name="set_precise_time">Tetapkan masa yang tepat</string>
+    <string name="global_settings">Tetapan global</string>
+    <string name="take_a_short_preview">Ambil pratonton pendek</string>
+    <string name="set_export_mode">Tetapan Mod Eksport Video</string>
+    <string name="export_mode_background">Mod Latar Belakang</string>
+    <string name="export_mode_foreground">Mod Latar Depan</string>
+
+    <string name="rate_quest_title">Terima kasih kerana menggunakan V Recorder</string>
+    <string name="rate_quest_yes">Baiklah</string>
+    <string name="rate_quest_no">TIDAK</string>
+
+    <string name="use_trans_current_values">Gunakan transisi ini pada semua klip</string>
+    <string name="text_Selected">Dipilih</string>
+    <string name="text_clips">klip</string>
+    <string name="rename_dialog_title">Nama semula</string>
+
+    <string name="home_photo_movie">Tayangan Slaid</string>
+
+    <string name="manage">Mengurus</string>
+    <string name="done">Selesai</string>
+    <string name="giphy_noresult">Tiada hasil\nMenaip dalam bahasa Inggeris adalah disyorkan</string>
+    <string name="dialog_duration_adjust_tips">Petua: Anda boleh klik %s untuk menetapkan masa jeda semasa sebagai masa mula atau masa tamat</string>
+    <string name="duration_dialog_time_same_tip">Masa mula dan masa tamat tidak boleh sama</string>
+
+    <string name="editor_select_online_gif">Gif Dalam Talian</string>
+
+    <string name="gif_search_text_over">Aksara tidak boleh melebihi 200</string>
+
+    <string name="export_video_resolution_limit">Takrifan bagi video yang dieksport adalah terhad kepada resolusi telefon anda, diharap anda faham</string>
+    <string name="no_material_now">Tiada Bahan Sekarang</string>
+    <string name="draftbox_is_null_tip_revert">Klip asal telah hilang</string>
+    <string name="main_reverse">Undur</string>
+    <string name="app_info_view_reverse">Undurkan video</string>
+    <string name="reverse_text_full_context_0">Bunyi asal video yang dieksport akan dikeluarkan bagi mengelakkan bunyi bising yang disebabkan oleh mengundur.</string>
+    <string name="reverse_text_full_context_1">Diharap agar sabar menunggu untuk menonton video huraian yang anda berjaya buat. Atau ia akan gagal mengeksport jika anda keluar daripada halaman semasa.</string>
+    <string name="reverse_text_full_context_2">Video yang dieksport akan disimpan sebagai klip baru, tetapi fail asal juga kekal.</string>
+    <string name="reverse_text_full_context_3">Anda boleh menambah muzik dan kesan, dan sebagainya untuk menjadikan video yang diundur menjadi lebih dahsyat.</string>
+
+    <string name="use_toolkit_create_video">Menggunakan kit alat yang paling berkuasa untuk membuat video yang hebat.</string>
+    <string name="add_material_to_video">Menambah sari kata, kesan, pelekat dan lain-lain kandungan yang terlibat dengan video anda.</string>
+    <string name="simplest_way_make_video">Cara yang paling mudah untuk membuat video yang hebat.</string>
+    <string name="set_photo_display_time">Tetapkan masa paparan foto.</string>
+    <string name="trim_video_save_part">Potong video untuk menyelamatkan bahagian yang anda perlukan.</string>
+    <string name="zoom_photo_video_focus_attention">Zum foto dan video, tumpukan perhatian penonton.</string>
+    <string name="new_function_reverse_video">Fungsi baru ditambah: video undur.</string>
+    <string name="video_setting_background">Latar Belakang</string>
+    <string name="video_music_single_type">Muzik Tunggal</string>
+    <string name="video_music_multi_type">Berbilang Muzik</string>
+    <string name="edit_clip_set_duration_all">Tetapkan pada semua foto</string>
+    <string name="local_gif">Gif Setempat</string>
+
+    <string name="click_the_theme_again_to_edit">Klik tema sekali lagi untuk mengedit.</string>
+    <string name="galleryvault_install_uppercase">PASANG</string>
+    <string name="galleryvault_share_extensions_gap_line_tip">Sambungan</string>
+    <string name="galleryvault_delete_draft_tip">Video ini telah disembunyikan, padam draf?</string>
+    <string name="material_pull_to_refresh">Tarik ke bawah untuk menyegar semula</string>
+    <string name="editor_add_music">Ketik untuk menambah muzik</string>
+
+    <string name="install">Pasang</string>
+    <string name="use_vidcompact_convert">Gunakan VidCompact untuk menukar sekarang! Kemudian Video boleh diedit dengan mudah.</string>
+    <string name="home_text_transcode">Transkod</string>
+    <string name="home_text_gallery">Gallery</string>
+    <string name="home_text_slideshow">TapSlide</string>
+    <string name="home_transcode_content">Gunakan VidCompact untuk menukar video anda kepada format lain atau memampatkan menjadi saiz yang lebih kecil</string>
+    <string name="home_transcode_function">Keistimewaan fungsi</string>
+    <string name="home_transcode_convert">Menukar dengan kualiti yang tinggi</string>
+    <string name="home_transcode_support">Menyokong banyak format fail</string>
+    <string name="home_transcode_compact">Padat dengan kukuh</string>
+    <string name="home_transcode_rapid">Mampatan pantas</string>
+    <string name="home_gallery_content">Gunakan Gallery untuk melayari foto dan video anda dan membuat tayangan slaid</string>
+    <string name="home_gallery_browse">Melayar, mengimbas dan menyusun foto anda mengikut folder</string>
+    <string name="home_gallery_add">Tambah foto dan video pada Kegemaran</string>
+    <string name="home_gallery_engaging">Melibatkan tema yang disokong untuk membuat tayangan slaid</string>
+    <string name="home_gallery_automatically">Menyusun foto dan video secara automatik mengikut acara, tarikh, masa dan tempat</string>
+    <string name="home_slideshow_content">Nikmatilah membuat tayangan slaid dengan TapSlide, hanya dengan mengetik mengikut irama muzik</string>
+    <string name="home_slideshow_just">Hanya 4 langkah  </string>
+    <string name="home_slideshow_to">untuk membuat tayangan slaid muzik</string>
+    <string name="home_slideshow_choose">Pilih foto</string>
+    <string name="home_slideshow_choose_music">Pilih muzik</string>
+    <string name="home_slideshow_tap">Ketik mengikut irama untuk mengawal foto</string>
+    <string name="home_slideshow_save">Simpan kerja anda dan berkongsi dengan rakan anda</string>
+    <string name="choose_too_large_video">Video terlalu besar untuk diimport</string>
+    <string name="dialog_facebook_main_title">Semua dalam Satu Penyunting Video</string>
+    <string name="share_to">Kongsi ke</string>
+    <string name="editor_trans_type_none">Tiada</string>
+    <string name="editor_rotate">Putar</string>
+    <string name="setting_clip_duration">Tempoh</string>
+    <string name="choose_4k_buypro_content">Hanya VideoShow Pro menyokong pengimportan video dengan resolusi 4K. Adakah anda ingin membeli?</string>
+
+    <string name="home_discover">Temui</string>
+    <string name="discover_all_videos">Semua Video</string>
+    <string name="discover_all_contents">Semua Kandungan</string>
+    <string name="network_is_unavailable">Rangkaian tidak tersedia</string>
+    <string name="discover_page_title">Temui          </string>
+    <string name="pinch_to_zoom">Cubit skrin untuk zum</string>
+    <string name="guide_start_ui">Mula</string>
+    <string name="guide_back_ui">Kembali</string>
+    <string name="video_setting_ratio">Nisbah Aspek</string>
+    <string name="video_setting_widescreen_mode">Skrin lebar</string>
+    <string name="video_setting_square_mode">Persegi</string>
+    <string name="video_setting_vertical_mode">Menegak</string>
+    <string name="noenough_space_ex_need">Memori diperlukan: </string>
+    <string name="noenough_space_ex_cur">Memori tersedia: </string>
+    <string name="go_to_clip_edit">Pergi ke Edit Klip</string>
+    <string name="share_no_enough_space">Tiada ruang mencukupi. </string>
+    <string name="share_please_free_your">Sila kosongkan storan anda. Anda boleh memangkas klip video atau memadam beberapa klip dalam Edit Klip.</string>
+
+    <string name="click_the_button_set_theme_prologue_epilogue">Klik butang untuk menetapkan prolog dan epilog tema.</string>
+    <string name="tag_library">Tag Trend</string>
+    <string name="selected_category">Kategori</string>
+    <string name="all_tags">Semua Tag</string>
+    <string name="toolbox_sound">Alih suara</string>
+    <string name="main_video_compress">Mampat</string>
+
+    <string name="music_sort_by_hot">Hangat</string>
+    <string name="music_sort_by_new">Baharu</string>
+
+    <string name="guide11">Edit Video</string>
+    <string name="music_fadein_fadeout">Muzik muncul/lenyap</string>
+    <string name="music_add_limit_tip">Anda boleh menambah sehingga %s lagu</string>
+
+    <string name="tip_app_upgrad_dialog_title">Versi Baru</string>
+
+    <string name="power_setting_fast">Cas Pantas</string>
+    <string name="power_activity_edit">Edit Video</string>
+    <string name="power_activity_battery">Bateri</string>
+    <string name="power_toast_text">Cas telefon hari tertentu untuk membuka kunci sekali lagi</string>
+    <string name="power_activity_slide">Luncur untuk buka kunci</string>
+    <string name="power_unlock_succ">Berjaya Buka Kunci</string>
+    <string name="power_unlock_pro_material">Anda boleh membuka kunci bahan pro sekali. Apa yang anda tunggu lagi?</string>
+
+    <string name="home_gif_video">Daripada Video</string>
+    <string name="home_gif_photo">Daripada Foto</string>
+    <string name="add_more_than_50">Tambahkan tidak lebih daripada 50 klip</string>
+    <string name="set_duration_10">Tetapkan tempoh tidak lebih daripada 10 saat</string>
+    <string name="select_gif_resolution">Memilih resolusi gif</string>
+    <string-array name="gif_quality">
+        <item>Kualiti Rendah</item>
+        <item>Kualiti Sederhana</item>
+        <item>Kualiti Tinggi</item>
+    </string-array>
+
+    <string name="set_duration_1">Tetapkan tempoh tidak lebih daripada 1 saat</string>
+
+    <string name="drag_point_guide">Klik kemudian tahan bar untuk bergerak. Bahan akan mengikuti pergerakannya.</string>
+    <string name="power_main_activity_1">Dayakan cas pantas, anda boleh</string>
+    <string name="power_main_activity_2">1. Dapatkan dahulu video paling popular\n2. Mempunyai akses yang pantas untuk mengedit video</string>
+
+    <string name="editor_clip_split">Pisah</string>
+    <string name="clip_is_too_short_to_split">Klip terlalu pendek untuk dipisahkan</string>
+
+    <string name="select_needed_voice_change">Pilih suara yang anda mahu tukar</string>
+    <string name="voice_change_type_man">Lelaki</string>
+    <string name="voice_change_type_woman">Wanita</string>
+    <string name="voice_change_type_robot">Robot</string>
+    <string name="voice_change_type_kid">Kanak-kanak</string>
+    <string name="voice_change_type_monster">Raksasa</string>
+    <string name="voice_change_done">Suara ditukar</string>
+    <string name="click_the_button_set_voice_change">Klik butang untuk menukar suara anda.</string>
+    <string name="guide_skip">Langkau</string>
+
+    <string name="ads_restore">Pulihkan</string>
+    <string name="menbership_success">Kejayaan</string>
+    <string name="save_more">60% DISKAUN!</string>
+    <string name="vip_buy_materila">Gunakan semua bahan pro secara percuma</string>
+
+
+    <string name="home_premium">Premium</string>
+
+
+    <string name="remove_ads_checking">Menyemak...</string>
+    <string name="remove_ads_checking_succeed">Berjaya pulihkan</string>
+    <string name="remove_ads_checking_failed">Gagal pulihkan</string>
+    <string name="gp_connect_fail_dialog_text_title">Gagal memulakan perkhidmatan Google Play</string>
+    <string name="gp_connect_fail_dialog_text_1">-Periksa sambungan rangkaian anda</string>
+    <string name="gp_connect_fail_dialog_text_2">-Pastikan anda log masuk ke akaun Google anda</string>
+    <string name="gp_connect_fail_dialog_text_3">-Pastikan anda boleh menjalankan aplikasi Google Play</string>
+
+    <string name="vip_buy_more_new_pro">Lebih banyak bahan pro baharu akan kerap dikemas kini</string>
+
+    <string name="clip">Klip</string>
+
+    <string name="guide12">Menghargai detik istimewa anda</string>
+    <string name="guide21">Sari kata</string>
+    <string name="guide22">Pelbagai gaya untuk membuat sari kata artistik</string>
+    <string name="guide31">Muzik</string>
+    <string name="guide32">2000+ buah muzik yang berlesen sepenuhnya</string>
+    <string name="exporting_your_video_1080P">MENGEKSPORT VIDEO 1080P...</string>
+    <string name="exporting_your_video">MENGEKSPORT VIDEO ANDA...</string>
+    <string name="please_stay_in_this_page">Tinggal di halaman ini dan dapat:</string>
+    <string name="higher_export_speed">Kelajuan eksport lebih tinggi</string>
+    <string name="higher_export_success_rates">Kadar kejayaan eksport lebih tinggi</string>
+    <string name="quit_exporting_your_video">Adakah anda pasti untuk berhenti mengeksport video?</string>
+
+
+    <string name="home_premium_benefits">Faedah Premium</string>
+    <string name="home_premium_benefits_tips">Dapatkan semua faedah eksklusif dengan Keahlian Premium anda. Semakin banyak faedah premium akan datang tidak lama lagi.</string>
+    <string name="home_premium_month_buy">BULANAN</string>
+    <string name="home_premium_year_buy">TAHUNAN</string>
+
+
+    <string name="material_unlock">Buka kunci semua bahan pro</string>
+    <string name="membership_success_dialog_1">CONGRATULATIONS!</string>
+    <string name="membership_success_dialog_2">Anda mendapat Keahlian Premium anda!</string>
+
+    <string name="export_video_mode_chooser_gif_tips">Mod GIF</string>
+    <string name="export_video_mode_chooser_1080p_tips">Mod 1080p</string>
+    <string name="gif_time_limited">Tetapkan tempoh klip tidak lebih dari 30 saat</string>
+    <string name="gif_incentive">Eksport video dalam format GIF</string>
+
+    <string name="gifguru_description_sub_title">Gunakan GifGuru untuk menukar imej/video anda menjadi GIF</string>
+    <string name="gifguru_description_1">Tambah teks, pelekat dan penapis pada GIF</string>
+    <string name="gifguru_description_2">Mainkan GIF ke depan/ke belakang, dan laraskan kelajuan</string>
+    <string name="gifguru_description_3">Mencipta semula GIF sedia ada</string>
+    <string name="gifguru_description_4">Cari GIFs oleh Giphy dan bukan DIY</string>
+    <string name="free_music_pip_shooting_app">Muzik percuma dan aplikasi penggambaran PIP dengan berbagai penapis</string>
+    <string name="plenty_amazing_filters">Banyak penapis hebat</string>
+    <string name="creative_funny_pip_frame">Bingkai PIP yang kreatif dan lucu</string>
+    <string name="record_videos_with_your_local_songs">Merakam video dengan lagu tempatan anda</string>
+    <string name="simple_dynamic_interface">Antara muka yang ringkas dan dinamik</string>
+    <string name="wanna_master_gif">Ingin menjadi pakar dalam membuat GIF?</string>
+    <string name="use_gifguru_turn_video_into_gif">Gunakan GifGuru untuk menukar imej/video anda menjadi GIF.</string>
+    <string name="camera">Kamera</string>
+    <string name="export_lead_facebook">Suka kami di Facebook dan kongsi video hebat anda ke dunia.</string>
+
+    <string name="refuse_allow_storage_permission">VideoShow perlu mengakses foto, video untuk menjalankan editor secara normal. Sila benarkan kebenaran storan.</string>
+    <string name="refuse_allow_camera_permission">VideoShow perlu mengakses kamera telefon untuk menangkap video. Tolong izinkan kamera.</string>
+    <string name="refuse_allow_audio_permission">VideoShow perlu mengakses mikrofon untuk merakamkan suara anda. Sila izinkan izin mikrofon.</string>
+    <string name="allow">mengizinkan</string>
+    <string name="refuse">REFUSE</string>
+    <string name="enable">ENABLE</string>
+    <string name="question_studio_title">Tidak dapat mengeksport video?</string>
+    <string name="question_attention">Perhatian: kaedah ini akan memadamkan semua draf anda dan menetapkan semula VideoShow.</string>
+    <string name="question_studio_step">Langkah pertama: cari \'storan dalaman\' dalam telefon anda.\nLangkah kedua: padamkan folder 1videoshow dan .1videoshow (jika anda tidak melihat folder .1videoshow, anda perlu beralih untuk menunjukkan fail tersembunyi).\nLangkah ketiga: mulakan VideoShow.\nPerhatian: jika anda gagal, cuba lagi atau hubungi kami di support@enjoy-global.com.</string>
+
+
+    <string name="editor_mode_choose_tip">Pilih Mod Pengeditan</string>
+    <string name="editor_mode_pro_title">Mod Pakar</string>
+    <string name="editor_mode_pro_desc_content">Buat setiap perincian video anda seperti yang anda inginkannya. Anda akan mencipta karya agung dalam masa yang singkat!</string>
+    <string name="editor_mode_easy_speed">Laju</string>
+    <string name="editor_mode_easy_speed_min">Perlahan</string>
+    <string name="editor_mode_easy_speed_max">Cepat</string>
+    <string name="quick_trim_title">Potong</string>
+    <string name="quick_trim_desc_title">Potong klip dari video yang dipilih atau padamkan klip dari video yang dipilih.</string>
+    <string name="ultra_cut_title">Potong dan gabungkan</string>
+    <string name="ultra_cut_desc_title">Klipkan klip dari video yang dipilih dan pasangkan klip itu ke video lain.</string>
+
+    <string name="home_video_edit">Edit Video</string>
+    <string name="home_slideshow">Buat Slaid</string>
+    <string name="home_shoot">Tembak</string>
+    <string name="home_featured_app">Dipilih</string>
+    <string name="home_gifguru">Buat Gif</string>
+    <string name="home_my_studio_text">Draf Saya</string>
+    <string name="my_studio_more">Video saya ></string>
+    <string name="my_studio_no_video_yet">Tiada video telah dibuat lagi</string>
+    <string name="my_studio_create_one">Buat sekarang</string>
+    <string name="tools">Alat</string>
+    <string name="home_trim">Potong</string>
+    <string name="home_compress">Mampat</string>
+    <string name="home_mp3">Video ke audio</string>
+    <string name="home_camera">PIP</string>
+    <string name="home_transcode">Tukar</string>
+    <string name="selected_materials">Tema yang ditampilkan</string>
+    <string name="more">Lebih ></string>
+    <string name="help">Bantu</string>
+    <string name="like_us">Maklumbalas</string>
+    <string name="faq">Soalan Lazim</string>
+    <string name="video_to_gif">Video ke Gif</string>
+    <string name="beautify">Mencantikkan</string>
+
+    <string name="editor_mode_easy_title">Mod Muzik</string>
+    <string name="editor_mode_easy_desc_title">Klik di sini untuk mula ></string>
+    <string name="editor_mode_easy_desc_content">Menukar foto dengan irama muzik secara automatik. 92% pengguna sangat mengesyorkan.</string>
+
+    <string name="face_material_title">Pelekat yang dimuat turun</string>
+    <string name="face_material_select_all">Pilih semua</string>
+    <string name="vip_buy_face_pro">Gunakan pelekat muka pro</string>
+    <string name="set_face_resolution_info">Tembak tetapan resolusi</string>
+    <string name="purchase">PEMBELIAN</string>
+    <string name="next_make_video_editorchoose">Seterusnya</string>
+    <string name="exceed_cliplimit_video">Tidak boleh menambah lebih banyak video</string>
+    <string name="select_allitem_editorchoose">Memuatkan ...</string>
+    <string name="pupumenu_select_type_title">Isih mengikut</string>
+    <string name="pupumenu_select_type_date">Tarikh</string>
+    <string name="pupumenu_select_type_name">Nama</string>
+    <string name="pupumenu_select_type_ascending">Menaik</string>
+    <string name="pupumenu_select_type_dscending">Menurun</string>
+    <string name="long_touch_to_move_position">Tahan dan seret untuk menyusun semula</string>
+    <string name="manual_search">Klik untuk mencari klip</string>
+    <string name="operation_no_reminder">Jangan tunjukkan lagi</string>
+    <string name="mosaic">Mosaic</string>
+    <string name="vip_buy_mosaic">Gunakan fungsi mozek</string>
+
+    <string name="toolbox_sound_effect">Kesan Bunyi</string>
+    <string name="editor_draw_title">Tambah Doodle</string>
+    <string name="editor_draw">Doodle</string>
+
+    <string name="voice_change_click_tips">Anda perlu merakam terlebih dahulu</string>
+    <string name="draw_sticker_tab_0">Warna</string>
+    <string name="draw_sticker_tab_1">Pen</string>
+    <string name="draw_sticker_tab_2">Pemadam</string>
+    <string name="draw_sticker_tab_3">Batalkan</string>
+    <string name="draw_sticker_tab_4">Pulihkan</string>
+    <string name="main_shoot_new">Kamera Super</string>
+    <string name="shoot_image_compress_tips">Hanya video boleh dimampatkan</string>
+    <string name="trim_mode">Potong</string>
+    <string name="export_mode">Eksport</string>
+    <string name="trim_select_part">Potong bahagian yang dipilih</string>
+    <string name="delete_select_part">Padamkan bahagian yang dipilih</string>
+    <string name="new_file">Buat fail baru</string>
+    <string name="cover_origin_file">Tulis ganti fail</string>
+    <string name="default_setting">Tetapan Lalai</string>
+    <string name="click_here_modify_default_setting">Tukar tetapan lalai di sini</string>
+
+    <string name="sort_activity_tag_restore">Pulihkan Default</string>
+    <string name="sort_activity_tag_normal">Normal</string>
+    <string name="tips_editor_tab_window">Sarikata, pelekat, kesan</string>
+    <string name="tool_bar_sort_title">Menyusun</string>
+
+
+    <string name="text_refuse_premission">Perakam V memerlukan keizinan mikrofon untuk merakam audio, sila hidupkan keizinan mikrofon</string>
+    <string name="text_premission_allow">BENARKAN</string>
+    <string name="dialog_cancle_text">BATAL</string>
+    <string name="string_notification_stop_recording">Merakam</string>
+    <string name="string_notification_stop_tap">Ketik di sini untuk berhenti merakam</string>
+    <string name="string_notification_start_recording">Perakam V sudah sedia</string>
+    <string name="string_notification_start_tap">Ketik di sini untuk mula merakam</string>
+    <string name="string_video_setting">Tetapan Video</string>
+    <string name="string_video_resolution">Resolusi Video</string>
+    <string name="string_video_quality">Kualiti Video</string>
+    <string name="string_video_fps">FPS</string>
+    <string name="string_record_audio">Rakam Audio</string>
+    <string name="string_video_record_audio_turn_on">Hidupkan untuk merakam audio luaran. Rakaman audio dalaman tidak dibenarkan dalam Android</string>
+    <string name="string_video_hide_the_window">Sembunyikan tetingkap rakaman semasa merakam</string>
+    <string name="string_video_terms_privary">Terma dan Privasi</string>
+    <string name="string_allow_notification_text">Sila benarkan pemberitahuan Perakam V untuk memastikan aplikasi berfungsi dengan betul dan mantap</string>
+    <string name="string_allow_notification_ok_text">OK</string>
+    <string name="string_video_v_recorder_text">Perakam V</string>
+    <string name="string_the_video_deleted_text">Video dipadam atau rosak</string>
+    <string name="string_low_storage_text">Storan rendah. Sila kosong storan telefon terlebih dahulu</string>
+    <string name="string_recoeding_is_finished_text">Rakaman selesai</string>
+    <string name="string_record_text">Rakam</string>
+    <string name="stirng_home_text">Laman Utama</string>
+    <string name="string_exit_text">Keluar</string>
+    <string name="string_facebook_is_uninstalled_text">tidak dipasang</string>
+    <string name="string_video_orientation_text">Orientasi Video</string>
+    <string name="string_low_battery_text">Bateri lemah. Sekiranya data hilang, berhati-hati dengan bateri telefon</string>
+    <string name="string_unsupported_resolution_text">Resolusi tidak disokong untuk telefon ini</string>
+    <string name="string_portrait">Potret</string>
+    <string name="string_landscape">Landskap</string>
+    <string name="string_needs_storage">Perakam V memerlukan akses kepada foto, media dan fail untuk menyimpan video yang dirakam</string>
+    <string name="string_no_recorded_vidoe">Tiada video dirakam</string>
+    <string name="string_repair_system_ui_carsh_text">Baiki Nahas UI Sistem</string>
+    <string name="string_systen_ui_carsh_reason_text">Benarkan keizinan dan cuba untuk membetulkan masalah UI sistem</string>
+    <string name="string_video_item_share_text">Kongsi</string>
+    <string name="are_you_sure_exit_tips">Jika anda keluar daripada halaman semasa, video anda tidak akan disimpan!</string>
+
+    <string name="guide_loating_window_instructions">Memuatkan arahan tetingkap</string>
+    <string name="guide_loating_window_recorder">Perakam</string>
+    <string name="guide_loating_window_video">Video</string>
+    <string name="guide_loating_window_close">Tutup memuatkan tetingkap</string>
+    <string name="guide_notification_panel_close">Panel pemberitahuan</string>
+    <string name="guide_notification_panel_recorder">Anda juga boleh menggunakan panel pemberitahuan untuk mengawal rakaman</string>
+    <string name="dialog_rate_us_feed_back">Maklum Balas</string>
+    <string name="dialog_rate_us_feed_back_content">Maklum balas anda adalah berguna.</string>
+    <string name="dialog_rate_us_feed_back1">Saya tidak menyukai reka bentuknya</string>
+    <string name="dialog_rate_us_feed_back2">Ia tidak mempunyai fungsi yang saya perlukan</string>
+    <string name="dialog_rate_us_feed_back3">Ia tidak mudah digunakan</string>
+    <string name="dialog_rate_us_feed_back4">Ia mengandungi pepijat</string>
+    <string name="dialog_rate_us_feed_back5">Terjemahannya lemah</string>
+    <string name="dialog_rate_us_feed_back_suc">Cadangan anda sangat membantu!</string>
+    <string name="dialog_rate_us_feed_back_suc_thank">Terima kasih!</string>
+    <string name="dialog_rate_us_submit">Serah</string>
+
+    <string name="recording_change_setting_toast">Menukar maklumat video tidak disokong semasa rakaman.</string>
+    <string name="setting_video_location">Lokasi Video</string>
+    <string name="setting_countdown">Kiraan Detik</string>
+    <string name="setting_countdow_0s">Tiada kiraan detik</string>
+    <string name="setting_countdow_3s">3s</string>
+    <string name="setting_countdow_5s">5s</string>
+    <string name="setting_countdow_10s">10s</string>
+    <string name="edit_format_error">Mengedit video dalam format ini tidak disokong</string>
+    <string name="play_large_error">Sumber video terlalu besar untuk menyokong main semula</string>
+
+    <string name="watermark_title">Tera Air</string>
+    <string name="string_watermark_desc">Tera air dipaparkan dalam rakaman video</string>
+    <string name="cant_config_watermark_when_recording">Konfigurasi tera air tidak boleh diubah suai semasa rakaman.</string>
+    <string name="string_vip_privilege_success">Anda sudah menjadi ahli VIP V Recorder.</string>
+    <string name="string_vip_buy_success">Pembelian berjaya!</string>
+    <string name="string_vip_keep_title">Benar-benar mahu berhenti Percubaan Percuma?</string>
+    <string name="string_vip_keep_content">Ciri-ciri premium di bawah adalah percuma untuk dicuba sekarang. Anda boleh membatalkannya pada bila-bila masa.</string>
+    <string name="string_vip_keep_time_title">Jualan Kilat!</string>
+    <string name="string_vip_privilege">Keistimewaan VIP</string>
+    <string name="string_vip_privilege_1080">Rakaman 1080P HD</string>
+    <string name="string_vip_privilege_no_water">Tiada Tera Air</string>
+    <string name="string_vip_privilege_no_ads">Tiada Iklan</string>
+    <string name="string_vip_privilege_trim">Rapikan Video</string>
+    <string name="string_vip_privilege_pro_materials">1000+ Bahan</string>
+    <string name="string_vip_privilege_more">Lagi Ciri-ciri</string>
+    <string name="string_vip_privilege_one_month">Bulanan:</string>
+    <string name="string_vip_privilege_free_new">Percuma untuk Pengguna Baru</string>
+    <string name="string_vip_buy_year_des">3 hari percubaan percuma, kemidian langgan   %1$s / tahun.</string>
+    <string name="string_vip_buy_month_des">Uji coba gratis 3 hari, lalu berlangganan %1$s/ bulan</string>
+
+    <string name="string_vip_privilege_free">TERUSKAN</string>
+
+    <string name="float_permission_tips">Sila benarkan V Recorder melukis di atas aplikasi lain untuk memastikan aplikasi berfungsi dengan baik.</string>
+    <string name="orientation_auto">Automatik</string>
+    <string name="sd_permission_msg">Sila pilih direktori akar bagi storan luaran anda
+\"%1$s\" pada skrin seterusnya dan klik butang Pilih untuk membenarkan
+akses menulis aplikasi. Bermula dengan android 5.0 Lollipop, disebabkan perubahan dasar keselamatan
+android, fail pada storan luaran mungkin tidak akan dipadam atau dinamakan semula jika keizinan menulis aplikasi tidak dibenarkan.</string>
+    <string name="sd_permission">Keizinan Akses</string>
+    <string name="available">tersedia</string>
+    <string name="default_save_path_name">Lalai</string>
+    <string name="cant_change_path_when_recording">Tidak dapat menukar laluan menyimpan video ketika rakaman.</string>
+    <string name="caution">Awas</string>
+    <string name="uninstall_app_hint_for_video">Video yang disimpan dalam kad SD akan dipadam apabila anda menyahpasang V Recorder.</string>
+    <string name="sd_card_change_tip">Kad sd tidak dikesan, simpan ke storan dalaman.</string>
+    <string name="string_video_shake_stop_record">Goncang telefon untuk hentikan rakaman</string>
+    <string name="floating_window_camera">Kamera</string>
+    <string name="string_record_success_nowatermark">Merakam tanpa tera air</string>
+    <string name="string_record_success_nowatermark_button">Cuba secara Percuma</string>
+
+    <string name="string_no_screen_capture_image">Tiada Imej Tersedia</string>
+    <string name="string_screen_captured_succuss">Tangkapan skrin ditangkap</string>
+    <string name="string_screen_captured_look">Semak</string>
+    <string name="string_click_to_loook_screen_captured">Ketik di sini untuk melihat tangkapan skrin anda.</string>
+    <string name="string_the_image_deleted_text">Imej telah dipadam atau rosak.</string>
+    <string name="string_image_deleted_succuss">Imej berjaya dipadamkan.</string>
+    <string name="brush">Berus</string>
+    <string name="rate_us_content">Lima bintang bermaksud terbaik di Google Play</string>
+
+    <string name="string_setting_about_us">Mengenai</string>
+    <string name="home_vip_banner_string"> Tiada Tera Air &amp; Tiada Iklan </string>
+    <string name="rate_quest_content">Kami cuba menjadikan aplikasi lebih baik! Adakah anda ingin memberikan penilaian 5 bintang?</string>
+
+
+    <string name="permission_title"> Izin</string>
+    <string name="permission_camera_msg"> Fungsi ini memerlukan Izin Akses Kamera. Silakan nyalakan dan coba lagi.</string>
+
+
+    <string name = "str_vip_unlock_compress"> Buka Kompressecara gratis </string>
+    <string name = "str_vip_unlock_trim"> Buka KunciPotong Video secara gratis </string>
+    <string name = "str_vip_guide_desc_clip">Lihathakistimewa VIP </string>
+    <string name ="str_vip_try_free">Coba 3 hari gratis </string>
+    <string name ="str_video_screen_off_continue_recording">Tetapmerekamsaatlayarmati</string>
+    <string name = "str_vip_unlock_compress_desc">Jika Anda inginmenggunakanCompress.Klikuntukmencobahakistimewa VIP secara gratis. </string>
+    <string name = "str_vip_unlock_trim_desc">Jika Anda inginmenggunakanPotong Video. Klikuntukmencobahakistimewa VIP gratis. </string>
+    <string name = "feedback_submit_tip">Tanggapan Anda telah kami terima, terimakasihatasdukungan Anda </string>
+    <string name = "feedback_edit_hint"> Kami menyambutumpanbalik Anda </string>
+
+
+    <string name = "using"> sedang digunakan </string>
+    <string name = "apply">Menerapkan</string>
+    <string name = "theme_apply_success">tema menerapkan keberhasilan</string>
+    <string name = "free"> Gratis </string>
+
+    <string name = "clip_zone_clip">Crop</string>
+
+    <string name = "record_tools">Alatrakaman</string>
+    <string name = "float_screen_shoot" > Screenshot </string>
+    <string name="unlock_pro_privilege_watch_video_ad">Tonton video untuk membuka kunci kebenaran VIP ini sekali sahaja</string>
+    <string name="unlock_pro_privilege_tips">Keistimewaan VIP telah dikunci</string>
+    <string name="unlock_pro_privilege_btn_str">BUKA KUNCI GRATIS</string>
+</resources>
+
+
+

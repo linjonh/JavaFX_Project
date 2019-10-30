@@ -1,0 +1,66 @@
+Values
+<string name="unlock_pro_privilege_btn_str">UNLOCK FOR FREE</string>
+
+
+中文
+<string name =“ unlock_pro_privilege_btn_str”>免费解锁</string>
+
+中文繁体
+<string name =“ unlock_pro_privilege_btn_str”>免費解鎖</string>
+
+Values-AR  阿拉伯语
+<string name = "unlock_pro_privilege_btn_str"> فتح القفل مجانًا </string>
+
+Values-de-rDE  德语
+<string name = "unlock_pro_privilege_btn_str"> KOSTENLOS ENTSPERREN </string>
+
+Values-es-RES 西班牙语
+<string name = "unlock_pro_privilege_btn_str"> DESBLOQUEAR GRATIS </string>
+
+Values-fil  菲律宾语
+<string name = "unlock_pro_privilege_btn_str"> UNLOCK PARA SA LIBRE </string>
+
+Values-fr-rFR  法语
+<string name = "unlock_pro_privilege_btn_str"> DÉVERROUILLER GRATUITEMENT </string>
+
+Values-hi-rln   印地语
+<string name = "unlock_pro_privilege_btn_str"> मुफ़्त के लिए अनलॉक करें </string>
+
+Values-id   马来语
+<string name = "unlock_pro_privilege_btn_str"> UNLOCK FOR FREE </string>
+
+Values-in   马来语
+<string name = "unlock_pro_privilege_btn_str"> UNLOCK FOR FREE </string>
+
+Values-ja 日语
+<string name = "trim_desc">お気に入りのクリップを保持</string>
+
+Values-ko  韩语
+<string name = "unlock_pro_privilege_btn_str"> 무료 잠금 해제 </string>
+
+Values-ms-rmy  印尼语
+<string name = "unlock_pro_privilege_btn_str"> BUKA KUNCI GRATIS </string>
+
+Values-nl-rnl  荷兰语
+<string name = "unlock_pro_privilege_btn_str"> GRATIS ONTGRENDELEN </string>
+
+Values-pt-rpt  葡萄牙
+<string name = "unlock_pro_privilege_btn_str"> DESBLOQUEIE DE GRAÇA </string>
+
+Values-ru-rRu  俄语
+<string name = "unlock_pro_privilege_btn_str"> БЛОКИРОВАТЬ БЕСПЛАТНО </string>
+
+Values-th  泰语
+<string name = "unlock_pro_privilege_btn_str"> ปลดล็อคฟรี </string>
+
+Values-tl   菲律宾语
+<string name = "unlock_pro_privilege_btn_str"> UNLOCK PARA SA LIBRE </string>
+
+Values-tr  土耳其语
+<string name = "unlock_pro_privilege_btn_str"> BEDAVA KİLİT AÇMA </string>
+
+Values-vi  越南语
+<string name = "unlock_pro_privilege_btn_str">UNLOCK MIỄN PHÍ </string>
+
+Values-it  意大利语
+<string name = "unlock_pro_privilege_btn_str"> SBLOCCA GRATUITAMENTE </string>

@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,ExtraTranslation">
+
+    <string name="app_name">V Recorder</string>
+    <string name="setting">Settings</string>
+
+    <string name="effectnone">None</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="ok">OK</string>
+    <string name="unvailable_video">Invalid video path! </string>
+    <string name="cpunotcompatible">Sorry, the CPU architecture is not compatible with the app. We will fix this problem as soon as possible. </string>
+    <string name="share">Share</string>
+
+    <string name="no_write">No permission to write this file</string>
+    <string name="input_cannot_empty">Input can not be empty</string>
+    <string name="rename_success">Rename success! </string>
+
+    <string name="rename_fail">Rename failed! </string>
+    <string name="sure_delete">Delete</string>
+    <string name="sure_delete_file">Are you sure to delete? </string>
+    <string name="detail">Media information</string>
+    <string name="file_name">Name: </string>
+    <string name="file_path">Path: </string>
+    <string name="sure">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="sure_update">New version available, update now? </string>
+    <string name="sure_update_info1">New version: </string>
+    <string name="about">About</string>
+    <string name="set_l_info3">About</string>
+    <string name="Browser">File browse</string>
+
+    <!-- Home directory -->
+    <string name="editor">Editor</string>
+    <string name="editor_trim">Trim</string>
+
+    <!-- Select video -->
+    <string name="editor_fx">Effects</string>
+    <!-- Video editor -->
+    <string name="editor_text_info2">Please enter the subtitles</string>
+    <string name="editor_text_dialog_title">Tips</string>
+    <string name="nomusic_info">No search to the music</string>
+    <string name="too_big_video">Too large Video Resolution for Video Edit</string>
+    <string name="unvailable_sd">SD card currently Unavailable! </string>
+    <string name="error_sd"> SD card can not access! </string>
+    <string name="openvideo_error">Failed to open video</string>
+    <string name="switch2background">Switch to background task. \n Please do not run some memory-intensive programs (web browser, video player), to avoid transcoding process killed</string>
+    <string name="editor_fx_info">Set the filter success</string>
+    <string name="invalid_param">Invalid parameter to edit! </string>
+
+    <string name="merge_toomany">Video Merge allow a maximum of 5 videos</string>
+    <string name="merge_info">Video cannot be merged because of the inconsistent parameters.</string>
+    <string name="export_info">No changes at all </string>
+    <string name="export_output_set">Export video path setting</string>
+
+    <!-- Merge -->
+    <string name="export_output_title">Exporting… </string>
+    <!-- Export dialog -->
+    <string name="export_output_stop">Stop Exporting</string>
+    <string name="export_output_bg">Run Background</string>
+    <string name="export_output_init">initialization… </string>
+    <string name="export_output_success">Export successfully</string>
+    <string name="export_output_faild">Export failed</string>
+    <string name="export_outofmemory">Not enough RAM memory for this app. Please clean up memory and try again</string>
+    <string name="about_info1">V Recorder</string>
+    <string name="about_info3">V Recorder provides good video edit experience to users. With minimum operations, you can add the most outstanding effects to your videos. \n \n If you have any questions or suggestions, please contact us at support@enjoy-global.com</string>
+    <string name="guide">Guide mode</string>
+
+    <!-- About -->
+    <string name="set_quality_info1">Video quality setting</string>
+    <string name="wipe_off_watermark">Remove Watermark</string>
+
+    <!-- 指南 -->
+    <string name="set_l_info2">Update</string>
+
+    <!-- 设置 -->
+    <string name="share_info3">YouTube</string>
+
+    <string name="share_info5">More</string>
+
+    <string name="share_info6">Your phone has not installed the application, wanna download it? </string>
+    <string name="main_mp3">Video to MP3</string>
+    <!-- 分享 -->
+
+    <string name="feedback">Feedback</string>
+    <string name="feedback_submit_tip">Your feedback we have received, thank you for your support </string>
+    <string name="feedback_edit_hint">We welcome your feedback</string>
+
+    <string name="addimg_delete_info">Select at least one clip</string>
+
+    <string name="addimg_ok_info">Select at least one clip</string>
+    <string name="exceed_cliplimit">Can not add more clips</string>
+
+    <string name="chooseclip">Select clips</string>
+    <string name="choose_a_clip">Select a clip</string>
+
+    <!-- 2.0 add image -->
+    <string name="pressagain_stopexport">Press again to exit. Edited project will not be saved. </string>
+    <string name="unregnizeformat">Unrecognized file type</string>
+    <string name="please_add_gif_by_gif">Please add gif by Gif feature under the Edit tab. </string>
+    <string name="loading">Loading… </string>
+    <string name="custom_dialog_info1">Make slideshow</string>
+    <string name="custom_dialog_info2">Make video</string>
+    <string name="share_info_error">Video can not share successfully on your device. We will fix it as soon as possible.</string>
+    <string name="share_info_Instagram">Instagram</string>
+    <string name="setting_pay">Purchase Pro Version</string>
+
+    <!-- 2.1 -->
+    <string name="cpunotcompatible2">Sorry, can not find the runtime library. The reason may be incompatible architecture or the not enough rom size. Uninstall some apps then try install V Recorder again</string>
+    <string name="settingg_share_friend">Tell a friend</string>
+    <string name="settingg_share_friend_title">V Recorder - Video Editor</string>
+    <string name="settingg_share_friend_text"> Check out this video editor application, V Recorder, it is pretty cool! https://play.google.com/store/apps/details?id=com.xvideostudio.videoeditor</string>
+    <string name="pro_bt_info1">Remind me later</string>
+    <string name="pro_bt_info2">No, Thanks</string>
+    <string name="voice_info1">Please stop playing</string>
+    <string name="input_invalid">Invalid input</string>
+    <string name="editor_trim_duration">Duration</string>
+    <string name="invalid_volume_setting1">You can not set music mute! </string>
+    <string name="unsupport_audio_format">Not supported audio format! </string>
+
+    <!-- Record -->
+    <string name="share_info_weibo">Weibo</string>
+
+    <string name="noenough_space_ex">External memory card has no enough space. Please delete some unused files</string>
+    <string name="noenough_space_ex_need">Required memory: </string>
+    <string name="noenough_space_ex_cur">Available memory: </string>
+    <string name="changelog_title">V Recorder Change log</string>
+    <string name="mp4_noaudio_notsupport">Sorry, video without audio track is not supported currently</string>
+    <string name="editor_text_dialog_options">Options</string>
+    <string name="quick_export_sigle_video">Start export with fast mode… must need following conditions: \n1. Add music to one video\n2. Record voice to one video</string>
+    <string name="add_share_tag_tip">Tag your video # V Recorder app, you will be noticed by more people</string>
+    <string name="share_clipboard_copy_tip">Copied to clipboard</string>
+    <string name="draftbox_is_null">Draft box is empty</string>
+    <string name="confirm_exit_editor">Are you sure to exit edit? </string>
+    <string name="stop_exporting_video_tip">Press again to exit. You can also continue editing in My Drafts. </string>
+    <string name="editor_fx_type_none">None</string>
+    <string name="editor_fx_type_sketch">Sketch</string>
+    <string name="editor_fx_type_georgia">Georgia</string>
+    <string name="editor_fx_type_polaroid">Polaroid</string>
+    <string name="editor_fx_type_sahara">Sahara</string>
+    <string name="editor_fx_type_sepia">Sepia</string>
+    <string name="editor_fx_type_recho">Retro</string>
+    <string name="debug_mode_tip">This is a debug version that can help us to solve some crash-events when you export videos. \n There are some information you should know as follow: \n1. Edit and export videos as normal; \n2. If it was crashed, when you open this application again, it will copy all relative files to the directory (root directory /V Recorder Log Pack). \n3. Please package the directory on computer and send it to us by email: support@enjoy-global.com\n That\'s all, thank you very much. </string>
+    <string name="recomment_video_play_error">Play error</string>
+    <string name="recomment_video_instagram_authentication_successful">Authentication successful</string>
+    <string name="pull_to_refresh_pull_label">Pull down to load more</string>
+    <string name="pull_to_refresh_release_label">Loosen can refresh more</string>
+    <string name="pull_to_refresh_refreshing_label">Refreshing… </string>
+
+    <string name="network_connect_error">Network connect error. Please check it. </string>
+
+    <string name="ad_mode_tip">Because V Recorder is almost free for use, advertisement is necessary to continue the project. We greatly appreciate your understanding. With your support, we will make the app more perfect! </string>
+    <string name="tx_next">NEXT</string>
+    <string name="home_photo_movie">Slideshow</string>
+    <string name="home_my_studio">My Studio</string>
+    <string name="setting_language">Language Settings</string>
+    <string name="setting_language_auto">Automatic</string>
+    <string name="setting_language_english">English</string>
+    <string name="facebook_copyright_tip">Facebook has very strict copyright protection. Adding music without copyrights may cause your video to be deleted. Please note. </string>
+
+    <string name="editor_rotate">Rotate</string>
+
+    <string name="editor_trans_type_none">None</string>
+    <string name="export_output_muxer_tip">Rendering… </string>
+    <string name="share_more_dialog_title">Share Video</string>
+    <string name="download_so_ok">Download</string>
+    <string name="download_so_titile">Downloading</string>
+    <string name="download_so_success">Download Success</string>
+    <string name="export_not_enough_space_change_config_tip_sd_udisk">Phone memory do not have enough space, already shifted to external memory card and continue to export</string>
+
+    <string name="export_not_enough_space_change_config_tip_udisk_sd">External memory card do not have enough space, already shifted to phone memory and continue to export</string>
+    <string name="sd_permission_invalid"> Sorry, V Recorder is not allowed to save video to memory card. please make sure your memory card is writable</string>
+    <string name="no_artist">unknown</string>
+    <string name="editor_exit_title">Confirmation</string>
+    <string name="app_exit_toast_tips">Press again to exit</string>
+    <string name="setting_help_info">FAQ</string>
+    <string name="paintpad_no_operation">You did not draw anything</string>
+    <string name="paintdraft_saving">Saving picture…</string>
+    <string name="editor_select_clips">Gallery</string>
+    <string name="emoji_no_recent">You have not used any sticker</string>
+    <string name="editor_fx_type_monochrome">B&amp; W</string>
+    <string name="editor_fx_type_lookup">Amateur</string>
+    <string name="editor_fx_type_vignette">Vignette</string>
+    <string name="editor_fx_type_tonecurve">Beauty</string>
+    <string name="tv_no_video_selectvideo_text">no file</string>
+    <string name="tv_My_video_selectvideo_text">my works</string>
+    <string name="changelog_setting">Changelog</string>
+    <string name="editor_save_export">Save</string>
+    <string name="export_output_showtips"> (Please keep running in the foreground.  "Background run" will be supported soon) </string>
+    <string name="export_mode_manual">Manual Mode</string>
+    <string name="export_mode_fast">Fast Mode</string>
+    <string name="export_mode_hd">HD Mode</string>
+    <string name="use_auto_fx_values">Apply filters randomly to all clips</string>
+    <string name="use_auto_tr_values">Apply transitions randomly to all clips</string>
+    <string name="use_current_values">Apply this filter to all clips</string>
+    <string name="clear_all_values">Remove filters from all clips</string>
+    <string name="editor_title_trans">Transition</string>
+    <string name="editor_sticker">Sticker</string>
+    <string name="music_preload">Preload</string>
+    <string name="music_my_local">My music</string>
+    <string name="guide_start">START</string>
+    <string name="use_localapp_select_musicfile">Use other apps to select music</string>
+    <string name="voice_info10">Video</string>
+    <string name="voice_info11">Music</string>
+    <string name="volume_setting">Music setting</string>
+    <string name="open_loop">Loop play</string>
+    <string name="setting_attention_us">Follow us</string>
+
+    <string name="material_free_price">Free</string>
+    <string name="network_bad">Check your connection and try again</string>
+    <string name="download_sd_full_fail">Memory card is full. please delete some files</string>
+    <string name="material_downlaod_state">Download</string>
+    <string name="material_updtae_state">Update</string>
+    <string name="material_downlaoding_state">Downloading</string>
+
+    <!-- Above is translated by TOMEDES Translation, please do not modify -->
+
+    <string name="material_pause_state">Pause</string>
+    <string name="download_fail_try_again">Download failed, please try again</string>
+    <string name="setting_push_message">Notifications</string>
+    <string name="download_so_tips">You need to download the library before running the app. Start download? </string>
+    <string name="firstclip_noSupport">First clip can not be set transition</string>
+    <string name="editor_theme_type_fade">Fade out</string>
+    <string name="setting_edit_mode">Choose edit mode</string>
+    <string name="setting_edit_mode_manually">Manually setting</string>
+    <string name="setting_edit_mode_crop">Crop to fill</string>
+    <string name="setting_edit_mode_fit">Fit in frame</string>
+    <string name="timeline_not_space">You need 0.5s blank space to add new item</string>
+    <string name="record_completed">Record OK</string>
+    <string name="record_too_short">You can not record less than 1 second</string>
+    <string name="video_mute_tip">Video has been muted</string>
+    <string name="music_time_short">music time must be more than 1s</string>
+    <string name="create_video_file_failed">Initialize app failed, please check the SD card is loaded! </string>
+    <string name="clips_all">All</string>
+    <string name="clips_1VRecorder">1VRecorder</string>
+    <string name="clips_video">Video</string>
+    <string name="clips_photo">Photo</string>
+    <string name="toast_voice_non_drag_tips">The voice duration can not be changed</string>
+
+    <!-- 以下是V3.9.5更新的string -->
+    <string name="compress_p240">240p</string>
+    <string name="compress_p320">320p</string>
+    <string name="compress_p480">480p</string>
+    <string name="compress_p720">720p</string>
+    <string name="compress_p1080">1080p</string>
+    <string name="set_watermark">Video ending</string>
+    <string name="set_director_name">Edit author\'s name</string>
+
+    <!-- 这几个没有使用，暂时不用翻译  Start -->
+    <string name="setting_watermark_open">Turn on</string>
+    <string name="setting_watermark_close">Turn off</string>
+    <string name="watermark_name">Anonymous</string>
+    <string name="watermark_director">Director:   </string>
+    <string name="editor_fx_type_japanstyle">Warm</string>
+    <string name="editor_fx_type_oldphoto">Old Booth</string>
+    <string name="editor_fx_type_standardemboss">Emboss</string>
+    <string name="editor_fx_type_pink">Pink</string>
+    <string name="editor_fx_type_hdr">HDR</string>
+    <string name="join_wechat_way">Open WeChat>Click to add friends>Search %s >Click to follow</string>
+    <string name="join_qq_group_way">Open QQ>Click to search QQ \n1 group: %1$s \n2 group: %2$s \n >Apply</string>
+    <!-- 这几个没有使用，暂时不用翻译  End -->
+
+
+    <!-- 以下是V3.9.10更新的string -->
+    <string name="set_video_background">background color of video</string>
+    <string name="setting_video_background_gause">Blur</string>
+    <string name="setting_video_background_white">White</string>
+    <string name="setting_video_background_black">Black</string>
+    <string name="setting_app">Application Settings</string>
+
+    <string name="editor_clip_zoom">Zoom</string>
+    <string name="editor_clip_copy">Copy</string>
+    <string name="music_history">History</string>
+    <string name="no_music_history">No music yet</string>
+    <string name="toolbox_music">Music</string>
+    <string name="toolbox_theme">Theme</string>
+    <string name="toolbox_fx">Filter</string>
+
+    <!-- 4.0版本新增string begin -->
+    <string name="toolbox_text">Subtitle</string>
+    <string name="toolbox_clip_edit">Clip Edit</string>
+    <string name="setting_all_clip_duration">Duration of all photos</string>
+    <string name="setting_one_clip_duration">Duration of one photo</string>
+    <string name="editor_addclip">Add Clips</string>
+    <string name="sort_method">Sort method</string>
+    <string name="video_setting">Settings</string>
+    <string name="video_setting_ratio">Aspect Ratio</string>
+    <string name="video_setting_square_mode">Square</string>
+    <string name="inside_music_copyright_info2">The copyrights of music are purchased, but they could only be used for personal project, not commercial purposes. </string>
+    <string name="double_finger_to_zoom">Double finger swipe screen to zoom. </string>
+    <string name="clip_null_tips">Select one or more clips</string>
+    <string name="disallow_record_tips">Please go to "Permission Setting" and allow V Recorder to record voice</string>
+
+    <!-- 视频设置页面 -->
+    <string name="audio_exception">Audio equipment is abnormal</string>
+    <string name="app_pro_version">V Recorder Pro</string>
+    <string name="clip_duration">Photo Duration: </string>
+
+    <!-- 2015-03-25新内置音乐 -->
+    <string name="setting_purchase">Purchase</string>
+    <string name="add_video_format">Not supported media type</string>
+    <string name="should_retain_one_clip">Please retain one clip! </string>
+    <string name="click_to_video_mute">Eliminate original sound</string>
+    <string name="music_preload_loacal">My music</string>
+    <string name="set_export_mode">Video Export Mode Setting</string>
+    <string name="export_mode_background">Background Mode</string>
+
+    <!-- 视频设置页面调整字符串 -->
+    <string name="export_mode_foreground">Foreground Mode</string>
+    <string name="export_output_complete">Export Video Completed! </string>
+
+    <string name="dialog_duration_more_setting_tip">Duration shouldn’t be more than 3600s or less than 0.2s! </string>
+
+    <string name="share_info7">Email</string>
+    <string name="share_info8">SMS</string>
+    <string name="send_to_friend_sms">Hey, buddy! Join us to enjoy V Recorder App now! </string>
+    <!-- 4.0版本新增string end -->
+
+    <!-- 4.1.0版本新增string begin -->
+
+    <string name="share_ad_title">Guess what you like</string>
+    <string name="share_to">Share to</string>
+    <string name="setting_updateto_normal_version">Upgrade V Recorder to official version</string>
+    <string name="setting_updateto_normal_version_title">V Recorder official version</string>
+    <string name="setting_updateto_normal_version_content">This is lab version of V Recorder. You can experience the latest features much earlier.  If you want to have a more stable version, V Recorder MR (Maintenance Release) might be a better choice. </string>
+    <!-- 4.1.0版本新增string end -->
+
+    <string name="setting_updateto_normal_version_ok">Upgrade</string>
+    <string name="text_count_limit_info">Support a maximum of 5 subtitles at the same time</string>
+    <string name="sticker_count_limit_info">Support a maximum of 5 stickers at the same time</string>
+    <string name="draw_count_limit_info">Support a maximum of 5 Graffiti at the same time</string>
+    <string name="import_gif_width_limit">The Gif you import is too big or it’s not a support format. </string>
+    <string name="start_make_video_editorchoose">Start</string>
+    <string name="pro_function_dialog_content">Now your V Recorder is a free version. And we have released Pro V Recorder. If you like our app, you can purchase the Pro version to support our team. And the Pro version has some different features: \n\n1.No ads\n2.You can download exclusive materials for Pro user. \n3. Support 4K videos</string>
+    <string name="add_font_tip_title">How to add more fonts</string>
+    <string name="add_font_tip_content">Copy the font file (.ttf or.otf formats), then paste to the folder \n\n SD card/1V Recorder/fonts/ </string>
+    <!-- 同时间多字幕提示超限现只中英文 -->
+    <string name="choose_4k_buypro_title">The video is too large</string>
+    <string name="loading_shuffle_ad_toast">Loading now, please be patient!</string>
+    <string name="buy_pro_tip_content_new">1. No ads \n2. Support exporting 1080p videos \n3. Exclusive materials \n4. Support importing 4K videos \n5. No V Recorder watermark \n6. Add up to 20 effects \n7. No reverse duration limit</string>
+
+    <!-- V4.3.5 Begin -->
+    <string name="editor_compress_mode">Select compression mode</string>
+    <string name="editor_triming">Trimming… </string>
+    <string name="video_size_too_small">Your video size is really small, do not need to compress! </string>
+    <string name="choose_other_sticker_localapp">Select your own sticker or Gif</string>
+    <string name="add">Add</string>
+    <string name="choose_other_font_localapp">Select the folder to add fonts</string>
+    <string name="editor_clip_ff">Speed</string>
+    <string name="editor_clip_ff_title_tip">Please select speed of clip</string>
+    <string name="editor_clip_ff_video_too_long_tip">This clip is too long, please trim it before speeding up or down! </string>
+
+    <string name="editor_clip_ff_cannot_support_picture_tip">Photo can’t speed up or down! </string>
+    <string name="editor_clip_ff_less_1second_tip">Exported clip should not less than %s second! </string>
+    <string name="editor_clip_ff_encoding_tip">Transcoding…</string>
+    <string name="editor_clip_ff_stop_encode_tip">Stop transcoding</string>
+    <!-- V4.3.5 End -->
+
+    <!-- V4.4.0 Begin -->
+    <string name="duration_batch_instagram">Instagram</string>
+    <string name="duration_batch_video_char">Duration</string>
+    <string name="duration_batch_clip_char">Each photo</string>
+    <string name="duration_batch_custom">User-defined</string>
+    <string name="add_clip_memory_warn_tip">You have selected many photos, it will run out of memory</string>
+    <string name="duration_input_begin_char">Start time</string>
+    <string name="duration_input_end_char">End time</string>
+    <string name="duration_input_starttimeout_errinfo">Start time should not more than edit time! </string>
+    <!-- V4.4.0 End -->
+
+    <string name="duration_input_endtimeout_errinfo">End time should not more than edit time! </string>
+    <string name="duration_input_startgtend_errinfo">End time must be more than start time! </string>
+    <string name="setting_edit_skill">Edit tips</string>
+    <string name="editor_paint_new_clip">Add a blank clip</string>
+    <string name="video_setting_widescreen_mode">Widescreen</string>
+    <string name="video_setting_vertical_mode">Vertical</string>
+    <string name="app_info_view_compress">Compress this video</string>
+    <string name="save_draftbox_fail_tip">Save to draft failed, there is no enough space! </string>
+    <string name="editor_fx_type_nashville">Hope</string>
+    <string name="editor_fx_type_lordkevin">Sunset</string>
+    <string name="editor_fx_type_1977">Spring</string>
+    <string name="editor_fx_type_xproii">Calm</string>
+    <string name="editor_fx_type_walden">Dream</string>
+    <string name="editor_fx_type_lomo">Lomo</string>
+    <string name="editor_fx_type_valencia">Elegant</string>
+
+    <string name="editor_fx_type_amaro">Yuppie</string>
+    <string name="editor_fx_type_hudson">Winter</string>
+    <string name="editor_fx_type_rise">Nature</string>
+    <string name="editor_fx_type_sierra">Cream</string>
+    <string name="editor_fx_type_brannan">Memory</string>
+    <string name="editor_fx_type_earlybird">Once</string>
+    <string name="editor_fx_type_sutro">Nightfall</string>
+    <string name="editor_fx_type_toaster">Shine</string>
+    <string name="editor_fx_type_hefe">Dawn</string>
+    <string name="facebook_ad_sponsored_tip">Sponsored</string>
+    <string name="config_text_toolbox_setting">Font Settings</string>
+    <string name="share_save_to_my_studio">Save to Gallery</string>
+    <string name="buy_pro_tip_content_new_2">\n4. Support exporting 1080p videos. </string>
+    <string name="editor_add_clip_select">Select the clip</string>
+    <string name="clip_cannot_switch">Please confirm or cancel the trimming of current clip! </string>
+    <string name="camera_util_no_camera_tip">Not support shoot video</string>
+    <string name="camera_util_only_one_camera_tip">Only one camera, you can’t switch</string>
+    <string name="camera_resolution">Resolution</string>
+    <string name="camera_recording_failed">Fail to record video</string>
+    <string name="camera_switch_waitting">Wait for a while to switch camera</string>
+    <string name="camera_no_camera_permission_tip">Please enter system settings to open camera access. </string>
+    <string name="camera_take_picture_waitting_tip">Recording now</string>
+    <string name="camera_no_take_pictrue_tip">You have not recorded any clip</string>
+    <string name="camera_freememory_space_low_tip">Disk space is insufficient, please clean up</string>
+    <string name="camera_freememory_space_no_tip">Disk space is insufficient, camera start failed</string>
+    <string name="camera_freememory_space_no_shooting_tip">Disk space is insufficient, shooting is stop and video saved! </string>
+    <string name="download_more_audio">Download more audios</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="material_category_sticker">Stickers</string>
+    <string name="material_category_theme">Themes</string>
+    <string name="material_category_audio">Sound Effects</string>
+    <string name="setting_evaluate">Rate us</string>
+    <string name="email_report_tail">Give us some suggestion or report bugs</string>
+    <string name="action_feedback_title">Select mailbox</string>
+    <string name="setting_recommend_to_friend">Invite your friends</string>
+    <string name="setting_send_app_tips">Share V Recorder:</string>
+    <string name="fullscreen_export_backstage">Run in background(Beta)</string>
+    <string name="facebook_app_id_normal">1695172134048956</string>
+    <string name="home_adv_edit">Video Edit</string>
+    <string name="material_new_shop_title">Material Center</string>
+
+    <string name="background_export_tips">Video exporting will run in background. Android system will fail background task if there is not enough memory. So You\'d better not run app which is using too much memory (Such as web browser, video play), to prevent video process being killed probably. </string>
+    <string name="home_edit_menu">Edit</string>
+    <string name="be_pro_title">Guidance</string>
+    <string name="guide_nice_video">How to shoot nice video</string>
+    <string name="guide_add_sticker">How to add stickers</string>
+    <string name="guide_add_subtitle">How to add subtitles</string>
+    <string name="guide_add_music">How to add music</string>
+    <string name="guide_draw_video">How to draw on video</string>
+    <string name="guide_zoom_rotate">How to zoom and rotate</string>
+    <string name="guide_add_sound">How to dub and add sound effects</string>
+    <string name="guide_video_motion">How to change your video motion</string>
+    <string name="invite_friend_prefix">Hi, I\'m using an awesome video editor app called "V
+        Recorder", check and install it by:</string>
+    <string name="material_new_sticker_down">Sticker</string>
+    <string name="be_pro_complete_title">Complete follow tasks</string>
+    <string name="be_pro_complete_content">You will get Pro features (1080P Video expoting, unlimited materials download,4K video editing) for one month! </string>
+    <string name="be_pro_editing_skill">Learn %d must-know Editing Skills</string>
+    <string name="be_pro_share_to_friends">Share our app to your friends</string>
+    <string name="be_pro_follow_on_facebook">Follow us on Facebook</string>
+    <string name="be_pro_edit_skill_audio_add">Audio Add</string>
+    <string name="be_pro_edit_skill_camera">Camera</string>
+    <string name="be_pro_edit_skill_export">Export</string>
+    <string name="be_pro_edit_skill_ff_speed">FF Speed</string>
+    <string name="be_pro_edit_skill_music_add">Music Add</string>
+    <string name="be_pro_edit_skill_rotate_zoom">Rotate Zoom</string>
+    <string name="be_pro_edit_skill_sticker_add">Sticker Add</string>
+    <string name="be_pro_edit_skill_text_add">Text Add</string>
+    <string name="be_pro_edit_skill_draw_add">Draw Add</string>
+    <string name="skill_rescan">Watch again</string>
+    <string name="skill_known">I got it</string>
+    <string name="bepro_activate">Activate</string>
+    <string name="gif_learn_title">Gif Learn</string>
+    <string name="setting_terms_privacy_info">Terms&amp;Privacy</string>
+    <string name="task_complete">Done</string>
+    <string name="pro_usable_title">Congradulations! </string>
+    <string name="pro_usable_content">You have got one month VIP privilege. </string>
+    <string name="download_more_music">Download more music</string>
+    <string name="music_download">Download</string>
+    <string name="music_local">My Songs</string>
+    <string name="toolbox_multi_music">Multi Music</string>
+    <string name="app_update_to_use_the_theme">The theme has new graphic features. The app need to upgrade to use it. </string>
+    <string name="home_app_store">Featured Apps</string>
+    <string name="export_video_mode_chooser_title_tips">Export Video</string>
+    <string name="export_video_mode_chooser_1080p_ads_tips">1080p HD by watching videos</string>
+    <string name="export_video_mode_chooser_1080p_pro_tips">1080p HD (Pro Version) </string>
+    <string name="export_video_1080p_mode_tips">1080p HD exporting now</string>
+    <string name="material_apply">Apply</string>
+    <string name="move_drag_video_play_stop">You are now at video ending. </string>
+    <string name="delete_subtitle_tips">Delete the text? </string>
+    <string name="lite_unlocker_pro_suc_info">You have upgraded to Main version successfully! </string>
+
+
+    <string name="share_facebook_unlock_fail">Fail to unlock</string>
+    <string name="share_facebook_unlocked">Unlocked</string>
+    <string name="share_facebook_dialog_content">Share V Recorder on Facebook to unlock this theme for free</string>
+    <string name="share_facebook_dialog_tips">Tip: The theme will be unlocked after sharing! </string>
+
+    <string name="share_facebook_dialog_btn_text">Share Now</string>
+
+    <string name="share_facebook_content">V Recorder-The best video editor app, it\'s fun to make video. Come and join us! </string>
+
+    <string name="text_Selected">Selected</string>
+
+    <string name="text_clips">clips</string>
+    <string name="export_dialog_msg">If you want to export in background, you should enter the phone setting to switch on drop zone, or you can only export in front</string>
+
+    <string name="export_dialog_ok">SWITCH ON DROPZONE</string>
+    <string name="export_dialog_cancel">EXPORT IN FRONT</string>
+    <string name="theme_clip_start_default_text">My Video</string>
+    <string name="theme_clip_end_default_text">Thanks for Watching</string>
+    <string name="editor_theme_3d_type_elegant">Elegant</string>
+
+    <string name="editor_theme_3d_type_years">Years</string>
+    <string name="export_hw_encoder_err_auto_change_to_sw">Sorry, Hardware Accelerating has a bug, so we have to switch to use software exporting. </string>
+    <string name="lite_unlocker_pro_dialog_title">Special Offer</string>
+    <string name="lite_unlocker_pro_dialog_info_new">V Recorder Lite will stop updating in a month. To thanks for your support, here is a special offer to unlock V Recorder Pro features (1080P HD Export, 4K video import, unlimited materials download) for free! The special offer is available in a month.  So, hurry up to get it now! </string>
+    <string name="beta_unlocker_pro_dialog_info">V Recorder Beta will stop updating in a month. To thanks for your support, here is a special offer to unlock V Recorder Pro features (1080P HD Export, 4K video import, unlimited materials download) for free! The special offer is available in a month.  So, hurry up to get it now! </string>
+
+    <string name="lite_unlocker_pro_dialog_ok">Unlock Pro features for free</string>
+    <string name="editor_set_different_duration">Set different duration for each clip</string>
+    <string name="buy_pro_tip_content_new_water">\n5. Remove Logo at the end of themed video. </string>
+
+    <string name="login_rewards_title_tip">Continuous login rewards</string>
+
+    <string name="login_rewards_remain_days_tip">You just need %s days login to unlock Pro features</string>
+
+    <string name="login_rewards_last_day_tip">Hurry up! Login to unlock Pro features now</string>
+    <string name="login_rewards_congratulations_tip">Congratulations! </string>
+    <string name="login_rewards_unlock_successful_tip">You have unlocked the Pro features for one month. Thank you for support! Make the best videos asap</string>
+    <string name="login_rewards_expired_tip">Your one-month pro features trial expired. But You can unlock the pro features again by continuous login another three days. Do you want to get it? </string>
+
+    <string name="file_scan_notification_title">Video highlights are ready now</string>
+    <string name="file_scan_notification_content">Watch a video including some of your fondest moments</string>
+
+    <!-- Continuous login rewards strings -->
+    <string name="file_scan_notification_dialog_title">Use Instant V Recorder afterward? </string>
+    <string name="file_scan_notification_dialog_content_1">Whenever you take lots of photos and videos, V Recorder will prepare an awesome video highlights. </string>
+    <string name="file_scan_notification_dialog_content_2">This is just a video draft yet, and
+        the video won\'t be shared without your permission. </string>
+    <string name="file_scan_notification_dialog_content_tip">Tip: You can turn it on/off at anytime in Settings when you need.  </string>
+    <string name="file_scan_notification_dialog_ok">AGREE</string>
+    <string name="file_scan_notification_dialog_cancel">DISAGREE</string>
+
+    <string name="tip_app_upgrad_dialog_ok">UPDATE NOW</string>
+    <string name="tip_app_upgrad_dialog_cancel">REMIND LATER</string>
+    <string name="theme_store_rating_rate_improve">Rate this theme, help us to improve it! </string>
+    <string name="theme_store_rating_choose_very">Very good! </string>
+    <string name="theme_store_rating_choose_normal">Normal, not bad</string>
+    <string name="theme_store_rating_choose_poor">Poor quality! </string>
+    <string name="theme_store_rating_title_rate">Rate</string>
+    <string name="user_refuse_permission_camera_tip">You refused to allow V Recorder access camera permissions, V Recorder is unable to run camera normally, please authorized the permissions.</string>
+
+    <string name="user_refuse_permission_audio_recorder_tip">You refused to allow V Recorder access recording permissions, V Recorder is unable to dub normally, please authorized the permissions. </string>
+    <string name="user_permit_permission_audio_recorder_tip">You have authorized recording permissions, now you can press the button to start dubbing. </string>
+    <string name="rate_please">If so, do you mind rating us to show your support? We are trying to be better! </string>
+    <string name="user_permit_permission_take_picture_tip">You have authorized camera permissions, now you can start take a photo.</string>
+    <string name="app_info_view_trim">Video Trimming</string>
+    <string name="save_operation">Discard changes? </string>
+    <string name="title_right_edit">Edit</string>
+
+    <string name="edit_clip_mute">Mute</string>
+    <string name="edit_clip_mute_cannot_support_picture_tip">Photo can’t mute! </string>
+    <string name="remove_videos_original_voice">Remove original sound</string>
+
+    <string name="restore_videos_original_voice">Recover original sound</string>
+    <string name="videos_original_voice_mute">Original voice is off</string>
+
+    <string name="videos_original_voice_unmute">Original voice is on</string>
+    <string name="remove_videos_original_voice_cannot_support_tip">On current condition, you could not remove original voice</string>
+
+    <string name="recover_videos_original_voice_cannot_support_tip">On current condition, you could not recover original voice</string>
+
+    <string name="share_result">Finish</string>
+    <string name="rename_no_text">The title cannot be empty</string>
+
+    <string name="rename_used_before">Please rename the video since the name has been used before</string>
+    <string name="rename_dialog_title">Rename</string>
+    <string name="upload_to_youtube">upload to YouTube</string>
+    <string name="user_logout">logout</string>
+    <string name="toast_cannot_retrieve_cropped_image">Cannot retrieve cropped image</string>
+    <string name="toast_unexpected_error">Unexpected error, please try again!</string>
+
+    <string name="ucrop_label_original">Original</string>
+    <string name="ucrop_label_edit_photo">Edit Photo</string>
+    <string name="hifont_download_tip">Make your own Emoji which you really want, you can download Emoji Maker. </string>
+
+    <string name="setting_hw_acc_notification_title">Hardware acceleration</string>
+    <!--需要翻译的-->
+    <string name="setting_hw_acc_toast_1">Has been switched to normal mode, which will lead to export video slowlier, but a higher stability</string>
+    <string name="setting_hw_acc_toast_2">Has been switched to Hardware acceleration model, which will lead to export video faster</string>
+
+    <string name="video_to_mp3_noaudio_tips">This video does not sound</string>
+    <string name="title_trim_select_clip">Ultra Cut</string>
+    <string name="title_preview">Preview</string>
+    <string name="video_trim_clip_null_tips">Please add trimmed clips</string>
+
+    <string name="video_no_trim_clip_toast">You have not trimmed clips</string>
+
+    <string name="video_trim_clip_duration_toast">Trimmed clip duration should not be less than 0.1s</string>
+    <string name="video_clip_count_toast">Trimmed clips should not be more than 10s</string>
+    <string name="no_add_video_trim_clip_toast">Please add trimmed clips first</string>
+    <string name="bt_trim_clip_add">Add</string>
+
+    <string name="bt_trim_clip_add_tips">You can continue to trim clips and add them! </string>
+    <string name="subtitle_effect_3d_type_modern">Modern B</string>
+    <string name="subtitle_effect_3d_type_modern_white">Modern W</string>
+    <string name="subtitle_effect_3d_type_news">News</string>
+    <string name="config_text_toolbox_effect">TextStyles</string>
+    <string name="subtitle_effect_3d_type_fade_out">Fade Out</string>
+    <string name="subtitle_effect_3d_type_jump_in">Jump In</string>
+    <string name="subtitle_effect_3d_type_pop_up">Pop Up</string>
+    <string name="subtitle_effect_3d_type_roll_in">Roll In</string>
+
+    <!--导出界面文字内容-->
+    <string name="subtitle_effect_3d_type_kick_back">Kick Back</string>
+
+    <string name="subtitle_effect_3d_type_roll_up">Roll Up</string>
+    <string name="subtitle_effect_3d_type_roll_left">Roll Left</string>
+    <string name="subtitle_effect_3d_type_crack">Crack</string>
+    <string name="subtitle_effect_3d_type_sunshine">Sunshine</string>
+    <string name="subtitle_effect_3d_type_darkclouds">Darkclouds</string>
+    <string name="subtitle_effect_3d_type_drop">Drop</string>
+    <string name="subtitle_effect_3d_type_love">Love</string>
+    <string name="subtitle_effect_3d_type_lamp">Lamp</string>
+    <string name="subtitle_effect_3d_type_dialog">Dialog</string>
+    <string name="subtitle_effect_3d_type_crow">Crow</string>
+    <string name="subtitle_effect_3d_type_flame">Flame</string>
+    <string name="subtitle_effect_3d_type_thunder">Thunder</string>
+    <string name="subtitle_effect_3d_type_fire">Fire</string>
+    <string name="subtitle_effect_3d_type_lightning">Lightning</string>
+    <string name="subtitle_effect_3d_type_flash">Flash</string>
+    <string name="trans_new_90001">None</string>
+    <string name="trans_new_90002">Fade</string>
+    <string name="trans_new_90003">Draw</string>
+    <string name="trans_new_90004">Cross</string>
+    <string name="trans_new_90005">Blink</string>
+    <string name="trans_new_90006">Leap</string>
+    <string name="trans_new_90007">Float</string>
+    <string name="trans_new_90008">Simple</string>
+    <string name="trans_new_90009">Mix</string>
+    <string name="trans_new_90010">Wave</string>
+
+    <string name="trans_new_90011">Meteor</string>
+    <string name="trans_new_90012">Fold</string>
+    <string name="trans_new_90013">Shutter</string>
+    <string name="trans_new_90014">Love</string>
+    <string name="trans_new_90015">Bubble</string>
+    <string name="trans_new_90016">Clock</string>
+    <string name="trans_new_90017">Circle</string>
+    <string name="trans_new_90018">Dissolve</string>
+    <string name="trans_new_90019">Slide</string>
+    <string name="trans_new_90020">Zoom</string>
+    <string name="trans_new_90021">Flash W</string>
+    <string name="trans_new_90022">Flash B</string>
+    <string name="trans_new_90023">Flower</string>
+    <string name="trans_new_90024">Hexagram</string>
+    <string name="noenough_space_20m_tip">Your disk space is insufficient, please free it</string>
+    <string name="remove_watermark_content">Remove watermark for FREE for 1 day! Just install and open the app. </string>
+    <string name="tip_config_sound_add_count_50">Do not support more than 50 sounds! </string>
+    <string name="tip_config_video_clip_copy_count_60">The number of videos should not more than 60! </string>
+    <string name="select_music_cannot_support_tip">The audio file is corrupted. </string>
+    <string name="share_result_video_size_content">The compressed is awesome, do you want to delete the original one? </string>
+    <string name="share_result_video_iess">Less than the original</string>
+    <string name="share_result_video_original">Original</string>
+    <string name="share_result_video_compressed">Compressed</string>
+
+    <string name="share_to_get_surprise">Share to get a surprise</string>
+    <string name="today_you_can_download_all_materials">Today you can download all exclusive materials.</string>
+    <string name="the_video_has_been_deleted">The video has been deleted</string>
+    <string name="vip_buy_btn">Purchase</string>
+
+    <string name="vip_buy_advertising">Remove ads</string>
+
+    <!--导出结果页，视频大小-->
+    <string name="vip_buy_export">Export 1080p videos</string>
+    <string name="vip_buy_add_up_to_effects">Add up to 20 effects</string>
+    <string name="vip_buy_no_reverse_duration_limit">No reverse duration limit</string>
+    <string name="vip_buy_materila">Use all pro materials for free</string>
+
+    <string name="vip_buy_import">Support importing 4K videos</string>
+    <string name="vip_buy_iwatermark">Remove V Recorder watermark</string>
+
+    <string name="hold_down_to_preview">Hold to preview</string>
+
+    <!--VIP buy 界面-->
+    <string name="ads_restore">Restore</string>
+    <string name="menbership_success">Success</string>
+    <string name="remove_ads_checking_succeed">Restore succeed</string>
+    <string name="remove_ads_checking_failed">Restore failed</string>
+    <string name="remove_ads_checking">Checking…</string>
+    <string name="my_studio_no_video_yet">No video has been created yet</string>
+    <string name="my_studio_create_one">Create now</string>
+    <string name="home_mp3_title">MP3</string>
+    <string name="home_mp3_new">New</string>
+    <string name="home_mp3_view">View</string>
+    <string name="home_mp3_no_mp3_yet">No MP3 Yet</string>
+    <string name="fx_effect_3d_type_bubble">Bubble</string>
+    <string name="fx_effect_3d_type_thunder">Thunder</string>
+    <string name="fx_num_limit">In order to export successfully, no more than 10 special-effects could be added simultaneously</string>
+
+    <!--My Studio界面-->
+    <string name="fx_num_limit_pro">In order to export successfully, no more than 20 effects could be added simultaneously</string>
+    <string name="click_here_to_enjoy_the_new_effects_tip">Click here to enjoy the NEW Effects</string>
+
+    <!--首页MP3转换弹出框-->
+    <string name="special_symbols_not_supported">Special symbols are not supported! </string>
+    <string name="mystudio_batch_delete">Batch Delete</string>
+    <string name="discard_operation">Discard</string>
+    <string name="editor_theme_3d_type_fluctuate">Fluctuate</string>
+
+    <string name="editor_theme_3d_type_loveday">Loveday</string>
+    <string name="theme_clip_start_choose">Prologue:</string>
+
+    <string name="theme_clip_end_choose">Epilogue:</string>
+    <string name="theme_clip_start_choose_a">Prologue</string>
+
+    <!--素材激励广告弹框-->
+
+    <string name="theme_clip_end_choose_b">Epilogue</string>
+
+    <!--我的视屏，草稿箱，MP3文件从命名特殊字符无效-->
+    <string name="playing_music_preview_time">Preview 20 seconds</string>
+    <string name="use_trans_current_values">Apply this transition to all clips</string>
+
+    <!--视频编辑时返回提示框-->
+    <string name="clear_trans_all_values">Remove transitions from all clips</string>
+    <string name="material_store_theme_remove_confirm">Delete the Theme? </string>
+    <string name="material_store_fx_remove_confirm">Delete the Effects? </string>
+
+    <string name="material_store_music_remove_confirm"> Delete the Music? </string>
+    <string name="material_store_text_style_remove_confirm">Delete the TextStyle? </string>
+    <string name="material_store_sticker_remove_confirm">Delete the Sticker? </string>
+    <string name="material_store_sound_effects_remove_confirm">Delete the Sound Effects? </string>
+
+    <string name="material_store_font_remove_confirm">Delete the Font? </string>
+
+    <string name="material_store_gif_remove_confirm">Delete the Gif? </string>
+    <string name="export_or_share_video_success">Success! </string>
+
+    <!-- 20160728新UI 新增字符串-->
+    <string name="editor_theme_more">More</string>
+    <string name="music_my_download">My Downloads</string>
+    <string name="music_my_music">My Music</string>
+    <string name="music_no_music_history">No Music History</string>
+    <string name="music_set_add_music">Add Music</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="guide_start_ui">Start</string>
+    <string name="guide_back_ui">Return</string>
+    <string name="select_a_clip_to_edit">Select a clip to edit</string>
+
+    <string name="set_duration_for_each_photo">Set duration for each photo</string>
+    <string name="set_precise_time">Set precise time</string>
+    <string name="global_settings">Global settings</string>
+    <string name="take_a_short_preview">Take a short preview</string>
+
+    <string name="time_initial_value">00:00:0</string>
+    <string name="rate_quest_title">Thanks for using V Recorder!</string>
+    <string name="rate_quest_yes">Sure</string>
+    <string name="rate_quest_no">No</string>
+
+    <string name="pinch_to_zoom">Pinch the screen to zoom</string>
+    <string name="config_text_toolbox_gip">GIPHY</string>
+    <string name="manage">Manage</string>
+    <string name="done">Done</string>
+    <string name="giphy_noresult">No result</string>
+
+    <string name="dialog_duration_adjust_tips">Tip: You can click  %s  to set current pause time as start time or end time</string>
+
+    <string name="duration_dialog_time_same_tip">Start time and end time should not be the same one</string>
+    <string name="editor_gif">Gif</string>
+    <string name="editor_select_online_gif">Online Gif</string>
+
+    <string name="giphy_edittext_search">Search all the GIFs</string>
+
+    <string name="gif_search_text_over">Characters shouldn\'t be over 200</string>
+
+    <string name="draftbox_is_null_tip_revert">The original clip was missing</string>
+    <string name="main_reverse">Reverse</string>
+    <string name="app_info_view_reverse">Reverse the video</string>
+    <string name="reverse_text_full_context_0">The original sound of exported videos will be removed in order to avoid noises caused by reverse. </string>
+    <string name="reverse_text_full_context_1">Please wait here patiently for watching the elaborate video you made successfully. Or it\'ll fail to export if you exit the current page. </string>
+
+    <string name="reverse_text_full_context_2">The exported video will be saved as a new clip, but the original file is also remained. </string>
+    <string name="reverse_text_full_context_3">You can add music and effects, etc. to make your reversed videos more awesome. </string>
+    <string name="export_video_resolution_limit">The definition of exported video is limited by
+        your phone\'s resolution, please understand</string>
+    <string name="no_material_now">No Material Now</string>
+
+    <string name="local_gif">Local Gif</string>
+    <string name="video_setting_background">Background</string>
+    <string name="video_music_single_type">Single Music</string>
+    <!--工具箱倒放导出界面文字内容-->
+    <string name="video_music_multi_type">Multi Music</string>
+    <string name="edit_clip_set_duration_all">Set to all photos</string>
+    <string name="use_toolkit_create_video">Use the most powerful toolkit to create an awesome video. </string>
+    <string name="add_material_to_video">Add subtitle, effect, sticker and other engaging contents to your video. </string>
+
+    <string name="simplest_way_make_video">The simplest way to make video awesome. </string>
+    <string name="set_photo_display_time">Set the photos\' display time. </string>
+    <string name="trim_video_save_part">Trim the video to save the part you need.</string>
+
+    <string name="zoom_photo_video_focus_attention">Zoom the photo and video, focus the viewer\'s attention. </string>
+
+    <string name="new_function_reverse_video">New features added: reverse video. </string>
+    <string name="share_result_ad_apps_title">Featured apps for video makers</string>
+    <string name="click_the_theme_again_to_edit">Click the theme again to edit. </string>
+
+    <string name="material_pull_to_refresh">Pull down to refresh</string>
+    <string name="galleryvault_install_uppercase">INSTALL</string>
+    <string name="galleryvault_share_extensions_gap_line_tip">Extensions</string>
+    <string name="galleryvault_delete_draft_tip">The video has been hidden, delete the draft? </string>
+    <string name="editor_add_music">Tap to add music</string>
+    <string name="choose_too_large_video">The video is too large to imported</string>
+    <string name="home_text_transcode">Transcode</string>
+
+    <string name="home_text_gallery">Gallery</string>
+
+    <!--V7.2.5-->
+    <string name="home_text_slideshow">TapSlide</string>
+    <!--V7.2.6-->
+    <string name="home_transcode_content">Use VidCompact to compress your video or convert into other formats</string>
+    <string name="home_transcode_function">Function privileges</string>
+    <string name="home_transcode_convert">Convert with high quality</string>
+    <string name="home_transcode_support">Support many file formats</string>
+    <string name="home_transcode_compact">Compact strongly</string>
+    <string name="home_transcode_rapid">Rapid compression</string>
+    <string name="home_gallery_content">Use Gallery to browse photos/videos and make a slideshow</string>
+    <string name="home_gallery_browse">Browse and organize your photos by folder</string>
+    <string name="home_gallery_add">Add photos and videos to Favorites</string>
+    <string name="home_gallery_engaging">Engaging themes supported for making a slideshow</string>
+    <string name="home_gallery_automatically">Organize the photos and videos by event, date and location</string>
+    <string name="home_slideshow_content">Tapping with the music rhythm to make a slideshow with TapSlide</string>
+    <string name="home_slideshow_just">Just 4 steps  </string>
+    <string name="home_slideshow_to">to make a music slideshow</string>
+    <string name="home_slideshow_choose">Choose photos</string>
+    <string name="home_slideshow_choose_music">Choose music</string>
+    <string name="home_slideshow_tap">Tap with the rhythm to control the photos</string>
+    <string name="home_slideshow_save">Save your work and share it to your friends</string>
+    <string name="install">Install</string>
+    <string name="use_vidcompact_convert">Use VidCompact to convert now! Then Videos could be edited easily. </string>
+    <string name="go_to_clip_edit">Go to Clip Edit</string>
+    <string name="share_no_enough_space">No enough space.   </string>
+    <string name="share_please_free_your">Please free your storage. You could trim the video clips or delete some clips in the Clip Edit. </string>
+    <string name="dialog_facebook_main_title">All in One Video Editor</string>
+    <string name="material_category_font">Fonts</string>
+    <string name="reverse_4k_video_too_big_tip">The video resolution is too high to reverse. Please compress it. </string>
+    <string name="setting_clip_duration">Duration</string>
+
+    <string name="choose_4k_buypro_content">Only the V Recorder Pro supports importing 4K resolution videos. Do you want to purchase? </string>
+    <string name="home_discover">Discover</string>
+
+    <string name="discover_all_videos">All Videos</string>
+    <string name="discover_all_contents">All Contents</string>
+    <string name="network_is_unavailable">Network is unavailable</string>
+    <string name="discover_page_title">Discover          </string>
+    <string name="click_the_button_set_theme_prologue_epilogue">Click the button to set the theme prologue&amp;epilogue. </string>
+
+    <string name="tag_library">Trending Tags</string>
+    <string name="selected_category">Categories</string>
+    <string name="all_tags">All Tags</string>
+
+    <string name="toolbox_sound">Voiceover</string>
+    <string name="material_unlock">Unlock all pro materials</string>
+    <string name="main_video_compress">Compress</string>
+    <string name="dialog_yes">YES</string>
+    <string name="dialog_no">NO</string>
+
+
+    <string name="opacity">Opacity</string>
+    <string name="tip_app_upgrad_dialog_title">New Version</string>
+    <string name="music_sort_by_hot">Hot</string>
+    <string name="music_sort_by_new">New</string>
+    <string name="guide11">Video Edit</string>
+    <string name="music_fadein_fadeout">Music fade in/out</string>
+    <string name="music_add_limit_tip">You can add up to %s music at most</string>
+    <string name="power_setting_fast">Fast Charge</string>
+    <string name="power_activity_edit">Edit Video</string>
+    <string name="power_activity_battery">Battery</string>
+
+    <string name="power_toast_text">Phone charge specified days to unlock again</string>
+
+    <string name="power_activity_slide">Slide to unlock</string>
+    <string name="power_unlock_succ">Unlock Successfully</string>
+
+    <string name="power_unlock_pro_material">You can unlock a pro material once. What are you waiting for? </string>
+    <string name="home_gif_video">From Video</string>
+    <string name="home_gif_photo">From Photo</string>
+
+    <string name="add_more_than_50">Add not more than 50 clips</string>
+    <string name="set_duration_10">Set the duration not more than 10s</string>
+    <string name="select_gif_resolution">Select gif resolution</string>
+    <string name="set_duration_1">Set the duration more than 1s</string>
+    <string name="power_main_activity_1">Enable fast charge, you can</string>
+    <string name="power_main_activity_2">1. Get the most popular videos first\n2. Have a fast access to edit video</string>
+    <string name="drag_point_guide">Click and hold the bar to move. Material will follow its movement. </string>
+
+    <string name="editor_clip_split">Split</string>
+    <string name="clip_is_too_short_to_split">Clip is too short to split</string>
+    <string name="select_needed_voice_change">Choose the voice you want to change into</string>
+    <string name="voice_change_type_man">Man</string>
+    <string name="voice_change_type_woman">Woman</string>
+    <string name="voice_change_type_robot">Robot</string>
+
+    <string name="voice_change_type_kid">Kid</string>
+
+    <string name="voice_change_type_monster">Monster</string>
+    <string name="voice_change_done">Voice changed</string>
+
+    <string name="click_the_button_set_voice_change">Click the button to change your voice. </string>
+
+    <!--AdMob广告ID-->
+
+
+    <string name="save_more">60% OFF! </string>
+    <string name="guide_skip">Skip</string>
+
+    <string name="gp_connect_fail_dialog_text_title">Failed to initiate Google Play service</string>
+    <string name="gp_connect_fail_dialog_text_1">-Check your network connection</string>
+    <string name="gp_connect_fail_dialog_text_2">-Make sure you are logged in to your Google account</string>
+    <string name="gp_connect_fail_dialog_text_3">-Make sure you can run the Google Play application</string>
+    <string name="home_premium">Premium</string>
+    <string name="vip_buy_more_new_pro">New pro materials will be updated regularly</string>
+    <string name="clip">Clips</string>
+    <string name="guide12">Treasuring your special moments</string>
+    <string name="guide21">Subtitles</string>
+    <string name="guide22">Various styles to make artistic subtitles</string>
+    <string name="guide31">Music</string>
+    <string name="guide32">2000+ fully licensed pieces of music</string>
+    <string name="exporting_your_video_1080P">EXPORTING 1080P VIDEO… </string>
+    <string name="exporting_your_video">EXPORTING YOUR VIDEO… </string>
+    <string name="please_stay_in_this_page">Stay in this page and get: </string>
+
+    <string name="higher_export_speed">Higher export speed</string>
+
+    <string name="higher_export_success_rates">Higher export success rate</string>
+    <string name="quit_exporting_your_video">Are you sure to stop exporting the video? </string>
+    <string name="home_premium_benefits">Premium Benefits</string>
+    <string name="home_premium_benefits_tips">Get all exclusive benefits with your Premium Membership. New premium benefits are coming soon. </string>
+    <string name="home_premium_month_buy">MONTHLY</string>
+    <string name="home_premium_year_buy">ANNUALLY</string>
+
+    <string name="membership_success_dialog_1">CONGRATULATIONS! </string>
+    <string name="membership_success_dialog_2">You got your Premium Membership! </string>
+    <string name="home_text_gifguru">GifGuru</string>
+    <string name="export_video_mode_chooser_gif_tips">GIF Mode</string>
+    <string name="export_video_mode_chooser_1080p_tips">1080p Mode</string>
+    <string name="gif_incentive">Export videos in GIF format</string>
+
+    <string name="gif_time_limited">Set the clip\'s duration no more than 30 seconds</string>
+    <string name="gifguru_description_sub_title">Use GifGuru to turn your images/video into GIFs</string>
+    <string name="gifguru_description_1">Add texts, stickers and filter to GIF</string>
+    <string name="gifguru_description_2">Play the GIF forwards/backwards, and adjust the speed</string>
+    <string name="gifguru_description_3">Re-create existing GIFs</string>
+    <string name="gifguru_description_4">Search GIFs by Giphy instead of DIY</string>
+
+    <string name="free_music_pip_shooting_app">Free music and PIP shooting app with lots of filters</string>
+    <string name="plenty_amazing_filters">Plenty of amazing filters</string>
+    <string name="creative_funny_pip_frame">Creative and funny PIP frames</string>
+    <string name="record_videos_with_your_local_songs">Record videos with your local songs</string>
+    <string name="simple_dynamic_interface">Simple and dynamic interface</string>
+
+    <string name="wanna_master_gif">Wanna be a master in creating GIF?</string>
+    <string name="use_gifguru_turn_video_into_gif">Use GifGuru to turn your images/video into GIFs. </string>
+    <string name="camera">Camera</string>
+    <string name="export_lead_facebook">Like us on Facebook and share your amazing videos to the world. </string>
+    <string name="refuse_allow_storage_permission">V Recorder needs to access photos, videos to run
+        editor normally. Please allow the Storage permission. </string>
+
+    <string name="refuse_allow_camera_permission">V Recorder needs to access phone camera to shoot a
+        video. Please allow the Camera permission. </string>
+    <string name="refuse_allow_audio_permission">V Recorder needs to access microphone to record
+        your voice. Please allow the Microphone permission. </string>
+    <string name="allow">ALLOW</string>
+    <string name="refuse">REFUSE</string>
+    <string name="enable">ENABLE</string>
+    <string name="question_studio_title">Can\'t export video? </string>
+    <string name="question_attention">Attention: this method will delete all your draft and reset V Recorder. </string>
+    <string name="question_studio_step">First step: find\' internal storage\' in your phone. \n Second step: delete 1V Recorder and .1V Recorder folder (if you don\'t see .1V Recorder folder, you should switch on to show hidden files). \n Third step: start up V Recorder. \n Attention: if you failed, try again or contact us at support@enjoy-global.com.</string>
+    <string name="editor_mode_choose_tip">Select Editing Mode</string>
+
+    <string name="editor_mode_pro_title">Expert Mode</string>
+    <string name="editor_mode_pro_desc_content">Make every detail of your video just the way you want it. You’ll be churning out masterpieces in no time! </string>
+    <string name="editor_mode_easy_speed">Speed</string>
+    <string name="editor_mode_easy_speed_min">Slow</string>
+    <string name="editor_mode_easy_speed_max">Fast</string>
+    <string name="editor_mode_easy_theme_inside_position_600002">Seductive 2</string>
+
+    <string name="editor_mode_easy_theme_inside_position_600003">Seductive 3</string>
+    <string name="quick_trim_title">Trim</string>
+    <string name="quick_trim_desc_title">Trim a clip from the selected video or delete a clip from the selected video. </string>
+
+    <string name="ultra_cut_title">Trim and merge</string>
+    <string name="ultra_cut_desc_title">Trim clips from the selected video and merge those clips into another video. </string>
+    <string name="home_video_edit">Edit Video</string>
+    <string name="home_slideshow">Create Slides</string>
+    <string name="home_shoot">Shoot</string>
+    <string name="home_featured_app">Featured</string>
+
+    <string name="home_gifguru">Make Gif</string>
+    <string name="home_my_studio_text">My Drafts</string>
+
+
+    <string name="my_studio_more">My videos ></string>
+    <string name="tools">Tools</string>
+    <string name="home_trim">Trim</string>
+    <string name="home_compress">Compress</string>
+
+    <string name="home_mp3">Video to audio</string>
+    <string name="home_camera">PIP</string>
+    <string name="home_transcode">Convert</string>
+    <string name="selected_materials">Featured Themes</string>
+    <string name="more">More ></string>
+    <string name="help">Help</string>
+    <string name="like_us">Feedback</string>
+    <string name="faq">FAQ</string>
+    <string name="fu_effects_inside_position_800001">Effect 1</string>
+    <string name="fu_filter_inside_position_810001">Filter 1</string>
+    <string name="video_to_gif">Video to Gif</string>
+    <string name="beautify">Beautify</string>
+    <string name="editor_mode_easy_title">Music Mode</string>
+    <string name="editor_mode_easy_desc_title">Click here to start ></string>
+    <string name="editor_mode_easy_desc_content">Automatically switch photos with music rhythm. 92% users strongly recommend. </string>
+    <string name="face_material_title">Downloaded stickers</string>
+    <string name="face_material_select_all">Select all</string>
+    <string name="vip_buy_face_pro">Use pro facial stickers</string>
+    <string name="set_face_resolution_info">Shoot resolution setting</string>
+
+    <string name="purchase">PURCHASE</string>
+
+    <string name="next_make_video_editorchoose">Next</string>
+    <string name="exceed_cliplimit_video">Can not add more videos</string>
+
+    <string name="select_allitem_editorchoose">Loading…</string>
+    <string name="pupumenu_select_type_title">Sort by</string>
+    <string name="pupumenu_select_type_date">Date</string>
+
+    <string name="pupumenu_select_type_name">Name</string>
+    <string name="pupumenu_select_type_ascending">Ascending</string>
+    <string name="pupumenu_select_type_dscending">Dscending</string>
+    <string name="long_touch_to_move_position">Hold &amp; drag to reorder</string>
+
+    <string name="manual_search">Click to find more clips</string>
+
+    <string name="operation_no_reminder">Don\'t show again</string>
+    <string name="mosaic">Mosaic</string>
+    <string name="vip_buy_mosaic">Use mosaic features</string>
+    <string name="toolbox_sound_effect">Sound Effect</string>
+    <string name="editor_draw_title">Add Doodle</string>
+    <string name="editor_draw">Doodle</string>
+    <string name="voice_change_click_tips">You should record first</string>
+    <string name="draw_sticker_tab_0">Color</string>
+    <string name="draw_sticker_tab_1">Pen</string>
+    <string name="draw_sticker_tab_2">Eraser</string>
+    <string name="draw_sticker_tab_3">Undo</string>
+
+    <string name="draw_sticker_tab_4">Resume</string>
+    <string name="main_shoot_new">Super Camera</string>
+
+    <string name="shoot_image_compress_tips">Only videos can be compressed</string>
+    <string name="video_setting_music">Music fade</string>
+    <string name="trim_mode">Trim</string>
+
+    <string name="export_mode">Export</string>
+    <string name="trim_select_part">Trim selected part</string>
+    <string name="delete_select_part">Delete selected part</string>
+    <string name="new_file">Create a new file</string>
+    <string name="cover_origin_file">Overwrite the file</string>
+    <string name="default_setting">Default Settings</string>
+
+    <string name="click_here_modify_default_setting">Change the default settings here</string>
+    <string name="sort_activity_tag_restore">Restore Default</string>
+    <string name="sort_activity_tag_normal">Normal</string>
+
+
+    <string name="tips_editor_tab_window">Subtitles, stickers, effects</string>
+    <string name="tool_bar_sort_title">Sorting</string>
+    <string name="text_refuse_premission">V Recorder needs microphone permission to record audio, please turn on microphone permissions</string>
+    <string name="text_premission_allow">ALLOW</string>
+    <string name="dialog_cancle_text">CANCEL</string>
+    <string name="string_notification_stop_recording">Recording</string>
+    <string name="string_notification_stop_tap">Tap here to stop recording</string>
+    <string name="string_notification_start_recording">V Recorder is ready</string>
+
+
+    <string name="string_notification_start_tap">Tap here to start recording</string>
+    <string name="string_video_setting">Video Settings</string>
+    <string name="string_video_resolution">Video Resolution</string>
+    <string name="string_video_quality">Video Quality</string>
+
+
+    <string name="string_video_fps">FPS</string>
+    <string name="string_record_audio">Record Audio</string>
+    <string name="string_video_record_audio_turn_on">Turn on to record external audio. Internal audio recording is not allowed in Android</string>
+    <string name="string_video_hide_the_window">Hide the record window during recording</string>
+    <string name="string_video_shake_stop_record">Shake phone to stop recording</string>
+    <string name="string_video_terms_privary">Terms and Privacy</string>
+    <string name="string_allow_notification_text">Please allow the notification of V Recorder to ensure the app works properly and steadily</string>
+    <string name="string_allow_notification_ok_text">OK</string>
+    <string name="string_video_v_recorder_text">V Recorder</string>
+    <string name="string_the_video_deleted_text">The video is deleted or damaged</string>
+    <string name="string_low_storage_text">Low storage. Please free up the phone storage first</string>
+    <string name="string_recoeding_is_finished_text">Recording is finished</string>
+    <string name="string_record_text">Record</string>
+    <string name="stirng_home_text">Home</string>
+    <string name="string_exit_text">Exit</string>
+    <string name="string_facebook_is_uninstalled_text">is not installed</string>
+    <string name="string_video_orientation_text">Video Orientation</string>
+    <string name="string_low_battery_text">Low battery.Be careful with the phone battery in case of data lost</string>
+    <string name="string_unsupported_resolution_text">Unsupported resolution for this phone</string>
+    <string name="string_portrait">Portrait</string>
+    <string name="string_landscape">Landscape</string>
+    <string name="string_needs_storage">V Recorder needs access to photos, media and files to store the recorded videos</string>
+    <string name="string_no_recorded_vidoe">You have not recorded any video yet. </string>
+    <string name="string_repair_system_ui_carsh_text">Repair System UI Crash</string>
+    <string name="string_systen_ui_carsh_reason_text">Allow the permission and try to fix the system UI problem</string>
+    <string name="string_video_item_share_text">Share</string>
+    <string name="are_you_sure_exit_tips">If you exit the current page, your video will not be saved! </string>
+    <string name="string_refuse_premission_text">V Recorder: permission to record video is required first. </string>
+    <string name="guide_loating_window_instructions">Floating window instructions</string>
+    <string name="guide_loating_window_recorder">Record</string>
+    <string name="guide_loating_window_video">Video</string>
+    <string name="guide_loating_window_close">Close the floating window</string>
+    <string name="guide_notification_panel_close">Notification panel</string>
+    <string name="guide_notification_panel_recorder">You can also use the notification panel to control recording</string>
+    <string name="string_admob_ad_text">Ad</string>
+    <string name="dialog_rate_us_feed_back">Feed Back</string>
+    <string name="dialog_rate_us_feed_back_content">Your feedback is useful. </string>
+    <string name="dialog_rate_us_feed_back1">I don\'t like the design</string>
+
+
+    <string name="dialog_rate_us_feed_back2">It doesn\'t have the features I need</string>
+    <string name="dialog_rate_us_feed_back3">It\'s not easy to use</string>
+    <string name="dialog_rate_us_feed_back4">It has some bugs</string>
+    <string name="dialog_rate_us_feed_back5">The translation is poor</string>
+    <string name="dialog_rate_us_feed_back_suc">Your suggestions are very helpful! </string>
+    <string name="dialog_rate_us_feed_back_suc_thank">Thank you!</string>
+
+    <string name="dialog_rate_us_submit">Submit</string>
+
+    <string name="float_permission_tips">Please allow V Recorder to draw over other apps to ensure the app works properly. </string>
+    <string name="record_video_save_path">/storage/emulated/0/1VRecorder</string>
+    <string name="recording_change_setting_toast">Changing video parameter is not supported during recording. </string>
+    <string name="setting_video_location">Video Location</string>
+    <string name="setting_countdown">Countdown</string>
+    <string name="setting_countdow_0s">No countdown</string>
+    <string name="setting_countdow_3s">3s</string>
+    <string name="setting_countdow_5s">5s</string>
+    <string name="setting_countdow_10s">10s</string>
+    <string name="edit_format_error">Editing of video in this format is not supported</string>
+
+    <string name="play_large_error">Video resource is too large to support playback</string>
+    <string name="orientation_auto">Auto</string>
+
+    <string name="sd_permission_msg">Please select the root directory of your external
+        storage \"%1$s\" on the subsequent screen and click the select button to authorize
+        the app write access. Starting with android 5.0 Lollipop, due to android security policy
+        changes, files on external storage may not be deleted or renamed if application write permissions are not authorized. </string>
+    <string name="sd_permission">Access Permission</string>
+    <string name="available">available</string>
+    <string name="default_save_path_name">Default</string>
+    <string name="cant_change_path_when_recording">Can not change saving video path when recording. </string>
+    <string name="caution">Caution</string>
+    <string name="uninstall_app_hint_for_video">The videos stored in SD card will be deleted when you uninstall V Recorder. </string>
+    <string name="sd_card_change_tip">Video stored to internal storage since SD card is not detected</string>
+    <string name="watermark_title">Watermark</string>
+
+    <string name="string_watermark_desc">Watermark shows in recorded video</string>
+    <string name="cant_config_watermark_when_recording">The watermark configuration cannot be modified during recording. </string>
+    <string name="string_vip_privilege_success">You are already a V Recorder VIP member. </string>
+    <string name="string_vip_buy_success">Purchase successfully! </string>
+    <string name="string_vip_keep_title">Really wanna quit Free Trial？</string>
+    <string name="string_vip_keep_content">Premium features below are free to try now. You can cancel it at any time. </string>
+    <string name="string_vip_keep_time_title">Flash Sale! </string>
+    <string name="string_vip_privilege">VIP Privilege</string>
+    <string name="string_vip_privilege_1080">1080P HD Recording</string>
+
+    <string name="string_vip_privilege_no_water">No Watermark</string>
+    <string name="string_vip_privilege_no_ads">No Ads</string>
+    <string name="string_vip_privilege_trim">Trim Videos</string>
+    <string name="string_vip_privilege_pro_materials">1000+ Materials</string>
+    <string name="string_vip_privilege_more">More Features</string>
+    <string name="string_vip_privilege_one_month">Monthly: </string>
+    <string name="string_vip_privilege_free_new">Free for New Users</string>
+    <string name="string_vip_buy_year_des">3 days free trial, then subscribe to %1$s / year.</string>
+    <string name="string_vip_buy_month_des">3 days free trial, then subscribe to %1$s / month.</string>
+    <string name="string_vip_privilege_free">CONTINUE</string>
+    <string name="floating_window_camera">Camera</string>
+    <string name="string_record_success_nowatermark">Recording with no watermark</string>
+    <string name="string_record_success_nowatermark_button">Try for Free</string>
+    <string name="rate_us">Rate us</string>
+    <string name="rate_us_content">Five-stars mean best on Google Play</string>
+    <string name="brush">Brush</string>
+    <string name="string_no_screen_capture_image">No Image Available</string>
+    <string name="string_screen_captured_succuss">Screenshot captured</string>
+    <string name="string_screen_captured_look">Check</string>
+    <string name="string_click_to_loook_screen_captured">Tap here to view your screenshot. </string>
+    <!--@deprecate-->
+
+    <string name="string_the_image_deleted_text">The image has been deleted or corrupted. </string>
+    <string name="string_image_deleted_succuss">Image deleted successfully</string>
+    <string name="string_setting_about_us">About us</string>
+
+
+    <string name="string_setting_control">Control Settings</string>
+    <string name="string_setting_other">Other</string>
+    <string name="string_select_no_content">Content not selected for deletion</string>
+
+    <string name="string_video_deleted_succuss">Deleted successfully</string>
+    <string name="string_vip_privilege_one_week">Weekly: </string>
+    <string name="home_vip_banner_string">No Watermark &amp; No Ads</string>
+    <string name="permission_title">Permission</string>
+    <string name="permission_camera_msg">This function requires Camera Access Permission. Please turn it on and try again.</string>
+    <string name="video_play_end_buy_vip_dialog_title">Recording Without Watermark</string>
+
+    <string name="video_play_end_buy_vip">3-day free trial. Cancel anytime. Automatically extends to an  annual subscription for %1$s.</string>
+
+    <string name="free_trial">FREE VIP TRIAL</string>
+    <string name="video_play_end_buy_vip_dialog_content">Remove watermark permanently. Cancel ANYTIME.</string>
+    <string name="rate_quest_content">We are trying to make the app better! Would you like to give us a 5-star rating?</string>
+    <string name="str_vip_unlock_compress">Unlock Compress for free</string>
+
+
+    <string name="str_vip_unlock_trim">Unlock Trim Videos  for free</string>
+    <string name="str_vip_guide_desc_clip">View VIP privileges</string>
+    <string name="str_vip_try_free">Try 3 days for free</string>
+    <string name="str_video_screen_off_continue_recording">Keep recording when screen is off</string>
+
+    <string name="str_vip_unlock_compress_desc">If you want to use Compress.Click to try VIP privilege for free.</string>
+    <string name="str_vip_unlock_trim_desc">If you want to use Trim Videos.Click to try VIP privilege for free.</string>
+    <string name="using">in use</string>
+    <string name="apply">Apply</string>
+
+    <string name="theme_apply_success">theme apply success</string>
+
+    <string name="free">Free</string>
+    <string name="clip_zone_one_ratio_one">1:1</string>
+    <string name="clip_zone_three_ratio_four">3:4</string>
+    <string name="clip_zone_four_ratio_three">4:3</string>
+    <string name="clip_zone_nine_ratio_sixteen">9:16</string>
+    <string name="clip_zone_sixteen_ratio_none">16:9</string>
+    <string name="clip_zone_free">Free</string>
+
+    <string name="clip_zone_clip">Crop</string>
+    <string name="clip_zone_clip_theme_change_tip">Using the theme may change the proportion of the cropped video. Do you want to continue using the theme?</string>
+    <string name="record_tools">Recording tools</string>
+    <string name="float_screen_shoot">Screenshot</string>
+
+    <string name="title_reward_ad">Reward tip</string>
+
+    <string name="unlock_pro_privilege_watch_video_ad">Watch the video to unlock this VIP permission once</string>
+    <string name="unlock_pro_privilege_tips">VIP privilege has been unlocked</string>
+    <string name="unlock_pro_privilege_btn_str">UNLOCK FOR FREE</string>
+
+    <string name="export_normal_480">Normal 480P</string>
+    <string name="export_hd_720">HD 720P</string>
+    <string name="export_full_hd_1080">Full HD 1080P</string>
+    <string name="touch_effect_guide_step1">Due to system limitations, the "Show Touch" function could not be opened directly through V Recorder. If you still need to show the click location during recording, you can turn it on in your device settings.The steps are as follows (Methods may vary by the brand of your device.):
+\n\nStep 1: Click "Developer Options" on "Settings" page or "Additional settings" page of your
+        phone</string>
+    <string name="touch_effect_guide_step2">Step 2: Find and turn on "Show taps" in "Developer Options"</string>
+    <string name="touch_effect_guide_step3">If you do not have "Developer Options" on your device,you need to enable the developer mode first. The enabling steps are as follows:
+\n\nClick "About phone" or "My device" to enter "Software information", and then click "Version
+        number" for about 5 times. The system will prompt "you are in developer mode now". When
+        you return to the"Settings" page, you will see "Developer options"(Please note that "Version number" is not "Android version number". Names may vary by the brand of your device. For example, it\'s "MIUI version" on Xiaomi device, and "Build number" on Samsung device.)</string>
+    <string name="touch_effect_title">展示点击效果</string>
+    <string-array name="video_dialog_message">
+        <item>Preview</item>
+        <item>Edit Video</item>
+        <item>Share</item>
+        <item>Delete</item>
+        <item>Rename</item>
+        <item>Details</item>
+    </string-array>
+    <string-array name="audio_dialog_message">
+        <item>Preview</item>
+        <item>Share</item>
+        <item>Delete</item>
+        <item>Rename</item>
+        <item>Details</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>Show</item>
+        <item>Share</item>
+        <item>Delete</item>
+        <item>Rename</item>
+        <item>Details</item>
+    </string-array>
+
+    <string-array name="set_path_list">
+        <item>Save to phone memory</item>
+        <item>Save to external memory</item>
+    </string-array>
+    <string-array name="trim_option_dialog_message">
+        <item>Trim</item>
+        <item>Delete Selected Part</item>
+    </string-array>
+    <string-array name="draftbox_dialog_message">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="studio_tab_title">
+        <item>MY DRAFTS</item>
+        <item>MY WORKS</item>
+    </string-array>
+
+    <string-array name="home_tab_title_new">
+        <item>Home</item>
+        <item>Contest</item>
+        <item>Inspiration</item>
+        <item>Suggestion</item>
+        <!-- <item>Recent</item> -->
+    </string-array>
+    <string-array name="text_full_context">
+        <item>Please wait here patiently for watching the elaborate video you made. Or it will fail to export if you exit the current page. </item>
+        <item>Ads help keep V Recorder as a free app. Thanks for your understanding. You can also download Pro Version to remove ads. </item>
+        <item>If your phone performance is poor, using large video sources or too many materials will fail to export. So please try again after deleting some materials or effects. </item>
+        <item>Use \"Ultra Cut\" to trim multiple parts from one video, and save quickly. It\'s a
+            very useful feature to make videos slim down. </item>
+        <item>Friendly Reminder: FAST MODE is with fast exporting speed but lower video resolution, while HD MODE takes more time to export but provides higher quality. </item>
+        <item>Slow down or speed up the video by clicking \"Speed\" in \"Clip Edit\". </item>
+        <item>After the video is exported successfully, you could rename it in My Studio or share to your friends. </item>
+        <item>Click \"Multi Music\" in \"Pro Edit\" to add multiple music in one video. </item>
+        <item>It takes so much time to export? An awesome video will be shown to you if you would choose to drink a cup of coffee. </item>
+        <item>In multiple music mode, you can set different volume for different music. </item>
+        <item>Make full use of \"Sticker\". It supports Built-in Stickers, your own Images, and Gifs, and it supports multiple layers! </item>
+        <item>Exclusive: You may select music to play while video shooting, it\'s easy to shoot a dance-sync video. </item>
+        <item>You can change background colors by clicking the setting icon at the right top in Edit Studio. </item>
+        <item>Zoom the video or picture, it makes your video focus on the position you want. Click \"Pro Edit\" > \"Clip Edit\" > \"Zoom\". </item>
+        <item>Use \"Compress Video\" to make videos slim down and share faster with low bandwidth network. Click \"Compress Video\" in homepage. </item>
+        <item>Want more features? Feel free to send emails to support@enjoy-global.com and tell us. </item>
+    </string-array>
+    <string-array name="gif_quality">
+        <item>Low Quality</item>
+        <item>Medium Quality</item>
+        <item>High Quality</item>
+    </string-array>
+
+</resources>

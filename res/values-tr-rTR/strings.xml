@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+
+    <string name="app_name">V Recorder</string>
+    <string name="setting">Ayarlar</string>
+    <string name="effectnone">Yok</string>
+    <string name="rename">Yeniden adlandır</string>
+    <string name="delete">Sil</string>
+    <string name="ok">Tamam</string>
+    <string name="unvailable_video">Geçersiz video kısayolu!</string>
+    <string name="cpunotcompatible">Özür dileriz, CPU mimarisi uygulama ile uyumlu değil. Bu sorunu mümkün olan en kısa sürede gidereceğiz</string>
+    <string name="share">Paylaş</string>
+
+    <string-array name="video_dialog_message">
+        <item>Önizleme Yap</item>
+        <item>Videoyu Düzenle</item>
+        <item>Paylaş</item>
+        <item>Sil</item>
+        <item>Yeniden Adlandır</item>
+        <item>Ayrıntılar</item>
+    </string-array>
+    <string-array name="audio_dialog_message">
+        <item>Önizleme Yap</item>
+        <item>Paylaş</item>
+        <item>Sil</item>
+        <item>Yeniden Adlandır</item>
+        <item>Ayrıntılar</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>Göster</item>
+        <item>Paylaş</item>
+        <item>Sil</item>
+        <item>Yeniden Adlandır</item>
+        <item>Ayrıntılar</item>
+    </string-array>
+
+    <string name="no_write">Bu dosyayı yazma izni yok</string>
+    <string name="input_cannot_empty">Giriş boş olamaz</string>
+    <string name="rename_success">Yeniden adlandırma başarılı!</string>
+    <string name="rename_fail">Yeniden adlandırma başarısız!</string>
+    <string name="sure_delete">Sil</string>
+    <string name="sure_delete_file">Silmek istediğinize emin misiniz?</string>
+    <string name="detail">Ortam bilgileri</string>
+    <string name="file_name">Adı:</string>
+    <string name="file_path">Kısayolu:</string>
+    <string name="sure">Tamam</string>
+    <string name="cancel">İptal Et</string>
+    <string name="sure_update">Yeni sürüm mevcut, şimdi güncellensin mi?</string>
+    <string name="sure_update_info1">Yeni sürüm:</string>
+
+    <!-- Home directory -->
+    <string name="about">Hakkında</string>
+    <string name="set_l_info3">Hakkında</string>
+
+    <!-- Recommended application -->
+    <!-- Output directory -->
+
+    <string name="dialog_yes">EVET</string>
+    <string name="dialog_no">HAYIR</string>
+    <string name="buy_pro_tip_content_new">1. Reklam yok \n2. 1080p video dışa aktarma desteği\n3. Özel malzemeler \n4. 4K video içe aktarma desteği\n5. VideoShow filigranı yok\n6. 20 efekte kadar ekleyebilme\n7. Geri sarma süre limiti yok</string>
+    <string name="vip_buy_add_up_to_effects">20 efekte kadar ekleyebilme</string>
+    <string name="vip_buy_no_reverse_duration_limit">Geri sarma süre limiti yok</string>
+    <string name="vip_buy_iwatermark">VideoShow filigranını kaldır</string>
+    <string name="please_add_gif_by_gif">Lütfen düzenleme sekmesi altındaki Gif fonksiyonu ile gif ekle.</string>
+    <string name="opacity">Opasite</string>
+    <string name="use_auto_fx_values">Tüm kliplere rastgele filtre uygulama</string>
+    <string name="use_auto_tr_values">Tüm kliplere rastgele geçiş uygulama</string>
+
+    <!-- Select video -->
+    <string name="Browser">Dosya tarama</string>
+    <!-- Video editor -->
+    <string name="editor">Editör</string>
+    <string name="editor_trim">Kes</string>
+    <string name="editor_fx">Efektler</string>
+    <string name="editor_text_info2">Lütfen altyazı girin</string>
+    <string name="editor_text_dialog_title">İpuçları</string>
+    <string name="nomusic_info">Müzik araması yok</string>
+    <string name="too_big_video">Video Düzenlemesi için çok büyük Video Çözünürlüğü</string>
+    <string name="unvailable_sd">Sdkart şu anda Kullanılamıyor!</string>
+    <string name="error_sd">Sdkart\'a erişilemiyor!</string>
+    <string name="openvideo_error">Video açılamıyor</string>
+
+    <string name="switch2background">Arkaplan görevine geç.\n Kod çevrim sürecinin kesilmesini önlemek için bazı bellek yoğun programları (internet tarayıcı, video oynatıcı) çalıştırmayın</string>
+    <string name="editor_fx_info">Filtre ayarı başarılı</string>
+    <string name="invalid_param">Düzenlenecek parametre geçersiz!</string>
+    <string name="merge_toomany">Video Birleştirme\'de maksimum 5 videoya izin verilir</string>
+
+    <!-- Split -->
+    <!-- Merge -->
+    <string name="merge_info">Video parametreleri tutarlı değil, birleştirilemez</string>
+    <!-- Grab -->
+    <!-- Export dialog -->
+    <string name="export_info">Hiç değişiklik yok</string>
+    <string name="export_output_set">Video yörüngesi ayarlarını dışarı aktar</string>
+    <string name="export_output_title">Dışa aktarılıyor...</string>
+    <string name="export_output_stop">Dışa aktarımı durdur</string>
+    <string name="export_output_bg">Arkaplanı Çalıştır</string>
+    <string name="export_output_init">başlatılıyor...</string>
+    <string name="export_output_success">Dışa Aktarma başarılı</string>
+    <string name="export_output_faild">Dışa Aktarma başarısız</string>
+    <string name="export_outofmemory">Yeterli bellek yok. Lütfen belleği temizleyin ve tekrar deneyin</string>
+
+    <!-- About -->
+    <string name="about_info1">VideoShow</string>
+    <string name="about_info3">VideoShow kullanıcılara iyi video düzenleme deneyimi sunar. En az işlemle, videolarınıza en sıradışı efektleri ekleyebilirsiniz.\n\n\nHer türlü sorunuz veya öneriniz için, lütfen fangqingliuenergysh\@gmail.com adresinden bizimle iletişime geçin.</string>
+
+    <!-- 指南 -->
+    <string name="guide">Rehber modu</string>
+
+    <!-- 设置 -->
+    <string name="set_quality_info1">Video kalite ayarı</string>
+
+    <string-array name="set_path_list">
+        <item>Telefon belleğine kaydedin</item>
+        <item>Harici belleğe kaydedin</item>
+    </string-array>
+
+    <string name="wipe_off_watermark">Filigranı kaldırın</string>
+    <string name="set_l_info2">Güncelle</string>
+    <!-- 分享 -->
+
+    <string name="share_info3">Youtube</string>
+    <string name="share_info5">Daha fazla</string>
+    <string name="share_info6">Telefonunuzda uygulama yüklü değil, indirilsin mi?</string>
+
+    <string-array name="trim_option_dialog_message">
+        <item>Kes</item>
+        <item>Seçilen Kısmı Sil</item>
+    </string-array>
+
+    <string name="main_mp3">Videodan MP3\'e</string>
+    <string name="feedback">GeriBildirim</string>
+
+    <!-- 2.0 add image -->
+    <string name="addimg_delete_info">En az bir klip seçin</string>
+    <string name="addimg_ok_info">En az bir klip seçin</string>
+    <string name="exceed_cliplimit">Daha fazla klip eklenemiyor</string>
+    <string name="chooseclip">Klip seç</string>
+    <string name="choose_a_clip">Bir klip seç</string>
+    <string name="pressagain_stopexport">Dışa aktarımdan çıkmak için tekrar basın. Projeyi düzenleme kaydedilmeyecek</string>
+    <string name="unregnizeformat">Tanınmayan dosya türü</string>
+    <string name="loading">Yükleniyor...</string>
+
+    <!-- 2.1 -->
+    <string name="custom_dialog_info1">Slayt gösterisi yapın</string>
+    <string name="custom_dialog_info2">Video hazırlayın</string>
+    <string name="share_info_error">Video cihazınızda başarıyla paylaşılamıyor. Bu sorunu mümkün olan en kısa sürede çözeceğiz</string>
+    <string name="share_info_Instagram">Instagram</string>
+    <string name="setting_pay">Pro Sürümünü Satın Al</string>
+    <string name="cpunotcompatible2">Üzgünüz, program kitaplığı bulunamıyor. Bu durum uyumsuz mimariden veya yetersiz rom boyutundan kaynaklanabilir. Bazı uygulamaları kaldırın ve VideoShow\'u tekrar yüklemeye çalışın</string>
+    <string name="settingg_share_friend">Bir arkadaşınıza anlatın</string>
+    <string name="settingg_share_friend_title">VideoShow - Video Editör</string>
+    <string name="settingg_share_friend_text">VideoShow adlı bu video editör uygulamasına bir bakın. Çok havalı! https://play.google.com/store/apps/details?id=com.xvideostudio.videoeditor</string>
+    <string name="pro_bt_info1">Daha sonra hatırlat</string>
+    <string name="pro_bt_info2">Hayır, Teşekkürler</string>
+
+    <!-- Record -->
+    <string name="voice_info1">lütfen Oynatmayı durdurun</string>
+
+    <string name="input_invalid">Geçersiz girdi</string>
+    <string name="editor_trim_duration">Süre</string>
+    <string name="invalid_volume_setting1">Müziği sessize ayarlayamazsınız!</string>
+    <string name="unsupport_audio_format">Desteklenen ses formatı yok!</string>
+    <string name="share_info_weibo">Weibo</string>
+    <string name="noenough_space_ex">Harici bellek kartında yeterli alan yok. lütfen bazı kullanılmayan dosyaları silin</string>
+    <string name="changelog_title">VideoShow Değişiklik kayıt güncesi</string>
+    <string name="mp4_noaudio_notsupport">Üzgünüz, ses parçasız video şu anda desteklenmiyor</string>
+    <string name="editor_text_dialog_options">Seçenekler</string>
+    <string name="quick_export_sigle_video">Dışa aktarıma hızlı mod ile başlayın... aşağıdaki koşullar izlenmelidir:\n1. Bir videoya müzik ekleyin\n2. Bir videoya ses ekleyin</string>
+    <string name="add_share_tag_tip">Videonuzu #videoshowapp ile etiketleyin, daha fazla insanın dikkatini çekin</string>
+    <string name="share_clipboard_copy_tip">Panoya kopyalandı</string>
+    <string name="draftbox_is_null">Taslak boş</string>
+    <string name="confirm_exit_editor">Düzenlemeden çıkmak istediğinize emin misiniz?</string>
+    <string name="stop_exporting_video_tip">Dışa aktarımdan çıkmak için tekrar basın. Taslak\'ta düzenlemeye devam da edebilirsiniz.</string>
+    <string name="editor_fx_type_none">Yok</string>
+    <string name="editor_fx_type_sketch">Çizim</string>
+    <string name="editor_fx_type_georgia">Georgia</string>
+    <string name="editor_fx_type_polaroid">Polaroid</string>
+    <string name="editor_fx_type_sahara">Sahara</string>
+    <string name="editor_fx_type_sepia">Sepya</string>
+    <string name="editor_fx_type_recho">Retro</string>
+    <string name="debug_mode_tip">Bu sürüm, videolarınızı dışa aktarırken bazı çökme olaylarını çözmemize yardım eden hata ayıklanmış bir sürümdür.\nAşağıdaki gibi bilmeniz gereken bazı bilgiler vardır:\n1. Videoları normal şekilde düzenleyin ve dışa aktarın;\n2. Çökme olursa, bu uygulamayı bir daha açtığınızda, tüm ilgili dosyaları dizine (root dir/VideoShowLogPack) kopyalacaktır.\n3. Dizini bilgisayarda paket haline getirin ve fangqingliuenergysh\@gmail.com e-posta adresi yoluyla bize gönderin.\nHepsi bu kadar, teşekkürler.</string>
+
+    <string-array name="draftbox_dialog_message">
+        <item>Düzenle</item>
+        <item>Sil</item>
+    </string-array>
+
+    <string name="recomment_video_play_error">Oynatma hatası</string>
+    <string name="recomment_video_instagram_authentication_successful">Yetkilendirme başarılı</string>
+    <string name="pull_to_refresh_pull_label">Daha fazla yüklemek için aşağı çekin</string>
+    <string name="pull_to_refresh_release_label">Gevşetme ile daha fazla yenilenebilir</string>
+    <string name="pull_to_refresh_refreshing_label">Yenileniyor...</string>
+    <string name="network_connect_error">ağ bağlantısı arızası, lütfen kontrol edin</string>
+    <string name="ad_mode_tip">VideoShow kullanımı neredeyse bedava, bu yüzden çalışmaya devam etmek için reklam gerekiyor, anlayışınız için teşekkür ederiz. Desteğiniz sayesinde, uygulamayı daha mükemmel hale getireceğiz!</string>
+    <string name="tx_next">Sonraki</string>
+
+    <string-array name="studio_tab_title">
+        <item>BENIM DAVULLAR</item>
+        <item>ÇALIŞMALARIM</item>
+    </string-array>
+
+    <string name="home_adv_edit">Video Düzenle</string>
+    <string name="home_my_studio">Benim Stüdyom</string>
+    <string name="setting_language">Dil Ayarları</string>
+    <string name="setting_language_auto">Otomatik</string>
+    <string name="setting_language_english">İngilizce</string>
+    <string name="facebook_copyright_tip">Facebook\'un çok sıkı telif koruması vardır. Telif hakları olmadan müzik eklemek videonuzun silinmesine yol açabilir. Lütfen dikkat edin.</string>
+    <string name="editor_rotate">Döndür</string>
+
+    <string name="export_output_muxer_tip">işleme...</string>
+    <string name="share_more_dialog_title">Videoyu Paylaş</string>
+    <string name="export_not_enough_space_change_config_tip_sd_udisk">Telefon hafızası yeterli alan yok, bu yüzden harici hafıza kartına geçiş ve ihracat devam</string>
+    <string name="export_not_enough_space_change_config_tip_udisk_sd">Harici hafıza kartı yeterli alan yok, bu yüzden telefon hafızasına anahtarı ve ihracat devam</string>
+    <string name="sd_permission_invalid">Üzgünüm, videoshow hafıza kartına video kaydetmek için izin verilmez. Emin hafıza kartı yazılabilir olun</string>
+    <string name="editor_exit_title">Onay</string>
+    <string name="app_exit_toast_tips">tekrar basın çıkmak için</string>
+    <string name="setting_help_info">SSS</string>
+    <string name="paintpad_no_operation">Sen hiçbir şey çekmedi</string>
+    <string name="paintdraft_saving">Saving picture...</string>
+    <string name="editor_select_clips">Galeri</string>
+    <string name="emoji_no_recent">Herhangi bir etiket kullanmadınız</string>
+    <string name="changelog_setting">Değişim Günlüğü</string>
+    <string name="editor_save_export">Kaydet</string>
+    <string name="export_output_showtips">(Ön planda çalışmaya devam edin. "Arkaplan run" yakında desteklenecektir)</string>
+    <string name="export_mode_manual">Manuel Mod</string>
+    <string name="export_mode_fast">Hızlı Mod</string>
+    <string name="export_mode_hd">HD Modu</string>
+    <string name="use_current_values">Bu filtreyi tüm kliplere uygula</string>
+    <string name="clear_all_values">Tüm kliplerden filtreleri kaldır</string>
+    <string name="editor_title_trans">Geçiş</string>
+    <string name="editor_sticker">Etiket</string>
+    <string name="music_preload">ÖnYükleme</string>
+    <string name="music_my_local">Müziğim</string>
+
+    <string name="guide_start">Başlat</string>
+    <string name="use_localapp_select_musicfile">Müzik seçmek için başka bir uygulama kullan</string>
+    <string name="voice_info10">Video</string>
+    <string name="voice_info11">Müzik</string>
+    <string name="volume_setting">Müzikayarları</string>
+    <string name="open_loop">Tekrarçalma</string>
+    <string name="setting_attention_us">Bizi takip edin</string>
+    <string name="material_free_price">Ücretsiz</string>
+    <string name="network_bad">Bağlantınızı control edinvetekrardeneyin</string>
+    <string name="download_sd_full_fail">Hafızakartıdolu. Lütfendosyasilin</string>
+    <string name="material_downlaod_state">İndir</string>
+    <string name="material_updtae_state">Güncelle</string>
+    <string name="material_downlaoding_state">İndiriliyor</string>
+    <string name="material_pause_state">Duraklat</string>
+    <string name="download_fail_try_again">İndirmebaşarısız, tekrardeneyin</string>
+    <string name="setting_push_message">Bildirimler</string>
+    <string name="download_so_tips">Uygulamayıçalıştırmadanöncekütüphaneyiyüklemenizgerekiyor. Yüklemebaşlasınmı?</string>
+    <string name="firstclip_noSupport">İlk klip geçiş ayarlayamaz</string>
+    <string name="editor_theme_type_fade">Karartma</string>
+    <string name="setting_edit_mode">Düzenle modunu seç</string>
+    <string name="setting_edit_mode_manually">Elle ayarlar</string>
+    <string name="setting_edit_mode_crop">Doldurmak için kırp</string>
+    <string name="setting_edit_mode_fit">Çerçeveye sığdır</string>
+    <string name="timeline_not_space">Yeni öğe eklemek için 0.5s boş alana ihtiyacınız var</string>
+    <string name="record_completed">Kayıt Tamam</string>
+    <string name="record_too_short">1 saniyeden daha az kaydedemezsiniz</string>
+    <string name="video_mute_tip">Video sessize alındı </string>
+    <string name="music_time_short">Müzik süresi 1 sn. den daha fazla olmalı</string>
+    <string name="create_video_file_failed">Uygulama başlatma başarısız, lütfen yüklenen SD kartı kontrol edin!</string>
+    <string name="clips_all">Hepsi</string>
+    <string name="clips_video">Video</string>
+    <string name="clips_photo">Fotoğraf</string>
+    <string name="toast_voice_non_drag_tips">Ses süresi değiştirilemez</string>
+    <string name="editor_fx_type_japanstyle">Sıcak</string>
+    <string name="editor_fx_type_oldphoto">Eski</string>
+    <string name="editor_fx_type_standardemboss">Kabartma</string>
+    <string name="editor_fx_type_pink">Pembe</string>
+    <string name="editor_fx_type_hdr">HDR</string>
+    <string name="set_video_background">Videonun arka plan rengi</string>
+    <string name="setting_video_background_gause">Bulanıklık</string>
+    <string name="setting_video_background_white">Beyaz</string>
+    <string name="setting_video_background_black">Siyah</string>
+    <string name="setting_app">Uygulama Ayarları</string>
+    <string name="editor_clip_zoom">Yakınlaştır</string>
+    <string name="editor_clip_copy">Kopyala</string>
+    <string name="music_history">Geçmiş</string>
+    <string name="no_music_history">Henüz müzik yok</string>
+    <string name="toolbox_theme">Tema</string>
+    <string name="toolbox_fx">Filtre</string>
+    <string name="toolbox_music">Müzik</string>
+    <string name="toolbox_text">Altyazı</string>
+    <string name="toolbox_clip_edit">Klip Düzenle</string>
+    <string name="setting_all_clip_duration">Tüm fotoğrafların süresi</string>
+    <string name="setting_one_clip_duration">Bir fotoğrafın süresi</string>
+    <string name="editor_addclip">Klip ekle</string>
+    <string name="sort_method">Sıralama metodu</string>
+
+    <!-- 视频设置页面 -->
+    <string name="video_setting">Ayarlar</string>
+
+    <!-- 2015-03-25新内置音乐 -->
+    <string name="inside_music_copyright_info2">Müziğin telif hakkları satın alındı ama sadece kişisel çalışmalarda kullanılabilir, ticari amaçla kullanılamaz.</string>
+    <string name="double_finger_to_zoom">Yakınlaştırmak için ekranı çift parmak ile kaydırın.</string>
+    <string name="clip_null_tips">Lütfen klip ekleyin</string>
+    <string name="disallow_record_tips">Lütfen “İzin Ayarlarına" gidin ve Videoshow’a ses kaydı için izin verin</string>
+    <string name="audio_exception">Ses ekipmanı normal değil</string>
+    <string name="app_pro_version">VideoShow Pro</string>
+    <string name="clip_duration">Fotoğraf süresi: </string>
+
+    <!-- 视频设置页面调整字符串 -->
+    <string name="setting_purchase">Satın al</string>
+    <string name="add_video_format">Medya türü desteklenmiyor</string>
+
+    <string-array name="home_tab_title_new">
+        <item>Ana Sayfa</item>
+        <item>İlham</item>
+        <item>Öneri</item>
+        <!-- <item>En Son</item> -->
+    </string-array>
+
+    <string name="should_retain_one_clip">Lütfen birden fazla klibi tutun!</string>
+    <string name="music_preload_loacal">benim müzik</string>
+    <string name="dialog_duration_more_setting_tip">Süre 3600 sn üzerinde ya da 0,2 sn altında olamaz!</string>
+    <string name="material_new_shop_title">Malzeme Merkezi</string>
+    <string name="material_new_sticker_down">Sticker</string>
+    <string name="setting_updateto_normal_version">VideoShow resmi sürümüne yükseltin</string>
+    <string name="setting_updateto_normal_version_title">VideoShow resmi sürümü</string>
+    <string name="setting_updateto_normal_version_content">Bu, Videoshow’un laboratuvar sürümüdür.  En son özellikleri çok daha erken tecrübe edebilirsiniz.Daha kararlı bir sürüme sahip olmak istiyorsanız, Videoshow MR (Bakım Sürümü) daha iyi bir tercih olabilir.</string>
+    <string name="setting_updateto_normal_version_ok">Yükselt</string>
+    <string name="import_gif_width_limit">İçe aktarmaya çalıştığınız gif çok büyük veya desteklenmeyen bir formata sahiptir.</string>
+    <string name="start_make_video_editorchoose">Başla</string>
+    <string name="pro_function_dialog_content">Şimdiki VideoShow’unuz ücretsiz sürümdür. Ve Pro VideoShow’u piyasaya sürdük.Uygulamamızı beğendiyseniz, ekibimizi desteklemek adına Pro sürümünü satın alabilirsiniz.Ve Pro sürümündebazı farklı özellikler yer almaktadır：\n\n1.Reklam içermez\n2.Pro kullanıcılarıiçinözelmateryalleriindirebilirsiniz.  \n3.4K videodestekler</string>
+    <string name="add_font_tip_title">Nasıl daha fazla yazıtipi ekleyebilirsiniz</string>
+    <string name="add_font_tip_content">Yazıtipi dosyasını kopyalayın(.ttfveya.otfformatlarında),sonrasında \n\n sdcard/1videoshow/fonts/klasörüneyapıştırın</string>
+    <string name="choose_4k_buypro_title">Video, çokbüyük</string>
+    <string name="loading_shuffle_ad_toast">Şimdi yükleniyor, lütfen sabırlı olun!</string>
+    <string name="editor_compress_mode">Sıkıştırma modunu seç</string>
+    <string name="editor_triming">Kesiliyor…</string>
+    <string name="video_size_too_small">Videonuzunboyutugerçekten küçük, sıkıştırmaya gerek yok!</string>
+    <string name="choose_other_sticker_localapp">Kendi etiketi veya Gif seçin</string>
+    <string name="add">eklemek</string>
+    <string name="choose_other_font_localapp">Yazı tiplerini eklemek için klasör seçin</string>
+    <string name="editor_clip_ff">Hız</string>
+    <string name="editor_clip_ff_title_tip">Lütfen klip hızını seçin</string>
+    <string name="editor_clip_ff_video_too_long_tip">Bu klip çok uzun, hızlandırmadan ya da yavaşlatmadan önce lütfen kırpın!</string>
+    <string name="editor_clip_ff_cannot_support_picture_tip">Fotoğraf hızlandırılamaz ya da yavaşlatılamaz!</string>
+    <string name="editor_clip_ff_less_1second_tip">Dışa aktarılan klip %s saniyeden daha kısa olmamalıdır!</string>
+    <string name="editor_clip_ff_encoding_tip">Yeniden kodlanıyor…</string>
+    <string name="editor_clip_ff_stop_encode_tip">Dur kod çevrimi</string>
+    <string name="duration_batch_video_char">Süre</string>
+    <string name="duration_batch_clip_char">Her fotoğraf</string>
+    <string name="duration_batch_custom">Kullanıcı tanımlı</string>
+    <string name="add_clip_memory_warn_tip">Birçok fotoğraf seçtin, hafızayı tüketecek</string>
+    <string name="duration_input_begin_char">Başlama zamanı</string>
+    <string name="duration_input_end_char">Bitiş zamanı</string>
+    <string name="duration_input_starttimeout_errinfo">Başlama zamanı düzenlenebilir zamandan daha fazla olmamalı!</string>
+    <string name="duration_input_endtimeout_errinfo">Bitiş zamanı düzenlenebilir zamandan daha fazla olmamalı!</string>
+    <string name="duration_input_startgtend_errinfo">Bitiş zamanı başlama zamanından daha fazla olmalı!</string>
+    <string name="editor_paint_new_clip">Boş Klip Ekle</string>
+    <string name="app_info_view_compress">Bu videoyu sıkıştır</string>
+    <string name="setting_edit_skill">Düzenleme ipuçları</string>
+    <string name="save_draftbox_fail_tip">Başarısız yasa teklifine Kaydet, hiçbir yeterli alan yok!</string>
+    <string name="editor_fx_type_nashville">Umut</string>
+    <string name="editor_fx_type_lordkevin">Gün batımı</string>
+    <string name="editor_fx_type_1977">Bahar</string>
+    <string name="editor_fx_type_xproii">Sakin</string>
+    <string name="editor_fx_type_walden">Rüya</string>
+    <string name="editor_fx_type_lomo">Lomo</string>
+    <string name="editor_fx_type_valencia">Zarif</string>
+    <string name="editor_fx_type_amaro">Yuppi</string>
+    <string name="editor_fx_type_hudson">Kış</string>
+    <string name="editor_fx_type_rise">Tabiat</string>
+    <string name="editor_fx_type_sierra">Krem</string>
+    <string name="editor_fx_type_brannan">Hatıra</string>
+    <string name="editor_fx_type_earlybird">Bir kez</string>
+    <string name="editor_fx_type_sutro">Gece karanlığı</string>
+    <string name="editor_fx_type_toaster">Parıltı</string>
+    <string name="editor_fx_type_hefe">Şafak</string>
+    <string name="config_text_toolbox_setting">Yazı Stili Ayarı</string>
+    <string name="share_save_to_my_studio">Galeriye kaydet</string>
+    <string name="buy_pro_tip_content_new_2">\n4.1080p video dışarıaktardesteği (bazıcihazlar)</string>
+    <string name="editor_add_clip_select">Klibiseç</string>
+    <string name="clip_cannot_switch">Onaylamak veya geçerli klibin kırpma iptal edin!</string>
+    <string name="camera_util_no_camera_tip">Video çekimini desteklemiyor</string>
+    <string name="camera_util_only_one_camera_tip">Sadece bir kamera, değiştiremezsiniz</string>
+    <string name="camera_resolution">Çözünürlük</string>
+    <string name="camera_recording_failed">Video kaydedilmedi</string>
+    <string name="camera_switch_waitting">Kamerayı değiştirmek için bir süre bekleyin </string>
+    <string name="camera_no_camera_permission_tip">Lütfen sistem ayarlarını girin veya kamera erişimini açın.</string>
+    <string name="camera_take_picture_waitting_tip">Şimdi kaydediliyor, lütfen bekleyin</string>
+    <string name="camera_no_take_pictrue_tip">Hiçbir klip kaydetmediniz</string>
+    <string name="download_more_audio">Daha fazla ses indir</string>
+    <string name="downloaded">İndirildi</string>
+    <string name="material_category_sticker">Etiket</string>
+    <string name="material_category_theme">Tema</string>
+    <string name="material_category_audio">Ses Efektleri</string>
+    <string name="material_category_font">Yazı stili</string>
+    <string name="setting_evaluate">Bizi değerlendirin</string>
+    <string name="email_report_tail">Bize önerilerde bulunun ya da hataları bildirin</string>
+    <string name="action_feedback_title">seçin posta kutusu</string>
+    <string name="setting_recommend_to_friend">Arkadaşlarınızı davet edin</string>
+    <string name="setting_send_app_tips">VideoShow\'u Paylaş:</string>
+    <string name="fullscreen_export_backstage">Arka planda çalışan (Beta)</string>
+    <string name="background_export_tips">Video dışa aktarma işlemi arka planda çalışacaktır. Yeterli bellek olmaması durumunda Android sistemi arka plan görevini sonlandıracaktır.
+    Video işleminin sonlandırılma şansını önlemek için çok fazla bellek kullanan uygulamaları (Web tarayıcı, video oynatma gibi) çalıştırmamanız tavsiye edilir.</string>
+    <string name="home_edit_menu">Düzenle</string>
+    <string name="be_pro_title">Kılavuz</string>
+    <string name="guide_nice_video">Güzel video nasıl çekilir</string>
+    <string name="guide_add_sticker">Etiketler nasıl eklenir</string>
+    <string name="guide_add_subtitle">Altyazı nasıl eklenir</string>
+    <string name="guide_add_music">Müzik nasıl eklenir</string>
+    <string name="guide_draw_video">Video üzerine nasıl çizim yapılır</string>
+    <string name="guide_zoom_rotate">Yaklaştırma ve döndürme nasıl yapılır</string>
+    <string name="guide_add_sound">Dublaj nasıl yapılır ve ses efektleri nasıl eklenir</string>
+    <string name="guide_video_motion">Videonuzun hızı nasıl değiştirilir</string>
+    <string name="setting_terms_privacy_info">Şartlar ve Gizlilik</string>
+    <string name="invite_friend_prefix">Selam,\'Videoshow\'isimli çok şahane bir video düzenleme uygulaması kullanıyorum.Şuradan göz atıp yükleyebilirsin:</string>
+    <string name="download_more_music">Daha fazla müzik indirin</string>
+    <string name="music_download">İndir</string>
+    <string name="music_local">Şarkılarım</string>
+    <string name="toolbox_multi_music">Çoklu Müzik</string>
+    <string name="app_update_to_use_the_theme">Tema yeni grafik özelliğine sahiptir. Kullanılabilmesi için uygulamanın yükseltilmesi gereklidir.</string>
+    <string name="home_app_store">Özellikli Uygulamalar</string>
+
+    <string name="export_video_mode_chooser_title_tips">Video Dışa Aktar</string>
+    <string name="export_video_mode_chooser_1080p_ads_tips">videolarizleyerek1080p HD </string>
+    <string name="export_video_mode_chooser_1080p_pro_tips">1080p HD (Pro Sürümü)</string>
+    <string name="export_video_1080p_mode_tips">1080p HDŞimdi Dışa Aktarılıyor</string>
+
+
+    <string name="lite_unlocker_pro_suc_info">Ana sürüme başarılı bir şekilde yükselttiniz!</string>
+    <string name="share_facebook_unlock_fail">Kilit açılamadı</string>
+    <string name="share_facebook_unlocked">Kilit açıldı</string>
+    <string name="share_facebook_dialog_content">Bu temanın kilidini ücretsiz olarak açmak için VideoShow\'u Facebook\'ta paylaşın</string>
+    <string name="share_facebook_dialog_tips">İpuçları: Temanın kilidi paylaşımın ardından açılacaktır!</string>
+    <string name="share_facebook_dialog_btn_text">Hemen Paylaş</string>
+
+    <string name="delete_subtitle_tips">Metni silmek mi istiyorsun?</string>
+
+    <string name="export_dialog_msg">Arka planda vermek istiyorsan, dropzone’u açmak için telefon ayarını girmelisin veya sadece önde verebilirsin</string>
+    <string name="export_dialog_ok">DROPZONE’U AÇ</string>
+    <string name="export_dialog_cancel">ÖNE AKTAR</string>
+
+    <string name="lite_unlocker_pro_dialog_title">Özel Teklif</string>
+    <string name="lite_unlocker_pro_dialog_info_new">VideoshowLitebir ay için güncellemeyi durduracak. Bizi desteklediğinize teşekkür etmek için Videoshow Pro özelliklerinin (1080P HD Dışa Aktarma, 4K video içe aktarma, sınırsız malzeme indirme) kilidini açma özel teklifini ücretsiz olarak sunuyoruz!
+    Bu özel teklif bir ay boyunca mevcut olacak. Dolayısıyla hemen edinmek için acele edin!
+    </string>
+    <string name="beta_unlocker_pro_dialog_info">Videoshow Beta bir ay için güncellemeyi durduracak. Bizi desteklediğinize teşekkür etmek için Videoshow Pro özelliklerinin (1080P HD Dışa Aktarma, 4K video içe aktarma, sınırsız malzeme indirme) kilidini açma özel teklifini ücretsiz olarak sunuyoruz!
+    Bu özel teklif bir ay boyunca mevcut olacak. Dolayısıyla hemen edinmek için acele edin!
+    </string>
+    <string name="lite_unlocker_pro_dialog_ok">Pro özelliklerinin kilidini ücretsiz aç</string>
+
+    <string name="editor_set_different_duration">Her klip için farklı süre ayarla</string>
+    <string name="buy_pro_tip_content_new_water">\n5.Konulu videonun sonundaki logoyu kaldırın</string>
+    <string name="login_rewards_title_tip">SürekliGirişÖdülleri</string>
+    <string name="login_rewards_remain_days_tip">Pro özelliklerinkilidiniaçmakiçinsadece %s güngirişyapmalısınız</string>
+    <string name="login_rewards_last_day_tip">Aceleedin! Pro özelliklerinhemenkilidiniaçmakiçingirişyapın</string>
+    <string name="login_rewards_congratulations_tip">Tebrikler!</string>
+    <string name="login_rewards_unlock_successful_tip">Biraylığına Pro özelliklerinkilidiniaçtınız.Desteğiniziçinteşekkürler!Enkısasüredeeniyivideolarıyaratın.</string>
+    <string name="login_rewards_expired_tip">Biraylık pro özellikdenemesürümünüzünsüresidoldu.Amaüçgünboyuncasürekligirişyaparak pro özelliklerintekrarkilidiniaçabilirsiniz.Buna sahipolmakistermisiniz?</string>
+    <string name="file_scan_notification_title">Video özetleri artık hazır</string>
+    <string name="file_scan_notification_content">En sevgi dolu anlarınızın birkaçını içeren bir video izleyin</string>
+    <string name="file_scan_notification_dialog_title">Sonra Anlık VideoShow’u kullanın</string>
+    <string name="file_scan_notification_dialog_content_1">Çok sayıda resim ve video çektiğiniz zamanlarda VideoShow harika bir video özeti hazırlayacak.</string>
+    <string name="file_scan_notification_dialog_content_2">Bu, henüz sadece bir video taslağı olup video izniniz olmadan paylaşılmayacak.</string>
+    <string name="file_scan_notification_dialog_content_tip">İpucu: Bu özelliği gerektiğinde Ayarlardan istediğiniz zaman aç/kapat yapabilirsiniz.</string>
+    <string name="file_scan_notification_dialog_ok">KABUL EDİYORUM</string>
+    <string name="file_scan_notification_dialog_cancel">KABUL ETMİYORUM</string>
+    <string name="tip_app_upgrad_dialog_ok">Şimdi güncelle</string>
+    <string name="tip_app_upgrad_dialog_cancel">Daha sonra hatırlat</string>
+    <string name="theme_store_rating_rate_improve">Bu temayı oy ver, bize geliştirmemize yardımcı!</string>
+    <string name="theme_store_rating_choose_very">Çok iyi!</string>
+    <string name="theme_store_rating_choose_normal">Normal, kötü değil.</string>
+    <string name="theme_store_rating_choose_poor">Kötü kalite!</string>
+    <string name="theme_store_rating_title_rate">Bu Tema Oranı</string>
+
+    <string name="user_refuse_permission_camera_tip">VideoShow uygulamasının kamera izinlerine erişmesine izin vermeyi reddettiniz, VideoShow kamerayı normal bir şekilde çalıştıramıyor, lütfen izinleri yetkilendirin.</string>
+    <string name="user_refuse_permission_audio_recorder_tip">VideoShow uygulamasının kaydetme izinlerine erişmesine izin vermeyi reddettiniz, VideoShow seslendirmeyi normal bir şekilde gerçekleştiremiyor, lütfen izinleri yetkilendirin.</string>
+    <string name="user_permit_permission_audio_recorder_tip">Kaydetme izinlerini yetkilendirdiniz, şimdi seslendirmeye başlamak için düğmeye basabilirsiniz.</string>
+
+    <string name="rate_please">Öyleyse bize puan vererek destek olmak istemez misin? Daha iyi olmak için çalışıyoruz!</string>
+    <string name="user_permit_permission_take_picture_tip">Artık fotoğraf çekmek başlayabilirsiniz, kamera izinleri yetkili oylandı.</string>
+
+
+    <!--<string name="app_info">Video Stüdyosu</string>-->
+    <string name="app_info_view_trim">Video Kesme</string>
+    <string name="save_operation">Değişiklikleri sil?</string>
+
+
+    <string name="remove_videos_original_voice">Orijinal sesi kaldırın</string>
+    <string name="restore_videos_original_voice">Orijinal sesi geri getir</string>
+    <string name="videos_original_voice_mute">Orijinal ses kapalı</string>
+    <string name="videos_original_voice_unmute">Orijinal ses açık</string>
+    <string name="remove_videos_original_voice_cannot_support_tip">Geçerli durumda, orijinal sesi kaldıramadınız</string>
+    <string name="recover_videos_original_voice_cannot_support_tip">Geçerli durumda, orijinal sesi kaldıramadınız</string>
+
+    <string name="share_result">Bitiş</string>
+    <string name="rename_no_text">Başlık boş bırakılamaz</string>
+
+    <string name="upload_to_youtube">youtube’a yükle</string>
+    <string name="user_logout">oturumu kapat</string>
+
+
+    <string name="toast_cannot_retrieve_cropped_image">Kesilenresimkurtarılamıyor</string>
+    <string name="toast_unexpected_error">Beklenmeyenhata</string>
+    <string name="ucrop_label_original">Orijinal</string>
+    <string name="ucrop_label_edit_photo">FotoğrafıDüzenle</string>
+
+    <string name="setting_hw_acc_notification_title">Donanım hızlanması</string>
+    <string name="setting_hw_acc_toast_1">Normal moda geçildi, bu videoları daha yavaş dışa aktaracaktır fakat daha yüksek bir kararlılığa sahiptir.</string>
+    <string name="setting_hw_acc_toast_2">Donanım hızlandırma modeline geçidi, bu videoları daha hızlı dışa aktaracaktır</string>
+    <string name="video_to_mp3_noaudio_tips">Bu videoda ses yok</string>
+
+    <string name="title_trim_select_clip">Ultra Kesim</string>
+    <string name="title_preview">Ön izleme</string>
+    <string name="video_trim_clip_null_tips">Lütfen kesilen klipleri ekleyin</string>
+    <string name="video_no_trim_clip_toast">Klipleri kesmediniz</string>
+    <string name="video_trim_clip_duration_toast">Kırpılan klip süresi 0,1s\'den az olmamalıdır</string>
+    <string name="video_clip_count_toast">Kırpılan klipler 10\'dan fazla olmamalıdır</string>
+    <string name="no_add_video_trim_clip_toast">Lütfen ilk önce kesilen klipleri ekleyin</string>
+    <string name="bt_trim_clip_add">Ekle</string>
+    <string name="bt_trim_clip_add_tips">Klipleri kesmeye devam edebilir ve onları ekleyebilirsiniz!</string>
+
+    <!--导出界面文字内容-->
+    <string-array name="text_full_context">
+        <item>Lütfen başarılı bir şekilde hazırladığın ayrıntılı videoyu izlemek için sabırla burada bekle. Yoksa, bu sayfanın dışına çıktığında dışa aktarım başarısız olabilir.</item>
+        <item>Reklamlar VideoShow\’un ücretsiz bir uygulama olarak kalmasına yardımcı olur. Anlayışınız için teşekkür ederiz. Reklamları kaldırmak için Pro sürüme yükseltebilirsiniz.</item>
+        <item>Telefonunuzda düşük yapılandırma, çok büyük video kaynağı veya çok fazla materyal kullanımı dışa aktarımın başarısız olmasına neden olabilir. O yüzden, lütfen bazı materyalleri sildikten sonra tekrar deneyin.</item>
+        <item>Bir videodan birden fazla bölümü kırpmak için \"Ultra Kesme\"yi kullanın ve hızlıca kaydedin. Büyük bir videoyu küçültmek için bu oldukça kullanışlı bir özelliktir.</item>
+        <item>Dostça Bir Hatırlatma: HIZLI MOD hızla dışa aktarımdır ancak video çözünürlüğü düşüktür. HD MODUNDA ise daha yüksek kaliteyle dışa aktarım daha fazla zaman almaktadır.</item>
+        <item>\"Klip Düzenle\"de bulunan \"Hız\"a tıklayarak videoyu hızlandırabilir veya yavaşlatabilirsiniz.</item>
+        <item>Video başarılı bir şekilde dışa aktarıldıktan sonra Stüdyom alanında yeniden adlandırabilir veya arkadaşlarınızla paylaşabilirsiniz.</item>
+        <item>Bir videoya birden fazla müzik eklemek için \"Pro Düzenle\" içerisindeki \"Çoklu Müzik\"i kullanabilirsiniz.</item>
+        <item>Dışa aktarım çok zaman mı alıyor? Bir fincan kahve içmeyi tercih ederseniz size muhteşem bir video gösterilecek.</item>
+        <item>Çoklu müzik modunda, farklı müzik için farklı ses şiddetleri ayarlayabilirsiniz.</item>
+        <item> \"Etiket\" özelliğini tamamıyla kullanın. Dahili etiketleri, kendinize ait resimleri, Gif\’leri destekler. Ayrıca, çoklu katmanları da destekler!</item>
+        <item>Özel: Müsik video çekimi. Müzik çalarken video kaydetme. dancep-sync video çekimi oldukça faydalıdır.</item>
+        <item>Düzenleme Stüdyosunda sağ üst köşedeki ayar simgesine tıklayarak arka plan rengini değiştirebilirsiniz.</item>
+        <item> Videoyu ve resmi yakınlaştırın, istediğiniz pozisyonda video yakınlaştırmanızı yapın.  Click \"Pro Düzenle\" > \"Klip Düzenle\" > \"Yakınlaştır\"a tıklayın.</item>
+        <item>Videoyu küçültmek ve daha düşük ağ bant genişliği ile paylaşmak için \"Video sıkıştır\"ı kullanın. Ana sayfada \"Video Sıkıştır\"ı kullanın.</item>
+        <item>Daha fazla özellik mi istiyorsunuz? support@enjoy-global.com adresine e-posta yazmaktan ve bize anlatmaktan çekinmeyin.</item>
+    </string-array>
+
+    <string name="subtitle_effect_3d_type_modern">Modern B</string>
+    <string name="subtitle_effect_3d_type_modern_white">Modern W</string>
+    <string name="subtitle_effect_3d_type_news">Haberler</string>
+    <string name="config_text_toolbox_effect">Metin Stili</string>
+    <string name="subtitle_effect_3d_type_fade_out">Karartma</string>
+    <string name="subtitle_effect_3d_type_jump_in">İçine Zıplama</string>
+    <string name="subtitle_effect_3d_type_pop_up">Ortaya çıkmak</string>
+    <string name="subtitle_effect_3d_type_roll_in">Yuvarlanmak</string>
+    <string name="subtitle_effect_3d_type_kick_back">Geri Tepme</string>
+    <string name="subtitle_effect_3d_type_roll_up">Sarmak</string>
+    <string name="subtitle_effect_3d_type_roll_left">Sola Sar</string>
+    <string name="subtitle_effect_3d_type_crack">Kır</string>
+    <string name="subtitle_effect_3d_type_sunshine">Gün Işığı</string>
+    <string name="subtitle_effect_3d_type_darkclouds">Kara Bulutlar</string>
+    <string name="subtitle_effect_3d_type_drop">Düşüme</string>
+    <string name="subtitle_effect_3d_type_love">Aşk</string>
+    <string name="subtitle_effect_3d_type_lamp">Lamba</string>
+    <string name="subtitle_effect_3d_type_dialog">Diyalog</string>
+    <string name="subtitle_effect_3d_type_crow">Ötme</string>
+    <string name="subtitle_effect_3d_type_flame">Alev</string>
+    <string name="subtitle_effect_3d_type_thunder">Gök Gürlemesi</string>
+    <string name="subtitle_effect_3d_type_fire">Ateş</string>
+    <string name="subtitle_effect_3d_type_lightning">Şimşek</string>
+    <string name="subtitle_effect_3d_type_flash">flaş</string>
+    <string name="trans_new_90002">Solma</string>
+    <string name="trans_new_90003">Çiz</string>
+    <string name="trans_new_90004">Yanıp Sönme</string>
+    <string name="trans_new_90006">Sıçrama</string>
+    <string name="trans_new_90007">Yüzme</string>
+    <string name="trans_new_90008">Sade</string>
+    <string name="trans_new_90009">Dalga</string>
+    <string name="trans_new_90011">Meteor</string>
+    <string name="trans_new_90012">Katla</string>
+    <string name="trans_new_90013">Sürgü</string>
+    <string name="trans_new_90014">Aşk</string>
+    <string name="trans_new_90015">Balon</string>
+    <string name="trans_new_90016">Saat</string>
+    <string name="trans_new_90017">Daire</string>
+    <string name="trans_new_90018">Kaydır</string>
+    <string name="trans_new_90020">Yakınlaştır</string>
+    <string name="trans_new_90021">Flaş W</string>
+    <string name="trans_new_90022">Flaş B</string>
+    <string name="trans_new_90023">Çiçek</string>
+    <string name="trans_new_90024">Altı Köşe Yıldız</string>
+
+    <string name="noenough_space_20m_tip">Disk alanın az, lütfen boşalt</string>
+    <string name="remove_watermark_content">Filigranı 1 günlüğüne ÜCRETSİZ kaldır! Sadece uygulamayı kur ve aç.</string>
+    <string name="tip_config_sound_add_count_50">50\'den fazla ses desteklemiyor!</string>
+    <string name="tip_config_video_clip_copy_count_60">Video sayısı 60\'tan fazla olmamalı!</string>
+    <string name="select_music_cannot_support_tip">ses dosyası bozuk.</string>
+
+    <string name="share_to_get_surprise">Sürprizler için Paylaş</string>
+    <string name="today_you_can_download_all_materials">Bugün özel yanlısı malzemeleri indirebilirsiniz</string>
+
+    <string name="the_video_has_been_deleted">Video silindi</string>
+
+    <!--首页引导popwindow文字-->
+
+    <!--导出结果页，视频大小-->
+    <string name="share_result_video_size_content">Sıkıştırılmış özgün videoyu silmek istiyorsun, harika değil mi?</string>
+    <string name="share_result_video_iess">orijinalinden daha az</string>
+    <string name="share_result_video_original">orijinal</string>
+    <string name="share_result_video_compressed">Sıkıştırılmış</string>
+
+    <!--VIP buy 界面-->
+    <string name="vip_buy_btn">Satın al</string>
+    <string name="vip_buy_advertising">Reklamları kaldır</string>
+    <string name="vip_buy_export">1080p video dışa aktar</string>
+    <string name="vip_buy_import">4K videoların içe aktarımını destekle</string>
+
+    <string name="home_mp3_new">Yeni</string>
+    <string name="home_mp3_view">Görüntüle</string>
+    <string name="fx_effect_3d_type_bubble">Kabarcık</string>
+    <string name="fx_effect_3d_type_thunder">Gök gürültüsü</string>
+    <string name="hold_down_to_preview">önizleme basılı tutun</string>
+
+    <!--素材各列表顶部广告条目文字-->
+
+    <!--素材激励广告弹框-->
+
+    <string name="discard_operation">Vazgeç</string>
+
+    <string name="theme_clip_start_choose">Giriş:</string>
+    <string name="theme_clip_end_choose">Kapanış:</string>
+    <string name="theme_clip_start_choose_a">Giriş</string>
+    <string name="theme_clip_end_choose_b">Kapanış</string>
+    <string name="playing_music_preview_time">20 saniye ön izleme</string>
+
+    <string name="material_store_theme_remove_confirm">Silinsin mi?</string>
+    <string name="material_store_fx_remove_confirm">Silinsin mi?</string>
+    <string name="material_store_music_remove_confirm">Silinsin mi?</string>
+    <string name="material_store_text_style_remove_confirm">Silinsin mi?</string>
+    <string name="material_store_sticker_remove_confirm">Silinsin mi?</string>
+    <string name="material_store_sound_effects_remove_confirm">Silinsin mi?</string>
+    <string name="material_store_font_remove_confirm">Silinsin mi?</string>
+    <string name="material_store_gif_remove_confirm">Silinsin mi?</string>
+    <string name="export_or_share_video_success">Başarılı!</string>
+    <string name="editor_theme_more">Daha fazla</string>
+    <string name="music_my_download">Yüklediklerim</string>
+    <string name="music_my_music">Müziğim</string>
+    <string name="music_no_music_history">Müzik Geçmişi yok</string>
+    <string name="music_set_add_music">Müzik ekle</string>
+    <string name="today">Bugün</string>
+    <string name="yesterday">Dün</string>
+    <string name="mystudio_batch_delete">Toplu Sil</string>
+
+    <string name="fx_num_limit_pro">Başarıyla dışa aktarmanın mümkün olması için, aynı anda 20 efektten fazlası eklenemez</string>
+    <string name="clear_trans_all_values">Tüm kliplerden geçişleri kaldır</string>
+    <string name="select_a_clip_to_edit">Düzenlemek için bir klip seçin</string>
+    <string name="set_duration_for_each_photo">Her fotoğraf için süre ayarla</string>
+    <string name="set_precise_time">Zamanı ayarla</string>
+    <string name="global_settings">Genel Ayarlar</string>
+    <string name="take_a_short_preview">Kısa bir ön izleme alın</string>
+    <string name="set_export_mode">Video Dışa Aktarım Modu Ayarı</string>
+    <string name="export_mode_background">Arka Plan Modu</string>
+    <string name="export_mode_foreground">Ön Plan Modu</string>
+
+    <string name="rate_quest_title">V Recorder\'u kullandığınız için teşekkürler</string>
+    <string name="rate_quest_yes">Elbette</string>
+    <string name="rate_quest_no">HAYIR</string>
+
+    <string name="use_trans_current_values">Bu geçişi tüm kliplere uygula</string>
+    <string name="text_Selected">Seçilen</string>
+    <string name="text_clips">klipler</string>
+    <string name="rename_dialog_title">Yeniden Adlandır</string>
+
+    <string name="home_photo_movie">Slayt gösterisi</string>
+
+    <string name="manage">Yönet</string>
+    <string name="done">Tamam</string>
+    <string name="giphy_noresult">Sonuç yok\nİngilizce yazılması önerilir</string>
+    <string name="dialog_duration_adjust_tips">İpucu: Şu andaki duraklama zamanını başlangıç veya bitiş zamanı olarak seçmek için  %s  tıklayabilirsin</string>
+    <string name="duration_dialog_time_same_tip">Başlangıç ve bitiş zamanları aynı olmamalıdır</string>
+
+    <string name="editor_select_online_gif">Çevrim içi Gif</string>
+
+    <string name="gif_search_text_over">Karakter sayısı 200 üzeri olamaz</string>
+    <string name="export_video_resolution_limit">Dışa aktarılan videonun çözünürlüğü telefonunun çözünürlüğü tarafından sınırlanmıştır, lütfen dikkate al</string>
+    <string name="no_material_now">Şimdi Malzeme Yok</string>
+    <string name="draftbox_is_null_tip_revert">Orijinal klip eksik</string>
+    <string name="main_reverse">Ters Çevir</string>
+    <string name="app_info_view_reverse">Videoyu tersine çevir</string>
+    <string name="reverse_text_full_context_0">Dışa aktarılan videolardaki orijinal ses, tersine çevirmenin neden olduğu gürültülerin engellenmesi için kaldırılacaktır.</string>
+    <string name="reverse_text_full_context_1">Lütfen başarılı bir şekilde hazırladığın ayrıntılı videoyu izlemek için sabırla burada bekle. Yoksa, bu sayfadan çıktığında dışa aktarım başarısız olabilir.</string>
+    <string name="reverse_text_full_context_2">Dışa aktarılan video yeni bir klip olarak kaydedilecek, ancak orijinal dosya da saklanacaktır.</string>
+    <string name="reverse_text_full_context_3">Tersine çevrilmiş videonun daha muhteşem olması için müzik ve efektler vb. ekleyebilirsin.</string>
+
+    <string name="use_toolkit_create_video">Muhteşem bir video oluşturmak için en güçlü araç setini kullan.</string>
+    <string name="add_material_to_video">Videona altyazı, efekt, çıkartma ve başka ilgi çekici içerikler ekle.</string>
+    <string name="simplest_way_make_video">Videoyu muhteşem yapmanın en basit yolu.</string>
+    <string name="set_photo_display_time">Fotoğrafların gösterim zamanını ayarla.</string>
+    <string name="trim_video_save_part">İhtiyacın olan kısmı kaydetmek için videoyu kırp.</string>
+    <string name="zoom_photo_video_focus_attention">Fotoğraf ve videolara zoom yap, izleyenin dikkatine odaklan.</string>
+    <string name="new_function_reverse_video">Yeni fonksiyon eklendi: videoyu ters çevirme.</string>
+    <string name="video_setting_background">Arka Plan</string>
+    <string name="video_music_single_type">Tek Müzik</string>
+    <string name="video_music_multi_type">Çok Müzik</string>
+    <string name="edit_clip_set_duration_all">Tüm resimler için ayarla</string>
+    <string name="local_gif">Yerel Gif</string>
+
+    <string name="click_the_theme_again_to_edit">Düzenlemek için tekrar temaya dokun.</string>
+    <string name="galleryvault_install_uppercase">KUR</string>
+    <string name="galleryvault_share_extensions_gap_line_tip">Uzantılar</string>
+    <string name="galleryvault_delete_draft_tip">Video gizlendi, taslak silinsin mi?</string>
+    <string name="material_pull_to_refresh">Yenilemek için aşağı çek</string>
+    <string name="editor_add_music">Müzik eklemek için dokun</string>
+
+    <string name="install">Kur</string>
+    <string name="use_vidcompact_convert">Dönüştürmek için şimdi VidCompact kullan! O zaman Videolar kolayca düzenlenebilir.</string>
+    <string name="home_text_transcode">Kod çevir</string>
+    <string name="home_text_gallery">Gallery</string>
+    <string name="home_text_slideshow">TapSlide</string>
+    <string name="home_transcode_content">Videonu başka biçimlere dönüştürmek veya daha küçük bir boyutta sıkıştırmak için VidCompact kullan</string>
+    <string name="home_transcode_function">Fonksiyon ayrıcalıkları</string>
+    <string name="home_transcode_convert">Yüksek kaliteyle dönüştür</string>
+    <string name="home_transcode_support">Bir çok dosya biçimini destekler</string>
+    <string name="home_transcode_compact">Güçlü sıkıştırır</string>
+    <string name="home_transcode_rapid">Hızlı sıkıştırma</string>
+    <string name="home_gallery_content">Fotoğraflarına ve videolarına göz atmak için Gallery uygulamasını kullan ve onlardan bir slayt gösterisi oluştur</string>
+    <string name="home_gallery_browse">Fotoğraflarına göz at, tara ve klasörlere göre onları düzenle</string>
+    <string name="home_gallery_add">Favori fotoğraf ve video ekle</string>
+    <string name="home_gallery_engaging">Slayt gösterisi yaparken ilgi çekici temalar desteklenir</string>
+    <string name="home_gallery_automatically">Fotoğraf ve videoları etkinliğe, tarihe ve konuma göre otomatik olarak düzenle</string>
+    <string name="home_slideshow_content">TapSlide ile sadece müziğin ritme göre dokunarak slayt gösterisi yapmanın keyfini çıkar</string>
+    <string name="home_slideshow_just">Sadece 4 adımda  </string>
+    <string name="home_slideshow_to">ve müzikli bir slayt gösterisi hazırla</string>
+    <string name="home_slideshow_choose">Fotoğraf seç</string>
+    <string name="home_slideshow_choose_music">Müzik seç</string>
+    <string name="home_slideshow_tap">Fotoğrafları kontrol etmek için ritmli dokun</string>
+    <string name="home_slideshow_save">Çalışmanı kaydet ve arkadaşlarınla paylaş</string>
+    <string name="choose_too_large_video">Video içe aktarılamayacak kadar büyük</string>
+    <string name="dialog_facebook_main_title">Hepsi Bir Video Düzenleyicisinde</string>
+    <string name="editor_trans_type_none">Yok</string>
+    <string name="trans_new_90001">Yok</string>
+    <string name="setting_clip_duration">Süre</string>
+    <string name="share_to">Şurada paylaş:</string>
+    <string name="choose_4k_buypro_content">4K çözünürlükte videoların içe aktarımını yalnızca VideoShow Pro destekler. Satın almak ister misiniz?</string>
+
+    <string name="home_discover">Keşfet</string>
+    <string name="discover_all_videos">Tüm Videolar</string>
+    <string name="discover_all_contents">Tüm İçerik</string>
+    <string name="network_is_unavailable">Ağa erişilemiyor</string>
+    <string name="discover_page_title">Keşfet          </string>
+    <string name="pinch_to_zoom">Yakınlaştırmak için ekranı çimdikle</string>
+    <string name="guide_start_ui">Başlat</string>
+    <string name="guide_back_ui">Geri dön</string>
+    <string name="video_setting_ratio">Görüntü Oranı</string>
+    <string name="video_setting_widescreen_mode">Geniş ekran</string>
+    <string name="video_setting_square_mode">Kare</string>
+    <string name="video_setting_vertical_mode">Dikey</string>
+    <string name="noenough_space_ex_need">Gerekli hafıza: </string>
+    <string name="noenough_space_ex_cur">Kullanılabilir hafıza: </string>
+    <string name="go_to_clip_edit">Klip Düzenlemeye Git</string>
+    <string name="share_no_enough_space">Yeterli Boş Alan Yok. </string>
+    <string name="share_please_free_your">Lütfen boş alan yaratın. Klip Düzenlemede video klipleri kesebilir veya bazı klipleri silebilirsiniz.</string>
+    <string name="click_the_button_set_theme_prologue_epilogue">Tema giriş ve kapanışı belirlemek için düğmeye dokun.</string>
+    <string name="tag_library">Popüler Etiketler</string>
+    <string name="selected_category">Kategoriler</string>
+    <string name="all_tags">Tüm Etiketler</string>
+    <string name="toolbox_sound">Seslendirme</string>
+    <string name="main_video_compress">Sıkıştır</string>
+
+    <string name="music_sort_by_hot">Sıcak</string>
+    <string name="music_sort_by_new">Yeni</string>
+
+    <string name="guide11">Video Düzenle</string>
+    <string name="music_fadein_fadeout">Müzik yavaş artma/azalma</string>
+    <string name="music_add_limit_tip">%s şarkıya kadar ekleyebilirsiniz</string>
+
+    <string name="tip_app_upgrad_dialog_title">Yeni Sürüm</string>
+
+    <string name="power_setting_fast">Hızlı Şarj</string>
+    <string name="power_activity_edit">Videoyu Düzenle</string>
+    <string name="power_activity_battery">Pil</string>
+    <string name="power_toast_text">Tekrar açmak için telefonunuzu belirli günlerde şarj edin</string>
+    <string name="power_activity_slide">Açmak için kaydır</string>
+    <string name="power_unlock_succ">Açma Başarılı</string>
+    <string name="power_unlock_pro_material">Bir kez pro materyal açabilirsiniz. Neyi bekliyorsunuz?</string>
+
+    <string name="home_gif_video">Videodan</string>
+    <string name="home_gif_photo">Resimden</string>
+    <string name="add_more_than_50">En fazla 50 klip ekleyin</string>
+    <string name="set_duration_10">En fazla 10s süre belirleyin</string>
+    <string name="select_gif_resolution">Gif çözünürlüğü seçin</string>
+    <string-array name="gif_quality">
+        <item>Düşük Kalite</item>
+        <item>Orta Kalite</item>
+        <item>Yüksek Kalite</item>
+    </string-array>
+
+    <string name="set_duration_1">Süreyi 1s fazla olacak şekilde ayarlayın</string>
+
+    <string name="drag_point_guide">Taşımak için çubuğa tıklayıp basılı tutun. Materyal hareketi takip edecektir.</string>
+    <string name="power_main_activity_1">Hızlı şarjı etkinleştirerek şunu yapabilirsiniz:</string>
+    <string name="power_main_activity_2">1.En popüler videolara ilk önce siz ulaşın\n2.Video düzenlemeye hızlı erişime sahip olun</string>
+
+    <string name="editor_clip_split">Ayır</string>
+    <string name="clip_is_too_short_to_split">Klip ayırmak için çok kısa</string>
+
+    <string name="select_needed_voice_change">Değiştirmek istediğiniz sesi seçin</string>
+    <string name="voice_change_type_man">Erkek</string>
+    <string name="voice_change_type_woman">Kadın</string>
+    <string name="voice_change_type_robot">Robot</string>
+    <string name="voice_change_type_kid">Çocuk</string>
+    <string name="voice_change_type_monster">Canavar</string>
+    <string name="voice_change_done">Ses değiştirildi</string>
+    <string name="click_the_button_set_voice_change">Sesinizi değiştirmek için düğmeye tıklayın.</string>
+    <string name="guide_skip">Atla</string>
+
+    <string name="ads_restore">Geri Yükle</string>
+    <string name="menbership_success">başarı</string>
+    <string name="save_more">%60 İNDİRİM!</string>
+    <string name="vip_buy_materila">Tüm pro malzemeleri ücretsiz kullan</string>
+
+
+    <string name="home_premium">Premium</string>
+
+
+    <string name="remove_ads_checking">Kontrol ediliyor...</string>
+    <string name="remove_ads_checking_succeed">Geri yükleme başarılı</string>
+    <string name="remove_ads_checking_failed">Geri yükleme başarısız</string>
+    <string name="gp_connect_fail_dialog_text_title">Google Play hizmetleri başlatılamadı</string>
+    <string name="gp_connect_fail_dialog_text_1">-Ağ bağlantını kontrol et</string>
+    <string name="gp_connect_fail_dialog_text_2">-Google hesabında oturum açtığından emin ol</string>
+    <string name="gp_connect_fail_dialog_text_3">-Google Play uygulamasını çalıştırdığından emin ol</string>
+
+    <string name="vip_buy_more_new_pro">Daha fazla yeni pro malzemeler düzenli olarak güncellenecektir</string>
+    <string name="clip">Klipler</string>
+
+    <string name="guide12">Özel anlarınızı hazineye dönüştürür</string>
+    <string name="guide21">Altyazılar</string>
+    <string name="guide22">Artistik altyazılar yapmak için çeşitli stiller</string>
+    <string name="guide31">Müzik</string>
+    <string name="guide32">2000+ fazla tamamen lisanslı müzik parçaları</string>
+    <string name="exporting_your_video_1080P">1080P VİDEO DIŞARI AKTARILIYOR...</string>
+    <string name="exporting_your_video">VİDEONUZ DIŞARI AKTARILIYOR...</string>
+    <string name="please_stay_in_this_page">Bu sayfada kalın ve şunu elde edin:</string>
+    <string name="higher_export_speed">Daha yüksek dışarı aktarma hızı</string>
+    <string name="higher_export_success_rates">Daha yüksek dışarı aktarma başarı oranı</string>
+    <string name="quit_exporting_your_video">Videoyu dışarı aktarmayı durdurmak istediğinizden emin misiniz?</string>
+
+    <string name="home_premium_benefits">Premium Avantajlar</string>
+    <string name="home_premium_benefits_tips">Premium Üyeliğinizle tüm özel avantajları elde edin. Daha pek çok premium avantajlar yakında geliyor.</string>
+    <string name="home_premium_month_buy">AYLIK</string>
+    <string name="home_premium_year_buy">YILLIK</string>
+
+
+    <string name="material_unlock">Tüm pro materyallerin kilidini aç</string>
+    <string name="membership_success_dialog_1">TEBRİKLER!</string>
+    <string name="membership_success_dialog_2">Premium üyeliğiniz var!</string>
+
+    <string name="export_video_mode_chooser_gif_tips">GIF Modu</string>
+    <string name="export_video_mode_chooser_1080p_tips">1080p Modu</string>
+    <string name="gif_time_limited">Klip süresini en fazla 30 saniye olarak ayarlayın</string>
+    <string name="gif_incentive">Videoları GIF formatında aktarın</string>
+
+    <string name="gifguru_description_sub_title">Resimlerinizi/videolarınızı GIF\'lere dönüştürmek için GifGuru kullanın</string>
+    <string name="gifguru_description_1">GIF\'e metin, çıkartma ve filtre ekleyin</string>
+    <string name="gifguru_description_2">GIF\'i ileri/geri doğru oynatın ve hızı ayarlayın</string>
+    <string name="gifguru_description_3">Mevcut GIF\'leri yeniden oluşturun</string>
+    <string name="gifguru_description_4">DIY yerine Giphy ile GIF arayın</string>
+    <string name="free_music_pip_shooting_app">Bir sürü filtreli ücretsiz müzik ve PIP resim çekme uygulaması</string>
+    <string name="plenty_amazing_filters">Pek çok harika filtre</string>
+    <string name="creative_funny_pip_frame">Yaratıcı ve eğlenceli PIP karesi</string>
+    <string name="record_videos_with_your_local_songs">Yerel şarkılarınızla videolar kaydedin</string>
+    <string name="simple_dynamic_interface">Basit ve dinamik arayüz</string>
+    <string name="wanna_master_gif">GIF oluşturmada ustalaşmak mı istiyorsunuz?</string>
+    <string name="use_gifguru_turn_video_into_gif">Resimlerinizi/videolarınızı GIF\'e dönüştürmek için GifGuru kullanın.</string>
+    <string name="camera">Kamera</string>
+    <string name="export_lead_facebook">Facebook\'ta bizim gibi ve inanılmaz videolarını dünyaya paylaş.</string>
+
+    <string name="refuse_allow_storage_permission">VideoShow\'un normalde editörü çalıştırmak için fotoğraflara, videolara erişmesi gerekir. Lütfen Depolama iznine izin verin.</string>
+    <string name="refuse_allow_camera_permission">VideoShow\'un bir video çekimi yapmak için telefon kamerasına erişmesi gerekiyor. Lütfen Kamera iznine izin verin.</string>
+    <string name="refuse_allow_audio_permission">VideoShow\'un sesinizi kaydetmek için mikrofona erişmesi gerekiyor. Lütfen Mikrofon iznine izin verin.</string>
+    <string name="allow">izin vermek</string>
+    <string name="refuse">ÇÖP</string>
+    <string name="enable">ENABLE</string>
+    <string name="question_studio_title">Video aktaramıyor musunuz?</string>
+    <string name="question_attention">Dikkat: Bu yöntem tüm taslaklarınızı silecek ve VideoShow\'u sıfırlayacaktır.</string>
+    <string name="question_studio_step">İlk adım: telefonunuzda \'dahili depolama\' bulun.\nİkinci adım: 1videoshow ve .1videoshow klasörünü silin (.1videoshow klasörünü göremiyorsanız, gizli dosyaları göstermek için açmanız gerekir).\nÜçüncü adım: VideoShow\'u başlatın.\nDikkat: başarısız olmanız durumunda tekrar deneyin veya support@enjoy-global.com adresinden bize ulaşın.</string>
+
+
+    <string name="editor_mode_choose_tip">Düzenleme Modunu Seç</string>
+    <string name="editor_mode_pro_title">Uzman Modu</string>
+    <string name="editor_mode_pro_desc_content">Videonuzun her ayrıntısını istediğiniz gibi yapın. Çok kısa sürelerde başyapıtlar yaratabileceksiniz!</string>
+    <string name="editor_mode_easy_speed">Hız</string>
+    <string name="editor_mode_easy_speed_min">Yavaş</string>
+    <string name="editor_mode_easy_speed_max">Hızlı</string>
+    <string name="quick_trim_title">Kırpma</string>
+    <string name="quick_trim_desc_title">Seçili videodan bir klip kırpın veya seçilen videodan bir klip silin.</string>
+    <string name="ultra_cut_title">Kırpma ve birleştirme</string>
+    <string name="ultra_cut_desc_title">Seçili videodan klipleri kırpın ve bu klipleri başka bir videoda birleştirin.</string>
+
+    <string name="home_video_edit">Videoyu düzenle</string>
+    <string name="home_slideshow">Slaytlar oluştur</string>
+    <string name="home_shoot">Ateş etme</string>
+    <string name="home_featured_app">Öne çıkan</string>
+    <string name="home_gifguru">Gif yapın</string>
+    <string name="home_my_studio_text">Taslaklarım</string>
+    <string name="my_studio_more">Videolarım ></string>
+    <string name="my_studio_no_video_yet">Henüz bir video oluşturulmadı</string>
+    <string name="my_studio_create_one">Şimdi oluştur</string>
+    <string name="tools">Araçlar</string>
+    <string name="home_trim">Kırp</string>
+    <string name="home_compress">Kompres</string>
+    <string name="home_mp3">Video to audio</string>
+    <string name="home_camera">PIP</string>
+    <string name="home_transcode">Dönüştürmek</string>
+    <string name="selected_materials">Öne Çıkan Temalar</string>
+    <string name="more">Daha ></string>
+    <string name="help">Yardım</string>
+    <string name="like_us">Geri bildirim</string>
+    <string name="faq">SSS</string>
+    <string name="video_to_gif">Gif\'e Video</string>
+    <string name="beautify">Düzenle</string>
+
+    <string name="editor_mode_easy_title">Müzik Modu</string>
+    <string name="editor_mode_easy_desc_title">Başlatmak için burayı tıklatın ></string>
+    <string name="editor_mode_easy_desc_content">Fotoğrafları otomatik olarak müzik ritmiyle değiştir. % 92 kullanıcı kesinlikle öneririz.</string>
+
+    <string name="face_material_title">İndirilen çıkartmalar</string>
+    <string name="face_material_select_all">Hepsini seç</string>
+    <string name="vip_buy_face_pro">Pro yüz etiketlerini kullanın</string>
+    <string name="set_face_resolution_info">Çekim çözünürlüğü ayarı</string>
+    <string name="purchase">ALIM</string>
+    <string name="next_make_video_editorchoose">Sonraki</string>
+    <string name="exceed_cliplimit_video">Daha fazla video eklenemez</string>
+    <string name="select_allitem_editorchoose">Yükleniyor...</string>
+    <string name="pupumenu_select_type_title">Göre sırala</string>
+    <string name="pupumenu_select_type_date">Date</string>
+    <string name="pupumenu_select_type_name">Name</string>
+    <string name="pupumenu_select_type_ascending">Yükselen</string>
+    <string name="pupumenu_select_type_dscending">Azalan</string>
+    <string name="long_touch_to_move_position">Tutun ve yeniden sıralamak için sürükleyin</string>
+    <string name="manual_search">Daha fazla klip bulmak için tıklayın</string>
+    <string name="operation_no_reminder">Tekrar gösterme</string>
+    <string name="mosaic">Mozaik</string>
+    <string name="vip_buy_mosaic">Mozaik fonksiyonunu kullan</string>
+
+    <string name="toolbox_sound_effect">Ses Efekti</string>
+    <string name="editor_draw_title">Doodle ekle</string>
+    <string name="editor_draw">Doodle</string>
+
+    <string name="voice_change_click_tips">Önce sesi kaydetmelisin</string>
+    <string name="draw_sticker_tab_0">Renk</string>
+    <string name="draw_sticker_tab_1">Kalem</string>
+    <string name="draw_sticker_tab_2">Silgi</string>
+    <string name="draw_sticker_tab_3">İptal</string>
+    <string name="draw_sticker_tab_4">Kurtarmak</string>
+    <string name="main_shoot_new">Süper Kamera</string>
+    <string name="shoot_image_compress_tips">Yalnızca videolar sıkıştırılabilir</string>
+    <string name="trim_mode">Trim</string>
+    <string name="export_mode">İhracat</string>
+    <string name="trim_select_part">Seçilen parçayı trim</string>
+    <string name="delete_select_part">Seçilen parçası Sil</string>
+    <string name="new_file">Yeni dosya oluştur</string>
+    <string name="cover_origin_file">Dosyanın üzerine yazın</string>
+    <string name="default_setting">Varsayılan ayarları</string>
+    <string name="click_here_modify_default_setting">Varsayılan ayarları burada değiştir</string>
+
+    <string name="sort_activity_tag_restore">Varsayılana döndür</string>
+    <string name="sort_activity_tag_normal">Normal</string>
+    <string name="tips_editor_tab_window">Altyazılar, çıkartmalar, efektler</string>
+    <string name="tool_bar_sort_title">Sınıflandırma</string>
+
+
+    <string name="text_refuse_premission">V Recorder’ın ses kaydı yapması için mikrofon iznine ihtiyacı var, lütfen mikrofon izinlerini etkinleştir</string>
+    <string name="text_premission_allow">İZİN VER</string>
+    <string name="dialog_cancle_text">İPTAL</string>
+    <string name="string_notification_stop_recording">Kaydediliyor</string>
+    <string name="string_notification_stop_tap">Kaydı durdurmak için buraya dokun</string>
+    <string name="string_notification_start_recording">V Recorder hazır</string>
+    <string name="string_notification_start_tap">Kayda başlamak için buraya dokun</string>
+    <string name="string_video_setting">Video Ayarları</string>
+    <string name="string_video_resolution">Video Çözünürlüğü</string>
+    <string name="string_video_quality">Video Kalitesi</string>
+    <string name="string_video_fps">FPS</string>
+    <string name="string_record_audio">Ses Kaydet</string>
+    <string name="string_video_record_audio_turn_on">Dış ses kaydetmek için aç. Android’de iç ses kaydına izin verilmiyor.</string>
+    <string name="string_video_hide_the_window">Kayıt sırasında kayıt penceresini gizle</string>
+    <string name="string_video_terms_privary">Şartlar ve Gizlilik</string>
+    <string name="string_allow_notification_text">Lütfen uygulamanın düzgün ve sürekli çalışmasını sağlamak için V Recorder’ın bildirimlerine izin ver</string>
+    <string name="string_allow_notification_ok_text">TAMAM</string>
+    <string name="string_video_v_recorder_text">V Recorder</string>
+    <string name="string_the_video_deleted_text">Video silinmiş veya zarar görmüş</string>
+    <string name="string_low_storage_text">Düşük bellek. Lütfen önce telefon belleğini boşalt</string>
+    <string name="string_recoeding_is_finished_text">Kayıt tamamlandı</string>
+    <string name="string_record_text">Kayıt</string>
+    <string name="stirng_home_text">Ana Sayfa</string>
+    <string name="string_exit_text">Çık</string>
+    <string name="string_facebook_is_uninstalled_text">yüklü değil</string>
+    <string name="string_video_orientation_text">Video Yönelimi</string>
+    <string name="string_low_battery_text">Düşük pil. Veri kaybı durumunda telefon piline dikkat et</string>
+    <string name="string_unsupported_resolution_text">Bu telefon için çözünürlük desteklenmiyor</string>
+    <string name="string_portrait">Dikey</string>
+    <string name="string_landscape">Yatay</string>
+    <string name="string_needs_storage">Kaydedilen videoları saklamak için V Recorder’ın fotoğraf, medya ve dosyalarına erişmesi gerekiyor</string>
+    <string name="string_no_recorded_vidoe">Kaydedilmiş video yok</string>
+    <string name="string_repair_system_ui_carsh_text">Sistem UI Çökmesini Onar</string>
+    <string name="string_systen_ui_carsh_reason_text">İzni onayla ve sistem UI sorununu düzeltmeye çalış</string>
+    <string name="string_video_item_share_text">Paylaş</string>
+    <string name="are_you_sure_exit_tips">Bu sayfadan çıkarsanız, videonuz kaydedilmeyecek!</string>
+
+    <string name="guide_loating_window_instructions">Kayan pencere talimatları</string>
+    <string name="guide_loating_window_recorder">Kaydedici</string>
+    <string name="guide_loating_window_video">Video</string>
+    <string name="guide_loating_window_close">Kayan pencereleri kapat</string>
+    <string name="guide_notification_panel_close">Bildirim paneli</string>
+    <string name="guide_notification_panel_recorder">Kayıt işlemini kontrol etmek için bildirim panelini de kullanabilirsin</string>
+
+    <string name="dialog_rate_us_feed_back">Görüş</string>
+    <string name="dialog_rate_us_feed_back_content">Görüşleriniz bizim için çok faydalı.</string>
+    <string name="dialog_rate_us_feed_back1">Tasarım hoşuma gitmedi</string>
+    <string name="dialog_rate_us_feed_back2">İhtiyacım olan fonksiyonları yok</string>
+    <string name="dialog_rate_us_feed_back3">Kullanımı kolay değil</string>
+    <string name="dialog_rate_us_feed_back4">Bazı hatalar var</string>
+    <string name="dialog_rate_us_feed_back5">Çeviri çok kötü</string>
+    <string name="dialog_rate_us_feed_back_suc">Önerileriniz çok faydalı!</string>
+    <string name="dialog_rate_us_feed_back_suc_thank">Teşekkürler!</string>
+    <string name="dialog_rate_us_submit">Gönder</string>
+
+    <string name="recording_change_setting_toast">Kayıt sırasında video bilgisi değiştirme desteklenmiyor.</string>
+    <string name="setting_video_location">Video Konumu</string>
+    <string name="setting_countdown">Gerisayım</string>
+    <string name="setting_countdow_0s">Geri sayım yok</string>
+    <string name="setting_countdow_3s">3s</string>
+    <string name="setting_countdow_5s">5s</string>
+    <string name="setting_countdow_10s">10s</string>
+    <string name="edit_format_error">Bu dosya biçimiyle video düzenleme desteklenmiyor</string>
+    <string name="play_large_error">Video kaynağı oynatmayı desteklemek için çok büyük</string>
+
+    <string name="watermark_title">Filigran</string>
+    <string name="string_watermark_desc">Filigran kaydedilmiş videoda gösterilir</string>
+    <string name="cant_config_watermark_when_recording">Kayıt sırasında filigran yapılandırması değiştirilemez.</string>
+    <string name="string_vip_privilege_success">Zaten bir V Recorder VIP üyesisiniz.</string>
+    <string name="string_vip_buy_success">Satın alma başarılı!</string>
+    <string name="string_vip_keep_title">Ücretsiz Denemeden gerçekten çıkmak istiyor musunuz?</string>
+    <string name="string_vip_keep_content">Aşağıdaki premium özellikler şimdi ücretsiz denenebilir. Dilediğiniz zaman iptal edebilirsiniz.</string>
+    <string name="string_vip_keep_time_title">Sürpriz İndirim!</string>
+    <string name="string_vip_privilege">VIP Ayrıcalığı</string>
+    <string name="string_vip_privilege_1080">1080P HD Kayıt</string>
+    <string name="string_vip_privilege_no_water">Filigransız</string>
+    <string name="string_vip_privilege_no_ads">Reklamsız</string>
+    <string name="string_vip_privilege_trim">Video Kırp</string>
+    <string name="string_vip_privilege_pro_materials">1000+ Fazla Materyal</string>
+    <string name="string_vip_privilege_more">Daha Fazla Özellik</string>
+    <string name="string_vip_privilege_one_month">Aylık:</string>
+    <string name="string_vip_privilege_free_new">Yeni Kullanıcılar için Ücretsiz</string>
+    <string name="string_vip_buy_year_des">3 günlük ücretsiz deneme, daha sonra   %1$s / yıl fiyatla abone olabilirsiniz.</string>
+    <string name="string_vip_buy_month_des">3 gün ücretsiz deneme süresi, sonra abone olun %1$s/ ay</string>
+
+    <string name="string_vip_privilege_free">DEVAM ET</string>
+
+    <string name="float_permission_tips">Lütfen uygulamanın düzgün çalışmasını sağlamak için V Recorder’ın diğer uygulamaları açmasına izin ver.</string>
+    <string name="orientation_auto">Oto.</string>
+    <string name="sd_permission_msg">Lütfen sonraki ekranda harici depolama alanında \"%1$s\"
+    kök dizin seç ve uygulamaya yazma erişim izni vermek için Seçim düğmesine
+    Android 5.0 Lollipop sürümünden başlayarak, Android güvenlik politikası nedeniyle
+    uygulamaya yazma izinleri verilmemişse harici depolama alanında yapılan değişiklikler ve dosyalar silinemez veya yeniden adlandırılamaz.</string>
+    <string name="sd_permission">Erişim İzni</string>
+    <string name="available">mevcut</string>
+    <string name="default_save_path_name">Varsayılan</string>
+    <string name="cant_change_path_when_recording">Kayıt yapılırken video kayıt yolu değiştirilemez.</string>
+    <string name="caution">Dikkat</string>
+    <string name="uninstall_app_hint_for_video">V Recorder kaldırıldığında SD Kartta kaydedilen videolar silinecektir.</string>
+    <string name="sd_card_change_tip">SD Kart bulunamadı, dahili depolama alanına kaydedildi.</string>
+    <string name="string_video_shake_stop_record">Kaydı durdurmak için telefonu salla</string>
+    <string name="floating_window_camera">Kamera</string>
+    <string name="string_record_success_nowatermark">Filigransız kayıt yapın</string>
+    <string name="string_record_success_nowatermark_button">Ücretsiz Deneyin</string>
+
+    <string name="string_no_screen_capture_image">Hiç Uygun Görsel Yok</string>
+    <string name="string_screen_captured_succuss">Ekran görüntüsü alındı</string>
+    <string name="string_screen_captured_look">Kontrol et</string>
+    <string name="string_click_to_loook_screen_captured">Ekran görüntüsünü görmek için buraya dokunun.</string>
+    <string name="string_the_image_deleted_text">Görsel silindi veya bozuk.</string>
+    <string name="string_image_deleted_succuss">Görsel başarıyla silindi.</string>
+    <string name="brush">Fırça</string>
+
+    <string name="rate_us_content">Beş yıldız Google Play\'de en iyisi demek</string>
+
+    <string name="string_setting_about_us">Hakkında</string>
+    <string name="home_vip_banner_string"> Filigransız &amp; Reklamsız </string>
+    <string name="rate_quest_content">Uygulamayı daha iyi hale getirmeye çalışıyoruz! Bize 5 yıldız puan vermek ister misiniz?</string>
+
+
+    <string name="permission_title"> izin </string>
+    <string name="permission_camera_msg"> Bu işlev Kamera Erişim İzni gerektirir. Lütfen açın ve tekrar deneyin.</string>
+
+    <string name="str_vip_unlock_compress">ÜcretsizSıkıştırınKilidiniAç</string>
+    <string name="str_vip_unlock_trim">Ücretsiz Trim VideolarıKilidiniAç</string>
+    <string name="str_vip_guide_desc_clip"> VIP ayrıcalıklarınıgörüntüle</string>
+    <string name="str_vip_try_free"> 3 günücretsizdeneyin</string>
+    <string name="str_video_screen_off_continue_recording">Ekrankapalıykenkaydadevam et </string>
+    <string name="str_vip_unlock_compress_desc"> VIP
+        ayrıcalığınıücretsizdenemekiçinCompress.Click\'ikullanmakistiyorsanız. </string>
+    <string name="str_vip_unlock_trim_desc"> Trim Videos\'ukullanmakistiyorsanız, VIP
+        ayrıcalığınıücretsizdenemekiçintıklayın. </string>
+    <string name = "feedback_submit_tip">Aldığımızgeribildirimleriniz, desteğiniziçinteşekkür ederiz</string>
+    <string name = "feedback_edit_hint"> Geri bildiriminizibekliyoruz</string>
+
+
+    <string name = "kullanma"> kullanımda </string>
+    <string name = "application">uygulama</string>
+    <string name = "theme_apply_success">tema başarıyla uygulandı</string>
+    <string name = "free"> Ücretsiz </string>
+
+    <string name = "clip_zone_clip">Kırpma</string>
+
+    <string name = "record_tools">Kayıtaraçları</string>
+    <string name = "float_screen_shoot">EkranGörüntüsü</string>
+
+    <string name="unlock_pro_privilege_watch_video_ad">Bu VIP izninin kilidini açmak için videoyu bir kez izleyin</string>
+    <string name="unlock_pro_privilege_tips">VIP ayrıcalığının kilidi açıldı</string>
+    <string name="unlock_pro_privilege_btn_str">BEDAVA KİLİT AÇMA</string>
+</resources>
+

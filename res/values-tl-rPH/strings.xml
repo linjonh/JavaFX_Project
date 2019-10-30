@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+
+    <string name="app_name">VideoShow</string>
+    <string name="effectnone">Wala</string>
+    <string name="rename">Bigyan muli ng pangalan</string>
+    <string name="delete">Alisin</string>
+    <string name="ok">Alisin</string>
+    <string name="cpunotcompatible">Paumanhin, ang arkitektura ng CPU ay hindi tugma sa app. Aayusin namin ang problemang ito sa lalong madaling panahon</string>
+
+    <string-array name="video_dialog_message">
+        <item>Prebiyu</item>
+        <item>I-edit ang video</item>
+        <item>Ibahagi</item>
+        <item>Alisin</item>
+        <item>Bigyan muli ng pangalan</item>
+        <item>Mga detalye</item>
+    </string-array>
+    <string-array name="audio_dialog_message">
+        <item>Prebiyu</item>
+        <item>Ibahagi</item>
+        <item>Alisin</item>
+        <item>Bigyan muli ng pangalan</item>
+        <item>Mga detalye</item>
+    </string-array>
+    <string-array name="picture_dialog_message">
+        <item>Ipakita</item>
+        <item>Ibahagi</item>
+        <item>Alisin</item>
+        <item>Bigyan muli ng pangalan</item>
+        <item>Mga detalye</item>
+    </string-array>
+
+    <string name="no_write">Walang permiso para isulat ang file na ito</string>
+    <string name="input_cannot_empty">Ang input ay hindi maaaring walang laman</string>
+    <string name="rename_success">Pagpalit ng pangalan ay matagumpay!</string>
+    <string name="rename_fail">Pagpalit ng pangalan ay hindi matagumpay!</string>
+    <string name="sure_delete">Ayos</string>
+    <string name="sure_delete_file">Sigurado ka sa pag-aalis?</string>
+    <string name="detail">Impormasyon ng medya</string>
+    <string name="file_name">Pangalan:</string>
+    <string name="file_path">Daan: </string>
+    <string name="sure">Ayos</string>
+    <string name="cancel">Kansela</string>
+    <string name="sure_update">Magagamit na ang bagong bersiyon, mag-update ngayon?</string>
+    <string name="sure_update_info1">Bagong Bersiyon:</string>
+
+    <!-- Home directory -->
+    <string name="about">Tungkol sa</string>
+    <string name="setting">Mga Settng</string>
+    <!-- Recommended application -->
+    <!-- Output directory -->
+
+    <string name="dialog_yes">OO</string>
+    <string name="dialog_no">HINDI</string>
+    <string name="buy_pro_tip_content_new">1. Walang mga ad\n2. Suportahan ang pag-export ng 1080p na mga video  \n3. Eksklusibong mga materyal\n4. Suportahan ang pag-import ng 4K na video\n5. Walang VideoShow na watermark \n6. Magdagdag ng hanggang sa 20 effect\n7. Walang limitasyon ang haba ng pag-reverse</string>
+    <string name="vip_buy_add_up_to_effects">Magdagdag ng hanggang sa 20 effect</string>
+    <string name="vip_buy_no_reverse_duration_limit">Walang limitasyon ang haba ng pag-reverse</string>
+    <string name="vip_buy_iwatermark">Alisin ang VideoShow na watermark</string>
+    <string name="please_add_gif_by_gif">Pakidagdag ang gif sa pamamagitan ng Gif function sa ilalim ng I-edit na tab.</string>
+    <string name="opacity">Opacity</string>
+    <string name="use_auto_fx_values">Gamitin ang mga filter nang ramdom sa lahat ng clip</string>
+    <string name="use_auto_tr_values">Gamitin ang mga transisyon nang ramdom sa lahat ng clip</string>
+
+    <!-- Select video -->
+    <string name="Browser">Browse ng file</string>
+    <!-- Video editor -->
+    <string name="editor">Patnugot</string>
+    <string name="editor_trim">Pantayin</string>
+    <string name="editor_fx">Mga Epekto</string>
+    <string name="editor_text_info2">Mangyaring maglagay ng pangalawang pamagat</string>
+    <string name="editor_text_dialog_title">Mga tip</string>
+    <string name="nomusic_info">Walang makitang musika</string>
+    <string name="too_big_video">Masyadong malaking Resolusyon ng Video para sa pag-edit ng Video</string>
+    <string name="unvailable_sd">Ang Sdcard ay kasalukuyang hindi pwede!</string>
+    <string name="error_sd">Hindi mapasok ang Sdcard!</string>
+    <string name="unvailable_video">Di-wastong video landas!</string>
+    <string name="openvideo_error">Hindi matagumpay sa pagbukas ng video</string>
+
+    <string name="switch2background">Lumipat sa gawain sa likod.\n Mangyaring huwag magpatakbo ng mga programang gumagamit ng maraming memorya(web,browser,video player), para ma-iwasan ang pagkamatay ng proseso sa transcoding</string>
+    <string name="editor_fx_info">Pagtakda sa salaan matagumpay</string>
+    <string name="invalid_param">Hindi wastong parametro sa pag-edit!</string>
+    <string name="merge_toomany">Pagsasama ng Video, payag sa hindi hihigit sa 5 mga video</string>
+
+    <!-- Split -->
+    <!-- Merge -->
+    <string name="merge_info">Mga parametro sa video hindi naaalinsunod, hindi mapagsama</string>
+    <!-- Grab -->
+    <!-- Export dialog -->
+    <string name="export_info">Walang mga pagbabago sa lahat</string>
+    <string name="export_output_set">Mga setting sa daan sa pagluwas ng video</string>
+    <string name="export_output_title">Nagluluwas...</string>
+    <string name="export_output_stop">Tigilan ang Pagluluwas</string>
+    <string name="export_output_bg">Magpatakano sa likod</string>
+    <string name="export_output_init">Pinasimulan...</string>
+    <string name="export_output_success">Pagluluwas matagumpay</string>
+    <string name="export_output_faild">Pagluluwas hindi matagumpay</string>
+    <string name="export_outofmemory">Hindi sapat na memorya. Mangyaring linisin ang memorya at subukan muli</string>
+
+    <!-- About -->
+    <string name="about_info1">VideoShow </string>
+    <string name="about_info3">VideoShow ay nagbibigay sa mga gumagamit ng magandang karanasan sa pag-edit ng video. Sa maliliit na mga operasyon, makakadagdag kana ng mga napakagandang mga epekto sa iyong mga video.\n\n Kung meron kang mga tanong og suhestion, mangyaring kumontak sa amin sa support@enjoy-global.com</string>
+
+    <!-- 指南 -->
+    <string name="guide">Moda sa Paggabay</string>
+
+    <!-- 设置 -->
+    <string name="set_quality_info1">Setting sa Kalidad ng Video</string>
+
+    <string-array name="set_path_list">
+        <item>I-save sa memorya ng phone</item>
+        <item>I-save sa panlabas na memorya</item>
+    </string-array>
+
+    <string name="set_l_info2">I-update</string>
+    <string name="set_l_info3">Tungkol sa</string>
+    <!-- 分享 -->
+    <string name="share">Ibahagi</string>
+    <string name="share_info3">Youtube</string>
+    <string name="share_info5">Marami</string>
+    <string name="share_info6">Hindi naka-install ang iyong phone sa aplikasyon, magdownload?</string>
+
+    <string-array name="trim_option_dialog_message">
+        <item>Pantayin</item>
+        <item>Tanggalin ang Mga Piniling Bahagi</item>
+    </string-array>
+
+    <string name="main_mp3">Video sa MP3</string>
+    <string name="feedback">feedback</string>
+
+    <!-- 2.0 add image -->
+    <string name="addimg_delete_info">Mag-iwan ng hindi bababa sa isang clip</string>
+    <string name="addimg_ok_info">Pumili ng isa clip ng hindi bababa sa</string>
+    <string name="exceed_cliplimit">Nakahilig magdagdag ng higit pang mga clip</string>
+    <string name="chooseclip">Mga napiling clip</string>
+    <string name="choose_a_clip">piliin clip</string>
+    <string name="pressagain_stopexport">Pindutin muli upang lumabas sa pag-export. Hindi mase-save I-edit ang proyekto</string>
+    <string name="unregnizeformat">Di-kilalang uri ng file</string>
+    <string name="loading">Naglo-load ...</string>
+
+    <!-- 2.1 -->
+    <string name="custom_dialog_info1">Gawing slideshow</string>
+    <string name="custom_dialog_info2">Gumawa ng video</string>
+    <string name="share_info_error">Hindi matagumpay na ibahagi ang video sa iyong aparato. Aayusin namin ito sa lalong madaling panahon</string>
+    <string name="share_info_Instagram">Instagram</string>
+    <string name="setting_pay">Bumili bersyon Pro</string>
+    <string name="cpunotcompatible2">Paumanhin, hindi mahanap ang runtime library. Ang dahilan marahil hindi tugma arkitektura o hindi sapat na laki ROM. I-uninstall ang ilang apps at pagkatapos ay subukang i-install muli VideoShow</string>
+    <string name="settingg_share_friend">Sabihin sa isang kaibigan</string>
+    <string name="settingg_share_friend_title">VideoShow - Video Editor</string>
+    <string name="settingg_share_friend_text"> Tingnan ang video editor application, VideoShow, Ito ay medyo cool! https://play.google.com/store/apps/details?id=com.xvideostudio.videoeditor</string>
+    <string name="pro_bt_info1">Ipaalala sa akin mamaya</string>
+    <string name="pro_bt_info2">Hindi, Salamat</string>
+
+    <!-- Record -->
+    <string name="voice_info1">mangyaring Ihinto ang pag-playback</string>
+
+    <string name="input_invalid">Hindi wastong input</string>
+    <string name="editor_trim_duration">tagal</string>
+    <string name="invalid_volume_setting1">Hindi mo maaaring itakda ang mute ng musika!</string>
+    <string name="unsupport_audio_format">Hindi suportado audio format!</string>
+    <string name="share_info_weibo">Weibo</string>
+    <string name="noenough_space_ex">Ay walang sapat na espasyo Panlabas na memory card. mangyaring magtanggal ng ilang mga hindi nagamit na mga file</string>
+    <string name="changelog_title">VideoShow Change log</string>
+    <string name="mp4_noaudio_notsupport">Paumanhin, video nang walang audio track ay hindi suportado sa kasalukuyan</string>
+    <string name="editor_text_dialog_options">opsyon</string>
+    <string name="quick_export_sigle_video">Simulan ang pag-export na may mabilis na mode ... Dapat kailangan sumusunod na mga kundisyon: \n1. Magdagdag ng musika sa isa sa video na \n2. Mag-record ng boses sa isang video</string>
+    <string name="add_share_tag_tip">I-tag ang iyong video #videoshowapp, ikaw ay napansin sa pamamagitan ng higit pang mga tao</string>
+    <string name="share_clipboard_copy_tip">Kinopya sa clipboard</string>
+    <string name="draftbox_is_null">Draft ay walang laman</string>
+    <string name="confirm_exit_editor">Sigurado ka bang upang lumabas sa pag-edit?</string>
+    <string name="stop_exporting_video_tip">Pindutin muli upang lumabas sa pag-export. maaari ka ring magpatuloy na mag-edit sa Draft</string>
+    <string name="editor_fx_type_none">None</string>
+    <string name="editor_fx_type_sketch">Sketch</string>
+    <string name="editor_fx_type_georgia">Georgia</string>
+    <string name="editor_fx_type_polaroid">Polaroid</string>
+    <string name="editor_fx_type_sahara">Sahara</string>
+    <string name="editor_fx_type_sepia">Sepia</string>
+    <string name="editor_fx_type_recho">Retro</string>
+
+    <string-array name="draftbox_dialog_message">
+        <item>magpatuloy sa pag-edit</item>
+        <item>alisin</item>
+    </string-array>
+
+    <string name="ad_mode_tip">Videoshow ay halos libre para sa paggamit, kaya advertisement ay kinakailangan upang magpatuloy ang trabaho, lubos naming pinapahalagahan ang iyong pag-unawa. Sa iyong suporta, gagawin namin ang higit pa perpekto ang app!</string>
+
+    <string-array name="studio_tab_title">
+        <item>AKING DRAFT</item>
+        <item>AKING MGA GAWA</item>
+    </string-array>
+
+    <string name="home_adv_edit">i-edit ang video</string>
+    <string name="home_my_studio">Aking Studio</string>
+    <string name="setting_language">Mga Setting ng Wika</string>
+    <string name="setting_language_auto">awtomatik</string>
+    <string name="setting_language_english">English</string>
+    <string name="facebook_copyright_tip">May napaka-mahigpit na proteksyon ng copyright Facebook. Pagdaragdag ng musika nang walang mga copyright ay maaaring maging sanhi ng iyong video upang matanggal. Pakitandaan.</string>
+
+    <string name="export_output_muxer_tip">Rendering...</string>
+    <string name="share_more_dialog_title">Ibahagi ang Video</string>
+    <string name="export_not_enough_space_change_config_tip_sd_udisk">memorya ng telepono ay walang sapat na espasyo, na lumipat sa mga panlabas na memory card at magpatuloy upang i-export</string>
+    <string name="export_not_enough_space_change_config_tip_udisk_sd">panlabas na memory card ay walang sapat na espasyo, na lumipat sa memorya ng telepono at magpatuloy upang i-export</string>
+    <string name="sd_permission_invalid">Paumanhin, videoshow ay hindi pinapahintulutan upang i-save ang video sa memory card. pakitiyak memory card ay writable</string>
+    <string name="editor_exit_title">Pagkumpirma</string>
+    <string name="app_exit_toast_tips">pindutin muli upang lumabas</string>
+    <string name="setting_help_info">FAQ</string>
+    <string name="paintpad_no_operation">You did not draw anything</string>
+    <string name="paintdraft_saving">Saving picture...</string>
+    <string name="editor_select_clips">Gallery</string>
+    <string name="emoji_no_recent">You have not used any sticker</string>
+    <string name="changelog_setting">Change Log</string>
+    <string name="editor_save_export">I-save</string>
+    <string name="export_output_showtips">(Please keep running in the foreground.  "Background run" will be supported soon)</string>
+    <string name="export_mode_manual">Manual mode</string>
+    <string name="export_mode_fast">Fast Mode</string>
+    <string name="export_mode_hd">HD Mode</string>
+    <string name="use_current_values">Ilagay ang effect na ito sa lahat ng clip</string>
+    <string name="clear_all_values">Alisin ang mga filter mula sa lahat ng clip</string>
+    <string name="editor_title_trans"> Pagbabago </string>
+    <string name="editor_sticker"> Etiketa </string>
+    <string name="music_preload"> Preloading </string>
+    <string name="music_my_local"> Aking musika </string>
+
+    <string name="guide_start"> Simula </string>
+    <string name="use_localapp_select_musicfile"> Gamitin iba pang app na pumili musika </string>
+    <string name="voice_info10"> Video </string>
+    <string name="voice_info11"> Musika </string>
+    <string name="volume_setting"> Musika setting </string>
+    <string name="open_loop"> Loop ng pag-play </string>
+    <string name="setting_attention_us"> Sundin kami </string>
+    <string name="material_free_price"> libre </string>
+    <string name="network_bad"> Suriin ang koneksyon at subukan uli </string>
+    <string name="download_sd_full_fail"> Memorya kard ay puno na. Pakialis ang ilang file </string>
+    <string name="material_downlaod_state">Download</string>
+    <string name="material_updtae_state">Update</string>
+    <string name="material_downlaoding_state"> Download ng mga </string>
+    <string name="material_pause_state"> Tumigil sandali </string>
+    <string name="download_fail_try_again"> Mabigo download, pakisubukang muli </string>
+    <string name="setting_push_message"> Abiso </string>
+    <string name="download_so_tips"> Kailangan mong patakbuhin ang application bago mo i-download ang APP. Simulan ang pag-download? </string>
+    <string name="firstclip_noSupport"> Hindi maaaring itakda ang unang clip transition </string>
+    <string name="editor_theme_type_fade">Fade out</string>
+    <string name="setting_edit_mode">Piliin ang edit mode</string>
+    <string name="setting_edit_mode_manually">Manual na setting</string>
+    <string name="setting_edit_mode_crop">Gupitin para ilagay</string>
+    <string name="setting_edit_mode_fit">Ilapat sa frame</string>
+    <string name="timeline_not_space">Kailangan mo ng 0.5s na ispasyo para magdagdag ng bagong item</string>
+    <string name="record_completed">Ayos ang rekord</string>
+    <string name="record_too_short">Hindi ka maaaring mag-rekord nang mas mababa sa 1 segundo</string>
+    <string name="video_mute_tip">Inalis ang tunog ng video </string>
+    <string name="music_time_short">ang oras ng musika ay dapat mahigit sa 1 segundo</string>
+    <string name="create_video_file_failed">hindi gumana ang init app, pakitingnan na na-load ang SD card!</string>
+    <string name="clips_all">Lahat</string>
+    <string name="clips_video">Video</string>
+    <string name="clips_photo">Litrato</string>
+    <string name="toast_voice_non_drag_tips">Hindi mababago ang haba ng boses</string>
+    <string name="editor_fx_type_japanstyle">Malumanay</string>
+    <string name="editor_fx_type_oldphoto">OldBooth</string>
+    <string name="editor_fx_type_standardemboss">Nakaumbok</string>
+    <string name="editor_fx_type_pink">Kulay-rosas</string>
+    <string name="editor_fx_type_hdr">HDR</string>
+    <string name="set_video_background">kulay ng background ng bidyo</string>
+    <string name="setting_video_background_gause">malabo</string>
+    <string name="setting_video_background_white">puti</string>
+    <string name="setting_video_background_black">itim</string>
+    <string name="setting_app">Mga Setting ng Aplikasyon</string>
+    <string name="editor_clip_zoom">I-zoom</string>
+    <string name="editor_clip_copy">Kopyahin</string>
+    <string name="music_history">Kasaysayan</string>
+    <string name="no_music_history">Wala pang musika</string>
+    <string name="toolbox_theme">Tema</string>
+    <string name="toolbox_fx">Pagsasala</string>
+    <string name="toolbox_music">Musika</string>
+    <string name="toolbox_text">Subtitulo</string>
+    <string name="toolbox_clip_edit">Pag-edit ng Clip</string>
+    <string name="setting_all_clip_duration">Tagalnglahatnglarawan</string>
+    <string name="setting_one_clip_duration">Tagalngisanglarawan</string>
+    <string name="editor_addclip">Magdagdagng clip</string>
+    <string name="sort_method">Paraanngpagsasaayos</string>
+
+    <!-- 视频设置页面 -->
+    <string name="video_setting">Mga setting</string>
+
+    <!-- 2015-03-25新内置音乐 -->
+    <string name="inside_music_copyright_info2">Binibili ang mga copyright ng musika, pero gagamitin lang ang mga ito para sa personal na trabaho, hindi para sa komersyal na mga layunin.</string>
+    <string name="double_finger_to_zoom">I-swipe ang screen gamitangdalawangdaliripara mag-zoom.</string>
+    <string name="clip_null_tips">Mangyaringmagdagdagngmga clip</string>
+    <string name="disallow_record_tips">Mangyaringpumuntasa "Setting ngPahintulot" at pahintulutanangVideoshowpara i-record </string>
+    <string name="audio_exception">angboses</string>
+    <string name="app_pro_version">VideoShow Pro</string>
+    <string name="clip_duration">tagalnglarawan: </string>
+
+    <!-- 视频设置页面调整字符串 -->
+    <string name="setting_purchase">Pamimili</string>
+    <string name="add_video_format">Hindi suportadonguring media </string>
+
+    <string-array name="home_tab_title_new">
+        <item>Home</item>
+        <item>Inspirasyon</item>
+        <item>Mungkahi</item>
+        <!-- <item>Kamakailanlamang</item> -->
+    </string-array>
+
+    <string name="should_retain_one_clip">Mangyaring mag-iwannghigitsaisangclip! </string>
+    <string name="music_preload_loacal">Aking musika</string>
+    <string name="dialog_duration_more_setting_tip">Ang haba ng panahon ay dapat hindi lalagpas ng 3600 segundo o bababa ng 0.2 segundo!</string>
+    <string name="material_new_shop_title">Material Center</string>
+    <string name="material_new_sticker_down">Sticker</string>
+    <string name="setting_updateto_normal_version">Mag-upgrade sa opisyal na bersyon ng VideoShow</string>
+    <string name="setting_updateto_normal_version_title">Opisyal na bersyon ng VideoShow</string>
+    <string name="setting_updateto_normal_version_content">Ito ay lab version ng Videoshow. Maaari mong gamitin ang pinakahuling mga tampok nang mas maaga. Kung nais mo nang mas siguradong bersyon, Maaaring mas makabubuti kung Videoshow MR (Maintenance Release) ang gagamitin.</string>
+    <string name="setting_updateto_normal_version_ok">Mag-upgrade</string>
+    <string name="import_gif_width_limit">Masyadong malaki ang Gif na ini-import mo o isa itong hindi sinusuportahang format.</string>
+    <string name="start_make_video_editorchoose">Magsimula </string>
+    <string name="pro_function_dialog_content">Sa ngayon, ang iyong VideoShow ay isang libreng bersyon. At naglabas kami ng Pro VideoShow. Kung gusto mo ang aming app, maaari mong bilhin ang Pro version upang suportahan ang aming team. At may ilang naiibang feature ang Pro version：\n\n1.Walang mga ad\n2.Maaari kang mag-download ng mga eksklusibong materyal para sa Pro user.  \n3.Sinusuportahan ang 4K na video</string>
+    <string name="add_font_tip_title">Paano magdagdag ng mas maraming font</string>
+    <string name="add_font_tip_content">Kopyahin ang file ng font (.ttf o.otf na format),at pagkatapos ay i-paste sa folder na \n\n sdcard/1videoshow/fonts/</string>
+    <string name="choose_4k_buypro_title">Masyadong malaki ang video</string>
+    <string name="loading_shuffle_ad_toast">Nilo-load ngayon, mangyaring maghintay!</string>
+    <string name="editor_compress_mode">Pumili ng mode ng pag-compress</string>
+    <string name="editor_triming">Tini-trim...</string>
+    <string name="video_size_too_small">Masyadong maliit ang laki ng iyong video, hindi ito kailangang i-compress!</string>
+    <string name="choose_other_sticker_localapp">Piliin ang iyong sariling mga etiketa o GIF</string>
+    <string name="add">magdagdag</string>
+    <string name="choose_other_font_localapp">Piliinang folder upangmagdagdagngmga font</string>
+    <string name="editor_clip_ff">Hız</string>
+    <string name="editor_clip_ff_title_tip">Mangyaringpumilingbilisng clip</string>
+    <string name="editor_clip_ff_video_too_long_tip">Masyadongmahabaang clip naito, pakiputolitobagopabilisin o pabagalin!</string>
+    <string name="editor_clip_ff_cannot_support_picture_tip">Hindi maaaringbumilis o bumagalanglitrato!</string>
+    <string name="editor_clip_ff_less_1second_tip">Angna-export na clip ay hindidapatbababasa %s segundo!</string>
+    <string name="editor_clip_ff_encoding_tip">Transcoding……</string>
+    <string name="editor_clip_ff_stop_encode_tip">Stop transcoding</string>
+    <string name="duration_batch_video_char">Durasyon</string>
+    <string name="duration_batch_clip_char">Bawat retrato</string>
+    <string name="duration_batch_custom">Itinakda ng User</string>
+    <string name="add_clip_memory_warn_tip">Maraming retrato kang napili, ito ay mauubusan ng memory</string>
+    <string name="duration_input_begin_char">Simulang oras</string>
+    <string name="duration_input_end_char">Katapusang oras</string>
+    <string name="duration_input_starttimeout_errinfo">Ang simulang oras ay hindi dapat sobra sa oras ng pag-edit!</string>
+    <string name="duration_input_endtimeout_errinfo">Ang katapusang oras ay hindi dapat sobra sa oras ng pag-edit!</string>
+    <string name="duration_input_startgtend_errinfo">Ang katapusang oras ay dapat sobra sa simulang oras!</string>
+    <string name="editor_paint_new_clip">Bagong clip</string>
+    <string name="app_info_view_compress">I-compress ang videong ito</string>
+    <string name="setting_edit_skill">I-edit ang mga tip</string>
+    <string name="save_draftbox_fail_tip">Nabigo draft I-save, walang sapat na space!</string>
+    <string name="editor_fx_type_nashville">Pag-asa</string>
+    <string name="editor_fx_type_lordkevin">Dapit-hapon</string>
+    <string name="editor_fx_type_1977">Tagsibol</string>
+    <string name="editor_fx_type_xproii">Tahimik</string>
+    <string name="editor_fx_type_walden">Panaginip</string>
+    <string name="editor_fx_type_lomo">Lomo</string>
+    <string name="editor_fx_type_valencia">Elegante</string>
+    <string name="editor_fx_type_amaro">Yuppie</string>
+    <string name="editor_fx_type_hudson">Taglamig</string>
+    <string name="editor_fx_type_rise">Kalikasan</string>
+    <string name="editor_fx_type_sierra">Krema</string>
+    <string name="editor_fx_type_brannan">Alaala</string>
+    <string name="editor_fx_type_earlybird">Minsan</string>
+    <string name="editor_fx_type_sutro">Takipsilim</string>
+    <string name="editor_fx_type_toaster">Liwanag</string>
+    <string name="editor_fx_type_hefe">Bukang-liwayway</string>
+    <string name="config_text_toolbox_setting">Setting ng Font</string>
+    <string name="share_save_to_my_studio">I-save sa Galerya</string>
+    <string name="buy_pro_tip_content_new_2">\n4.Sumusuporta sa pag-export ng 1080P na video(ilang device)</string>
+    <string name="editor_add_clip_select">Piliin ang clip</string>
+    <string name="clip_cannot_switch">Mangyaring kumpirmahin o kanselahin ang mga palamuti ng kasalukuyang clip!</string>
+    <string name="camera_util_no_camera_tip">Hindi sumusuporta sa shoot video</string>
+    <string name="camera_util_only_one_camera_tip">Isang cameralamang - hindi ka maaaring lumipat</string>
+    <string name="camera_resolution">resolution</string>
+    <string name="camera_recording_failed">Nabigong mag-record ng video</string>
+    <string name="camera_switch_waitting">Maghintay nang saglit upang lumipat ng camera</string>
+    <string name="camera_no_camera_permission_tip">Mangyaring kumpletuhin ang system settings o buksan ang camera access.</string>
+    <string name="camera_take_picture_waitting_tip">Nag-rerecord na ngayon, mangyaring maghintay lamang</string>
+    <string name="camera_no_take_pictrue_tip">Hindi ka naka-record ng anumang clip</string>
+    <string name="download_more_audio">Mag-download ng mas maraming audio</string>
+    <string name="downloaded">Nai-download</string>
+    <string name="material_category_sticker">Sticker</string>
+    <string name="material_category_theme">Tema</string>
+    <string name="material_category_audio">Audio</string>
+    <string name="material_category_font">Font</string>
+    <string name="setting_evaluate">Rate sa amin</string>
+    <string name="email_report_tail">Bigyan kami ng mga mungkahi o mag-report ng mga bug</string>
+    <string name="action_feedback_title">Pumili ng mailbox</string>
+    <string name="setting_recommend_to_friend">Imbitahan ang mga kaibigan mo</string>
+    <string name="setting_send_app_tips">I-share ang VideoShow:</string>
+    <string name="fullscreen_export_backstage">Patakbuhin sa background (Beta)</string>
+    <string name="background_export_tips">Ang pag-export ng video ay gagana sa background. Papatayin ng system ng Android ang task sa background kapag walang sapat na memory.
+    Kaya mas mabuti kung hindi mo pagaganahin ang app na kumakain ng napakaraming memory( Tulad ng web browser,at pag-play ng video),para maiwasan ang posibleng pagpapatigil sa pag-proseso ng video.</string>
+    <string name="home_edit_menu">I-edit</string>
+    <string name="be_pro_title">Gabay</string>
+    <string name="guide_nice_video">Paano kumuha ng magandang mga bidyo</string>
+    <string name="guide_add_sticker">Paano magdagdag ng mga stiker</string>
+    <string name="guide_add_subtitle">Paano magdagdag ng mga subtitle</string>
+    <string name="guide_add_music">Paano magdagdag ng tugtog</string>
+    <string name="guide_draw_video">Paano mag-drowing sa bidyo</string>
+    <string name="guide_zoom_rotate">Paano palapitin at paikutin</string>
+    <string name="guide_add_sound">Paano mag-dub at magdagdag ng mga sound effect</string>
+    <string name="guide_video_motion">Paano palitan ang galaw ng iyong bidyo</string>
+    <string name="setting_terms_privacy_info">Mga Kondisyon&amp;Pribasiya</string>
+    <string name="download_more_music">Mag download ng iba pang tugtog </string>
+    <string name="music_download">Na-download</string>
+    <string name="music_local">Mga Kanta Ko</string>
+    <string name="toolbox_multi_music">Maraming Musika</string>
+    <string name="app_update_to_use_the_theme"> Ang theme ay may bagong graphic feature. Kailangang i-upgrade ang app paramagamitito.</string>
+    <string name="home_app_store">Itinatampok na Apps</string>
+
+    <string name="export_video_mode_chooser_title_tips">I-export ang Video</string>
+    <string name="export_video_mode_chooser_1080p_ads_tips">1080p HD</string>
+    <string name="export_video_mode_chooser_1080p_pro_tips">1080p HD (Pro Version) </string>
+    <string name="export_video_1080p_mode_tips">1080p HD Ini-export na Ngayon</string>
+
+
+    <string name="lite_unlocker_pro_suc_info">Matagumpaymongna-upgrade sa Main version!</string>
+    <string name="share_facebook_unlock_fail">Hindi ma- unlock</string>
+    <string name="share_facebook_unlocked">Naka-unlock</string>
+    <string name="share_facebook_dialog_content">I-share angVideoShowsa Facebookpara i-unlock ang theme naitonanglibre</string>
+    <string name="share_facebook_dialog_tips">Mga tip:Ang theme ay ia-unlock pagkataposng i-share!</string>
+    <string name="share_facebook_dialog_btn_text">I-share Ngayon</string>
+
+    <string name="delete_subtitle_tips">Tanggalin ang text?</string>
+
+    <string name="export_dialog_msg">Kung nais mong i-export sa background, dapat mong ilagay ang numero ng setting para lumipat sa dropzone, o maaari mo lamang i-export sa harap</string>
+    <string name="export_dialog_ok">ILIPAT SA DROPZONE</string>
+    <string name="export_dialog_cancel">I-EXPORT SA HARAP</string>
+
+    <string name="lite_unlocker_pro_dialog_title">Espesyal na Handog</string>
+    <string name="lite_unlocker_pro_dialog_info_new">Ang Videoshow Lite ay titigil sa paga-update sa loob ng isang buwan. Upang magpasalamat sa iyong pagsuporta sa amin, Narito ang isang espesyal na handog para mabuksan ang mga  function ng Videoshow Pro (Pag-export ng 1080P HD, pag-import ng 4K video, walang limit na pag-download ng mga materyal) nang libre!
+    Ang espesyal na handog ay magpapatuloy sa loob ng isang buwan.  Kaya magmadali para kunin ito ngayon!
+    </string>
+    <string name="beta_unlocker_pro_dialog_info">Ang Videoshow Beta ay titigil sa paga-update sa loob ng isang buwan.
+    Upang magpasalamat sa iyong pagsuporta sa amin, Narito ang isang espesyal na handog para mabuksan ang mga function ng Videoshow Pro (Pag-export ng 1080P HD, pag-import ng 4K video, walang limit na pag-download ng mga materyal) nang libre!
+    Ang espesyal na handog ay magpapatuloy sa loob ng isang buwan.   Kaya magmadali para kunin ito ngayon!
+    </string>
+    <string name="lite_unlocker_pro_dialog_ok">Buksan ang mga tampok ng Pro nang libre</string>
+    <string name="editor_set_different_duration">Mag-takda ng magkakaibang haba para sa bawat clip</string>
+    <string name="buy_pro_tip_content_new_water">\n5.Alisin ang Logo sa dulo ng naka-theme na video</string>
+
+
+    <string name="login_rewards_title_tip">Tuluy-tuloy na mga Gantimpala sa Pagla-login</string>
+    <string name="login_rewards_remain_days_tip">Kailangan mo lamang ng %s araw ng pagla-login para buksan ang mga Pro feature</string>
+    <string name="login_rewards_last_day_tip">Magmadali!Mag-login para buksan ang mga Pro feature ngayon</string>
+    <string name="login_rewards_congratulations_tip">Pagbati sa\'yo!</string>
+    <string name="login_rewards_unlock_successful_tip">Nabuksan mo ang mga Pro feature nang isang buwan.Salamat sa iyong suporta!Basta gawin ang pinakamagagandang video sa lalong madaling panahon.</string>
+    <string name="login_rewards_expired_tip">Natapos na ang iyong pang-isang buwan na trial ng mga pro feature.Pero maaari mong buksan ang mga pro feature uli sa pamamagitan ng tuluy-tuloy na pagla-login sa susunod na tatlong araw.Gusto mo ba itong makuha?
+    </string>
+    <string name="file_scan_notification_title">Handa na ngayon ang video highlights</string>
+    <string name="file_scan_notification_content">Manood ng video kabilang ang ilan sa iyong pinakamamahal na sandali</string>
+    <string name="file_scan_notification_dialog_title">Gamitin ang Instant VideoShow pagkaraan</string>
+    <string name="file_scan_notification_dialog_content_1">Tuwing magpapadala ka ng mga larawan at video, ihahanda ng VideoShow ang magagandang video highlight.</string>
+    <string name="file_scan_notification_dialog_content_2">Video draft lamang ito, at hindi ibabahagi ang video nang walang pahintulot.</string>
+    <string name="file_scan_notification_dialog_content_tip">Tip: Maaari mo itong i-on/ i-off anumang oras sa Settings kapag kailangan mo.</string>
+    <string name="file_scan_notification_dialog_ok">PAYAG</string>
+    <string name="file_scan_notification_dialog_cancel">HINDI PAYAG</string>
+
+    <string name="tip_app_upgrad_dialog_ok">I-update Ngayon</string>
+    <string name="tip_app_upgrad_dialog_cancel">Paalalahanan mamaya</string>
+    <string name="theme_store_rating_rate_improve">I-rate ang temang ito, matulungan kaming mapabuti!</string>
+    <string name="theme_store_rating_choose_very">Very good!</string>
+    <string name="theme_store_rating_choose_normal">Normal, hindi masama.</string>
+    <string name="theme_store_rating_choose_poor">Mahinang kalidad!</string>
+    <string name="theme_store_rating_title_rate">I-rate ang Tema na ito</string>
+
+    <string name="user_refuse_permission_camera_tip">Tumanggi kang payagan ang VideoShow na i-access ang pahintulot sa camera, hindi gumagana nang maayos ang VideoShow, mangyaring magbigay ng pahintulot.</string>
+    <string name="user_refuse_permission_audio_recorder_tip">Tumanggi kang payagan ang VideoShow na i-access ang pahintulot sa recording, hindi gumagana nang maayos ang VideoShow, mangyaring magbigay ng pahintulot.</string>
+    <string name="user_permit_permission_audio_recorder_tip">Pinahintulutan mo ang permiso sa recording, maaari mo na ngayong pindutin ang button para simulan ang dubbing.</string>
+
+    <string name="rate_please">Kung oo, huwag mong bale rating sa amin upang ipakita ang iyong suporta? Kami ay nagsisikap na maging mas mahusay!</string>
+    <string name="user_permit_permission_take_picture_tip">Pinahintulutan mo ang mga pahintulot camera, maaari mo na ngayong simulan ang kumuha ng larawan.</string>
+
+    <!--<string name="app_info">Video Studio</string>-->
+    <string name="app_info_view_trim">Pag-trim ng Video</string>
+    <string name="save_operation">I-discard ang mga pagbabago?</string>
+
+    <string name="remove_videos_original_voice">Tanggalinangorihinalnaboses</string>
+    <string name="restore_videos_original_voice">Bawiinangorihinalnaboses</string>
+    <string name="videos_original_voice_mute">Isinaraangorihinalnaboses</string>
+    <string name="videos_original_voice_unmute">Nakabukasangorihinalnaboses</string>
+    <string name="remove_videos_original_voice_cannot_support_tip">Sa kasalukuyangkondisyon, hindimomatatanggalangorihinalnaboses</string>
+    <string name="recover_videos_original_voice_cannot_support_tip">Sakasalukuyangkondisyon, hindimomababawiangorihinalnaboses</string>
+
+    <string name="share_result">tapusin</string>
+    <string name="rename_no_text">Hindi maaaring walang title</string>
+
+    <string name="upload_to_youtube">I-upload sa YouTube</string>
+    <string name="user_logout">Mag-logout</string>
+
+    <string name="toast_cannot_retrieve_cropped_image">Hindi mababawiangna-crop naimahen</string>
+    <string name="toast_unexpected_error">Hindi inaasahang error</string>
+    <string name="ucrop_label_original">Orihinal</string>
+    <string name="ucrop_label_edit_photo">I-edit angLitrato</string>
+
+    <string name="setting_hw_acc_notification_title">Pagpapabilis ng Hardware</string>
+    <string name="setting_hw_acc_toast_1">Ay inilipat sa normal mode, na magdudulot ng mas mabagal na pag-export ng video, ngunit mas mataas na katatagan</string>
+    <string name="setting_hw_acc_toast_2">Ay inilipat sa Hardware acceleration model, na magdudulot ng mas mabilis na pag-export ng video</string>
+    <string name="video_to_mp3_noaudio_tips">Walang tunog ang video na ito</string>
+
+    <string name="title_trim_select_clip">Ultra Cut</string>
+    <string name="title_preview">Preview</string>
+    <string name="video_trim_clip_null_tips">Mangyaring magdagdag ng mga trim clip</string>
+    <string name="video_no_trim_clip_toast">Hindi mo pa natrim ang mga clip</string>
+    <string name="video_trim_clip_duration_toast">Ang tagal ng natrim na clip ay hindi dapat mas maikli sa 0.1s</string>
+    <string name="video_clip_count_toast">Ang mga natrim na clip ay hindi dapat hihigit sa 10</string>
+    <string name="no_add_video_trim_clip_toast">Mangyaring magdagdag muna ng natrim na mga clip</string>
+    <string name="bt_trim_clip_add">Magdagdag</string>
+    <string name="bt_trim_clip_add_tips">Maaari kang magpatuloy na i-trim ang mga clip at idagdag ang mga iyon!</string>
+
+    <!--导出界面文字内容-->
+    <string-array name="text_full_context">
+        <item>Mangyaring matiyagang maghintay sa panonood ng maliwanag na video na matagumpay mong nagawa. O hindi ito mai-export kapag umalis ka sa kasalukuyang pahina.</item>
+        <item>Ang mga ad ay nagpapanatili sa videoShow bilang libreng app. Salamat sa inyong pang-unawa. Maaari kang mag-upgrade sa Pro version para tanggalin ang mga ad.</item>
+        <item>Kapag mababa ang kumpigurasyon ng iyong telepono,napakalaki ng video source o napakaraming materyal na ginamit, maaaring magdulot pareho ng hindi matagumpay na pag-export. Kaya mangyaring subukan muli pagkatapos burahin ang ilang materyal.</item>
+        <item>Gumamit ng \"Ultra Cut\" para i-trim ang maraming bahagi mula sa isang video, at i-save agad. Ito ay napakagamiting feature para paliitin ang malaking video.</item>
+        <item>Kapag mababa ang kumpigurasyon ng iyong telepono,napakalaki ng video source o napakaraming materyal na ginamit, maaaring magdulot pareho ng hindi matagumpay na pag-export. Kaya mangyaring subukan muli pagkatapos burahin ang ilang materyal.</item>
+        <item>Pabagalin o pabilisin ang video sa pamamagitan ng pag-click sa \"Speed\" sa \"Clip Edit\".</item>
+        <item>Pagkatapos matagumpay na ma-export ang video, maaari mong i-rename ito sa My Studio o i-share sa iyong mga kaibigan.</item>
+        <item>I-click ang \"Multi Music\" sa \"Pro Edit\" para magdagdag ng maraming musika sa isang video.</item>
+        <item>Sobrang tagal bago ma-export? Ang napakagandang video ay ipakikita sa iyo kung pipiliin mo na uminom ng isang tasa ng kape.</item>
+        <item>Sa mode ng maramihang musika, maaari kang magtakda ng iba\'t ibang volume para sa iba\'t ibang musika.</item>
+        <item>Sulitin ang paggamit sa \"Sticker\". Sinusuportahan nito ang mga Built-in Sticker, ang sarili mong mga Imahen, mga Gif. Bukod dito, sinusuportahan nito ang maramihang layer!</item>
+        <item>Exclusive: Pagkuha ng Music video. Pagrerecord ng video kapag nagpapatugtog ng musika. Nakatutulong ito sa pagkuha ng dancep-sync video.</item>
+        <item>Maaari mong palitan ang kulay ng background sa pamamagitan ng pag-click ng setting icon sa kanang itaas sa Edit Studio.</item>
+        <item>I-zoom ang video at litrato, ipokus ang video sa posisyon na gusto mo. I-click ang \"Pro Edit\" > \"Clip Edit\" > \"Zoom\".</item>
+        <item>Gamitin ang \"Compress video\" para paliitin ang video at mas mabilis na i-share na may mababang bandwidth network. I-click ang \"Compress Video\" sa homepage.</item>
+        <item>Gusto ng higit pang feature? Huwag mag-atubiling magpadala ng email sa support@enjoy-global.com at sabihin sa amin.</item>
+    </string-array>
+
+    <string name="subtitle_effect_3d_type_modern">Modern B</string>
+    <string name="subtitle_effect_3d_type_modern_white">Modern W</string>
+    <string name="subtitle_effect_3d_type_news">Balita</string>
+    <string name="config_text_toolbox_effect">Estilo</string>
+    <string name="subtitle_effect_3d_type_fade_out">Pagkupas</string>
+    <string name="subtitle_effect_3d_type_jump_in">Tumalon</string>
+    <string name="subtitle_effect_3d_type_pop_up">Mag-pop Up</string>
+    <string name="subtitle_effect_3d_type_roll_in">Gumulong paloob</string>
+    <string name="subtitle_effect_3d_type_kick_back">Mag-kick Back</string>
+    <string name="subtitle_effect_3d_type_roll_up">Gumulong pataas</string>
+    <string name="subtitle_effect_3d_type_roll_left">Gumulong pakaliwa</string>
+    <string name="subtitle_effect_3d_type_crack">Crack</string>
+    <string name="subtitle_effect_3d_type_sunshine">Sunshine</string>
+    <string name="subtitle_effect_3d_type_darkclouds">Madidilim na ulap</string>
+    <string name="subtitle_effect_3d_type_drop">Mag-drop</string>
+    <string name="subtitle_effect_3d_type_love">Pag-ibig</string>
+    <string name="subtitle_effect_3d_type_lamp">Ilaw</string>
+    <string name="subtitle_effect_3d_type_dialog">Dialogo</string>
+    <string name="subtitle_effect_3d_type_crow">Uwak</string>
+    <string name="subtitle_effect_3d_type_flame">Apoy</string>
+    <string name="subtitle_effect_3d_type_thunder">Kulog</string>
+    <string name="subtitle_effect_3d_type_fire">Sunog</string>
+    <string name="subtitle_effect_3d_type_lightning">Kidlat</string>
+    <string name="subtitle_effect_3d_type_flash">Kislap</string>
+    <string name="trans_new_90001">Wala</string>
+    <string name="trans_new_90002">Kupas</string>
+    <string name="trans_new_90003">Pag-draw</string>
+    <string name="trans_new_90004">Krus</string>
+    <string name="trans_new_90005">Kurap</string>
+    <string name="trans_new_90006">Lundag</string>
+    <string name="trans_new_90007">Lutang</string>
+    <string name="trans_new_90008">Simple</string>
+    <string name="trans_new_90009">Magkahalo</string>
+    <string name="trans_new_90010">Alon</string>
+    <string name="trans_new_90011">Meteor</string>
+    <string name="trans_new_90012">Tiklop</string>
+    <string name="trans_new_90013">Shutter</string>
+    <string name="trans_new_90014">Pag-ibig</string>
+    <string name="trans_new_90015">Bula</string>
+    <string name="trans_new_90016">Orasan</string>
+    <string name="trans_new_90017">Bilog</string>
+    <string name="trans_new_90018">Lusaw</string>
+    <string name="trans_new_90019">Padulasin</string>
+    <string name="trans_new_90020">I-zoom</string>
+    <string name="trans_new_90021">Flash W</string>
+    <string name="trans_new_90022">Flash B</string>
+    <string name="trans_new_90023">Bulaklak</string>
+    <string name="trans_new_90024">Heksagram</string>
+
+    <string name="noenough_space_20m_tip">Maliit na na ang iyong disk space,mangyaring linisin ito</string>
+    <string name="remove_watermark_content">Alisin ang watermark nang LIBRE para sa 1 araw! I-install lang at buksan ang app.</string>
+    <string name="tip_config_sound_add_count_50">Hindi sinusuportahan ang higit sa 50 sound!</string>
+    <string name="tip_config_video_clip_copy_count_60">Ang bilang ng mga video ay hindi dapat lalampas sa 60!</string>
+    <string name="select_music_cannot_support_tip">Ang audio file ay masama na.</string>
+
+    <string name="share_to_get_surprise">Ibahagi para Makakuha ng Sopresa</string>
+    <string name="today_you_can_download_all_materials">Ngayon maaari mong i-download eksklusibong pro materyales</string>
+
+    <string name="the_video_has_been_deleted">Ang video na ito ay tinanggal na</string>
+
+    <!--首页引导popwindow文字-->
+
+    <!--导出结果页，视频大小-->
+    <string name="share_result_video_size_content">Ang compressed ay kahanga-hangang, ang gusto mong tanggalin orihinal na video?</string>
+    <string name="share_result_video_iess">Less kaysa sa orihinal</string>
+    <string name="share_result_video_original">Orihinal</string>
+    <string name="share_result_video_compressed">compressed</string>
+
+    <!--VIP buy 界面-->
+    <string name="vip_buy_btn">pagbili</string>
+    <string name="vip_buy_advertising">Alisin ang mga ad</string>
+    <string name="vip_buy_export">I-export ang mga video na 1080p</string>
+    <string name="vip_buy_import">Suportahan ang pag-import ng 4K na video</string>
+
+    <string name="home_mp3_new">Bago</string>
+    <string name="home_mp3_view">Tingnan</string>
+    <string name="fx_effect_3d_type_bubble">Bubble</string>
+    <string name="fx_effect_3d_type_thunder">Kulog</string>
+    <string name="hold_down_to_preview">I-hold pababa para i-preview</string>
+
+    <!--素材各列表顶部广告条目文字-->
+
+    <!--素材激励广告弹框-->
+
+    <string name="discard_operation">I-discard</string>
+
+    <string name="theme_clip_start_choose">Prologue:</string>
+    <string name="theme_clip_end_choose">Epilogue:</string>
+    <string name="theme_clip_start_choose_a">Prologue</string>
+    <string name="theme_clip_end_choose_b">Epilogue</string>
+    <string name="playing_music_preview_time">I-preview ang 20 segundo</string>
+
+    <string name="material_store_theme_remove_confirm">I-delete ito?</string>
+    <string name="material_store_fx_remove_confirm">I-delete ito?</string>
+    <string name="material_store_music_remove_confirm">I-delete ito?</string>
+    <string name="material_store_text_style_remove_confirm">I-delete ito?</string>
+    <string name="material_store_sticker_remove_confirm">I-delete ito?</string>
+    <string name="material_store_sound_effects_remove_confirm">I-delete ito?</string>
+    <string name="material_store_font_remove_confirm">I-delete ito?</string>
+    <string name="material_store_gif_remove_confirm">I-delete ito?</string>
+    <string name="export_or_share_video_success">Tagumpay!</string>
+    <string name="editor_theme_more">Higit Pa</string>
+    <string name="music_my_download">Ang Aking Dina-download</string>
+    <string name="music_my_music">Ang Aking Musika</string>
+    <string name="music_no_music_history">Walang History ng Musika</string>
+    <string name="music_set_add_music">Magdagdag ng Musika</string>
+    <string name="today">Ngayong Araw</string>
+    <string name="yesterday">Kahapon</string>
+    <string name="mystudio_batch_delete">Batch na Pag-delete</string>
+
+    <string name="fx_num_limit_pro">Upang makapag-exort ng matagumpay, hindi maaaring magdagdag nang sabay-sabay nang mahigit sa 20 effect</string>
+    <string name="clear_trans_all_values">Alisin ang mga pagbabago mula sa lahat ng clip</string>
+    <string name="select_a_clip_to_edit">Pumili ng clip para i-edit</string>
+    <string name="set_duration_for_each_photo">I-set ang tagal para sa bawat litrato</string>
+    <string name="set_precise_time">I-set ang tamang oras</string>
+    <string name="global_settings">Mga pangkalahatang setting</string>
+    <string name="take_a_short_preview">Kumuha ng maikling preview</string>
+    <string name="set_export_mode">Setting ng Mode sa Pag-export ng Video</string>
+    <string name="export_mode_background">Background Mode</string>
+    <string name="export_mode_foreground">Foreground Mode</string>
+
+    <string name="rate_quest_title">Salamat sa paggamit ng V Recorder!</string>
+    <string name="rate_quest_yes">Oo</string>
+    <string name="rate_quest_no">HINDI</string>
+
+    <string name="use_trans_current_values">Gamitin ang transition na ito sa lahat ng clip</string>
+    <string name="text_Selected">Napili</string>
+    <string name="text_clips">mga clip</string>
+    <string name="rename_dialog_title">Palitan ng pangalan</string>
+
+    <string name="home_photo_movie">Slideshow</string>
+
+    <string name="manage">Pamahalaan</string>
+    <string name="done">Tapos na</string>
+    <string name="giphy_noresult">Walang resulta\nInirerekomenda ang pagta-type ng Ingles</string>
+    <string name="dialog_duration_adjust_tips">Mga tip: Maaari mong i-click ang  %s  para i-set ang kasalukuyang oras ng pag-pause bilang oras ng pagsisimula o oras ng pagtatapos</string>
+    <string name="duration_dialog_time_same_tip">Ang oras ng pagsisimula at oras ng pagtatapos ay hindi dapat magkapareho</string>
+
+    <string name="editor_select_online_gif">Online na Gif</string>
+
+    <string name="gif_search_text_over">Hindi dapat mahigit sa 200 ang character</string>
+
+    <string name="export_video_resolution_limit">Ang definition ng na-export na video ay nililimitahan ng resolution ng iyong telepono, mangyaring unawain</string>
+    <string name="no_material_now">Walang Materyal sa Ngayon</string>
+    <string name="draftbox_is_null_tip_revert">Nawawala ang orihinal na clip</string>
+    <string name="main_reverse">Reverse</string>
+    <string name="app_info_view_reverse">I-reverse ang video</string>
+    <string name="reverse_text_full_context_0">Aalisin ang orihinal na tunog ng mga na-export na video, upang maiwasan ang mga ingay na sanhi ng pag-reverse.</string>
+    <string name="reverse_text_full_context_1">Mangyaring maghintay para sa panonood ng magarang video na nagawa mo. Hindi ito ma-export kung aalis ka sa kasalukuyang page.</string>
+    <string name="reverse_text_full_context_2">Ise-save bilang bagong clip ang na-export na video, ngunit mananatili pa rin ang orihinal na file.</string>
+    <string name="reverse_text_full_context_3">Maaari kang magdagdag ng musika at mga effect, etc. upang gawing mas astig ang iyong mga na-reverse na video.</string>
+
+    <string name="use_toolkit_create_video">Gamitin ang pinakamahusay na toolkit para gumawa ng pambihirang video.</string>
+    <string name="add_material_to_video">Magdagdag ng subtitle, effect, sticker at iba pang mga nanghihikayat na nilalaman sa iyong video.</string>
+    <string name="simplest_way_make_video">Ang pinakasimpleng paraan para gumawa ng pambihirang video.</string>
+    <string name="set_photo_display_time">I-set ang oras ng pagpapakita ng mga litrato.</string>
+    <string name="trim_video_save_part">I-trim ang video para i-save ang kailangan mong bahagi.</string>
+    <string name="zoom_photo_video_focus_attention">I-zoom ang litrato at video, ituon ang atensyon ng manonood.</string>
+    <string name="new_function_reverse_video">Idinagdag ang bagong function: pabalik na video.</string>
+    <string name="video_setting_background">Background</string>
+    <string name="video_music_single_type">Isang Musika</string>
+    <string name="video_music_multi_type">Maraming Musika</string>
+    <string name="edit_clip_set_duration_all">I-set sa lahat ng litrato</string>
+    <string name="local_gif">Local Gif</string>
+
+    <string name="click_the_theme_again_to_edit">I-click muli ang tema para i-edit.</string>
+    <string name="galleryvault_install_uppercase">I-INSTALL</string>
+    <string name="galleryvault_share_extensions_gap_line_tip">Mga Extension</string>
+    <string name="galleryvault_delete_draft_tip">Itinago ang video, i-delete ang draft?</string>
+    <string name="material_pull_to_refresh">Hilahin pababa para i-refresh</string>
+    <string name="editor_add_music">I-tap para magdagdag ng musika</string>
+
+    <string name="install">I-install</string>
+    <string name="use_vidcompact_convert">Gumamit ng VidCompact para i-convert ngayon! Pagkatapos madaling i-edit ang mga Video.</string>
+    <string name="home_text_transcode">Transcode</string>
+    <string name="home_text_gallery">Gallery</string>
+    <string name="home_text_slideshow">TapSlide</string>
+    <string name="home_transcode_content">Gumamit ng VidCompact para i-convert ang iyong video sa iba pang mga format o i-compress sa mas maliit na sukat</string>
+    <string name="home_transcode_function">Mga pribilehiyo sa paggana</string>
+    <string name="home_transcode_convert">I-convert na may mataas na kalidad</string>
+    <string name="home_transcode_support">Sinusuportahan ang maraming format ng file</string>
+    <string name="home_transcode_compact">I-compact nang ganap</string>
+    <string name="home_transcode_rapid">Mabilis na pag-compress</string>
+    <string name="home_gallery_content">Gumamit ng Gallery para i-browse ang iyong mga litrato at video at gumawa ng slideshow kasama nito</string>
+    <string name="home_gallery_browse">I-browse, i-scan at ayusin ang iyong mga litrato ayon sa folder</string>
+    <string name="home_gallery_add">Magdagdag ng litrato at video sa Mga Paborito</string>
+    <string name="home_gallery_engaging">Sinusuportahan ang nanghihikayat na mga tema para sa paggawa ng slideshow</string>
+    <string name="home_gallery_automatically">Awtomatikong inaayos ang mga litrato at video sa pamamagitan ng event, petsa, oras at lokasyon</string>
+    <string name="home_slideshow_content">Mag-enjoy sa paggawa ng slideshow gamit ang TapSlide, sa pag-tap lang sa ritmo ng musika</string>
+    <string name="home_slideshow_just">4 na hakbang lang  </string>
+    <string name="home_slideshow_to">para gumawa ng slideshow ng musika</string>
+    <string name="home_slideshow_choose">Pumili ng mga litrato</string>
+    <string name="home_slideshow_choose_music">Pumili ng musika</string>
+    <string name="home_slideshow_tap">I-tap sa ritmo para kontrolin ang mga litrato</string>
+    <string name="home_slideshow_save">I-save ang iyong gawa at ibahagi ito sa iyong mga kaibigan</string>
+    <string name="choose_too_large_video">Masyadong malaki ang video para i-import</string>
+    <string name="setting_clip_duration">Tagal</string>
+    <string name="share_to">Ibahagi sa/kay</string>
+    <string name="choose_4k_buypro_content">Ang VideoShow Pro lang ang sumusuporta sa pag-import ng 4K na mga resolution video. Gusto mo bang bumili?</string>
+
+    <string name="home_discover">Discovery</string>
+    <string name="discover_all_videos">Lahat ng Video</string>
+    <string name="discover_all_contents">Lahat ng Nilalaman</string>
+    <string name="network_is_unavailable">Hindi available ang network</string>
+    <string name="discover_page_title">Discovery          </string>
+    <string name="pinch_to_zoom">I-pinch ang screen para i-zoom</string>
+    <string name="guide_start_ui">Magsimula</string>
+    <string name="guide_back_ui">Bumalik</string>
+    <string name="video_setting_ratio">Aspect Ratio</string>
+    <string name="video_setting_widescreen_mode">Widescreen</string>
+    <string name="video_setting_square_mode">Parisukat</string>
+    <string name="video_setting_vertical_mode">Patayo</string>
+    <string name="noenough_space_ex_need">Kinakailangang memory: </string>
+    <string name="noenough_space_ex_cur">Available na memory: </string>
+    <string name="go_to_clip_edit">Pumunta sa Pag-edit sa Clip</string>
+    <string name="share_no_enough_space">Walang sapat na space. </string>
+    <string name="share_please_free_your">Mangyaring bakantihin ang storage mo. Maaari mong i-trim ang mga video clip o i-delete ang ilang clip sa Pag-edit sa Clip.</string>
+    <string name="click_the_button_set_theme_prologue_epilogue">I-click ang button para i-set ang tema ng prologue at epilogue.</string>
+    <string name="tag_library">Mga Trending na Tag</string>
+    <string name="selected_category">Mga Kategorya</string>
+    <string name="all_tags">Lahat ng Tag</string>
+    <string name="toolbox_sound">Voiceover</string>
+    <string name="main_video_compress">I-compress</string>
+
+    <string name="music_sort_by_hot">Sikat</string>
+    <string name="music_sort_by_new">Bago</string>
+
+    <string name="guide11">Pag-edit ng Video</string>
+    <string name="music_fadein_fadeout">Lumalakas o humihinang musika</string>
+    <string name="music_add_limit_tip">Maaari kang magdagdag ng hanggang sa %s (na) kanta</string>
+
+    <string name="tip_app_upgrad_dialog_title">Bagong Bersyon</string>
+
+    <string name="power_setting_fast">Mabilis na Pag-charge</string>
+    <string name="power_activity_edit">I-edit ang Video</string>
+    <string name="power_activity_battery">Baterya</string>
+    <string name="power_toast_text">Nagcha-charge ang telepono sa mga partikular na araw para i-unlock muli</string>
+    <string name="power_activity_slide">I-slide para i-unlock</string>
+    <string name="power_unlock_succ">Matagumpay ang Pag-unlock</string>
+    <string name="power_unlock_pro_material">Maaari mong i-unlock nang isang beses ang pro material. Ano pa ang hinihintay mo?</string>
+
+    <string name="home_gif_video">Mula sa Video</string>
+    <string name="home_gif_photo">Mula sa Litrato</string>
+    <string name="add_more_than_50">Magdagdag nang hindi hihigit sa 50 clip</string>
+    <string name="set_duration_10">I-set ang tagal nang hindi hihigit sa 10 segundo</string>
+    <string name="select_gif_resolution">Piliin ang resolution ng gif</string>
+    <string-array name="gif_quality">
+        <item>Mababang Kalidad</item>
+        <item>Katamtamang Kalidad</item>
+        <item>Mataas na Kalidad</item>
+    </string-array>
+
+    <string name="set_duration_1">I-set ang tagal nang mahigit sa 1 segundo</string>
+
+    <string name="drag_point_guide">I-click pagkatapos pindutin nang matagal ang bar para galawin. Susundin ng material ang paggalaw nito.</string>
+    <string name="power_main_activity_1">I-enable ang mabilis na pag-charge, maaari mong</string>
+    <string name="power_main_activity_2">1.Kunin muna ang pinakasikat na mga video\n2.Magkaroon ng mabilis na pag-access para i-edit ang video</string>
+
+    <string name="editor_clip_split">Hatiin</string>
+    <string name="clip_is_too_short_to_split">Masyadong maikli ang clip para hatiin</string>
+
+    <string name="select_needed_voice_change">Piliin ang boses na gusto mong baguhin</string>
+    <string name="voice_change_type_man">Lalaki</string>
+    <string name="voice_change_type_woman">Babae</string>
+    <string name="voice_change_type_robot">Robot</string>
+    <string name="voice_change_type_kid">Bata</string>
+    <string name="voice_change_type_monster">Halimaw</string>
+    <string name="voice_change_done">Binago ang boses</string>
+    <string name="click_the_button_set_voice_change">I-click ang button para baguhin ang iyong boses.</string>
+    <string name="guide_skip">Laktawan</string>
+
+    <string name="ads_restore">I-restore</string>
+    <string name="menbership_success">Tagumpay</string>
+    <string name="save_more">60% na BAWAS!</string>
+    <string name="vip_buy_materila">Gamitin ang lahat ng pro material nang libre</string>
+    <string name="remove_ads_checking">Tinitingnan...</string>
+    <string name="remove_ads_checking_succeed">Tagumpay ang pag-restore</string>
+    <string name="remove_ads_checking_failed">Hindi na-restore</string>
+    <string name="gp_connect_fail_dialog_text_title">Hindi nasimulan ang serbisyo ng Google Play</string>
+    <string name="gp_connect_fail_dialog_text_1">-Tingnan ang koneksyon ng iyong network</string>
+    <string name="gp_connect_fail_dialog_text_2">-Siguraduhing naka-log in ka sa iyong Google account</string>
+    <string name="gp_connect_fail_dialog_text_3">-Siguraduhing mapapatakbo mo ang application ng Google Play</string>
+
+
+    <string name="home_premium">Premium</string>
+
+
+    <string name="vip_buy_more_new_pro">Ia-update nang regular ang higit pang bagong mga pro material</string>
+    <string name="clip">Clips</string>
+
+    <string name="guide12">Minamahal ang iyong mga espesyal na sandali</string>
+    <string name="guide21">Mga Subtitle</string>
+    <string name="guide22">Iba\'t ibang istilo para gumawa ng mga masining na subtitle</string>
+    <string name="guide31">Musika</string>
+    <string name="guide32">2000+ kumpletong may lisensyang mga bahagi ng musika</string>
+    <string name="exporting_your_video_1080P">INI-EXPORT ANG 1080P VIDEO...</string>
+    <string name="exporting_your_video">INI-EXPORT ANG IYONG VIDEO...</string>
+    <string name="please_stay_in_this_page">Manatili sa page an ito at kumuha:</string>
+    <string name="higher_export_speed">Mas mataas na bilis ng pag-export</string>
+    <string name="higher_export_success_rates">Mas mataas na bilis ng tagumpay ng pag-export</string>
+    <string name="quit_exporting_your_video">Sigurado ka ba na ihinto ang pag-export ng video?</string>
+
+    <string name="home_premium_benefits">Mga Benepisyo na Premium</string>
+    <string name="home_premium_benefits_tips">Kunin ang lahat na eksklusibong benepisyo gamit ang Premium sa pagiging Miyembro. Parami nang parami ang mga premium na benepisyo.</string>
+    <string name="home_premium_month_buy">BUWAN-BUWAN</string>
+    <string name="home_premium_year_buy">TAUN-TAON</string>
+    <string name="material_unlock">I-unlock ang lahat ng mga pro na materyales</string>
+    <string name="membership_success_dialog_1">CONGRATULATIONS!</string>
+    <string name="membership_success_dialog_2">Nakuha mo ang iyong Premium Membership!</string>
+
+    <string name="export_video_mode_chooser_gif_tips">GIF Mode</string>
+    <string name="export_video_mode_chooser_1080p_tips">1080p Mode</string>
+    <string name="gif_time_limited">I-set ang tagal ng clip nang hindi hihigit sa 30 segundo</string>
+    <string name="gif_incentive">I-export ang mga video sa GIF na format</string>
+
+    <string name="gifguru_description_sub_title">Gamitin ang GifGuru para gawing mga GIF ang iyong mga larawan/video</string>
+    <string name="gifguru_description_1">Magdagdag ng mga text, sticker at filter sa GIF</string>
+    <string name="gifguru_description_2">I-play ang GIF nang pa-forward/pa-backward, at i-adjust ang bilis</string>
+    <string name="gifguru_description_3">Baguhin ang mga dati nang GIF</string>
+    <string name="gifguru_description_4">Maghanap ng mga GIF sa pamamagitan ng Giphy sa halip na DIY</string>
+    <string name="free_music_pip_shooting_app">Libreng musika at PIP shooting app na mayroong maraming filter</string>
+    <string name="plenty_amazing_filters">Maraming mga pambihirang filter</string>
+    <string name="creative_funny_pip_frame">Malikhain at mga nakakatawang ng PIP frame</string>
+    <string name="record_videos_with_your_local_songs">Mag-record ng mga video gamit ang iyong mga lokal na kanta</string>
+    <string name="simple_dynamic_interface">Simple at gumagalaw na interface</string>
+    <string name="wanna_master_gif">Gustong maging magaling sa paggawa ng GIF?</string>
+    <string name="use_gifguru_turn_video_into_gif">Gumamit ng GifGuru para gawing mga GIF ang iyong mga larawan /video.</string>
+    <string name="camera">Camera</string>
+    <string name="export_lead_facebook">Tulad ng sa amin sa Facebook at ibahagi ang iyong mga kamangha-manghang mga video sa mundo.</string>
+    <string name="refuse_allow_storage_permission">Kailangan ng VideoShow na ma-access ang mga larawan, ang mga video na nagpapatakbo ng editor nang normal. Mangyaring pahintulutan ang pahintulot ng Imbakan.</string>
+    <string name="refuse_allow_camera_permission">Kailangan ng VideoShow na ma-access ang camera ng telepono upang mag-shoot ng isang video. Mangyaring payagan ang pahintulot ng Camera.</string>
+    <string name="refuse_allow_audio_permission">Kailangan ng VideoShow na ma-access ang mikropono upang i-record ang iyong boses. Mangyaring payagan ang pahintulot ng Mikropono..</string>
+    <string name="allow">payagan</string>
+    <string name="refuse">REFUSE</string>
+    <string name="enable">Paganahin</string>
+    <string name="question_studio_title">Hindi ma-export ang video?</string>
+    <string name="question_attention">Pansin: tatanggalin ng paraang ito ang lahat ng iyong draft at i-reset ang VideoShow.</string>
+    <string name="question_studio_step">Unang hakbang: hanapin ang \'panloob na imbakan\' sa iyong telepono.\nIkalawang hakbang: tanggalin ang 1videoshow at .1videoshow na folder (kung hindi mo makita ang .1videoshow na folder, dapat kang lumipat sa upang ipakita ang mga nakatagong file).\nIkatlong hakbang: simulan ang VideoShow.\nPansin: kung nabigo ka, subukang muli o makipag-ugnay sa amin sa support@enjoy-global.com.</string>
+
+
+    <string name="editor_mode_choose_tip">Piliin ang Mode sa Pag-edit</string>
+    <string name="editor_mode_pro_title">Expert Mode</string>
+    <string name="editor_mode_pro_desc_content">Gawin ang bawat ng detalye ng iyong video sa paraan na gusto mo.
+    Madali kang makakagawa ng mga masterpiece!</string>
+    <string name="editor_mode_easy_speed">Bilis</string>
+    <string name="editor_mode_easy_speed_min">Mabagal</string>
+    <string name="editor_mode_easy_speed_max">Mabilis</string>
+    <string name="quick_trim_title">Pagputol</string>
+    <string name="quick_trim_desc_title">Punitin ang isang clip mula sa napiling video o tanggalin ang isang clip mula sa napiling video.</string>
+    <string name="ultra_cut_title">Pagputol at pagsama</string>
+    <string name="ultra_cut_desc_title">Trim clip mula sa piniling video at pagsamahin ang mga clip sa ibang video.</string>
+
+    <string name="home_video_edit">Edit Video</string>
+    <string name="home_slideshow">Lumikha Slide</string>
+    <string name="home_shoot">Shoot</string>
+    <string name="home_featured_app">Itinatampok</string>
+    <string name="home_gifguru">Gumawa Gif</string>
+    <string name="home_my_studio_text">Aking Drafts</string>
+    <string name="my_studio_more">Aking videos ></string>
+    <string name="my_studio_no_video_yet">Wala pang video na nalikha</string>
+    <string name="my_studio_create_one">Lumikha ngayon</string>
+    <string name="tools">Tools</string>
+    <string name="home_trim">Trim</string>
+    <string name="home_compress">Compress</string>
+    <string name="home_mp3">Video sa audio</string>
+    <string name="home_camera">PIP</string>
+    <string name="home_transcode">Convert</string>
+    <string name="selected_materials">Tampok na Tema</string>
+    <string name="more">Higit pa ></string>
+    <string name="help">Tulong</string>
+    <string name="like_us">Feedback</string>
+    <string name="faq">FAQ</string>
+    <string name="video_to_gif">Video sa Gif</string>
+    <string name="beautify">I-edit</string>
+
+    <string name="editor_mode_easy_title">Mode Musika</string>
+    <string name="editor_mode_easy_desc_title">Pindutin dito upang magsimula ></string>
+    <string name="editor_mode_easy_desc_content">Awtomatikong lumipat mga larawan na may musika ritmo. 92% ng mga gumagamit ay lubos na pinapayo.</string>
+
+    <string name="face_material_title">Nai-download na mga sticker</string>
+    <string name="face_material_select_all">Piliin lahat</string>
+    <string name="vip_buy_face_pro">Gumamit ng pro stickers ng mukha</string>
+    <string name="set_face_resolution_info">Shoot resolution setting</string>
+    <string name="purchase">PURCHASE</string>
+    <string name="next_make_video_editorchoose">Susunod</string>
+    <string name="exceed_cliplimit_video">Hindi maaaring magdagdag ng higit pang mga video</string>
+    <string name="select_allitem_editorchoose">Naglo-load ...</string>
+    <string name="pupumenu_select_type_title">Ayusin ayon sa</string>
+    <string name="pupumenu_select_type_date">Petsa</string>
+    <string name="pupumenu_select_type_name">Pangalan</string>
+    <string name="pupumenu_select_type_ascending">Pataas</string>
+    <string name="pupumenu_select_type_dscending">Pababa</string>
+    <string name="long_touch_to_move_position">I-hold at i-drag upang muling isaayos</string>
+    <string name="manual_search">I-click upang mahanap ang higit pang mga clip</string>
+    <string name="operation_no_reminder">Huwag ipakita muli</string>
+    <string name="mosaic">Mosaiko</string>
+    <string name="vip_buy_mosaic">Gamitin mosaic function na</string>
+
+    <string name="toolbox_sound_effect">Sound Effect</string>
+    <string name="editor_draw_title">Magdagdag ng Doodle</string>
+    <string name="editor_draw">Doodle</string>
+
+    <string name="voice_change_click_tips">Dapat mong i-record ang unang</string>
+    <string name="draw_sticker_tab_0">Kulay</string>
+    <string name="draw_sticker_tab_1">Panulat</string>
+    <string name="draw_sticker_tab_2">Pambura</string>
+    <string name="draw_sticker_tab_3">Kanselahin</string>
+    <string name="draw_sticker_tab_4">Mabawi</string>
+    <string name="main_shoot_new">Super Camera</string>
+    <string name="shoot_image_compress_tips">Tanging mga video ay maaaring naka-compress</string>
+    <string name="trim_mode">Trim</string>
+    <string name="export_mode">Export</string>
+    <string name="trim_select_part">Trim napiling bahagi</string>
+    <string name="delete_select_part">Tanggalin napiling bahagi</string>
+    <string name="new_file">Tanggalin ang napiling bahagi</string>
+    <string name="cover_origin_file">Overwrite ang file</string>
+    <string name="default_setting">Default Settings</string>
+    <string name="click_here_modify_default_setting">Baguhin default na setting dito</string>
+
+    <string name="sort_activity_tag_restore">Ibalik ang Default</string>
+    <string name="sort_activity_tag_normal">Normaal</string>
+    <string name="tips_editor_tab_window">Mga subtitle, sticker, effect</string>
+    <string name="tool_bar_sort_title">Pag-aayos</string>
+
+
+    <string name="text_refuse_premission">Kailangan ng pahintulot V Recorder para sa mikropono para i-record ang audio, paki-on ang mga pahintulot para sa mikropono</string>
+    <string name="text_premission_allow">PAYAGAN</string>
+    <string name="dialog_cancle_text">I-CANCEL</string>
+    <string name="string_notification_stop_recording">Recording</string>
+    <string name="string_notification_stop_tap">I-tap dito para itigil ang pagre-record</string>
+    <string name="string_notification_start_recording">Handa na ang V Recorder</string>
+    <string name="string_notification_start_tap">I-tap dito para simulan ang pagre-record</string>
+    <string name="string_video_setting">Mga Setting ng Video</string>
+    <string name="string_video_resolution">Video Resolution</string>
+    <string name="string_video_quality">Kalidad ng Video</string>
+    <string name="string_video_fps">FPS</string>
+    <string name="string_record_audio">I-record ang Audio</string>
+    <string name="string_video_record_audio_turn_on">I-on para i-record ang external audio. Hindi pinapayagan ang pag-record ng internal audio sa Android</string>
+    <string name="string_video_hide_the_window">Itago ang record window habang nagre-record</string>
+    <string name="string_video_terms_privary">Mga Tuntunin at Pagkapribado</string>
+    <string name="string_allow_notification_text">Pakipayagan ang abiso ng V Recorder para tiyakin na gumagana nang tama at steady ang app</string>
+    <string name="string_allow_notification_ok_text">OK</string>
+    <string name="string_video_v_recorder_text">V Recorder</string>
+    <string name="string_the_video_deleted_text">Dinelete o nasira ang damage</string>
+    <string name="string_low_storage_text">Mababang storage. Mangyaring ibakante muna ang storage ng telepono</string>
+    <string name="string_recoeding_is_finished_text">Tapos na ang pagre-record</string>
+    <string name="string_record_text">Mag-record</string>
+    <string name="stirng_home_text">Home</string>
+    <string name="string_exit_text">Umalis</string>
+    <string name="string_facebook_is_uninstalled_text">hindi naka-install</string>
+    <string name="string_video_orientation_text">Video Orientation</string>
+    <string name="string_low_battery_text">Mahina ang baterya. Sakaling mawala ang data, mag-ingat sa baterya ng telepono</string>
+    <string name="string_unsupported_resolution_text">Hindi sinusuportahang resolution para sa telepono</string>
+    <string name="string_portrait">Portrait</string>
+    <string name="string_landscape">Landscape</string>
+    <string name="string_needs_storage">Kailangan ng V Recorder ang access sa mga litrato, media at mga file para i-store ang mga na-record na video</string>
+    <string name="string_no_recorded_vidoe">Walang na-record na video</string>
+    <string name="string_repair_system_ui_carsh_text">Ayusin ang System UI Crash</string>
+    <string name="string_systen_ui_carsh_reason_text">Payagan ang pahintulot at subukang ayusin ang problema ng system UI</string>
+    <string name="string_video_item_share_text">Ibahagi</string>
+    <string name="are_you_sure_exit_tips">Kung mag-exit ka sa kasalukuyang page, hindi mase-save ang iyong video!</string>
+
+    <string name="guide_loating_window_instructions">Mga instruksyon ng floating window</string>
+    <string name="guide_loating_window_recorder">Recorder</string>
+    <string name="guide_loating_window_video">Video</string>
+    <string name="guide_loating_window_close">Isara ang floating windows</string>
+    <string name="guide_notification_panel_close">Notification panel</string>
+    <string name="guide_notification_panel_recorder">Maaari mo ring gamitin ang notification panel para kontrolin ang pagre-record</string>
+    <string name="dialog_rate_us_feed_back">Feed Back</string>
+    <string name="dialog_rate_us_feed_back_content">Kapaki-pakinabang ang iyong feedback.</string>
+    <string name="dialog_rate_us_feed_back1">Hindi ko gusto ang disenyo</string>
+    <string name="dialog_rate_us_feed_back2">Walang mga function ito na kailangan ko</string>
+    <string name="dialog_rate_us_feed_back3">Hindi madaling gamitin</string>
+    <string name="dialog_rate_us_feed_back4">Mayroon itong ilang bug</string>
+    <string name="dialog_rate_us_feed_back5">Hindi maganda ang pagsasalin-wika</string>
+    <string name="dialog_rate_us_feed_back_suc">Talagang nakakatulong ang iyong mga mungkahi!</string>
+    <string name="dialog_rate_us_feed_back_suc_thank">Salamat!</string>
+    <string name="dialog_rate_us_submit">I-submit</string>
+
+    <string name="recording_change_setting_toast">Hindi sinusuportahan habang nagre-record ang pagpapalit ng imprmasyon ng video.</string>
+    <string name="setting_video_location">Lokasyon ng Video</string>
+    <string name="setting_countdown">Countdown</string>
+    <string name="setting_countdow_0s">Walang countdown</string>
+    <string name="setting_countdow_3s">3s</string>
+    <string name="setting_countdow_5s">5s</string>
+    <string name="setting_countdow_10s">10s</string>
+    <string name="edit_format_error">Hindi sinusuportahan ang pag-edit ng video sa format na ito</string>
+    <string name="play_large_error">Masyadong malaki ang resource ng video para suportahan ang playback</string>
+
+    <string name="watermark_title">Watermark</string>
+    <string name="string_watermark_desc">Nakikita ang watermark sa nirecord na video</string>
+    <string name="cant_config_watermark_when_recording">Hindi maaaring baguhin ang pagsasaayos ng watermark habang isinasagawa ang pag-record.</string>
+    <string name="string_vip_privilege_success">Isa ka nang VIP na miyembro ng V Recorder.</string>
+    <string name="string_vip_buy_success">Matagumpay ang pagbili!</string>
+    <string name="string_vip_keep_title">Nais mo ba talagang alisin ang Libreng Pagsubok?</string>
+    <string name="string_vip_keep_content">Libreng subukan ang mga premyadong tampok ngayon. Maaari mo itong kanselahin anumang oras.</string>
+    <string name="string_vip_keep_time_title">Flash Sale!</string>
+    <string name="string_vip_privilege">Pribilehiyo ng VIP</string>
+    <string name="string_vip_privilege_1080">1080P HD Recording</string>
+    <string name="string_vip_privilege_no_water">Walang Watermark</string>
+    <string name="string_vip_privilege_no_ads">Walang Ads</string>
+    <string name="string_vip_privilege_trim">Putulin ang mga Video</string>
+    <string name="string_vip_privilege_pro_materials">1000+ Materyales</string>
+    <string name="string_vip_privilege_more">Higit pang mga Tampok</string>
+    <string name="string_vip_privilege_one_month">Buwan-buwan:</string>
+    <string name="string_vip_privilege_free_new">Libre para sa mga Bagong User</string>
+    <string name="string_vip_buy_year_des">3 araw na libreng pagsubok, pagkatapos ay mag-subscribe sa  %1$s / taon.</string>
+    <string name="string_vip_buy_month_des">3 araw na libreng pagsubok, pagkatapos mag-subscribe sa %1$s/ buwan</string>
+
+    <string name="string_vip_privilege_free">MAGPATULOY</string>
+
+    <string name="float_permission_tips">Mangyaring payagan ang V Recorder na mag-draw sa ibang app para tiyakin na gumagana nang maayos ang app.</string>
+    <string name="orientation_auto">Awtomatiko</string>
+    <string name="sd_permission_msg">Pakipili ang root directory ng iyong external storage \"%1$s\" sa kasunod na screen at i-click ang button na pumili para pahintulutan ang app na write access. Nagsisimula sa android 5.0 Lollipop, dahil sa mga pagbabago ng patakaran sa seguridad ng android, ang mga file sa external storage ay maaaring hindi i-delete o palitan ng pangalan kung hindi pinapahintulutan ang mga write permission sa application.</string>
+    <string name="sd_permission">Pahintulot para sa Access</string>
+    <string name="available">available</string>
+    <string name="default_save_path_name">Default</string>
+    <string name="cant_change_path_when_recording">Hindi pwedeng baguhin ang pag-save ng video path habang nagre-record.</string>
+    <string name="caution">Maingat</string>
+    <string name="uninstall_app_hint_for_video">Ang mga video na naka-store sa SD card ay ide-delete kapag i-uninstall mo ang V Recorder.</string>
+    <string name="sd_card_change_tip">Hindi nakita ang sd card, naka-store sa internal storage.</string>
+    <string name="string_video_shake_stop_record">Kalugin ang telepono para itigil ang pag-record</string>
+    <string name="floating_window_camera">Camera</string>
+    <string name="string_record_success_nowatermark">Pagrerekord nang walang watermark</string>
+    <string name="string_record_success_nowatermark_button">Subukan nang Libre</string>
+
+    <string name="string_no_screen_capture_image">Walang Available na Larawan</string>
+    <string name="string_screen_captured_succuss">Nakunan ng screenshot</string>
+    <string name="string_screen_captured_look">Tingnan</string>
+    <string name="string_click_to_loook_screen_captured">I-tap dito para tingnan screenshot mo.</string>
+    <string name="string_the_image_deleted_text">Na-delete o na-corrupt ang larawang ito.</string>
+    <string name="string_image_deleted_succuss">Matagumpay na na-delete ang larawan.</string>
+    <string name="brush">I-brush</string>
+    <string name="rate_us_content">Ang limang star ay nangangahulugang pinakamaganda sa Google Play</string>
+
+    <string name="string_setting_about_us">Tungkol sa</string>
+    <string name="home_vip_banner_string"> Walang Watermark &amp; Walang Ads </string>
+    <string name="rate_quest_content">Sinusubukan naming gawin mas maganda ang app! Gusto mo bang bigyan kami ng 5-star na rating?</string>
+
+    <string name="permission_title">Pahintulot</string>
+    <string name="permission_camera_msg"> Ang pag-andar na ito ay nangangailangan ng Pahintulot ng Access sa Camera. Pakisubukang i-on ito at subukang muli.</string>
+
+    <string name = "str_vip_unlock_compress">I-Unlock ang Compress nang libre </string>
+    <string name = "str_vip_unlock_trim"> I-Unlock ang Mga Video ng Trim nang libre </string>
+    <string name = "str_vip_guide_desc_clip">Tingnan ang mgapribilehiyong VIP </string>
+    <string name ="str_vip_try_free">Subukan ang 3 arawnang libre </string>
+    <string name ="str_video_screen_off_continue_recording">Panatilihin ang pagrekordkapagnaka-off ang screen </string>
+    <string name = "str_vip_unlock_compress_desc"> Kung naismonggumamit ng Compress.Clickupangsubukan ang VIP pribilehiyonang libre. </string>
+    <string name = "str_vip_unlock_trim_desc"> Kung naismonggumamit ng Trim Videos.Clickupangsubukan ang VIP pribilehiyonang libre. </string>
+    <string name = "feedback_submit_tip"> Ang iyong feedback nanatanggapnamin, salamatsaiyongsuporta</string>
+    <string name = "feedback_edit_hint">Malugod naming tinatanggap ang iyongpuna</string>
+
+
+    <string name = "using"> sa paggamit </string>
+    <string name = "apply">Mag-apply</string>
+    <string name = "theme_apply_success">ang tema ay naglalapat ng tagumpay</string>
+    <string name = "free"> Libre </string>
+
+    <string name = "clip_zone_clip">Pag-crop</string>
+
+    <string name = "record_tools"> Pag-record ng mga tool </string>
+    <string name = "float_screen_shoot" > Screenshot </string>
+    <string name="unlock_pro_privilege_watch_video_ad">Panoorin ang video upang i-unlock ang VIP na pahintulot nang isang beses</string>
+    <string name="unlock_pro_privilege_tips">Ang VIP pribilehiyo ay nai-lock</string>
+    <string name="unlock_pro_privilege_btn_str">UNLOCK PARA SA LIBRE</string>
+</resources>
+
