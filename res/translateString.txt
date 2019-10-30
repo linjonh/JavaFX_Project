@@ -1,66 +1,152 @@
 Values
-<string name="unlock_pro_privilege_btn_str">UNLOCK FOR FREE</string>
+<string name="touch_effect_guide_step1">Due to system limitations, the "Show Touch" function could not be opened directly through V Recorder. If you still need to show the click location during recording, you can turn it on in your device settings.The steps are as follows (Methods may vary by the brand of your device.): \n\nStep 1: Click "Developer Options" on "Settings" page or "Additional settings" page of your phone</string>
 
+<string name="touch_effect_guide_step2">Step 2: Find and turn on "Show taps" in "Developer Options"</string>
 
-中文
-<string name =“ unlock_pro_privilege_btn_str”>免费解锁</string>
+<string name="touch_effect_guide_step3">If you do not have "Developer Options" on your device,you need to enable the developer mode first. The enabling steps are as follows: \n\nClick "About phone" or "My device" to enter "Software information", and then click "Version number" for about 5 times. The system will prompt "you are in developer mode now". When you return to the"Settings" page, you will see "Developer options"(Please note that "Version number" is not "Android version number". Names may vary by the brand of your device. For example, it\'s "MIUI version" on Xiaomi device, and "Build number" on Samsung device.)</string>
 
-中文繁体
-<string name =“ unlock_pro_privilege_btn_str”>免費解鎖</string>
+values-zh 中文
+<string name =“ touch_effect_guide_step1”>由于系统限制，无法通过V Recorder直接打开“显示触摸”功能。如果在录制过程中仍然需要显示单击位置，则可以在设备设置中将其打开。步骤如下（方法可能因设备的品牌而异。）：\ n \ n步骤1：单击“开发人员选项”在手机的“设置”页面或“其他设置”页面上</ string>
+
+<string name =“ touch_effect_guide_step2”>第2步：在“开发人员选项”中找到并打开“显示点按操作反馈” </string>
+
+<string name =“ touch_effect_guide_step3”>如果您的设备上没有“开发者选项”，则需要先启用开发者模式。启用步骤如下：\ n \ n单击“关于手机”或“我的设备”以输入“软件信息”，然后单击“版本号”约5次。系统将提示“您现在处于开发人员模式”。当您返回“设置”页面时，您会看到“开发者选项”（请注意，“版本号”不是“ Android版本号”。名称可能会因设备品牌而异。例如，小米设备上的“ MIUI版本”，三星设备上的“内部版本号”。）</ string>
+
+values-zh-rHK 中文繁体
+<string name =“ touch_effect_guide_step1”>由於系統限制，無法通過V Recorder直接打開“顯示觸摸”功能。如果在錄製過程中仍然需要顯示單擊位置，則可以在設備設置中將其打開。步驟如下（方法可能因設備的品牌而異。）：\ n \ n步驟1：單擊“開發人員選項”在手機的“設置”頁面或“其他設置”頁面上</ string>
+
+<string name =“ touch_effect_guide_step2”>第2步：在“開發人員選項”中找到並打開“顯示拍子” </string>
+
+<string name =“ touch_effect_guide_step3”>如果您的設備上沒有“開發者選項”，則需要先啟用開發者模式。啟用步驟如下：\ n \ n單擊“關於手機”或“我的設備”以輸入“軟件信息”，然後單擊“版本號”約5次。系統將提示“您現在處於開發人員模式”。當您返回“設置”頁面時，您會看到“開發者選項”（請注意，“版本號”不是“ Android版本號”。名稱可能會因設備品牌而異。例如，小米設備上的“ MIUI版本”，三星設備上的“內部版本號”。）</ string>
 
 Values-AR  阿拉伯语
-<string name = "unlock_pro_privilege_btn_str"> فتح القفل مجانًا </string>
+<string name = "touch_effect_guide_step1"> نظرًا لقيود النظام ، تعذر فتح وظيفة "Show Touch" مباشرةً من خلال V Recorder. إذا كنت لا تزال بحاجة إلى إظهار موقع النقر أثناء التسجيل ، فيمكنك تشغيله في إعدادات جهازك. الخطوات هي كما يلي (قد تختلف الطرق حسب العلامة التجارية لجهازك.): \ n \ n الخطوة 1: انقر فوق "خيارات المطور" صفحة "في الإعدادات" أو صفحة "الإعدادات الإضافية" في هاتفك </string>
+
+<string name = "touch_effect_guide_step2"> الخطوة 2: ابحث عن "إظهار الصنابير" وقم بتشغيله في "خيارات المطور" </string>
+
+<string name = "touch_effect_guide_step3"> إذا لم يكن لديك "خيارات المطور" على جهازك ، فستحتاج إلى تمكين وضع المطور أولاً. خطوات التمكين هي كما يلي: \ n \ n انقر على "حول الهاتف" أو "جهازي" لإدخال "معلومات البرنامج" ، ثم انقر فوق "رقم الإصدار" لمدة 5 مرات تقريبًا. سيطالبك النظام "أنت الآن في وضع مطور البرامج". عند الرجوع إلى صفحة "الإعدادات" ، سترى "خيارات المطور" (يرجى ملاحظة أن "رقم الإصدار" ليس "رقم إصدار Android" ، وقد تختلف الأسماء حسب العلامة التجارية لجهازك. على سبيل المثال ، "MIUI version" على جهاز Xiaomi و "رقم البنية" على جهاز Samsung.) </string>
 
 Values-de-rDE  德语
-<string name = "unlock_pro_privilege_btn_str"> KOSTENLOS ENTSPERREN </string>
+<string name = "touch_effect_guide_step1"> Aufgrund von Systemeinschränkungen konnte die Funktion "Show Touch" nicht direkt über V Recorder geöffnet werden. Wenn Sie die Klickposition während der Aufnahme weiterhin anzeigen müssen, können Sie sie in den Geräteeinstellungen aktivieren. Die Schritte sind wie folgt (Die Methoden können je nach Marke Ihres Geräts variieren.): \ N \ nSchritt 1: Klicken Sie auf "Entwickleroptionen" "Auf der Seite" Einstellungen "oder" Zusätzliche Einstellungen "Ihres Telefons </string>
+
+<string name = "touch_effect_guide_step2"> Schritt 2: Suchen Sie in "Developer Options" nach "Show taps" und aktivieren Sie diese Option. </string>
+
+<string name = "touch_effect_guide_step3"> Wenn auf Ihrem Gerät keine "Entwickleroptionen" verfügbar sind, müssen Sie zuerst den Entwicklermodus aktivieren. Die Aktivierungsschritte lauten wie folgt: \ n \ nKlicken Sie auf "Über Telefon" oder "Mein Gerät", um "Software-Informationen" einzugeben, und klicken Sie dann etwa fünfmal auf "Versionsnummer". Das System meldet "Sie befinden sich jetzt im Entwicklermodus". Wenn Sie zur Seite "Einstellungen" zurückkehren, werden "Entwickleroptionen" angezeigt. (Beachten Sie, dass "Versionsnummer" nicht "Android-Versionsnummer" ist. Die Namen können je nach Marke Ihres Geräts variieren "MIUI-Version" auf dem Xiaomi-Gerät und "Build-Nummer" auf dem Samsung-Gerät.) </string>
 
 Values-es-RES 西班牙语
-<string name = "unlock_pro_privilege_btn_str"> DESBLOQUEAR GRATIS </string>
+<string name = "touch_effect_guide_step1"> Debido a limitaciones del sistema, la función "Show Touch" no se pudo abrir directamente a través de V Recorder. Si aún necesita mostrar la ubicación del clic durante la grabación, puede activarlo en la configuración de su dispositivo. Los pasos son los siguientes (los métodos pueden variar según la marca de su dispositivo): \ n \ nPaso 1: haga clic en "Opciones de desarrollador página "en" Configuración "o página" Configuración adicional "de su teléfono </string>
 
+<string name = "touch_effect_guide_step2"> Paso 2: busque y active "Mostrar toques" en "Opciones de desarrollador" </string>
+
+<string name = "touch_effect_guide_step3"> Si no tiene "Opciones de desarrollador" en su dispositivo, primero debe habilitar el modo de desarrollador. Los pasos de habilitación son los siguientes: \ n \ nHaga clic en "Acerca del teléfono" o "Mi dispositivo" para ingresar "Información del software", y luego haga clic en "Número de versión" unas 5 veces. El sistema le preguntará "ahora está en modo desarrollador". Cuando regrese a la página "Configuración", verá "Opciones de desarrollador" (Tenga en cuenta que "Número de versión" no es "Número de versión de Android". Los nombres pueden variar según la marca de su dispositivo. Por ejemplo, es "Versión MIUI" en el dispositivo Xiaomi y "Número de compilación" en el dispositivo Samsung.) </string>
 Values-fil  菲律宾语
-<string name = "unlock_pro_privilege_btn_str"> UNLOCK PARA SA LIBRE </string>
+<string name = "touch_effect_guide_step1"> Dahil sa mga limitasyon ng system, ang function na "Ipakita ang Touch" ay hindi mabuksan nang diretso sa pamamagitan ng V Recorder. Kung kailangan mo pa ring ipakita ang lokasyon ng pag-click sa pag-record, maaari mong i-on ito sa mga setting ng iyong aparato. Ang mga hakbang ay ang mga sumusunod (Mga pamamaraan ay maaaring mag-iba sa pamamagitan ng tatak ng iyong aparato.): \ N \ nStep 1: I-click ang "Mga Pagpipilian sa Developer "sa pahina ng" Mga Setting "o pahina ng" Mga karagdagang setting "ng iyong telepono </string>
+
+<string name = "touch_effect_guide_step2"> Hakbang 2: Hanapin at i-on ang "Ipakita ang mga tap" sa "Mga Pagpipilian sa Developer" </string>
+
+<string name = "touch_effect_guide_step3"> Kung wala kang "Mga Pagpipilian sa Developer" sa iyong aparato, kailangan mo munang paganahin ang mode ng developer. Ang mga pagpapagana ng mga hakbang ay ang mga sumusunod: \ n \ nMag-click sa "Tungkol sa telepono" o "Aking aparato" upang ipasok ang "Impormasyon sa Software", at pagkatapos ay i-click ang "numero ng Bersyon" nang halos 5 beses. Ang system ay mag-udyok "ikaw ay nasa mode ng developer ngayon". Kapag bumalik ka sa pahina ng "Mga Setting", makikita mo ang "mga pagpipilian sa developer" (Mangyaring tandaan na ang "numero ng bersyon" ay hindi "numero ng bersyon ng Android." Maaaring mag-iba ang mga pangalan ng tatak ng iyong aparato. Halimbawa, ito ay "MIUI bersyon" sa aparato ng Xiaomi, at "Bumuo ng numero" sa aparato ng Samsung.) </string>
 
 Values-fr-rFR  法语
-<string name = "unlock_pro_privilege_btn_str"> DÉVERROUILLER GRATUITEMENT </string>
+<string name = "touch_effect_guide_step1"> En raison de limitations du système, la fonction "Show Touch" n'a pas pu être ouverte directement via V Recorder. Si vous devez toujours afficher l'emplacement du clic pendant l'enregistrement, vous pouvez l'activer dans les paramètres de votre appareil. Les étapes sont les suivantes (les méthodes peuvent varier en fonction de la marque de votre appareil.): \ N \ nÉtape 1: cliquez sur "Options de développement". "sur la page" Paramètres "ou la page" Paramètres supplémentaires "de votre téléphone </string>
+
+<string name = "touch_effect_guide_step2"> Étape 2: recherchez et activez "Afficher les taps" dans "Options pour les développeurs" </string>
+
+<string name = "touch_effect_guide_step3"> Si vous n'avez pas "Options de développeur" sur votre appareil, vous devez d'abord activer le mode développeur. Les étapes d'activation sont les suivantes: \ n \ nCliquez sur "À propos du téléphone" ou sur "Mon appareil" pour saisir "Informations logicielles", puis cliquez sur "Numéro de version" environ 5 fois. Le système vous demandera "vous êtes maintenant en mode développeur". Lorsque vous revenez à la page "Paramètres", vous verrez "Options pour les développeurs" (veuillez noter que le "numéro de version" n'est pas "le numéro de version Android". Les noms peuvent varier en fonction de la marque de votre appareil. Par exemple, il s'agit "Version MIUI" sur le périphérique Xiaomi et "Numéro de version" sur le périphérique Samsung.) </string>
 
 Values-hi-rln   印地语
-<string name = "unlock_pro_privilege_btn_str"> मुफ़्त के लिए अनलॉक करें </string>
+<string name = "touch_effect_guide_step1"> सिस्टम सीमाओं के कारण, "टच टच" फ़ंक्शन सीधे वी रिकॉर्डर के माध्यम से नहीं खोला जा सकता है। यदि आपको अभी भी रिकॉर्डिंग के दौरान क्लिक स्थान दिखाने की आवश्यकता है, तो आप इसे अपने डिवाइस सेटिंग्स में चालू कर सकते हैं। चरण इस प्रकार हैं (विधियाँ आपके डिवाइस के ब्रांड द्वारा भिन्न हो सकती हैं।): \ n \ nStep 1: "डेवलपर विकल्प" पर क्लिक करें। "अपने फ़ोन के" सेटिंग "पृष्ठ या" अतिरिक्त सेटिंग्स "पृष्ठ </string> पर
+
+<string name = "touch_effect_guide_step2"> चरण 2: "डेवलपर विकल्प" में "शो टैप" ढूंढें और चालू करें </string>
+
+<string name = "touch_effect_guide_step3"> यदि आपके डिवाइस पर "डेवलपर विकल्प" नहीं हैं, तो आपको पहले डेवलपर मोड को सक्षम करना होगा। सक्षम करने के चरण इस प्रकार हैं: \ n \ n "फोन के बारे में" या "मेरी डिवाइस" के बारे में "सॉफ़्टवेयर जानकारी" दर्ज करने के लिए, और फिर लगभग 5 बार "संस्करण संख्या" पर क्लिक करें। सिस्टम "आप अब डेवलपर मोड में हैं" का संकेत देगा। जब आप "सेटिंग" पृष्ठ पर लौटते हैं, तो आपको "डेवलपर विकल्प" दिखाई देगा (कृपया ध्यान दें कि "संस्करण संख्या" "संस्करण संस्करण संख्या" नहीं है। आपके डिवाइस के ब्रांड द्वारा नाम भिन्न हो सकते हैं। उदाहरण के लिए, यह \ n है। Xiaomi डिवाइस पर "MIUI संस्करण", और सैमसंग डिवाइस पर "बिल्ड नंबर"।) </string>
 
 Values-id   马来语
-<string name = "unlock_pro_privilege_btn_str"> UNLOCK FOR FREE </string>
+<string name = "touch_effect_guide_step1"> Oleh kerana batasan sistem, fungsi "Tunjukkan Sentuh" tidak dapat dibuka terus melalui V Perakam. Jika anda masih perlu menunjukkan lokasi klik semasa rakaman, anda boleh menghidupkannya dalam tetapan peranti anda. Langkah-langkahnya adalah seperti berikut (Kaedah mungkin berbeza mengikut jenama peranti anda.): \ N \ nStep 1: Klik "Opsyen Pemaju "pada halaman" Tetapan "atau" Tetapan tambahan "pada telefon anda </string>
+
+<string name = "touch_effect_guide_step2"> Langkah 2: Cari dan aktifkan "Tunjukkan paip" dalam "Pilihan Pemaju" </string>
+
+<string name = "touch_effect_guide_step3"> Jika anda tidak mempunyai "Pilihan Pembangun" pada peranti anda, anda perlu mendayakan mod pembangun terlebih dahulu. Langkah-langkah yang membolehkannya adalah seperti berikut: \ n \ nKlik "Perihal telefon" atau "Peranti saya" untuk memasukkan "Maklumat perisian", kemudian klik "Versi nombor" untuk kira-kira 5 kali. Sistem ini akan meminta "anda berada dalam mod pemaju sekarang". Apabila anda kembali ke halaman "Tetapan", anda akan melihat "Pilihan pembangun" (Sila ambil perhatian bahawa "Nombor versi" bukan "nombor versi Android". Nama-nama mungkin berbeza mengikut jenama peranti anda. "Versi MIUI" pada peranti Xiaomi, dan "Bina nombor" pada peranti Samsung.) </string>
 
 Values-in   马来语
-<string name = "unlock_pro_privilege_btn_str"> UNLOCK FOR FREE </string>
+<string name = "touch_effect_guide_step1"> Oleh kerana batasan sistem, fungsi "Tunjukkan Sentuh" tidak dapat dibuka terus melalui V Perakam. Jika anda masih perlu menunjukkan lokasi klik semasa rakaman, anda boleh menghidupkannya dalam tetapan peranti anda. Langkah-langkahnya adalah seperti berikut (Kaedah mungkin berbeza mengikut jenama peranti anda.): \ N \ nStep 1: Klik "Opsyen Pemaju "pada halaman" Tetapan "atau" Tetapan tambahan "pada telefon anda </string>
+
+<string name = "touch_effect_guide_step2"> Langkah 2: Cari dan aktifkan "Tunjukkan paip" dalam "Pilihan Pemaju" </string>
+
+<string name = "touch_effect_guide_step3"> Jika anda tidak mempunyai "Pilihan Pembangun" pada peranti anda, anda perlu mendayakan mod pembangun terlebih dahulu. Langkah-langkah yang membolehkannya adalah seperti berikut: \ n \ nKlik "Perihal telefon" atau "Peranti saya" untuk memasukkan "Maklumat perisian", kemudian klik "Versi nombor" untuk kira-kira 5 kali. Sistem ini akan meminta "anda berada dalam mod pemaju sekarang". Apabila anda kembali ke halaman "Tetapan", anda akan melihat "Pilihan pembangun" (Sila ambil perhatian bahawa "Nombor versi" bukan "nombor versi Android". Nama-nama mungkin berbeza mengikut jenama peranti anda. "Versi MIUI" pada peranti Xiaomi, dan "Bina nombor" pada peranti Samsung.) </string>
 
 Values-ja 日语
-<string name = "trim_desc">お気に入りのクリップを保持</string>
+<string name = "touch_effect_guide_step1">システムの制限により、「タッチの表示」機能をV Recorderから直接開くことができませんでした。記録中にクリック位置を表示する必要がある場合は、デバイス設定でクリック位置をオンにすることができます。手順は次のとおりです（方法はデバイスのブランドによって異なる場合があります。）：\ n \ nステップ1：[開発者オプション]をクリックします携帯端末の[設定]ページまたは[追加設定]ページ</ string>
+
+<string name = "touch_effect_guide_step2">ステップ2：[開発者向けオプション]で[タップを表示]を見つけてオンにします</ string>
+
+<string name = "touch_effect_guide_step3">デバイスに「開発者オプション」がない場合は、最初に開発者モードを有効にする必要があります。有効化の手順は次のとおりです。\ n \ n [電話について]または[デバイス]をクリックして[ソフトウェア情報]を入力し、[バージョン番号]を約5回クリックします。システムは、「開発者モードになりました」というプロンプトを表示します。 [設定]ページに戻ると、[開発者向けオプション]が表示されます（[バージョン番号]は[Androidバージョン番号]ではありません。名前はデバイスのブランドによって異なる場合があります。たとえば、 Xiaomiデバイスでは「MIUIバージョン」、Samsungデバイスでは「ビルド番号」。</ string>
 
 Values-ko  韩语
-<string name = "unlock_pro_privilege_btn_str"> 무료 잠금 해제 </string>
+<string name = "touch_effect_guide_step1"> 시스템 제한으로 인해 V Recorder를 통해 "Show Touch"기능을 직접 열 수 없습니다. 녹음 중에 클릭 위치를 표시해야하는 경우 장치 설정에서 클릭 위치를 켤 수 있습니다. 단계는 다음과 같습니다 (장치의 브랜드에 따라 방법이 다를 수 있습니다). \ n \ n1 단계 : "개발자 옵션 클릭 '설정'페이지 또는 '추가 설정'페이지의 '</ string>
+
+<string name = "touch_effect_guide_step2"> 2 단계 : "개발자 옵션"에서 "탭 표시"찾기 및 켜기 </string>
+
+<string name = "touch_effect_guide_step3"> 장치에 "개발자 옵션"이 없으면 먼저 개발자 모드를 활성화해야합니다. 활성화 단계는 다음과 같습니다. \ n \ n "전화 정보"또는 "내 장치"를 클릭하여 "소프트웨어 정보"를 입력 한 다음 "버전 번호"를 약 5 번 클릭하십시오. "지금 개발자 모드에 있습니다"라는 메시지가 표시됩니다. "설정"페이지로 돌아 가면 "개발자 옵션"이 표시됩니다 ( "버전 번호"는 "Android 버전 번호"가 아닙니다. 이름은 기기 브랜드에 따라 다를 수 있습니다. 예를 들어, Xiaomi 기기의 경우 "MIUI 버전", Samsung 기기의 경우 "빌드 번호") </string>
 
 Values-ms-rmy  印尼语
-<string name = "unlock_pro_privilege_btn_str"> BUKA KUNCI GRATIS </string>
+<string name = "touch_effect_guide_step1"> Karena keterbatasan sistem, fungsi "Show Touch" tidak dapat dibuka langsung melalui V Recorder. Jika Anda masih perlu menunjukkan lokasi klik selama perekaman, Anda dapat menyalakannya di pengaturan perangkat Anda. Langkah-langkahnya adalah sebagai berikut (Metode dapat berbeda menurut merek perangkat Anda.): \ N \ nLangkah 1: Klik "Opsi Pengembang "di halaman" Pengaturan "atau" Pengaturan tambahan "di ponsel Anda </string>
+
+<string name = "touch_effect_guide_step2"> Langkah 2: Temukan dan nyalakan "Tampilkan ketuk" di "Opsi Pengembang" </string>
+
+<string name = "touch_effect_guide_step3"> Jika Anda tidak memiliki "Opsi Pengembang" di perangkat Anda, Anda harus mengaktifkan mode pengembang terlebih dahulu. Langkah-langkah yang memungkinkan adalah sebagai berikut: \ n \ nKlik "Tentang ponsel" atau "Perangkat saya" untuk memasukkan "Informasi perangkat lunak", dan kemudian klik "Nomor versi" sekitar 5 kali. Sistem akan meminta "Anda dalam mode pengembang sekarang". Ketika Anda kembali ke halaman "Pengaturan", Anda akan melihat "Opsi pengembang" (Harap perhatikan bahwa "Nomor versi" bukan "Nomor versi Android". Nama dapat berbeda menurut merek perangkat Anda. Misalnya, ini adalah "Versi MIUI" pada perangkat Xiaomi, dan "Build number" pada perangkat Samsung.) </string>
 
 Values-nl-rnl  荷兰语
-<string name = "unlock_pro_privilege_btn_str"> GRATIS ONTGRENDELEN </string>
+<string name = "touch_effect_guide_step1"> Vanwege systeembeperkingen kon de functie "Show Touch" niet rechtstreeks via V Recorder worden geopend. Als u tijdens de opname nog steeds de kliklocatie moet weergeven, kunt u deze inschakelen in de instellingen van uw apparaat. De stappen zijn als volgt (methoden kunnen verschillen per merk van uw apparaat.): \ N \ nStap 1: klik op "Opties voor ontwikkelaars 'op de pagina' Instellingen 'of de pagina' Aanvullende instellingen 'van uw telefoon </string>
+
+<string name = "touch_effect_guide_step2"> Stap 2: Zoek "Kranen tonen" in "Opties voor ontwikkelaars" </string> en schakel deze in
+
+<string name = "touch_effect_guide_step3"> Als u geen "Developer Options" op uw apparaat hebt, moet u eerst de ontwikkelaarsmodus inschakelen. De activeringsstappen zijn als volgt: \ n \ nKlik op "Over de telefoon" of "Mijn apparaat" om "Software-informatie" in te voeren en klik vervolgens ongeveer 5 keer op "Versienummer". Het systeem geeft de melding "U bevindt zich nu in de ontwikkelaarsmodus". Wanneer u terugkeert naar de pagina "Instellingen", ziet u "Opties voor ontwikkelaars" (Houd er rekening mee dat "Versienummer" niet "Android-versienummer" is. Namen kunnen verschillen per merk van uw apparaat. Het is bijvoorbeeld "MIUI-versie" op Xiaomi-apparaat en "Build-nummer" op Samsung-apparaat.) </string>
 
 Values-pt-rpt  葡萄牙
-<string name = "unlock_pro_privilege_btn_str"> DESBLOQUEIE DE GRAÇA </string>
+<string name = "touch_effect_guide_step1"> Devido às limitações do sistema, a função "Show Touch" não pôde ser aberta diretamente através do V Recorder. Se você ainda precisar mostrar o local do clique durante a gravação, poderá ativá-lo nas configurações do dispositivo. As etapas são as seguintes (os métodos podem variar de acordo com a marca do seu dispositivo.): \ N \ nEtapa 1: Clique em "Opções do desenvolvedor "na página" Configurações "ou na página" Configurações adicionais "do seu telefone </string>
+
+<string name = "touch_effect_guide_step2"> Etapa 2: encontre e ative "Mostrar toques" em "Opções do desenvolvedor" </string>
+
+<string name = "touch_effect_guide_step3"> Se você não possui "Opções do desenvolvedor" no seu dispositivo, é necessário ativar o modo de desenvolvedor primeiro. As etapas de ativação são as seguintes: \ n \ nClique em "Sobre o telefone" ou "Meu dispositivo" para inserir "Informações do software" e clique em "Número da versão" por cerca de 5 vezes. O sistema solicitará "você está no modo de desenvolvedor agora". Quando você retornar à página "Configurações", verá "Opções do desenvolvedor" (Observe que "Número da versão" não é "Número da versão do Android". Os nomes podem variar de acordo com a marca do seu dispositivo. Por exemplo, é "Versão MIUI" no dispositivo Xiaomi e "número da versão" no dispositivo Samsung.) </string>
 
 Values-ru-rRu  俄语
-<string name = "unlock_pro_privilege_btn_str"> БЛОКИРОВАТЬ БЕСПЛАТНО </string>
+<string name = "touch_effect_guide_step1"> Из-за системных ограничений не удалось открыть функцию «Показать касание» напрямую через V Recorder. Если вам все еще нужно отображать местоположение щелчка во время записи, вы можете включить его в настройках своего устройства. Шаги следующие (методы могут отличаться в зависимости от марки вашего устройства.): \ N \ n Шаг 1: Нажмите «Параметры разработчика» "на странице" Настройки "или" Дополнительные настройки "вашего телефона </string>
+
+<string name = "touch_effect_guide_step2"> Шаг 2. Найдите и включите «Показать метки» в «Настройках разработчика» </string>
+
+<string name = "touch_effect_guide_step3"> Если на вашем устройстве не установлены «Параметры разработчика», сначала необходимо включить режим разработчика. Включите следующие шаги: \ n \ nНажмите «О телефоне» или «Мое устройство», чтобы ввести «Информация о программном обеспечении», а затем нажмите «Номер версии» примерно 5 раз. Система выдаст сообщение «Вы находитесь в режиме разработчика». Когда вы вернетесь на страницу «Настройки», вы увидите «Параметры разработчика» (обратите внимание, что «Номер версии» не является «номером версии Android». Имена могут отличаться в зависимости от марки вашего устройства. Например, это «Версия MIUI» на устройстве Xiaomi и «Номер сборки» на устройстве Samsung.) </string>
 
 Values-th  泰语
-<string name = "unlock_pro_privilege_btn_str"> ปลดล็อคฟรี </string>
+<string name = "touch_effect_guide_step1"> เนื่องจากข้อ จำกัด ของระบบฟังก์ชั่น "Show Touch" ไม่สามารถเปิดได้โดยตรงผ่าน V Recorder หากคุณยังต้องการแสดงตำแหน่งการคลิกในระหว่างการบันทึกคุณสามารถเปิดใช้งานได้ในการตั้งค่าอุปกรณ์ของคุณขั้นตอนดังต่อไปนี้ (วิธีการอาจแตกต่างกันไปตามยี่ห้อของอุปกรณ์ของคุณ): \ n \ n ขั้นตอนที่ 1: คลิก "ตัวเลือกนักพัฒนา "ในหน้า" การตั้งค่า "หรือหน้า" การตั้งค่าเพิ่มเติม "ของโทรศัพท์ </string>
+
+<string name = "touch_effect_guide_step2"> ขั้นตอนที่ 2: ค้นหาและเปิดใช้ "Show taps" ใน "ตัวเลือกนักพัฒนาซอฟต์แวร์" </string>
+
+<string name = "touch_effect_guide_step3"> หากคุณไม่มี "ตัวเลือกสำหรับนักพัฒนา" ในอุปกรณ์ของคุณคุณจะต้องเปิดใช้งานโหมดผู้พัฒนาก่อน ขั้นตอนการเปิดใช้งานมีดังนี้: \ n \ n คลิก "เกี่ยวกับโทรศัพท์" หรือ "อุปกรณ์ของฉัน" เพื่อป้อน "ข้อมูลซอฟต์แวร์" แล้วคลิก "หมายเลขรุ่น" ประมาณ 5 ครั้ง ระบบจะแจ้งให้ "คุณอยู่ในโหมดนักพัฒนาตอนนี้" เมื่อคุณกลับไปที่หน้า "การตั้งค่า" คุณจะเห็น "ตัวเลือกนักพัฒนา" (โปรดทราบว่า "หมายเลขเวอร์ชัน" ไม่ใช่ "หมายเลขเวอร์ชั่น Android" ชื่ออาจแตกต่างกันไปตามยี่ห้อของอุปกรณ์ของคุณตัวอย่างเช่น "MIUI version" บนอุปกรณ์ Xiaomi และ "Build number" บนอุปกรณ์ Samsung) </string>
 
 Values-tl   菲律宾语
-<string name = "unlock_pro_privilege_btn_str"> UNLOCK PARA SA LIBRE </string>
+<string name = "touch_effect_guide_step1"> Dahil sa mga limitasyon ng system, ang function na "Ipakita ang Touch" ay hindi mabuksan nang diretso sa pamamagitan ng V Recorder. Kung kailangan mo pa ring ipakita ang lokasyon ng pag-click sa pag-record, maaari mong i-on ito sa mga setting ng iyong aparato. Ang mga hakbang ay ang mga sumusunod (Mga pamamaraan ay maaaring mag-iba sa pamamagitan ng tatak ng iyong aparato.): \ N \ nStep 1: I-click ang "Mga Pagpipilian sa Developer "sa pahina ng" Mga Setting "o pahina ng" Mga karagdagang setting "ng iyong telepono </string>
+
+<string name = "touch_effect_guide_step2"> Hakbang 2: Hanapin at i-on ang "Ipakita ang mga tap" sa "Mga Pagpipilian sa Developer" </string>
+
+<string name = "touch_effect_guide_step3"> Kung wala kang "Mga Pagpipilian sa Developer" sa iyong aparato, kailangan mo munang paganahin ang mode ng developer. Ang mga pagpapagana ng mga hakbang ay ang mga sumusunod: \ n \ nMag-click sa "Tungkol sa telepono" o "Aking aparato" upang ipasok ang "Impormasyon sa Software", at pagkatapos ay i-click ang "numero ng Bersyon" nang halos 5 beses. Ang system ay mag-udyok "ikaw ay nasa mode ng developer ngayon". Kapag bumalik ka sa pahina ng "Mga Setting", makikita mo ang "mga pagpipilian sa developer" (Mangyaring tandaan na ang "numero ng bersyon" ay hindi "numero ng bersyon ng Android." Maaaring mag-iba ang mga pangalan ng tatak ng iyong aparato. Halimbawa, ito ay "MIUI bersyon" sa aparato ng Xiaomi, at "Bumuo ng numero" sa aparato ng Samsung.) </string>
 
 Values-tr  土耳其语
-<string name = "unlock_pro_privilege_btn_str"> BEDAVA KİLİT AÇMA </string>
+<string name = "touch_effect_guide_step1"> Sistem sınırlamaları nedeniyle, "Dokunma Göster" işlevi doğrudan V Kaydedici aracılığıyla açılamadı. Kayıt sırasında tıklatma konumunu göstermeniz gerekiyorsa, cihaz ayarlarınızda açabilirsiniz. Adımlar aşağıdaki gibidir (Yöntemler cihazınızın markasına göre değişebilir.): \ N \ n Adım 1: "Geliştirici Seçenekleri" ni tıklayın. "Ayarlar" sayfasında veya telefonunuzun "Ek ayarlar" sayfasında </string>
+
+<string name = "touch_effect_guide_step2"> Adım 2: "Geliştirici Seçenekleri" ndeki "Muslukları göster" i bulun ve açın </string>
+
+<string name = "touch_effect_guide_step3"> Cihazınızda "Geliştirici Seçenekleri" yoksa, önce geliştirici modunu etkinleştirmeniz gerekir. Etkinleştirme adımları aşağıdaki gibidir: \ n \ n "Yazılım bilgileri" girmek için "Telefon hakkında" veya "Cihazım" ı tıklayın ve ardından yaklaşık 5 kez "Sürüm numarası" nı tıklayın. Sistem "şimdi geliştirici modundasınız" komutunu verecektir. "Ayarlar" sayfasına geri döndüğünüzde, "Geliştirici seçenekleri" ni göreceksiniz (Lütfen "Sürüm numarası" nın "Android sürüm numarası" olmadığını unutmayın. İsimler, cihazınızın markasına göre değişebilir. Xiaomi cihazında "MIUI sürümü" ve Samsung cihazında "Yapı numarası".) </string>
 
 Values-vi  越南语
-<string name = "unlock_pro_privilege_btn_str">UNLOCK MIỄN PHÍ </string>
+<string name = "touch_effect_guide_step1"> Do giới hạn hệ thống, chức năng "Show Touch" không thể mở trực tiếp thông qua V Recorder. Nếu bạn vẫn cần hiển thị vị trí nhấp trong khi ghi, bạn có thể bật nó trong cài đặt thiết bị của mình. Các bước như sau (Phương pháp có thể thay đổi theo nhãn hiệu thiết bị của bạn.): \ N \ nBước 1: Nhấp vào "Tùy chọn nhà phát triển "trên trang" Cài đặt "hoặc trang" Cài đặt bổ sung "trên điện thoại của bạn </ chuỗi>
+
+<string name = "touch_effect_guide_step2"> Bước 2: Tìm và bật "Hiển thị vòi" trong "Tùy chọn nhà phát triển" </string>
+
+<string name = "touch_effect_guide_step3"> Nếu bạn không có "Tùy chọn nhà phát triển" trên thiết bị của mình, trước tiên bạn cần bật chế độ nhà phát triển. Các bước kích hoạt như sau: \ n \ n Nhấp vào "Giới thiệu về điện thoại" hoặc "Thiết bị của tôi" để nhập "Thông tin phần mềm" và sau đó nhấp vào "Số phiên bản" trong khoảng 5 lần. Hệ thống sẽ nhắc "bạn đang ở chế độ nhà phát triển". Khi bạn quay lại trang "Cài đặt", bạn sẽ thấy "Tùy chọn nhà phát triển" (Xin lưu ý rằng "Số phiên bản" không phải là "Số phiên bản Android". Tên có thể thay đổi theo nhãn hiệu của thiết bị của bạn. Ví dụ: đó là "Phiên bản MIUI" trên thiết bị Xiaomi và "Số xây dựng" trên thiết bị Samsung.) </string>
 
 Values-it  意大利语
-<string name = "unlock_pro_privilege_btn_str"> SBLOCCA GRATUITAMENTE </string>
+<string name = "touch_effect_guide_step1"> A causa delle limitazioni del sistema, la funzione "Show Touch" non può essere aperta direttamente tramite V Recorder. Se è ancora necessario mostrare la posizione del clic durante la registrazione, è possibile attivarla nelle impostazioni del dispositivo. I passaggi sono i seguenti (I metodi possono variare in base alla marca del dispositivo.): \ N \ nPasso 1: fare clic su "Opzioni sviluppatore "nella pagina" Impostazioni "o nella pagina" Impostazioni aggiuntive "del telefono </string>
+
+<string name = "touch_effect_guide_step2"> Passaggio 2: trova e attiva "Mostra tocchi" in "Opzioni sviluppatore" </string>
+
+<string name = "touch_effect_guide_step3"> Se non hai "Opzioni sviluppatore" sul tuo dispositivo, devi prima abilitare la modalità sviluppatore. I passaggi di abilitazione sono i seguenti: \ n \ nFare clic su "Informazioni sul telefono" o "Il mio dispositivo" per inserire "Informazioni sul software", quindi fare clic su "Numero versione" per circa 5 volte. Il sistema richiederà "sei in modalità sviluppatore ora". Quando ritorni alla pagina "Impostazioni", vedrai "Opzioni sviluppatore" (Nota che "Numero versione" non è "Numero versione Android". I nomi possono variare in base alla marca del tuo dispositivo. Ad esempio, è "Versione MIUI" sul dispositivo Xiaomi e "Numero build" sul dispositivo Samsung.) </string>
