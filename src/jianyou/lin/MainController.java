@@ -43,7 +43,7 @@ public class MainController {
         //step 1: read res file dir and loop multi language dir strings.xml
         //step 2:read translate file ,parse multi language,
         //step 3: append translate string to strings.xml file end.
-        RandomAccessFile randomAccessFile = new RandomAccessFile(new File("C:\\Work\\OPEN_SOURCE_PROJECT\\JavaProject\\res\\temp.txt"), "rw");
+//        RandomAccessFile randomAccessFile = new RandomAccessFile(new File("C:\\Work\\OPEN_SOURCE_PROJECT\\JavaProject\\res\\temp.txt"), "rw");
 
         if (srcFile.isDirectory()) {
             File[] values = srcFile.listFiles((dir, name) -> {
@@ -65,7 +65,7 @@ public class MainController {
                     if (files != null)
                         if (files.length > 0) {
                             File stringFile = files[0];//strings.xml
-//                            RandomAccessFile randomAccessFile = new RandomAccessFile(stringFile, "rw");
+                            RandomAccessFile randomAccessFile = new RandomAccessFile(stringFile, "rw");
                             long lastLinePos = getLastLinePos(randomAccessFile);
                             randomAccessFile.seek(lastLinePos);
 //                            String lastLineString = randomAccessFile.readLine();
@@ -94,21 +94,27 @@ public class MainController {
         StringBuilder result = new StringBuilder();
 
         String translateLocale;
-        String originLocale = local;
-//        .replace("values-", "");
-//        int i = originLocale.indexOf("-");
-//        if (i > 0) {
-//            originLocale = originLocale.substring(0, i);
-//        }
+        String originLocale = local.replace("values-", "");
+        int i = originLocale.indexOf("-");
+        if (i > 0 && !local.contains("rHK") && !local.contains("rTW")) {
+            originLocale = local.substring(0, local.lastIndexOf("-"));
+        } else {
+            originLocale = local;
+        }
         print("locale:" + originLocale);//
-        result.append("locale:").append(originLocale).append("\n");
+//        result.append("locale:").append(originLocale).append("\n");
         do {
             translateLocale = randomAccessFile.readLine();
             if (translateLocale != null && !translateLocale.trim().isEmpty()) {
-                if (translateLocale.toLowerCase().equals("values") || translateLocale.toLowerCase().contains("values-") || translateLocale.contains("中文") || translateLocale.contains("中文繁体")) {
+                if (translateLocale.toLowerCase().equals("values") || translateLocale.toLowerCase().contains("values-")
+                        || translateLocale.contains("中文") || translateLocale.contains("中文繁体")) {
+                    print("判断 【" + translateLocale.toLowerCase() + "】【" + originLocale.toLowerCase() + "】");
+                    String tw = "values-zh-rTW".toLowerCase();
+                    String hk = "values-zh-rHK".toLowerCase();
                     if (translateLocale.toLowerCase().equals(originLocale.toLowerCase())
                             || translateLocale.toLowerCase().contains(originLocale.toLowerCase())
-                            || translateLocale.toLowerCase().equals("values-vi")
+                            || ((originLocale.toLowerCase().equals(tw) || originLocale.toLowerCase().equals(hk)) &&
+                            (translateLocale.toLowerCase().contains(tw) || translateLocale.toLowerCase().contains(hk)))
                     ) {
                         String readLine;
                         boolean loop;
@@ -122,8 +128,18 @@ public class MainController {
                                     && !readLine.contains("中文繁体")
                             ;
                             if (loop) {
-                                if (!readLine.trim().isEmpty())
+                                if (!readLine.trim().isEmpty()) {
+                                    readLine = readLine.replace("</ string>", "</string>")
+                                            .replace("'", "\\'")
+                                            .replace("\\ n \\ n", "\\n\\n")
+                                            .replace("\\ N \\ n", "\\n\\n")
+                                            .replace("\\ N", "\\n")
+                                            .replace("\\ n", "\\n")
+                                            .replace("<string name=“ ", "<string name=\"")
+                                            .replace("”>", "\">")
+                                    ;
                                     result.append(readLine).append("\r\n");
+                                }
                             }
                         } while (loop);
                         break;

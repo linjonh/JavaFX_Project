@@ -16,6 +16,6 @@
     <Label layoutX="14.0" layoutY="108.0" prefHeight="17.0" prefWidth="47.0" text="字段" />
     <Button fx:id="srcMoreBtn" layoutX="396.0" layoutY="14.0" mnemonicParsing="false" onAction="#showChoosePathWindow" text="..." />
     <Button fx:id="distMoreBtn" layoutX="396.0" layoutY="52.0" mnemonicParsing="false" onAction="#showChoosePathWindow" text="..." />
-   <TextArea fx:id="resultTextArea" editable="false" layoutX="300.0" layoutY="108.0" prefHeight="539.0" prefWidth="733.0" />
+   <TextArea fx:id="resultTextArea" layoutX="300.0" layoutY="108.0" prefHeight="539.0" prefWidth="733.0" />
    <Label layoutX="308.0" layoutY="91.0" text="运行结果提示" />
 </Pane>
