@@ -4,6 +4,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
@@ -20,14 +21,18 @@ public class MainController {
     public Button srcMoreBtn;
     public Button distMoreBtn;
     public TextArea resultTextArea;
+    public CheckBox testCopyCheckBox;
+    public TextField testTempDistText;
 
     public void calc() throws IOException {
         String text = textArea.getText();
         String srcFilePath = srcText.getText();
         String distFilePath = distText.getText();
+        String testTempDistTextText = testTempDistText.getText();
         if (showEmptyError(distFilePath)) return;
         if (showEmptyError(srcFilePath)) return;
         if (showEmptyError(text)) return;
+        if (showEmptyError(testTempDistTextText)) return;
         String[] split = text.split("\n");
         print(Arrays.toString(split));
         File srcFile = new File(srcFilePath);
@@ -43,7 +48,10 @@ public class MainController {
         //step 1: read res file dir and loop multi language dir strings.xml
         //step 2:read translate file ,parse multi language,
         //step 3: append translate string to strings.xml file end.
-//        RandomAccessFile randomAccessFile = new RandomAccessFile(new File("C:\\Work\\OPEN_SOURCE_PROJECT\\JavaProject\\res\\temp.txt"), "rw");
+        RandomAccessFile randomAccessFile = null;
+        if (testCopyCheckBox.isSelected()) {
+            randomAccessFile = new RandomAccessFile(new File(testTempDistTextText), "rw");
+        }
 
         if (srcFile.isDirectory()) {
             File[] values = srcFile.listFiles((dir, name) -> {
@@ -65,7 +73,9 @@ public class MainController {
                     if (files != null)
                         if (files.length > 0) {
                             File stringFile = files[0];//strings.xml
-                            RandomAccessFile randomAccessFile = new RandomAccessFile(stringFile, "rw");
+                            if (!testCopyCheckBox.isSelected()) {
+                                randomAccessFile = new RandomAccessFile(stringFile, "rw");
+                            }
                             long lastLinePos = getLastLinePos(randomAccessFile);
                             randomAccessFile.seek(lastLinePos);
 //                            String lastLineString = randomAccessFile.readLine();
