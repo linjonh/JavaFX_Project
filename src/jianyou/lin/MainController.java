@@ -8,41 +8,66 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import org.w3c.dom.Document;
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
 public class MainController {
 
     public Button startParseBtn;
     public TextField srcText;//res 资源文件目录
-    public TextField distText;
+    public TextField translateText;
     public TextArea textArea;
     public Button srcMoreBtn;
     public Button distMoreBtn;
     public TextArea resultTextArea;
     public CheckBox testCopyCheckBox;
     public TextField testTempDistText;
+    public CheckBox isProjectFileDir;
+    private String[] split;
 
-    public void calc() throws IOException {
-        String text = textArea.getText();
+    public void onIsProjectFileDirCheckBox() {
+        textArea.setDisable(!isProjectFileDir.isSelected());
+    }
+
+    public void calc() throws IOException, ParserConfigurationException, SAXException {
+        print("\n\n>starting parsing======================================================>\n\n");
+        String fields = textArea.getText();
         String srcFilePath = srcText.getText();
-        String distFilePath = distText.getText();
+        String translateFilePathText = translateText.getText();
         String testTempDistTextText = testTempDistText.getText();
-        if (showEmptyError(distFilePath)) return;
+        if (showEmptyError(translateFilePathText)) return;
         if (showEmptyError(srcFilePath)) return;
-        if (showEmptyError(text)) return;
+        File translateFile = new File(translateFilePathText);
+        if (isProjectFileDir.isSelected()) {
+            if (showEmptyError(fields)) return;
+            fields = fields.replace(",", "\n").replace("，", "\n");
+            split = fields.split("\n");
+            print(Arrays.toString(split));
+        } else {
+            if (translateFile.isDirectory()) {
+                print("ERROR: 目标路径是目录不是文件");
+                return;
+            }
+        }
         if (showEmptyError(testTempDistTextText)) return;
-        String[] split = text.split("\n");
-        print(Arrays.toString(split));
+
         File srcFile = new File(srcFilePath);
-        File distFile = new File(distFilePath);
+
         if (!srcFile.exists()) {
             print("file not exist:" + srcFile);
             return;
         }
-        if (!distFile.exists()) {
-            print("file not exist:" + distFile);
+        if (!translateFile.exists()) {
+            print("file not exist:" + translateFile);
             return;
         }
         //step 1: read res file dir and loop multi language dir strings.xml
@@ -54,41 +79,99 @@ public class MainController {
         }
 
         if (srcFile.isDirectory()) {
-            File[] values = srcFile.listFiles((dir, name) -> {
-                boolean equals = name.startsWith("values");
-                if (!equals) {
-                    print("not start name:" + name);
-                }
-                return equals;
-            });
+            File[] values = getValuesFileList(srcFile);
             if (values != null) {
-                for (File valueDir : values) {
-                    File[] files = valueDir.listFiles((dir, name) -> {
-                        boolean equals = name.equals("strings.xml");
-                        if (!equals) {
-                            print("not strings name:" + name);
+                for (File srcValueDir : values) {//==============================>for 循环遍历被翻译的values多国语言文件目录
+                    File[] stringFileList = getStringsFileList(srcValueDir);
+                    if (stringFileList != null && stringFileList.length > 0) {
+                        File stringFile = stringFileList[0];//strings.xml
+                        if (!testCopyCheckBox.isSelected()) {
+                            randomAccessFile = new RandomAccessFile(stringFile, "rw");
                         }
-                        return equals;
-                    });
-                    if (files != null)
-                        if (files.length > 0) {
-                            File stringFile = files[0];//strings.xml
-                            if (!testCopyCheckBox.isSelected()) {
-                                randomAccessFile = new RandomAccessFile(stringFile, "rw");
-                            }
-                            long lastLinePos = getLastLinePos(randomAccessFile);
-                            randomAccessFile.seek(lastLinePos);
-//                            String lastLineString = randomAccessFile.readLine();
-                            String currentLocalString = findCurrentLocalString(valueDir.getName(), split, distFile);
-                            if (currentLocalString.length() > 0) {
-                                print("append:[" + valueDir.getName() + "]" + currentLocalString);
-                                appendStringToFile(randomAccessFile, lastLinePos, currentLocalString);
-                            }
-//                            print("lastLineString:" + lastLineString + " pos:" + lastLinePos);
+                        long lastLinePos = getLastLinePos(randomAccessFile);
+                        randomAccessFile.seek(lastLinePos);
+                        String lastLineString = randomAccessFile.readLine();
+                        print("lastLineString:" + lastLineString + " pos:" + lastLinePos);
+
+                        String currentLocalString = "";
+                        if (isProjectFileDir.isSelected()) {
+
+                            //loop document
+                            currentLocalString = getCopyFieldsString(translateFile, srcValueDir, currentLocalString);
+
+                        } else {
+                            /**
+                             * 从text翻译文件中查找<string></string>tag的对应国家多国语言
+                             */
+                            currentLocalString = findCurrentLocalString(srcValueDir.getName(), translateFile);
+
+
                         }
+                        if (currentLocalString.length() > 0) {
+                            print("append:[" + srcValueDir.getName() + "]" + currentLocalString);
+                            appendStringToFile(randomAccessFile, lastLinePos, currentLocalString);
+                        }
+                    }
                 }
             }
         }
+    }
+
+    private String getCopyFieldsString(File translateFile, File srcValueDir, String currentLocalString) throws SAXException, IOException, ParserConfigurationException {
+        if (translateFile.isDirectory()) {
+            File[] valuesFileList = getValuesFileList(translateFile);
+            for (File translateProjectValuesDir : valuesFileList) {
+                if (srcValueDir.equals(translateProjectValuesDir)) {
+                    print("srcValueDir: " + srcValueDir);
+                    File[] stringsFileList = getStringsFileList(translateProjectValuesDir);
+                    if (stringsFileList != null && stringsFileList.length > 0) {//string.xml 匹配读写
+                        File stringsFile = stringsFileList[0];//strings.xml
+                        Document document = DocumentBuilderFactory.newDefaultInstance().newDocumentBuilder().parse(stringsFile);
+                        NodeList nodeList = document.getDocumentElement().getElementsByTagName("string");
+                        StringBuilder stringBuilder = new StringBuilder();
+                        for (int i = 0; i < nodeList.getLength(); i++) {
+                            Node item = nodeList.item(i);
+                            NamedNodeMap attributes = item.getAttributes();
+                            Node attrNode = attributes.item(0);
+                            String stringName = attrNode.getNodeValue();
+                            for (String aSplit : split) {
+                                if (stringName.equals(aSplit)) {
+                                    StringBuilder xmlString = new StringBuilder();
+                                    String nodeValue = item.getFirstChild().getNodeValue();
+                                    xmlString.append("    <string  name=\"").append(attrNode.getNodeValue()).append("\">").append(nodeValue).append("</string>\r\n");
+                                    stringBuilder.append(xmlString);
+                                    break;
+                                }
+                            }
+                        }
+                        //拷贝写入配翻译文件
+                        currentLocalString = stringBuilder.toString();
+                    }
+                    break;
+                }
+            }
+        }
+        return currentLocalString;
+    }
+
+    private File[] getStringsFileList(File valueDir) {
+        return valueDir.listFiles((dir, name) -> {
+            boolean equals = name.equals("strings.xml");
+            if (!equals) {
+                print("not strings name:" + name);
+            }
+            return equals;
+        });
+    }
+
+    private File[] getValuesFileList(File srcFile) {
+        return srcFile.listFiles((dir, name) -> {
+            boolean equals = name.startsWith("values");
+            if (!equals) {
+                print("not start values name:" + name);
+            }
+            return equals;
+        });
     }
 
     private void print(String s) {
@@ -96,17 +179,17 @@ public class MainController {
         System.out.println(s);
     }
 
-    private String findCurrentLocalString(String local, String[] split, File distFile) throws IOException {
-        if (distFile.isDirectory()) {
+    private String findCurrentLocalString(String local, File translateFile) throws IOException {
+        if (translateFile.isDirectory()) {
             print("ERROR: 目标路径是目录不是文件");
+            return "";
         }
-        RandomAccessFile randomAccessFile = new RandomAccessFile(distFile, "r");
+        BufferedReader randomAccessFile = new BufferedReader(new FileReader(translateFile));//BufferedReader读取的是utf-8的，而RandomAccessFile会出现乱码问题。
         StringBuilder result = new StringBuilder();
-
         String translateLocale;
         String originLocale = local.replace("values-", "");
         int i = originLocale.indexOf("-");
-        if (i > 0 && !local.contains("rHK") && !local.contains("rTW")) {
+        if (i > 0 && !local.contains("rHK") && !local.contains("rTW")&&!local.contains("rCN")) {
             originLocale = local.substring(0, local.lastIndexOf("-"));
         } else {
             originLocale = local;
@@ -116,15 +199,29 @@ public class MainController {
         do {
             translateLocale = randomAccessFile.readLine();
             if (translateLocale != null && !translateLocale.trim().isEmpty()) {
-                if (translateLocale.toLowerCase().equals("values") || translateLocale.toLowerCase().contains("values-")
-                        || translateLocale.contains("中文") || translateLocale.contains("中文繁体")) {
-                    print("判断 【" + translateLocale.toLowerCase() + "】【" + originLocale.toLowerCase() + "】");
+                boolean contains = translateLocale.contains("中文");
+                if (contains) {
+                    print("hit");
+                }
+                String transLowerCase = translateLocale.toLowerCase();
+                if (transLowerCase.equals("values") || transLowerCase.contains("values-")
+                        || contains || translateLocale.contains("中文繁体")) {
+                    String originLcaleLowerCase = originLocale.toLowerCase();
+                    print("判断 【" + transLowerCase + "】【" + originLcaleLowerCase + "】");
                     String tw = "values-zh-rTW".toLowerCase();
                     String hk = "values-zh-rHK".toLowerCase();
-                    if (translateLocale.toLowerCase().equals(originLocale.toLowerCase())
-                            || translateLocale.toLowerCase().contains(originLocale.toLowerCase())
-                            || ((originLocale.toLowerCase().equals(tw) || originLocale.toLowerCase().equals(hk)) &&
-                            (translateLocale.toLowerCase().contains(tw) || translateLocale.toLowerCase().contains(hk)))
+                    String cn = "values-zh-rCN".toLowerCase();
+                    boolean equals = originLcaleLowerCase.equals(cn);
+                    if (equals) {
+                        print("hit");
+                    }
+                    if (transLowerCase.equals(originLcaleLowerCase)
+                            || transLowerCase.contains(originLcaleLowerCase)
+                            || ((originLcaleLowerCase.equals(tw) || originLcaleLowerCase.equals(hk)) &&
+                            (transLowerCase.contains(tw) || transLowerCase.contains(hk)))
+                            || (translateLocale.equals("中文") && equals)
+                            || (translateLocale.equals("中文繁体") && originLcaleLowerCase.equals(hk))
+                            || (translateLocale.equals("中文繁体") && originLcaleLowerCase.equals(tw))
                     ) {
                         String readLine;
                         boolean loop;
@@ -145,10 +242,10 @@ public class MainController {
                                             .replace("\\ N \\ n", "\\n\\n")
                                             .replace("\\ N", "\\n")
                                             .replace("\\ n", "\\n")
-                                            .replace("<string name=“ ", "<string name=\"")
+                                            .replace("=“ ", "=\"")
                                             .replace("”>", "\">")
                                     ;
-                                    result.append(readLine).append("\r\n");
+                                    result.append("    ").append(readLine).append("\r\n");
                                 }
                             }
                         } while (loop);
@@ -162,7 +259,7 @@ public class MainController {
     }
 
     private boolean showEmptyError(String text) {
-        if (text.isEmpty()) {
+        if (text.trim().isEmpty()) {
 //            Dialog dialog = new Dialog();
 //            dialog.setContentText("Empty text");
 //            dialog.setTitle("Error");
@@ -171,7 +268,7 @@ public class MainController {
 //                dialog.close();
 //            });
 //            dialog.show();
-            print("Empty");
+            print("ERROR:Empty input string");
             return true;
         }
         return false;
@@ -193,11 +290,11 @@ public class MainController {
      * 实现向指定位置
      * 插入数据
      *
-     * @param raf           RandomAccessFile
-     * @param points        指针位置
-     * @param insertContent 插入内容
+     * @param raf                 RandomAccessFile
+     * @param points              指针位置
+     * @param insertContentString 插入内容
      **/
-    public static void appendStringToFile(RandomAccessFile raf, long points, String insertContent) {
+    public static void appendStringToFile(RandomAccessFile raf, long points, String insertContentString) {
         try {
             File tmp = File.createTempFile("tmp", null);
             //创建一个临时文件夹来保存插入点后的数据
@@ -219,7 +316,7 @@ public class MainController {
             raf.seek(points);
             //+++++++++++++++++++++++++++++++++++++++++
             //追加需要追加的内容
-            raf.writeBytes(insertContent + "\r\n");
+            raf.write(insertContentString.getBytes(StandardCharsets.UTF_8));//RandomAccessFile类需要处理乱码问题。
             //+++++++++++++++++++++++++++++++++++++++++
             hasRead = tmpIn.read(buff);
             if (hasRead > 0) {//有内容回存储追加

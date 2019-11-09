@@ -5,14 +5,14 @@ Values
 
 <string name="touch_effect_guide_step3">If you do not have "Developer Options" on your device,you need to enable the developer mode first. The enabling steps are as follows: \n\nClick "About phone" or "My device" to enter "Software information", and then click "Version number" for about 5 times. The system will prompt "you are in developer mode now". When you return to the"Settings" page, you will see "Developer options"(Please note that "Version number" is not "Android version number". Names may vary by the brand of your device. For example, it\'s "MIUI version" on Xiaomi device, and "Build number" on Samsung device.)</string>
 
-values-zh 中文
+中文
 <string name =“ touch_effect_guide_step1”>由于系统限制，无法通过V Recorder直接打开“显示触摸”功能。如果在录制过程中仍然需要显示单击位置，则可以在设备设置中将其打开。步骤如下（方法可能因设备的品牌而异。）：\ n \ n步骤1：单击“开发人员选项”在手机的“设置”页面或“其他设置”页面上</ string>
 
 <string name =“ touch_effect_guide_step2”>第2步：在“开发人员选项”中找到并打开“显示点按操作反馈” </string>
 
 <string name =“ touch_effect_guide_step3”>如果您的设备上没有“开发者选项”，则需要先启用开发者模式。启用步骤如下：\ n \ n单击“关于手机”或“我的设备”以输入“软件信息”，然后单击“版本号”约5次。系统将提示“您现在处于开发人员模式”。当您返回“设置”页面时，您会看到“开发者选项”（请注意，“版本号”不是“ Android版本号”。名称可能会因设备品牌而异。例如，小米设备上的“ MIUI版本”，三星设备上的“内部版本号”。）</ string>
 
-values-zh-rHK 中文繁体
+中文繁体
 <string name =“ touch_effect_guide_step1”>由於系統限制，無法通過V Recorder直接打開“顯示觸摸”功能。如果在錄製過程中仍然需要顯示單擊位置，則可以在設備設置中將其打開。步驟如下（方法可能因設備的品牌而異。）：\ n \ n步驟1：單擊“開發人員選項”在手機的“設置”頁面或“其他設置”頁面上</ string>
 
 <string name =“ touch_effect_guide_step2”>第2步：在“開發人員選項”中找到並打開“顯示拍子” </string>

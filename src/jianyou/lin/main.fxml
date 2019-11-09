@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="669.0"
-      prefWidth="1069.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="jianyou.lin.MainController">
-    <TextField fx:id="srcText" layoutX="158.0" layoutY="14.0" prefHeight="25.0" prefWidth="659.0"
-               text="C:\Work\OPEN_SOURCE_PROJECT\JavaProject\res"/>
-    <TextField fx:id="distText" layoutX="158.0" layoutY="52.0" prefHeight="25.0" prefWidth="659.0"
-               text="C:\Work\OPEN_SOURCE_PROJECT\JavaProject\res\translateString.txt"/>
-    <Button fx:id="startParseBtn" layoutX="902.0" layoutY="14.0" mnemonicParsing="false" onAction="#calc"
-            prefHeight="50.0" prefWidth="105.0" text="解析复制"/>
-    <TextArea fx:id="textArea" layoutX="84.0" layoutY="108.0" prefHeight="284.0" prefWidth="197.0" promptText="要复制的字段名"
-              text="要复制的字段名" visible="false"/>
-    <Label layoutX="14.0" layoutY="18.0" text="项目多语言资源文件目录"/>
-    <Label layoutX="14.0" layoutY="56.0" text="翻译文件目标路径"/>
-    <Label layoutX="14.0" layoutY="108.0" prefHeight="17.0" prefWidth="47.0" text="字段" visible="false"/>
-    <Button fx:id="srcMoreBtn" layoutX="828.0" layoutY="14.0" mnemonicParsing="false" onAction="#showChoosePathWindow"
-            text="..."/>
-    <Button fx:id="distMoreBtn" layoutX="828.0" layoutY="52.0" mnemonicParsing="false" onAction="#showChoosePathWindow"
-            text="..."/>
-    <TextArea fx:id="resultTextArea" layoutX="300.0" layoutY="166.0" prefHeight="481.0" prefWidth="733.0"/>
-    <Label layoutX="300.0" layoutY="138.0" text="运行结果提示"/>
-    <CheckBox fx:id="testCopyCheckBox" layoutX="828.0" layoutY="100.0" mnemonicParsing="false" selected="true"
-              text="复制到测试文件"/>
-    <TextField fx:id="testTempDistText" layoutX="158.0" layoutY="96.0" prefHeight="25.0" prefWidth="659.0"
-               text="C:\Work\OPEN_SOURCE_PROJECT\JavaProject\res\temp.txt"/>
-    <Label layoutX="13.0" layoutY="100.0" text="保存拷贝测试文件路径"/>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="661.0" prefWidth="1203.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jianyou.lin.MainController">
+    <TextField fx:id="srcText" layoutX="158.0" layoutY="14.0" prefHeight="25.0" prefWidth="659.0" promptText="要被翻译的项目res目录" text="C:\Work\OPEN_SOURCE_PROJECT\JavaProject\res" />
+    <TextField fx:id="translateText" layoutX="158.0" layoutY="52.0" prefHeight="25.0" prefWidth="659.0" promptText="填写翻译源文件（txt格式），或者项目的res目录（配合输入字段集合，逗号或者换行分开）" text="C:\Work\OPEN_SOURCE_PROJECT\JavaProject\res\translateString.txt" />
+    <Button fx:id="startParseBtn" layoutX="1043.0" layoutY="52.0" mnemonicParsing="false" onAction="#calc" prefHeight="50.0" prefWidth="132.0" style="-fx-background-color: #0099cc;" text="开始解析复制--&gt;" textFill="#fffeda" />
+    <TextArea fx:id="textArea" disable="true" layoutX="21.0" layoutY="165.0" prefHeight="481.0" prefWidth="275.0" promptText="若源文件为项目资源文件目录,输入要复制的字段名，逗号或者换行分开" />
+    <Label layoutX="14.0" layoutY="18.0" text="需要翻译项目目录" />
+    <Label layoutX="14.0" layoutY="56.0" text="已翻译文件目标路径" />
+    <Label layoutX="21.0" layoutY="138.0" prefHeight="17.0" prefWidth="47.0" text="字段" />
+    <Button fx:id="srcMoreBtn" layoutX="828.0" layoutY="14.0" mnemonicParsing="false" onAction="#showChoosePathWindow" text="..." />
+    <Button fx:id="distMoreBtn" layoutX="828.0" layoutY="52.0" mnemonicParsing="false" onAction="#showChoosePathWindow" text="..." />
+    <TextArea fx:id="resultTextArea" layoutX="300.0" layoutY="166.0" prefHeight="481.0" prefWidth="868.0" />
+    <Label layoutX="300.0" layoutY="138.0" text="运行结果提示" />
+    <CheckBox fx:id="testCopyCheckBox" layoutX="868.0" layoutY="100.0" mnemonicParsing="false" selected="true" text="复制到测试文件" />
+    <TextField fx:id="testTempDistText" layoutX="158.0" layoutY="96.0" prefHeight="25.0" prefWidth="659.0" promptText="文件名路径" text="C:\Work\OPEN_SOURCE_PROJECT\JavaProject\res\temp.txt" />
+    <Label layoutX="14.0" layoutY="100.0" text="保存拷贝测试文件路径" />
+    <CheckBox fx:id="isProjectFileDir" layoutX="868.0" layoutY="56.0" mnemonicParsing="false" onAction="#onIsProjectFileDirCheckBox" text="源文件为项目资源文件目录" />
 </Pane>
