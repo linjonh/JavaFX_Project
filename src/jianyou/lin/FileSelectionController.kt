@@ -1,13 +1,17 @@
 package jianyou.lin
 
+import javafx.fxml.FXML
 import javafx.scene.control.Button
 import javafx.scene.control.TextField
 import javafx.scene.control.TreeItem
 import javafx.scene.control.TreeView
 
 class FileSelectionController {
+    @FXML
     var readPathBtn: Button? = null
+    @FXML
     var fileTree: TreeView<String>? = null
+    @FXML
     var pathText: TextField? = null
 
 

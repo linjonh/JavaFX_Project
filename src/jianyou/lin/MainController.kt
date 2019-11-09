@@ -1,5 +1,6 @@
 package jianyou.lin
 
+import javafx.fxml.FXML
 import javafx.fxml.FXMLLoader
 import javafx.scene.Parent
 import javafx.scene.Scene
@@ -17,15 +18,25 @@ import javax.xml.parsers.ParserConfigurationException
 
 class MainController {
 
+    @FXML
     var startParseBtn: Button? = null
+    @FXML
     var srcText: TextField? = null//res 资源文件目录
+    @FXML
     var translateText: TextField? = null
+    @FXML
     var textArea: TextArea? = null
+    @FXML
     var srcMoreBtn: Button? = null
+    @FXML
     var distMoreBtn: Button? = null
+    @FXML
     var resultTextArea: TextArea? = null
+    @FXML
     var testCopyCheckBox: CheckBox? = null
+    @FXML
     var testTempDistText: TextField? = null
+    @FXML
     var isProjectFileDir: CheckBox? = null
     private var split: Array<String>? = null
 
@@ -303,7 +314,7 @@ class MainController {
                 //用于保存临时读取的字节数
                 var hasRead = 0
                 //循环读取插入点后的内容
-                while ({hasRead = tmpIn.read(buff);hasRead}() > 0) {
+                while ({ hasRead = tmpIn.read(buff);hasRead }() > 0) {
                     // 将读取的数据写入临时文件中
                     tmpOut.write(buff, 0, hasRead)
                 }
@@ -320,7 +331,7 @@ class MainController {
                     do {
                         //                    print("hasRead:" + hasRead);
                         raf.write(buff, 0, hasRead)
-                    } while ({hasRead = tmpIn.read(buff);hasRead}() > 0)
+                    } while ({ hasRead = tmpIn.read(buff);hasRead }() > 0)
                     raf.seek(points)//恢復當前讀寫的位置;
                 }
                 //+++++++++++++++++++++++++++++++++++++++++
@@ -358,7 +369,7 @@ class MainController {
                 //用于保存临时读取的字节数
                 var hasRead = 0
                 //循环读取插入点后的内容
-                while ({hasRead = tmpIn.read(buff);hasRead}() > 0) {
+                while ({ hasRead = tmpIn.read(buff);hasRead }() > 0) {
                     // 将读取的数据写入临时文件中
                     tmpOut.write(buff, 0, hasRead)
                 }
