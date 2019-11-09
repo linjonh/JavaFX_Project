@@ -22,7 +22,7 @@ class Main : Application() {
 
         @JvmStatic
         fun main(args: Array<String>) {
-            Application.launch(*args)
+            launch(Main::class.java, *args)
         }
     }
 }

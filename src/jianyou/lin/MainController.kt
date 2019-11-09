@@ -303,7 +303,7 @@ class MainController {
                 //用于保存临时读取的字节数
                 var hasRead = 0
                 //循环读取插入点后的内容
-                while ((hasRead = raf.read(buff)) > 0) {
+                while ({hasRead = tmpIn.read(buff);hasRead}() > 0) {
                     // 将读取的数据写入临时文件中
                     tmpOut.write(buff, 0, hasRead)
                 }
@@ -320,7 +320,7 @@ class MainController {
                     do {
                         //                    print("hasRead:" + hasRead);
                         raf.write(buff, 0, hasRead)
-                    } while ((hasRead = tmpIn.read(buff)) > 0)
+                    } while ({hasRead = tmpIn.read(buff);hasRead}() > 0)
                     raf.seek(points)//恢復當前讀寫的位置;
                 }
                 //+++++++++++++++++++++++++++++++++++++++++
@@ -358,7 +358,7 @@ class MainController {
                 //用于保存临时读取的字节数
                 var hasRead = 0
                 //循环读取插入点后的内容
-                while ((hasRead = raf.read(buff)) > 0) {
+                while ({hasRead = tmpIn.read(buff);hasRead}() > 0) {
                     // 将读取的数据写入临时文件中
                     tmpOut.write(buff, 0, hasRead)
                 }
@@ -394,7 +394,7 @@ class MainController {
                     do {
                         //                    print("hasRead:" + hasRead);
                         raf.write(buff, 0, hasRead)
-                    } while ((hasRead = tmpIn.read(buff)) > 0)
+                    } while ({ hasRead = tmpIn.read(buff);hasRead }() > 0)
                     raf.seek(points)//恢復當前讀寫的位置;
                 }
                 //+++++++++++++++++++++++++++++++++++++++++

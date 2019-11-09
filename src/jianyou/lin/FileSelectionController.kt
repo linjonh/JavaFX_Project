@@ -7,7 +7,7 @@ import javafx.scene.control.TreeView
 
 class FileSelectionController {
     var readPathBtn: Button? = null
-    var fileTree: TreeView<*>? = null
+    var fileTree: TreeView<String>? = null
     var pathText: TextField? = null
 
 
@@ -18,7 +18,7 @@ class FileSelectionController {
             println("path:$pathTextText")
         }
         val value = TreeItem(pathTextText)
-        fileTree!!.setRoot(value)
+        fileTree!!.root = value
     }
 
 }
